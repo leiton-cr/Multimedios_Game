@@ -10,10 +10,13 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
@@ -22,6 +25,9 @@
     </used-behaviors>
     <used-effects>
         <effect author="Scirra" id="hsladjust">Adjust HSL</effect>
+        <effect author="Scirra" id="hsladjustmask">Adjust HSL Mask</effect>
+        <effect author="Scirra" id="radialblur">Radial blur</effect>
+        <effect author="Brad Larson" id="toon">Toon</effect>
     </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
@@ -57,6 +63,12 @@
             </object-type>
             <object-type name="Mouse" sid="701511543464831">
                 <plugin id="Mouse" />
+            </object-type>
+            <object-type name="AJAX" sid="105897446024221">
+                <plugin id="AJAX" />
+            </object-type>
+            <object-type global="1" name="XML" sid="120590218548188">
+                <plugin id="XML" />
             </object-type>
         </object-folder>
         <object-folder name="Main_Menu">
@@ -373,9 +385,132 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder name="Globals" />
+        <object-folder name="Globals">
+            <object-folder name="Platforms">
+                <object-type name="Big_Mossy_Platform" sid="100357542568248">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="455828533531413">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
+                            <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
+                                <collision-poly>
+                                    <point x="0.0590278" y="0.205357" />
+                                    <point x="0.959325" y="0.205357" />
+                                    <point x="0.950893" y="0.660714" />
+                                    <point x="0.498512" y="0.694196" />
+                                    <point x="0.0605159" y="0.640625" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Medium_Mossy_Platform" sid="733078683099525">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="467394414417166">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="464866668136553" speed="5">
+                            <frame duration="1" hotspotX="0.375959" hotspotY="-0.152993" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
+                                <collision-poly>
+                                    <point x="0.0818414" y="0.239468" />
+                                    <point x="0.926471" y="0.230599" />
+                                    <point x="0.933504" y="0.793792" />
+                                    <point x="0.404092" y="0.926829" />
+                                    <point x="0.0984655" y="0.813747" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Mossy_Mountain" sid="465123500694170">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="714792883166098">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299001881576676" speed="5">
+                            <frame duration="1" hotspotX="0.725904" hotspotY="2.23128" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - MossyHills.png">
+                                <collision-poly>
+                                    <point x="0.215361" y="0.563877" />
+                                    <point x="0.417922" y="0.257709" />
+                                    <point x="0.646084" y="0.359031" />
+                                    <point x="0.832078" y="0.634361" />
+                                    <point x="0.949548" y="0.940529" />
+                                    <point x="0.5" y="0.997797" />
+                                    <point x="0.064759" y="0.9163" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Decoration" />
+        </object-folder>
         <object-folder name="Levels">
-            <object-folder name="Tutorial" />
+            <object-folder name="Tutorial">
+                <object-folder name="Buttons">
+                    <object-type name="Tutorial_LeftRight_Arrow" sid="173019161354849">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="400854647211748" speed="5">
+                                <frame duration="1" hotspotX="0.503846" hotspotY="0.503846" />
+                                <frame duration="1" hotspotX="0.503846" hotspotY="0.503846" />
+                                <frame duration="1" hotspotX="0.503846" hotspotY="0.503846" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="Tutorial_Up_Arrow" sid="164434199179536">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="3" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="293909621040789" speed="5">
+                                <frame duration="1" hotspotX="0.504298" hotspotY="0.503268" />
+                                <frame duration="1" hotspotX="0.504298" hotspotY="0.503268" />
+                                <frame duration="1" hotspotX="0.504298" hotspotY="0.503268" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+                <object-type name="Tutorial_Message_Text" sid="177436873013811">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="Message_dialog" sid="186480822985647" type="string" />
+                        <instance-variable name="Dialog_id" sid="670848620279006" type="number" />
+                    </instance-variables>
+                </object-type>
+                <object-type name="Tutorial_Message_Trigger" sid="359679255608181">
+                    <plugin id="Sprite" />
+                    <instance-variables>
+                        <instance-variable name="tutorial_dialog" sid="295588995025599" type="number" />
+                    </instance-variables>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="227045034201932" speed="5">
+                            <frame duration="1" hotspotX="1" hotspotY="1" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tutorial_Camera" sid="976164718432017">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="ScrollTo" sid="870120030345267">
+                            <behavior id="scrollto" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301229519044390" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
@@ -425,34 +560,27 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="127431743842112">
+        <object-type name="Message_Box" sid="976536673466222">
             <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="Solid" sid="925861321349822">
-                    <behavior id="solid" />
-                </behavior-type>
-            </behaviors>
+            <effects>
+                <effect-type name="RadialBlur">
+                    <effect id="radialblur" />
+                </effect-type>
+            </effects>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288083905483921" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Sprite2" sid="976164718432017">
-            <plugin id="Sprite" />
-            <behaviors>
-                <behavior-type name="ScrollTo" sid="870120030345267">
-                    <behavior id="scrollto" />
-                </behavior-type>
-            </behaviors>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301229519044390" speed="5">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937529611628099" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="Family1" plugin-id="Text" sid="342138454347130">
+            <members>
+                <member>Tutorial_Message_Text</member>
+            </members>
+        </family>
+    </families>
     <layout-folder>
         <layout>Main_Menu.xml</layout>
         <layout>Layout 1.xml</layout>
@@ -479,12 +607,17 @@
             </properties>
         </global-instance>
         <global-instance type="Mouse" uid="11" />
+        <global-instance type="AJAX" uid="24" />
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">
             <file name="menu-hover.ogg" />
             <file name="menu-option.ogg" />
             <file name="menu-start-game.ogg" />
+        </sound-folder>
+        <sound-folder name="Tutorial">
+            <file name="hop.ogg" />
+            <file name="land.ogg" />
         </sound-folder>
     </sounds-folder>
     <music-folder>
@@ -509,5 +642,6 @@
                 <file name="LuckiestGuy.css" />
             </file-folder>
         </file-folder>
+        <file name="Guide.xml" />
     </files-folder>
 </c2project>

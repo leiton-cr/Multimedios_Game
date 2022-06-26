@@ -410,6 +410,8 @@
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="XML" uid="23" />
+    </nonworld-instances>
     <effects />
 </c2layout>
