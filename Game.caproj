@@ -15,8 +15,14 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
-    <used-behaviors />
-    <used-effects />
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects>
+        <effect author="Scirra" id="hsladjust">Adjust HSL</effect>
+    </used-effects>
     <configurations>
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
@@ -73,6 +79,11 @@
                 </object-type>
                 <object-type name="Clouds1_2" sid="201143539078433">
                     <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795323082630663" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Assets enu\Free-Horizontal-Game-Backgrounds\PNG\game_background_4\layers\clouds_2.png">
@@ -125,7 +136,7 @@
                 </object-type>
             </object-folder>
             <object-folder name="Buttons">
-                <object-type name="MenuPlay" sid="618243333917615">
+                <object-type name="Menu_Play" sid="618243333917615">
                     <plugin id="Sprite" />
                     <instance-variables>
                         <instance-variable name="state" sid="776634643857136" type="string" />
@@ -175,7 +186,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="MenuExit" sid="630466349179491">
+                <object-type name="Menu_Exit" sid="630466349179491">
                     <plugin id="Sprite" />
                     <instance-variables>
                         <instance-variable name="state" sid="473885176026531" type="number" />
@@ -225,7 +236,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="MenuCredits" sid="536824139827864">
+                <object-type name="Menu_Credits" sid="536824139827864">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="699471400734328" speed="5">
@@ -272,6 +283,76 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Menu_MainMenu" sid="400127939818610">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="840760349467709" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Back.png">
+                                <collision-poly>
+                                    <point x="0.0227273" y="0.0625" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.977273" y="0.0625" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.977273" y="0.9375" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0227273" y="0.9375" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Active" pingpong="0" repeatcount="1" repeatto="0" sid="289631601356336" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\BackActive.png">
+                                <collision-poly>
+                                    <point x="0.0227273" y="0.0625" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.977273" y="0.0625" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.977273" y="0.9375" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0227273" y="0.9375" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="493930439362976" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\BackHover.png">
+                                <collision-poly>
+                                    <point x="0.0227273" y="0.0625" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.977273" y="0.0625" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.977273" y="0.9375" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.0227273" y="0.9375" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Camera">
+                <object-type name="Menu_Camera" sid="808656635326971">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="ScrollTo" sid="789347997772491">
+                            <behavior id="scrollto" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657098573919919" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Menu_Target" sid="760662231449015">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530028016868067" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-type name="GameTitle" sid="404133020156558">
                 <plugin id="Sprite" />
@@ -293,14 +374,93 @@
             </object-type>
         </object-folder>
         <object-folder name="Globals" />
+        <object-folder name="Levels">
+            <object-folder name="Tutorial" />
+        </object-folder>
+        <object-type name="Player" sid="497114416992104">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="344718023822448">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="idle" pingpong="1" repeatcount="1" repeatto="0" sid="572416936311992" speed="3">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="11" loop="1" name="running" pingpong="0" repeatcount="1" repeatto="0" sid="723152829590245" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="6" loop="0" name="onfall" pingpong="0" repeatcount="1" repeatto="0" sid="438605292626266" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="2" loop="1" name="falling" pingpong="0" repeatcount="1" repeatto="0" sid="991960473248234" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="6" loop="0" name="jumping" pingpong="0" repeatcount="1" repeatto="0" sid="147917596041169" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="127431743842112">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="925861321349822">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="288083905483921" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="976164718432017">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="870120030345267">
+                    <behavior id="scrollto" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301229519044390" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>Main_Menu.xml</layout>
+        <layout>Layout 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
         <event-sheet>Globals.xml</event-sheet>
+        <event-sheet>Event sheet 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />

@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-group description="" sid="511502089336585" title="Player Motion">
+            <sub-events>
+                <event-block sid="275857830676128">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="769310000557624" type="Keyboard">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="407376330212444" type="Player">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="772060681351364">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="893703799487952" type="Keyboard">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="493721225815099" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="157613513342104">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="113294261619915" type="Player" />
+                        <condition id="2" inverted="1" name="Is playing" sid="185418984796775" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="355122808985756" type="Player">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="722317831915286">
+                    <conditions>
+                        <condition behavior="Platform" id="9" name="On landed" sid="897051607092514" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="792022575062756" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="162908811909036">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="515229374074062" type="Player" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="596391091607092" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="797449472672986" type="Player">
+                            <param id="0" name="Animation">&quot;running&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="124815552744837">
+                    <conditions>
+                        <condition behavior="Platform" id="4" name="Is falling" sid="429881636020697" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="870665242316285" type="Player">
+                            <param id="0" name="Animation">&quot;falling&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="518189998346907">
+                    <conditions>
+                        <condition behavior="Platform" id="3" name="Is jumping" sid="764908094119612" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="255728340611124" type="Player">
+                            <param id="0" name="Animation">&quot;jumping&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="479720908074610">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="794462133062194" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="247918837589488" type="Player">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="836574397116562" title="PlayerCamera">
+            <sub-events>
+                <event-block sid="135533793659955">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="939095746538252" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="935300103140463" type="Sprite2">
+                            <param id="0" name="X">lerp(Self.X+10,Player.X,0.05)</param>
+                            <param id="1" name="Y">lerp(Self.Y,Player.Y,0.05)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>

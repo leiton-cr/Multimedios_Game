@@ -3,7 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Main_Menu</name>
     <events>
-        <event-group description="" sid="359890003606253" title="General">
+        <event-group description="" sid="359890003606253" title="Menu General">
             <sub-events>
                 <event-block sid="962818134173923">
                     <conditions>
@@ -35,7 +35,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="588201126962081" title="Clouds">
+        <event-group description="" sid="588201126962081" title="Menu Clouds">
             <sub-events>
                 <event-block sid="540482965562510">
                     <conditions>
@@ -45,10 +45,10 @@
                     </conditions>
                     <actions>
                         <action id="-1" name="Set X" sid="632572263797233" type="Clouds1_1">
-                            <param id="0" name="X">Self.X + 1</param>
+                            <param id="0" name="X">lerp(Self.X, 3000,0.0005)</param>
                         </action>
                         <action id="-1" name="Set X" sid="345641252833369" type="Clouds1_2">
-                            <param id="0" name="X">Self.X+2</param>
+                            <param id="0" name="X">lerp(Self.X, 3000,0.0005)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -56,7 +56,7 @@
                     <conditions>
                         <condition id="-1" name="Compare X" sid="963680019091439" type="Clouds1_1">
                             <param id="0" name="Comparison">4</param>
-                            <param id="1" name="X co-ordinate">1920</param>
+                            <param id="1" name="X co-ordinate">2600</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -69,7 +69,7 @@
                     <conditions>
                         <condition id="-1" name="Compare X" sid="435527161912116" type="Clouds1_2">
                             <param id="0" name="Comparison">4</param>
-                            <param id="1" name="X co-ordinate">1920</param>
+                            <param id="1" name="X co-ordinate">2600</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -80,39 +80,49 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="611943922542669" title="Buttons">
+        <event-group description="" sid="611943922542669" title="Menu Buttons">
             <sub-events>
                 <event-block any="1" sid="294732351639812">
                     <conditions>
                         <condition id="7" name="Cursor is over object" sid="230919921283344" type="Mouse">
-                            <param id="0" name="Object">MenuPlay</param>
+                            <param id="0" name="Object">Menu_Play</param>
                         </condition>
                         <condition id="7" name="Cursor is over object" sid="438319248020538" type="Mouse">
-                            <param id="0" name="Object">MenuExit</param>
+                            <param id="0" name="Object">Menu_Exit</param>
                         </condition>
                         <condition id="7" name="Cursor is over object" sid="613652866883173" type="Mouse">
-                            <param id="0" name="Object">MenuCredits</param>
+                            <param id="0" name="Object">Menu_Credits</param>
+                        </condition>
+                        <condition id="7" name="Cursor is over object" sid="912211147677844" type="Mouse">
+                            <param id="0" name="Object">Menu_MainMenu</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="9" name="Set scale" sid="894338265419328" type="MenuPlay">
+                        <action id="9" name="Set scale" sid="894338265419328" type="Menu_Play">
                             <param id="0" name="Scale">1.05</param>
                         </action>
-                        <action id="9" name="Set scale" sid="831174307761847" type="MenuExit">
+                        <action id="9" name="Set scale" sid="831174307761847" type="Menu_Exit">
                             <param id="0" name="Scale">1.05</param>
                         </action>
-                        <action id="9" name="Set scale" sid="600590525435083" type="MenuCredits">
+                        <action id="9" name="Set scale" sid="600590525435083" type="Menu_Credits">
                             <param id="0" name="Scale">0.65</param>
                         </action>
-                        <action id="4" name="Set animation" sid="561619090765315" type="MenuPlay">
+                        <action id="9" name="Set scale" sid="194879734282981" type="Menu_MainMenu">
+                            <param id="0" name="Scale">0.65</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="561619090765315" type="Menu_Play">
                             <param id="0" name="Animation">&quot;Hover&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="494730143634270" type="MenuExit">
+                        <action id="4" name="Set animation" sid="494730143634270" type="Menu_Exit">
                             <param id="0" name="Animation">&quot;Hover&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="480123907228076" type="MenuCredits">
+                        <action id="4" name="Set animation" sid="480123907228076" type="Menu_Credits">
+                            <param id="0" name="Animation">&quot;Hover&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="268004804327134" type="Menu_MainMenu">
                             <param id="0" name="Animation">&quot;Hover&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -124,34 +134,44 @@
                 <event-block sid="183454926520407">
                     <conditions>
                         <condition id="7" inverted="1" name="Cursor is over object" sid="482284679965603" type="Mouse">
-                            <param id="0" name="Object">MenuPlay</param>
+                            <param id="0" name="Object">Menu_Play</param>
                         </condition>
                         <condition id="7" inverted="1" name="Cursor is over object" sid="137643806627327" type="Mouse">
-                            <param id="0" name="Object">MenuExit</param>
+                            <param id="0" name="Object">Menu_Exit</param>
                         </condition>
                         <condition id="7" inverted="1" name="Cursor is over object" sid="413039551491945" type="Mouse">
-                            <param id="0" name="Object">MenuCredits</param>
+                            <param id="0" name="Object">Menu_Credits</param>
+                        </condition>
+                        <condition id="7" inverted="1" name="Cursor is over object" sid="966034673759250" type="Mouse">
+                            <param id="0" name="Object">Menu_MainMenu</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="9" name="Set scale" sid="756535691595719" type="MenuPlay">
+                        <action id="9" name="Set scale" sid="756535691595719" type="Menu_Play">
                             <param id="0" name="Scale">1</param>
                         </action>
-                        <action id="9" name="Set scale" sid="570229669479663" type="MenuExit">
+                        <action id="9" name="Set scale" sid="570229669479663" type="Menu_Exit">
                             <param id="0" name="Scale">1</param>
                         </action>
-                        <action id="9" name="Set scale" sid="938136464716869" type="MenuCredits">
+                        <action id="9" name="Set scale" sid="938136464716869" type="Menu_Credits">
                             <param id="0" name="Scale">0.6</param>
                         </action>
-                        <action id="4" name="Set animation" sid="466664833168474" type="MenuPlay">
+                        <action id="9" name="Set scale" sid="257579703054205" type="Menu_MainMenu">
+                            <param id="0" name="Scale">0.6</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="466664833168474" type="Menu_Play">
                             <param id="0" name="Animation">&quot;Idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="803243374347146" type="MenuExit">
+                        <action id="4" name="Set animation" sid="803243374347146" type="Menu_Exit">
                             <param id="0" name="Animation">&quot;Idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="692695076708215" type="MenuCredits">
+                        <action id="4" name="Set animation" sid="692695076708215" type="Menu_Credits">
+                            <param id="0" name="Animation">&quot;Idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="974792329311871" type="Menu_MainMenu">
                             <param id="0" name="Animation">&quot;Idle&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
@@ -171,36 +191,46 @@
                         <event-block any="1" sid="690018973424467">
                             <conditions>
                                 <condition id="7" name="Cursor is over object" sid="482411358224601" type="Mouse">
-                                    <param id="0" name="Object">MenuPlay</param>
+                                    <param id="0" name="Object">Menu_Play</param>
                                 </condition>
                                 <condition id="7" name="Cursor is over object" sid="676507237803773" type="Mouse">
-                                    <param id="0" name="Object">MenuExit</param>
+                                    <param id="0" name="Object">Menu_Exit</param>
                                 </condition>
                                 <condition id="7" name="Cursor is over object" sid="516486230944174" type="Mouse">
-                                    <param id="0" name="Object">MenuCredits</param>
+                                    <param id="0" name="Object">Menu_Credits</param>
+                                </condition>
+                                <condition id="7" name="Cursor is over object" sid="617820966753647" type="Mouse">
+                                    <param id="0" name="Object">Menu_MainMenu</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="9" name="Set scale" sid="233353756853932" type="MenuExit">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="772444990983150" type="MenuExit">
+                                <action id="4" name="Set animation" sid="772444990983150" type="Menu_Exit">
                                     <param id="0" name="Animation">&quot;Active&quot;</param>
                                     <param id="1" name="From">1</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="960279722257274" type="MenuCredits">
+                                <action id="4" name="Set animation" sid="663761093548331" type="Menu_Credits">
+                                    <param id="0" name="Animation">&quot;Active&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="102547999371530" type="Menu_Play">
+                                    <param id="0" name="Animation">&quot;Active&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="136051022851238" type="Menu_MainMenu">
+                                    <param id="0" name="Animation">&quot;Active&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="530103937412652" type="Menu_Play">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="233353756853932" type="Menu_Exit">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="960279722257274" type="Menu_Credits">
                                     <param id="0" name="Scale">0.6</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="663761093548331" type="MenuCredits">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="530103937412652" type="MenuPlay">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="102547999371530" type="MenuPlay">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
+                                <action id="9" name="Set scale" sid="958333307258475" type="Menu_MainMenu">
+                                    <param id="0" name="Scale">0.6</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -211,7 +241,7 @@
                         <condition id="6" name="On object clicked" sid="444908929453127" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">MenuPlay</param>
+                            <param id="2" name="Object clicked">Menu_Play</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -228,12 +258,17 @@
                         <condition id="6" name="On object clicked" sid="759693601158902" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">MenuExit</param>
+                            <param id="2" name="Object clicked">Menu_Exit</param>
                         </condition>
                         <condition id="6" name="On object clicked" sid="944481614515231" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">MenuCredits</param>
+                            <param id="2" name="Object clicked">Menu_Credits</param>
+                        </condition>
+                        <condition id="6" name="On object clicked" sid="148152607019607" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Menu_MainMenu</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -247,7 +282,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="646422510142043" title="Entrance">
+        <event-group description="" sid="646422510142043" title="Menu Entrance">
             <sub-events>
                 <comment>Entrada del titulo</comment>
                 <event-block sid="859267865012533">
@@ -266,25 +301,13 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="214253040654845" type="GameTitle">
-                                    <param id="0" name="Opacity">Self.Opacity + 3</param>
+                                <action id="-16" name="Set opacity" sid="144577829033035" type="GameTitle">
+                                    <param id="0" name="Opacity">lerp(Self.Opacity,100,0.05)</param>
+                                </action>
+                                <action id="-2" name="Set Y" sid="550185653487093" type="GameTitle">
+                                    <param id="0" name="Y">lerp(Self.Y,270,0.01)</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="693868427184885">
-                                    <conditions>
-                                        <condition id="-2" name="Compare Y" sid="940264667834829" type="GameTitle">
-                                            <param id="0" name="Comparison">4</param>
-                                            <param id="1" name="Y co-ordinate">270</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-2" name="Set Y" sid="550185653487093" type="GameTitle">
-                                            <param id="0" name="Y">Self.Y-1</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -305,43 +328,65 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-16" name="Set opacity" sid="553422142544536" type="MenuPlay">
-                                    <param id="0" name="Opacity">Self.Opacity + 3</param>
+                                <action id="-16" name="Set opacity" sid="553422142544536" type="Menu_Play">
+                                    <param id="0" name="Opacity">lerp(Self.Opacity,100,0.05)</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="216851744921403" type="MenuExit">
-                                    <param id="0" name="Opacity">Self.Opacity + 3</param>
+                                <action id="-16" name="Set opacity" sid="216851744921403" type="Menu_Exit">
+                                    <param id="0" name="Opacity">lerp(Self.Opacity,100,0.05)</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="671646068649739" type="Menu_Play">
+                                    <param id="0" name="X">lerp(Self.X,624,0.05)</param>
+                                </action>
+                                <action id="-1" name="Set X" sid="549708466721429" type="Menu_Exit">
+                                    <param id="0" name="X">lerp(Self.X,624,0.05)</param>
                                 </action>
                             </actions>
-                            <sub-events>
-                                <event-block sid="172259629162803">
-                                    <conditions>
-                                        <condition id="-1" name="Compare X" sid="462371045559937" type="MenuPlay">
-                                            <param id="0" name="Comparison">2</param>
-                                            <param id="1" name="X co-ordinate">624</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-1" name="Set X" sid="671646068649739" type="MenuPlay">
-                                            <param id="0" name="X">Self.X + 3</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                                <event-block sid="591864488050372">
-                                    <conditions>
-                                        <condition id="-1" name="Compare X" sid="435274621543800" type="MenuExit">
-                                            <param id="0" name="Comparison">4</param>
-                                            <param id="1" name="X co-ordinate">624</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-1" name="Set X" sid="549708466721429" type="MenuExit">
-                                            <param id="0" name="X">Self.X - 3</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="248599554233493" title="Menu Camera">
+            <sub-events>
+                <comment></comment>
+                <event-block sid="378009589381136">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="981195382139910" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="863409125519738" type="Menu_Camera">
+                            <param id="0" name="X">lerp(Self.X, Menu_Target.X,0.01)</param>
+                            <param id="1" name="Y">lerp(Self.y, Menu_Target.y,0.01)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="376706146867621">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="623397190841432" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Menu_Credits</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="424601807510061" type="Menu_Target">
+                            <param id="0" name="X">1910</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="882049255845286">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="636481355573493" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Menu_MainMenu</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="743213987622894" type="Menu_Target">
+                            <param id="0" name="X">450</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
