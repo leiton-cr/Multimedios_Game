@@ -89,6 +89,19 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="993201533836774">
+                    <conditions>
+                        <condition behavior="Platform" id="5" name="On jump" sid="606392072823194" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="859030681800645" type="Audio">
+                            <param id="0" name="Audio file">hop</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="479720908074610">
                     <conditions>
                         <condition id="4" name="On finished" sid="794462133062194" type="Player">
@@ -162,12 +175,25 @@
         <event-block sid="154217501965533">
             <conditions>
                 <condition id="-6" name="Every X seconds" sid="413759704721670" type="System">
-                    <param id="0" name="Interval (seconds)">0.05</param>
+                    <param id="0" name="Interval (seconds)">0.025</param>
                 </condition>
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="727610030670379" type="Tutorial_Message_Text">
                     <param id="0" name="Text">left(Tutorial_Message_Text.Message_dialog, len(Tutorial_Message_Text.Text)+1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="223618145758969">
+            <conditions>
+                <condition behavior="Platform" id="9" name="On landed" sid="158171289700585" type="Player" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="103854703568546" type="Audio">
+                    <param id="0" name="Audio file">land</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -186,30 +212,49 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="993201533836774">
+        <event-block sid="696552522039164">
             <conditions>
-                <condition behavior="Platform" id="5" name="On jump" sid="606392072823194" type="Player" />
+                <condition id="0" name="On collision with another object" sid="265963047248802" type="PWP_DoubleJump">
+                    <param id="0" name="Object">Player</param>
+                </condition>
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="859030681800645" type="Audio">
-                    <param id="0" name="Audio file">hop</param>
+                <action behavior="Platform" id="13" name="Set double-jump" sid="388091666984845" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+                <action id="0" name="Play" sid="486852213022954" type="Audio">
+                    <param id="0" name="Audio file">powerup</param>
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">0</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="223618145758969">
+        <event-block sid="421004932306921">
             <conditions>
-                <condition behavior="Platform" id="9" name="On landed" sid="158171289700585" type="Player" />
+                <condition behavior="Platform" id="11" name="Is double-jump enabled" sid="228010475983820" type="Player" />
+                <condition id="-1" name="Every tick" sid="937873842530299" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Play" sid="103854703568546" type="Audio">
-                    <param id="0" name="Audio file">land</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                <action id="-7" name="Set size" sid="879718116642545" type="PWP_DoubleJump">
+                    <param id="0" name="Width">lerp(Self.Width, 0, 0.1)</param>
+                    <param id="1" name="Height">lerp(Self.Height, 0, 0.1)</param>
                 </action>
+                <action id="-7" name="Set size" sid="751117797973727" type="GUI_DoubleJump">
+                    <param id="0" name="Width">lerp(Self.Width, 45, 0.1)</param>
+                    <param id="1" name="Height">lerp(Self.Height, 45, 0.1)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="755246354363739">
+            <conditions>
+                <condition id="-6" name="Compare height" sid="236030300680644" type="PWP_DoubleJump">
+                    <param id="0" name="Comparison">2</param>
+                    <param id="1" name="Height">5</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="644774161206457" type="PWP_DoubleJump" />
             </actions>
         </event-block>
     </events>
