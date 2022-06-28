@@ -555,6 +555,7 @@
                     </animation-folder>
                 </object-type>
             </object-folder>
+            <object-folder name="Level 1" />
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
@@ -644,11 +645,13 @@
     <layout-folder>
         <layout>Main_Menu.xml</layout>
         <layout>Layout 1.xml</layout>
+        <layout>Layout Level 1.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
         <event-sheet>Globals.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet Level 1.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />
