@@ -505,7 +505,1144 @@
                     </animation-folder>
                 </object-type>
             </object-folder>
-            <object-folder name="Decoration" />
+            <object-folder name="Decoration">
+                <object-type name="Deco01" sid="990091439233429">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="172602160841486" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00000.png">
+                                <collision-poly>
+                                    <point x="0.253906" y="0.253906" />
+                                    <point x="0.5" y="0.195313" />
+                                    <point x="0.625" y="0.375" />
+                                    <point x="0.636719" y="0.5" />
+                                    <point x="0.621094" y="0.621094" />
+                                    <point x="0.5" y="0.835938" />
+                                    <point x="0.570313" y="0.429688" />
+                                    <point x="0.570313" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Comp 1\PlantSmall_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco02" sid="789683388677655">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="211306514595062" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00000.png">
+                                <collision-poly>
+                                    <point x="0.351563" y="0.351563" />
+                                    <point x="0.5" y="0.496094" />
+                                    <point x="0.605469" y="0.394531" />
+                                    <point x="0.75" y="0.5" />
+                                    <point x="0.667969" y="0.667969" />
+                                    <point x="0.5" y="0.785156" />
+                                    <point x="0.371094" y="0.628906" />
+                                    <point x="0.28125" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass2\Grass2_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco03" sid="172217005524190">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="926312140961757" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00000.png">
+                                <collision-poly>
+                                    <point x="0.5" y="0.388672" />
+                                    <point x="0.332031" y="0.333984" />
+                                    <point x="0.554688" y="0.5" />
+                                    <point x="0.570313" y="0.785156" />
+                                    <point x="0.5" y="0.835938" />
+                                    <point x="0.398438" y="0.800781" />
+                                    <point x="0.0820313" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass3\Comp 1_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco04" sid="387152222896275">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="930270138117669" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00000.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.148438" />
+                                    <point x="0.5" y="0.373047" />
+                                    <point x="0.414063" y="0.292969" />
+                                    <point x="0.632813" y="0.5" />
+                                    <point x="0.597656" y="0.798828" />
+                                    <point x="0.5" y="0.806641" />
+                                    <point x="0.441406" y="0.779297" />
+                                    <point x="0.117188" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass4\Grass3_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco05" sid="626959908213727">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="40" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="213663426807191" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00000.png">
+                                <collision-poly>
+                                    <point x="0.27832" y="0.27832" />
+                                    <point x="0.5" y="0.204102" />
+                                    <point x="0.667969" y="0.332031" />
+                                    <point x="0.757813" y="0.5" />
+                                    <point x="0.670898" y="0.670898" />
+                                    <point x="0.5" y="0.925781" />
+                                    <point x="0.268555" y="0.731445" />
+                                    <point x="0.194336" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Grass5\Plant5_00039.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco06" sid="688079112865013">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="45" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="714315054764983" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00000.png">
+                                <collision-poly>
+                                    <point x="0.287109" y="0.574219" />
+                                    <point x="0.5" y="0.160156" />
+                                    <point x="0.78125" y="0.4375" />
+                                    <point x="0.755859" y="0.5" />
+                                    <point x="0.753906" y="0.507813" />
+                                    <point x="0.5" y="0.859375" />
+                                    <point x="0.265625" y="0.46875" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\PlantsAnimated\Vegetation\Group Plant\GroupPlants_00044.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco07" sid="507499207877514">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="276939523090777" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00000.png">
+                                <collision-poly>
+                                    <point x="0.261719" y="0.261719" />
+                                    <point x="0.5" y="0.227865" />
+                                    <point x="0.503906" y="0.496094" />
+                                    <point x="0.505208" y="0.5" />
+                                    <point x="0.960938" y="0.960938" />
+                                    <point x="0.5" y="0.561198" />
+                                    <point x="0.483073" y="0.516927" />
+                                    <point x="0.47526" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower1\BlueFlower_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco08" sid="944635900200574">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357378815561338" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00000.png">
+                                <collision-poly>
+                                    <point x="0.290365" y="0.290365" />
+                                    <point x="0.5" y="0.47526" />
+                                    <point x="0.511719" y="0.5" />
+                                    <point x="0.96224" y="0.96224" />
+                                    <point x="0.5" y="0.544271" />
+                                    <point x="0.481771" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\BlueFlower2\BluePlantClosed_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco09" sid="421182229295192">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="90" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113969681804961" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00000.png">
+                                <collision-poly>
+                                    <point x="0.337891" y="0.337891" />
+                                    <point x="0.5" y="0.162109" />
+                                    <point x="0.609375" y="0.390625" />
+                                    <point x="0.582031" y="0.5" />
+                                    <point x="0.583984" y="0.583984" />
+                                    <point x="0.5" y="0.822266" />
+                                    <point x="0.392578" y="0.607422" />
+                                    <point x="0.392578" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00059.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00060.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00061.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00062.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00063.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00064.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00065.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00066.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00067.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00068.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00069.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00070.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00071.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00072.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00073.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00074.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00075.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00076.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00077.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00078.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00079.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00080.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00081.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00082.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00083.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00084.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00085.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00086.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00087.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00088.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 1\Plant1_00089.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco10" sid="428352278748478">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="90" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670408000100568" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00059.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00060.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00061.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00062.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00063.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00064.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00065.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00066.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00067.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00068.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00069.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00070.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00071.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00072.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00073.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00074.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00075.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00076.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00077.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00078.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00079.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00080.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00081.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00082.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00083.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00084.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00085.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00086.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00087.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00088.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 2\Plant2_00089.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco11" sid="565532861326488">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="90" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="742328123929495" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00059.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00060.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00061.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00062.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00063.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00064.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00065.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00066.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00067.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00068.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00069.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00070.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00071.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00072.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00073.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00074.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00075.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00076.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00077.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00078.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00079.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00080.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00081.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00082.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00083.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00084.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00085.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00086.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00087.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00088.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 3\Plant3_00089.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco12" sid="337607545678704">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="712667821560088" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 4\Plant4_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco13" sid="970792750183528">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="954169802611349" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 5\Plant5_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco14" sid="251397231925290">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="740993318524506" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 6\Plant6_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco15" sid="992711231407901">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="328289281671414" speed="9">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 7\Plant7_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco16" sid="588212332836821">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432750270800020" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant 8 Poison\PlantPosion_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Deco17" sid="335413678026881">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="944853663243402" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\Plant Wind 1\Plant Wind 1_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sprite" sid="533867017098838">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="20" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="882848350485561" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\Downloads\Ambientacion\Plant Animations\Plant Animations\PlantJump\JumpPlant_00019.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="Levels">
             <object-folder name="Tutorial">
@@ -702,6 +1839,9 @@
                 <effect-type name="RadialBlur">
                     <effect id="radialblur" />
                 </effect-type>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
             </effects>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937529611628099" speed="5">
@@ -711,6 +1851,11 @@
         </object-type>
         <object-type name="PWP_DoubleJump" sid="363183954331967">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="207823976209378">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291084829974364" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\descargar.png" />
@@ -725,9 +1870,12 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Text" sid="773249172577318">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families>
-        <family name="Family1" plugin-id="Text" sid="342138454347130">
+        <family name="LuckiestGuy" plugin-id="Text" sid="342138454347130">
             <members>
                 <member>Tutorial_Message_Text</member>
             </members>

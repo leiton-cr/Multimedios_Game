@@ -13,7 +13,7 @@
                     <param id="0" name="Tag">&quot;Guide&quot;</param>
                     <param id="1" name="URL">&quot;Guide.xml&quot;</param>
                 </action>
-                <action id="5" name="Set web font" sid="792143136540225" type="Family1">
+                <action id="5" name="Set web font" sid="792143136540225" type="LuckiestGuy">
                     <param id="0" name="Family name">&quot;luckiest_guyregular&quot;</param>
                     <param id="1" name="CSS URL">&quot;LuckiestGuy.css&quot;</param>
                 </action>
