@@ -717,7 +717,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite" sid="670312820235442">
+        <object-type name="Wrapper" sid="670312820235442">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347837993919422" speed="5">

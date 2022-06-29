@@ -121,7 +121,7 @@
                 <event-block sid="812523033067678">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="944261216781859" type="Player">
-                            <param id="0" name="Object">Sprite</param>
+                            <param id="0" name="Object">Wrapper</param>
                         </condition>
                     </conditions>
                     <actions>
