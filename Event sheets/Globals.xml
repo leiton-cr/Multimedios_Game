@@ -2,5 +2,154 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Globals</name>
-    <events />
+    <events>
+        <variable constant="0" name="Dialog_id" sid="643901738391803" static="0" type="number">0</variable>
+        <event-group description="" sid="182191189186909" title="Player Motion">
+            <sub-events>
+                <event-block sid="341718538761702">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="395606741407365" type="Keyboard">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="518189965885372" type="Player">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="518693628453323">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="754568316190199" type="Keyboard">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="687140557071918" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="599230863390286">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="880278271324351" type="Player" />
+                        <condition id="2" inverted="1" name="Is playing" sid="340131935314244" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="857576871878516" type="Player">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="566470946150296">
+                    <conditions>
+                        <condition behavior="Platform" id="9" name="On landed" sid="173078428546916" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="636447453313656" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="984900479490200" type="Audio">
+                            <param id="0" name="Audio file">land</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="853123550077866">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="775485870988794" type="Player" />
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="185487711029736" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="682214599725983" type="Player">
+                            <param id="0" name="Animation">&quot;running&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="543711603149180">
+                    <conditions>
+                        <condition behavior="Platform" id="4" name="Is falling" sid="327441869565310" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="213850315983134" type="Player">
+                            <param id="0" name="Animation">&quot;falling&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="140079745664414">
+                    <conditions>
+                        <condition behavior="Platform" id="3" name="Is jumping" sid="562919407555396" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="521328393112988" type="Player">
+                            <param id="0" name="Animation">&quot;jumping&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="300698401157234">
+                    <conditions>
+                        <condition behavior="Platform" id="5" name="On jump" sid="803247765894689" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="167900439710961" type="Audio">
+                            <param id="0" name="Audio file">hop</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="153420752511461">
+                    <conditions>
+                        <condition id="4" name="On finished" sid="167348084616319" type="Player">
+                            <param id="0" name="Animation">&quot;onfall&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="106931901253878" type="Player">
+                            <param id="0" name="Animation">&quot;idle&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="331987907496576" title="PlayerCamera">
+            <sub-events>
+                <event-block sid="848884580418785">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="486426593230110" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="882580530766214" type="Player_Camera">
+                            <param id="0" name="X">lerp(Self.X+10,Player.X,0.05)</param>
+                            <param id="1" name="Y">lerp(Self.Y-5,Player.Y,0.05)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="815660701302652">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="607957653898415" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="695053138951488" type="System">
+                    <param id="0" name="Object to create">Player_Camera</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">Player.X</param>
+                    <param id="3" name="Y">Player.Y</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
 </c2eventsheet>

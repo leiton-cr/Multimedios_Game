@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level2</name>
+    <events>
+        <comment></comment>
+        <variable constant="0" name="Lighty" sid="979125325286749" static="0" type="number">0</variable>
+        <include>Globals</include>
+        <event-block sid="269138748221499">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="811672833378250" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="723816564452367" type="Light">
+                    <param id="0" name="X">Ligthy.X</param>
+                    <param id="1" name="Y">Ligthy.Y</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="856704184917499">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="516521085451033" type="System">
+                            <param id="0" name="Variable">Lighty</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="353243392204655" type="Ligthy">
+                            <param id="0" name="X">lerp(Self.X,Player.X+80,0.05)</param>
+                            <param id="1" name="Y">lerp(Self.Y,Player.Y-80,0.05)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="390861737561028">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="577502287804264" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="13" name="Set double-jump" sid="751888232152608" type="Player">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="119852034120128">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="130898367901932" type="Player">
+                    <param id="0" name="Object">Ligthy</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="720191373375123" type="System">
+                    <param id="0" name="Variable">Lighty</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="849825729011481" type="System">
+                    <param id="0" name="Variable">Lighty</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Play" sid="705047079923994" type="Audio">
+                    <param id="0" name="Audio file">powerup</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

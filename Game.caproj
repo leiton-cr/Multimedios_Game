@@ -20,6 +20,7 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -27,6 +28,7 @@
     <used-effects>
         <effect author="Scirra" id="hsladjust">Adjust HSL</effect>
         <effect author="Scirra" id="hsladjustmask">Adjust HSL Mask</effect>
+        <effect author="Scirra" id="multiply">Multiply</effect>
         <effect author="Scirra" id="radialblur">Radial blur</effect>
         <effect author="Brad Larson" id="toon">Toon</effect>
     </used-effects>
@@ -39,6 +41,7 @@
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
+    <first-layout>Tutorial</first-layout>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
         <prop name="Clear background">Yes</prop>
@@ -395,6 +398,11 @@
                             <behavior id="solid" />
                         </behavior-type>
                     </behaviors>
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
                             <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
@@ -541,7 +549,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="Tutorial_Camera" sid="976164718432017">
+                <object-type name="Player_Camera" sid="976164718432017">
                     <plugin id="Sprite" />
                     <behaviors>
                         <behavior-type name="ScrollTo" sid="870120030345267">
@@ -551,6 +559,89 @@
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="301229519044390" speed="5">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="GUI_DoubleJump" sid="544728101845569">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284147682090853" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\descargar.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder name="Level2">
+                <object-type name="BigPlatform" sid="156220448506282">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="349497649028715">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="353777201302914" speed="5">
+                            <frame duration="1" hotspotX="0.859929" hotspotY="1.35356" original-source="C:\Users\luisl\Downloads\Ambientacion\CaveAssetsMaaot\Assets 1024 Cave\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0.0301418" y="0.0448549" />
+                                    <point x="0.966312" y="0.0501319" />
+                                    <point x="0.989362" y="0.498681" />
+                                    <point x="0.968085" y="0.952507" />
+                                    <point x="0.5" y="0.986807" />
+                                    <point x="0.0265957" y="0.960422" />
+                                    <point x="0.0035461" y="0.498681" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Plank" sid="580174700828483">
+                    <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="849941291518793" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Plank.png">
+                                <collision-poly>
+                                    <point x="0.17" y="0.17" />
+                                    <point x="0.5" y="0.0675" />
+                                    <point x="0.865" y="0.135" />
+                                    <point x="0.84125" y="0.84125" />
+                                    <point x="0.5" y="0.955" />
+                                    <point x="0.19125" y="0.80875" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Light" sid="516297195472164">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425037405610879" speed="5">
+                            <frame duration="1" hotspotX="0.501779" hotspotY="0.52847" original-source="C:\Users\luisl\OneDrive\Desktop\Assets\Lalu.png">
+                                <collision-poly>
+                                    <point x="0.501779" y="0.259786" />
+                                    <point x="0.738434" y="0.52847" />
+                                    <point x="0.501779" y="0.740214" />
+                                    <point x="0.261566" y="0.52847" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Ligthy" sid="962683806329698">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Sine" sid="147497329191147">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="490778148097121" speed="5">
+                            <frame duration="1" hotspotX="-0.0856031" hotspotY="-0.263566" original-source="C:\Users\luisl\OneDrive\Desktop\Ligthy.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -626,11 +717,11 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="GUI_DoubleJump" sid="544728101845569">
+        <object-type name="Sprite" sid="670312820235442">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284147682090853" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\descargar.png" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347837993919422" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -644,14 +735,16 @@
     </families>
     <layout-folder>
         <layout>Main_Menu.xml</layout>
-        <layout>Layout 1.xml</layout>
         <layout>Layout Level 1.xml</layout>
+        <layout>Tutorial.xml</layout>
+        <layout>Level2.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
         <event-sheet>Globals.xml</event-sheet>
-        <event-sheet>Event sheet 1.xml</event-sheet>
         <event-sheet>Event sheet Level 1.xml</event-sheet>
+        <event-sheet>Tutorial.xml</event-sheet>
+        <event-sheet>Level2.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />
