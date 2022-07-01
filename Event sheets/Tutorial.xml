@@ -4,119 +4,298 @@
     <name>Tutorial</name>
     <events>
         <include>Globals</include>
-        <event-block sid="888409090906055">
+        <comment>Al inicio desactivo grupos de animacion que seran activados posteriormente</comment>
+        <event-block sid="266802154031133">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="651136400554579" type="System" />
+                <condition id="-2" name="On start of layout" sid="345413833911912" type="System" />
             </conditions>
             <actions>
-                <action id="0" name="Request URL" sid="610408824648795" type="AJAX">
-                    <param id="0" name="Tag">&quot;Guide&quot;</param>
-                    <param id="1" name="URL">&quot;Guide.xml&quot;</param>
+                <action id="-9" name="Set value" sid="141194697150418" type="System">
+                    <param id="0" name="Variable">Actual_level</param>
+                    <param id="1" name="Value">&quot;tutorial&quot;</param>
                 </action>
-                <action id="5" name="Set web font" sid="792143136540225" type="LuckiestGuy">
-                    <param id="0" name="Family name">&quot;luckiest_guyregular&quot;</param>
-                    <param id="1" name="CSS URL">&quot;LuckiestGuy.css&quot;</param>
+                <action id="-12" name="Set group active" sid="562158294142315" type="System">
+                    <param id="0" name="Group name">&quot;AnimationTutorialBoss1&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="780757913626732" type="System">
+                    <param id="0" name="Group name">&quot;AnimationTutorialBoss2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="114327270155687" type="System">
+                    <param id="0" name="Group name">&quot;OpenTutorialGate&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="707058524985085" type="System">
+                    <param id="0" name="Group name">&quot;TutorialChallengeSuccess&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="296026144165556" type="System">
+                    <param id="0" name="Group name">&quot;ActivateGhost&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="788829122167890" type="System">
+                    <param id="0" name="Group name">&quot;ShutDownEnemiesTutorial&quot;</param>
+                    <param id="1" name="State">0</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="384002420134975">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="552009567991034" type="Player">
-                    <param id="0" name="Object">Tutorial_Message_Trigger</param>
-                </condition>
-                <condition id="-14" name="Compare variable" sid="587486456560957" type="System">
-                    <param id="0" name="Variable">Dialog_id</param>
-                    <param id="1" name="Comparison">1</param>
-                    <param id="2" name="Value">Tutorial_Message_Trigger.tutorial_dialog</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="233879480439754" type="System">
-                    <param id="0" name="Variable">Dialog_id</param>
-                    <param id="1" name="Value">Tutorial_Message_Trigger.tutorial_dialog</param>
-                </action>
-                <action id="0" name="Set text" sid="132460844117558" type="Tutorial_Message_Text">
-                    <param id="0" name="Text">&quot;&quot;</param>
-                </action>
-                <action id="-10" name="Set value" sid="184446785194170" type="Tutorial_Message_Text">
-                    <param id="0" name="Instance variable">Message_dialog</param>
-                    <param id="1" name="Value">xml.StringValue(&quot;/tutorial/hint[@id=&apos;tutorial_&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="154217501965533">
-            <conditions>
-                <condition id="-6" name="Every X seconds" sid="413759704721670" type="System">
-                    <param id="0" name="Interval (seconds)">0.025</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="727610030670379" type="Tutorial_Message_Text">
-                    <param id="0" name="Text">left(Tutorial_Message_Text.Message_dialog, len(Tutorial_Message_Text.Text)+1)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="297427211401587">
-            <conditions>
-                <condition id="0" name="On completed" sid="160813421946732" type="AJAX">
-                    <param id="0" name="Tag">&quot;Guide&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Load" sid="752898353770967" type="XML">
-                    <param id="0" name="XML">Ajax.LastData</param>
-                </action>
-                <action id="0" name="Set text" sid="182838782276846" type="Tutorial_Message_Text">
-                    <param id="0" name="Text">xml.StringValue(&quot;/tutorial/hint[@id=&apos;tutorial_&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="696552522039164">
-            <conditions>
-                <condition id="0" name="On collision with another object" sid="265963047248802" type="PWP_DoubleJump">
-                    <param id="0" name="Object">Player</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action behavior="Platform" id="13" name="Set double-jump" sid="388091666984845" type="Player">
-                    <param id="0" name="State">1</param>
-                </action>
-                <action id="0" name="Play" sid="486852213022954" type="Audio">
-                    <param id="0" name="Audio file">powerup</param>
-                    <param id="2" name="Loop">0</param>
-                    <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="421004932306921">
-            <conditions>
-                <condition behavior="Platform" id="11" name="Is double-jump enabled" sid="228010475983820" type="Player" />
-                <condition id="-1" name="Every tick" sid="937873842530299" type="System" />
-            </conditions>
-            <actions>
-                <action id="-7" name="Set size" sid="879718116642545" type="PWP_DoubleJump">
-                    <param id="0" name="Width">lerp(Self.Width, 0, 0.1)</param>
-                    <param id="1" name="Height">lerp(Self.Height, 0, 0.1)</param>
-                </action>
-                <action id="-7" name="Set size" sid="751117797973727" type="GUI_DoubleJump">
-                    <param id="0" name="Width">lerp(Self.Width, 45, 0.1)</param>
-                    <param id="1" name="Height">lerp(Self.Height, 45, 0.1)</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="755246354363739">
-            <conditions>
-                <condition id="-6" name="Compare height" sid="236030300680644" type="PWP_DoubleJump">
-                    <param id="0" name="Comparison">2</param>
-                    <param id="1" name="Height">5</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Destroy" sid="644774161206457" type="PWP_DoubleJump" />
-            </actions>
-        </event-block>
-        <event-group description="" sid="780204230953509" title="Tutorial">
+        <event-group description="" sid="570268642780557" title="Trigger Tutorial Boss">
+            <sub-events>
+                <event-block sid="337671448404567">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="507257924188877" type="BossTrigger">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="587602449298078" type="System">
+                            <param id="0" name="Group name">&quot;AnimationTutorialBoss1&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="359148252346183" type="System">
+                            <param id="0" name="Group name">&quot;PlayerCamera&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="275743911268225" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="390024825592063" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">7</param>
+                        </action>
+                        <action id="0" name="Call function" sid="743008942403566" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="810414924395177" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="842083711561842" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">8</param>
+                        </action>
+                        <action id="0" name="Call function" sid="550541571811376" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="833374261001287" type="System">
+                            <param id="0" name="Group name">&quot;AnimationTutorialBoss1&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="266646922363126" type="System">
+                            <param id="0" name="Group name">&quot;AnimationTutorialBoss2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="204900992052322" type="System">
+                            <param id="0" name="Seconds">5</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="632164400344853" type="System">
+                            <param id="0" name="Group name">&quot;AnimationTutorialBoss2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="132877905202374" type="System">
+                            <param id="0" name="Group name">&quot;PlayerCamera&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="503706376381911" type="Player">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="390384283566996" type="BossTrigger" />
+                        <action id="-9" name="Set value" sid="980202152675264" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="575122534486743" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-36" name="Save" sid="195801946689806" type="System">
+                            <param id="0" name="Slot">&quot;tutorialCheckpoint&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="330961700530176" title="AnimationTutorialBoss1">
+                    <sub-events>
+                        <event-block sid="242859171275140">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="992824071458316" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="672099851909276" type="Player_Camera">
+                                    <param id="0" name="X">lerp(Self.X, 5686,0.01)</param>
+                                    <param id="1" name="Y">lerp(Self.Y, 1452,0.01)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="210535560349401" title="AnimationTutorialBoss2">
+                    <sub-events>
+                        <event-block sid="229952475259391">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="436915895430436" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="310948397928812" type="Player_Camera">
+                                    <param id="0" name="X">lerp(Self.X, 5366,0.01)</param>
+                                    <param id="1" name="Y">lerp(Self.Y, 652,0.01)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="740238067705213" title="Challenge">
+            <sub-events>
+                <variable constant="0" name="ResponseGhost" sid="458518052256254" static="1" type="number">0</variable>
+                <variable constant="0" name="ParamOne" sid="173388976591778" static="1" type="number">0</variable>
+                <variable constant="0" name="ParamTwo" sid="268683021868872" static="1" type="number">0</variable>
+                <event-block sid="424849358643481">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="573106330621243" type="Player">
+                            <param id="0" name="Object">ChallengeTrigger</param>
+                        </condition>
+                        <condition id="-15" inverted="1" name="Is group active" sid="350456967150564" type="System">
+                            <param id="0" name="Group name">&quot;ActivateGhost&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="575085647658524" type="questicon">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="867610080995190" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="786897799200074" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                        <action id="0" name="Call function" sid="543854806421629" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="980750060027031" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="668275448766401" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">round(random(50,100))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="776531010337246" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">round(random(50,100))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="363473803212137" type="System">
+                            <param id="0" name="Variable">ResponseGhost</param>
+                            <param id="1" name="Value">round(random(2))</param>
+                        </action>
+                        <action id="0" name="Call function" sid="958982481432848" type="Function">
+                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;+&quot; &amp; ParamTwo</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="443441856582524" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="950627335040719" type="Player">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="929030280612195" type="System">
+                            <param id="0" name="Group name">&quot;ActivateGhost&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="591782571096339">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="144332427417939" type="LittleGhost">
+                                    <param id="0" name="Unique ID">142</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="143317221602091">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="381566309190212" type="System">
+                                            <param id="0" name="Variable">ResponseGhost</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="141554520412988" type="Response">
+                                            <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="296136664648682" type="Response">
+                                            <param id="0" name="Instance variable">correctness</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="880672771818765">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="657197316625522" type="System">
+                                            <param id="0" name="Variable">ResponseGhost</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="403423962450274" type="Response">
+                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="998107899734518">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="972288157750992" type="LittleGhost">
+                                    <param id="0" name="Unique ID">143</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="867126641349796">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="696066953234062" type="System">
+                                            <param id="0" name="Variable">ResponseGhost</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="280656655666191" type="Response">
+                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="473588800282385">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="168008249744412" type="System">
+                                            <param id="0" name="Variable">ResponseGhost</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">2</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="197326871465287" type="Response">
+                                            <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="193840247012446" type="Response">
+                                            <param id="0" name="Instance variable">correctness</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="780204230953509" title="Tutorial Wrapper">
             <sub-events>
                 <event-block sid="812523033067678">
                     <conditions>
@@ -127,6 +306,253 @@
                     <actions>
                         <action id="-2" name="Go to layout" sid="824190077390962" type="System">
                             <param id="0" name="Layout">Level2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="959619856975192" title="Powerup">
+            <sub-events>
+                <event-block sid="421004932306921">
+                    <conditions>
+                        <condition behavior="Platform" id="11" name="Is double-jump enabled" sid="228010475983820" type="Player" />
+                        <condition id="-1" name="Every tick" sid="937873842530299" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-7" name="Set size" sid="879718116642545" type="PWP_DoubleJump">
+                            <param id="0" name="Width">lerp(Self.Width, 0, 0.1)</param>
+                            <param id="1" name="Height">lerp(Self.Height, 0, 0.1)</param>
+                        </action>
+                        <action id="-7" name="Set size" sid="751117797973727" type="GUI_DoubleJump">
+                            <param id="0" name="Width">lerp(Self.Width, 45, 0.1)</param>
+                            <param id="1" name="Height">lerp(Self.Height, 45, 0.1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="755246354363739">
+                    <conditions>
+                        <condition id="-6" name="Compare height" sid="236030300680644" type="PWP_DoubleJump">
+                            <param id="0" name="Comparison">2</param>
+                            <param id="1" name="Height">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="644774161206457" type="PWP_DoubleJump" />
+                    </actions>
+                </event-block>
+                <event-block sid="696552522039164">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="265963047248802" type="PWP_DoubleJump">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="13" name="Set double-jump" sid="388091666984845" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="486852213022954" type="Audio">
+                            <param id="0" name="Audio file">powerup</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="748837087204906" title="TutorialChallengeSuccess">
+            <sub-events>
+                <event-block sid="548881657825564">
+                    <conditions>
+                        <condition id="-4" name="Trigger once while true" sid="401959669274434" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="467030406178533" type="System">
+                            <param id="0" name="Group name">&quot;OpenTutorialGate&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="426194820636774" type="Audio">
+                            <param id="0" name="Audio file">boulder</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="100044266467962" type="ChallengeTrigger" />
+                    </actions>
+                </event-block>
+                <event-group description="" sid="558850947834435" title="OpenTutorialGate">
+                    <sub-events>
+                        <event-block sid="164740898459611">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="472585060139679" type="System" />
+                                <condition id="-15" name="Pick nearest/furthest" sid="685020941887575" type="Mossy_Grass">
+                                    <param id="0" name="Which">0</param>
+                                    <param id="1" name="X">BigGhost.X</param>
+                                    <param id="2" name="Y">BigGhost.Y</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="223848018474243" type="Mossy_Grass">
+                                    <param id="0" name="X">lerp(Self.X,5022,0.01)</param>
+                                    <param id="1" name="Y">lerp(Self.Y,1514,0.01)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="179292338136068" title="ActivateGhost">
+            <sub-events>
+                <event-block sid="230510332030069">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="541009076777037" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Pathfinding" id="0" name="Find path" sid="588171426822548" type="LittleGhost">
+                            <param id="0" name="X">Player.X+Self.Width/2</param>
+                            <param id="1" name="Y">Player.Y</param>
+                        </action>
+                        <action behavior="Pathfinding" id="1" name="Move along path" sid="953880916573031" type="LittleGhost" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="642072683307724">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="338650395257428" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="704327170061246" type="Response">
+                    <param id="0" name="X">LittleGhost.X</param>
+                    <param id="1" name="Y">LittleGhost.Y</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="264014868077076">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="182269215611507" type="LittleGhost">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="0" name="Set ignoring input" sid="210005184093144" type="Player">
+                    <param id="0" name="Input">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="849702999699338">
+                    <conditions>
+                        <condition id="-8" name="Is boolean instance variable set" sid="264945333265851" type="Response">
+                            <param id="0" name="Instance variable">correctness</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="380042058141239" type="System">
+                            <param id="0" name="Group name">&quot;TutorialChallengeSuccess&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="838900963997977" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">11</param>
+                        </action>
+                        <action id="0" name="Call function" sid="497410482607941" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="654800861614153" type="Function">
+                            <param id="0" name="Name">&quot;DestroyTutorialEnemies&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Play" sid="900728081645435" type="Audio">
+                            <param id="0" name="Audio file">powerup</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="689161071545542" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="286103222443903" type="Player">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="164787421955063">
+                    <conditions>
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="204323024128294" type="Response">
+                            <param id="0" name="Instance variable">correctness</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="444044058493948" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                        <action id="0" name="Call function" sid="936838148130584" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Call function" sid="475171956867361" type="Function">
+                            <param id="0" name="Name">&quot;StopTutorialEnemies&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="0" name="Play" sid="449872122934116" type="Audio">
+                            <param id="0" name="Audio file">oh oh</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="639585144076271" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-37" name="Load" sid="206061368082615" type="System">
+                            <param id="0" name="Slot">&quot;tutorialCheckpoint&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="398897411129057">
+            <conditions>
+                <condition id="0" name="On function" sid="842972000879380" type="Function">
+                    <param id="0" name="Name">&quot;DestroyTutorialEnemies&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="985462869402960" type="System">
+                    <param id="0" name="Group name">&quot;ShutDownEnemiesTutorial&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+                <action id="-16" name="Wait" sid="836637227595340" type="System">
+                    <param id="0" name="Seconds">1</param>
+                </action>
+                <action id="-9" name="Destroy" sid="327358025199961" type="LittleGhost" />
+            </actions>
+        </event-block>
+        <event-block sid="394933575923817">
+            <conditions>
+                <condition id="0" name="On function" sid="916624956336545" type="Function">
+                    <param id="0" name="Name">&quot;StopTutorialEnemies&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Pathfinding" id="3" name="Set enabled" sid="462811876701536" type="LittleGhost">
+                    <param id="0" name="Set">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="435875027506368" title="ShutDownEnemiesTutorial">
+            <sub-events>
+                <event-block sid="246206254350942">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="360025314517519" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="816900043968459" type="LittleGhost">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0, 0.1)</param>
                         </action>
                     </actions>
                 </event-block>

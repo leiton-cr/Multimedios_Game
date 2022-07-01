@@ -3,7 +3,31 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Globals</name>
     <events>
+        <comment>Identificador de nivel para dialogos, actualizar en cada inicio de layout para hacer la peticion correcta.</comment>
+        <variable constant="0" name="Actual_level" sid="203851941419063" static="0" type="text"></variable>
+        <comment>Variable de ID de dialogo actual a mostrar</comment>
         <variable constant="0" name="Dialog_id" sid="643901738391803" static="0" type="number">0</variable>
+        <event-block sid="815660701302652">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="607957653898415" type="System" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="695053138951488" type="System">
+                    <param id="0" name="Object to create">Player_Camera</param>
+                    <param id="1" name="Layer">1</param>
+                    <param id="2" name="X">Player.X</param>
+                    <param id="3" name="Y">Player.Y</param>
+                </action>
+                <action id="0" name="Request URL" sid="276162773172375" type="AJAX">
+                    <param id="0" name="Tag">&quot;Guide&quot;</param>
+                    <param id="1" name="URL">&quot;Guide.xml&quot;</param>
+                </action>
+                <action id="5" name="Set web font" sid="413898207148192" type="LuckiestGuy">
+                    <param id="0" name="Family name">&quot;luckiest_guyregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;LuckiestGuy.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="182191189186909" title="Player Motion">
             <sub-events>
                 <event-block sid="341718538761702">
@@ -138,18 +162,87 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="815660701302652">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="607957653898415" type="System" />
-            </conditions>
-            <actions>
-                <action id="-3" name="Create object" sid="695053138951488" type="System">
-                    <param id="0" name="Object to create">Player_Camera</param>
-                    <param id="1" name="Layer">1</param>
-                    <param id="2" name="X">Player.X</param>
-                    <param id="3" name="Y">Player.Y</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="339612744280323" title="Messages System">
+            <sub-events>
+                <event-block sid="394603924723039">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="319980909223764" type="System">
+                            <param id="0" name="Interval (seconds)">0.025</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="544573298412762" type="Tutorial_Message_Text">
+                            <param id="0" name="Text">left(Tutorial_Message_Text.Message_dialog, len(Tutorial_Message_Text.Text)+1)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="846181328994194">
+                    <conditions>
+                        <condition id="0" name="On function" sid="291090239626464" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="825281335954008" type="Tutorial_Message_Text">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="439170500202926" type="Tutorial_Message_Text">
+                            <param id="0" name="Instance variable">Message_dialog</param>
+                            <param id="1" name="Value">xml.StringValue(&quot;/dialogs/&quot;&amp;Actual_level&amp;&quot;/hint[@id=&apos;&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="677396378664225">
+                    <conditions>
+                        <condition id="0" name="On function" sid="349722702395153" type="Function">
+                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="986771012151713" type="Tutorial_Message_Text">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="773515324603386" type="Tutorial_Message_Text">
+                            <param id="0" name="Instance variable">Message_dialog</param>
+                            <param id="1" name="Value">Function.Param(0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="762247396209051">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="880416244693561" type="Player">
+                            <param id="0" name="Object">Tutorial_Message_Trigger</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="722199549230704" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">Tutorial_Message_Trigger.tutorial_dialog</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="977500259157432" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">Tutorial_Message_Trigger.tutorial_dialog</param>
+                        </action>
+                        <action id="0" name="Call function" sid="604300012571395" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="833657091937618">
+                    <conditions>
+                        <condition id="0" name="On completed" sid="547297088591868" type="AJAX">
+                            <param id="0" name="Tag">&quot;Guide&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Load" sid="681770890895915" type="XML">
+                            <param id="0" name="XML">Ajax.LastData</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

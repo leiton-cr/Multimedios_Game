@@ -376,6 +376,31 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Tutorial_Message_Trigger" uid="139">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <tutorial_dialog>1</tutorial_dialog>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>575.386962891</x>
+                        <y>502.024871826</y>
+                        <z>0</z>
+                        <width>351</width>
+                        <height>19</height>
+                        <depth>0</depth>
+                        <hotspotX>1</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>-0.000071514</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -405,7 +430,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>358</x>
+                        <x>330.311523438</x>
                         <y>518</y>
                         <z>0</z>
                         <width>359</width>
@@ -466,8 +491,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>512</x>
-                        <y>649</y>
+                        <x>490</x>
+                        <y>634</y>
                         <z>0</z>
                         <width>772</width>
                         <height>103</height>
@@ -476,6 +501,37 @@
                         <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>0.949999988</opacity>
+                    </world>
+                </instance>
+                <instance type="Tutorial_Message_Text" uid="140">
+                    <properties>
+                        <text></text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-27,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <Message_dialog></Message_dialog>
+                        <Dialog_id>1</Dialog_id>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>153</x>
+                        <y>605</y>
+                        <z>0</z>
+                        <width>693</width>
+                        <height>65</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
                     </world>
                 </instance>
             </instances>

@@ -1,8 +1,18 @@
-<tutorial>
-    <hint id="tutorial_1">Presiona las teclas direccionales para caminar!</hint>
-    <hint id="tutorial_2">Presiona la tecla arriba para saltar!</hint>
-    <hint id="tutorial_3">Ve hacia la izquierda para volverlo a intentar!</hint>
-    <hint id="tutorial_4">Sube por acá atraves de las plataformas!</hint>
-    <hint id="tutorial_5">Bien hecho, baja por aqui y encontrarás tu recompensa</hint>
-    <hint id="tutorial_6">Has desbloqueado el doble salto, presiona arriba dos veces para llegar más lejos</hint>
-</tutorial>
+<dialogs>
+    <tutorial>
+        <hint id="1">Presiona las teclas direccionales para caminar!</hint>
+        <hint id="2">Presiona la tecla arriba para saltar!</hint>
+        <hint id="3">Ve hacia la izquierda para volverlo a intentar!</hint>
+        <hint id="4">Sube por acá atraves de las plataformas!</hint>
+        <hint id="5">Bien hecho, baja por aqui y encontrarás tu recompensa</hint>
+        <hint id="6">Has desbloqueado el doble salto, presiona arriba dos veces para llegar más lejos</hint>
+        <hint id="7">La salida esta cerca, falta un ultimo reto para salir</hint>
+        <hint id="8">Pero debes tener cuidado, hay fantasmas cerca</hint>
+        <hint id="9">Selecciona el fantasma correcto para escapar</hint>
+        <hint id="10">Has fallado, escapas a un lugar seguro</hint>
+        <hint id="11">Has acertado, puedes continuar</hint>
+    </tutorial>
+    <levelTwo>
+        <hint id="1">Que oscuro está!</hint>
+    </levelTwo>
+</dialogs>
