@@ -107,7 +107,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Response" uid="144">
+                <instance type="GhostResponse" uid="144">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -175,7 +175,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Response" uid="145">
+                <instance type="GhostResponse" uid="145">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1119,8 +1119,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>229</x>
-                        <y>444</y>
+                        <x>226</x>
+                        <y>399</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -2962,7 +2962,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="questicon" uid="138">
+                <instance type="QuestIcon" uid="138">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

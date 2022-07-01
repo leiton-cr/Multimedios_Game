@@ -1865,7 +1865,7 @@
                     </behavior-type>
                 </behaviors>
                 <container>
-                    <type>Response</type>
+                    <type>GhostResponse</type>
                     <type>LittleGhost</type>
                 </container>
                 <animation-folder>
@@ -1981,7 +1981,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="questicon" sid="527629802429384">
+        <object-type name="QuestIcon" sid="527629802429384">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Sine2" sid="204794363900601">
@@ -2007,13 +2007,13 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Response" sid="531947590305510">
+        <object-type name="GhostResponse" sid="531947590305510">
             <plugin id="Text" />
             <instance-variables>
                 <instance-variable name="correctness" sid="900611084016584" type="boolean" />
             </instance-variables>
             <container>
-                <type>Response</type>
+                <type>GhostResponse</type>
                 <type>LittleGhost</type>
             </container>
         </object-type>

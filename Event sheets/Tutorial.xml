@@ -162,7 +162,7 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-16" name="Set opacity" sid="575085647658524" type="questicon">
+                        <action id="-16" name="Set opacity" sid="575085647658524" type="QuestIcon">
                             <param id="0" name="Opacity">0</param>
                         </action>
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="867610080995190" type="Player">
@@ -189,7 +189,7 @@
                         </action>
                         <action id="-9" name="Set value" sid="363473803212137" type="System">
                             <param id="0" name="Variable">ResponseGhost</param>
-                            <param id="1" name="Value">round(random(2))</param>
+                            <param id="1" name="Value">round(random(1))+1</param>
                         </action>
                         <action id="0" name="Call function" sid="958982481432848" type="Function">
                             <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
@@ -224,10 +224,10 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="0" name="Set text" sid="141554520412988" type="Response">
+                                        <action id="0" name="Set text" sid="141554520412988" type="GhostResponse">
                                             <param id="0" name="Text">ParamOne+ParamTwo</param>
                                         </action>
-                                        <action id="-13" name="Set boolean" sid="296136664648682" type="Response">
+                                        <action id="-13" name="Set boolean" sid="296136664648682" type="GhostResponse">
                                             <param id="0" name="Instance variable">correctness</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
@@ -242,8 +242,8 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="0" name="Set text" sid="403423962450274" type="Response">
-                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))</param>
+                                        <action id="0" name="Set text" sid="403423962450274" type="GhostResponse">
+                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -266,8 +266,8 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="0" name="Set text" sid="280656655666191" type="Response">
-                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))</param>
+                                        <action id="0" name="Set text" sid="280656655666191" type="GhostResponse">
+                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -280,10 +280,10 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="0" name="Set text" sid="197326871465287" type="Response">
+                                        <action id="0" name="Set text" sid="197326871465287" type="GhostResponse">
                                             <param id="0" name="Text">ParamOne+ParamTwo</param>
                                         </action>
-                                        <action id="-13" name="Set boolean" sid="193840247012446" type="Response">
+                                        <action id="-13" name="Set boolean" sid="193840247012446" type="GhostResponse">
                                             <param id="0" name="Instance variable">correctness</param>
                                             <param id="1" name="Value">1</param>
                                         </action>
@@ -425,7 +425,7 @@
                 <condition id="-1" name="Every tick" sid="338650395257428" type="System" />
             </conditions>
             <actions>
-                <action id="-3" name="Set position" sid="704327170061246" type="Response">
+                <action id="-3" name="Set position" sid="704327170061246" type="GhostResponse">
                     <param id="0" name="X">LittleGhost.X</param>
                     <param id="1" name="Y">LittleGhost.Y</param>
                 </action>
@@ -445,7 +445,7 @@
             <sub-events>
                 <event-block sid="849702999699338">
                     <conditions>
-                        <condition id="-8" name="Is boolean instance variable set" sid="264945333265851" type="Response">
+                        <condition id="-8" name="Is boolean instance variable set" sid="264945333265851" type="GhostResponse">
                             <param id="0" name="Instance variable">correctness</param>
                         </condition>
                     </conditions>
@@ -482,7 +482,7 @@
                 </event-block>
                 <event-block sid="164787421955063">
                     <conditions>
-                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="204323024128294" type="Response">
+                        <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="204323024128294" type="GhostResponse">
                             <param id="0" name="Instance variable">correctness</param>
                         </condition>
                     </conditions>
