@@ -1838,6 +1838,2078 @@
                     </animation-folder>
                 </object-type>
             </object-folder>
+			<object-folder name="Level1">
+                <object-type name="Background" sid="773277528201092">
+                    <plugin id="TiledBg" />
+                    <texture original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Square - Black.jpg" />
+                </object-type>
+                <object-type name="BackgroundRock" sid="556276174148211">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Sine" sid="992397913980367">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                        <behavior-type name="Jumpthru" sid="741823468073096">
+                            <behavior id="jumpthru" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="524035589389961" speed="5">
+                            <frame duration="1" hotspotX="0.6" hotspotY="1.79951" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Floor.png">
+                                <collision-poly>
+                                    <point x="0.316763" y="0.249389" />
+                                    <point x="0.439344" y="0.249389" />
+                                    <point x="0.863584" y="0.665036" />
+                                    <point x="0.845087" y="0.733496" />
+                                    <point x="0.367842" y="0.432764" />
+                                    <point x="0.166962" y="0.591687" />
+                                    <point x="0.0393064" y="0.645476" />
+                                    <point x="0.196532" y="0.361858" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="BackgroundRock_2" sid="984818443862288">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="932480333216366" speed="5">
+                            <frame duration="1" hotspotX="-0.0794393" hotspotY="-0.321149" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - BigRocks1.png">
+                                <collision-poly>
+                                    <point x="0.465732" y="0.0939948" />
+                                    <point x="0.588788" y="0.0887728" />
+                                    <point x="0.750781" y="0.234987" />
+                                    <point x="0.894082" y="0.520888" />
+                                    <point x="0.990654" y="1" />
+                                    <point x="0.0825545" y="0.986945" />
+                                    <point x="0.116822" y="0.665798" />
+                                    <point x="0.147975" y="0.391645" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="BigRock" sid="317979520441764">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="845043270479193" speed="5">
+                            <frame duration="1" hotspotX="1.2784" hotspotY="0.237288" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.524343" y="0.0893682" />
+                                    <point x="0.727215" y="0.237288" />
+                                    <point x="0.907615" y="0.530046" />
+                                    <point x="0.950063" y="0.75809" />
+                                    <point x="0.952559" y="0.975347" />
+                                    <point x="0.0411985" y="0.966102" />
+                                    <point x="0.107366" y="0.517719" />
+                                    <point x="0.253433" y="0.288135" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="CatacombsPlant" sid="326590425700544">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="30" loop="0" name="catacombPlant" pingpong="0" repeatcount="1" repeatto="0" sid="113327589513500" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00029.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="GiantRock" sid="355769716675932">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="149751691778898">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="890888145790732">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="661618748731746" speed="5">
+                            <frame duration="1" hotspotX="0.743982" hotspotY="-0.289093" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - RockCombinations1.png">
+                                <collision-poly>
+                                    <point x="0.367615" y="0.0420499" />
+                                    <point x="0.492341" y="0.262812" />
+                                    <point x="0.562362" y="0.173456" />
+                                    <point x="0.864332" y="0.426413" />
+                                    <point x="0.991247" y="0.695138" />
+                                    <point x="0.394967" y="0.979632" />
+                                    <point x="0.0350109" y="0.670171" />
+                                    <point x="0.28884" y="0.357424" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="invisibleWall" sid="534158298899396">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="863753598070710">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="397388328524897" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="JumpPlant" sid="329559707791564">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="656046536600044">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="20" loop="0" name="jumpMovement" pingpong="0" repeatcount="1" repeatto="0" sid="239677280703178" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00000.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00001.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00002.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00003.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00004.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00005.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00006.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00007.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00008.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00009.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00010.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00011.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00012.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00013.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00014.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00015.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00016.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00017.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00018.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\PlantJump\JumpPlant_00019.png">
+                                <collision-poly>
+                                    <point x="0.230469" y="0.324219" />
+                                    <point x="0.5" y="0.285156" />
+                                    <point x="0.753906" y="0.333984" />
+                                    <point x="0.832031" y="0.519531" />
+                                    <point x="0.673828" y="0.679688" />
+                                    <point x="0.359375" y="0.675781" />
+                                    <point x="0.171875" y="0.53125" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Land" sid="347477251853339">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="237527107810204">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="147334731516109" speed="5">
+                            <frame duration="1" hotspotX="0.85913" hotspotY="-3.61818" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0" y="0.113633" />
+                                    <point x="1" y="0.113636" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Land2" sid="518289832784494">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="513105720901695">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="949977376316973" speed="5">
+                            <frame duration="1" hotspotX="-3.61818" hotspotY="0.85913" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="0.113636" y="1" />
+                                    <point x="0.113633" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Layer1_Trees" sid="766121271418018">
+                    <plugin id="TiledBg" />
+                    <texture original-source="E:\Descargas\Juego\Assets Escenarios\The Dawn\Layers\5.png" />
+                </object-type>
+                <object-type name="Layer2_trees" sid="292029451971585">
+                    <plugin id="TiledBg" />
+                    <texture original-source="E:\Descargas\Juego\Assets Escenarios\The Dawn\Layers\4.png" />
+                </object-type>
+                <object-type name="Layer3_Trees" sid="238916835178091">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198500153742045" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\The Dawn\Layers\3.png">
+                                <collision-poly>
+                                    <point x="0.164646" y="0.301852" />
+                                    <point x="0.5" y="0.124074" />
+                                    <point x="0.956061" y="0.0805556" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.829293" y="0.687037" />
+                                    <point x="0.5" y="0.587963" />
+                                    <point x="0.281818" y="0.483333" />
+                                    <point x="0.0979798" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="LeftWall" sid="700757550488165">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="415151000456941">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="527939452631533" speed="5">
+                            <frame duration="1" hotspotX="3.08889" hotspotY="-6.76613" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.988889" y="0.427419" />
+                                    <point x="0.477777" y="0.75" />
+                                    <point x="0.016667" y="0.951613" />
+                                    <point x="0.044445" y="0.00806452" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MedusaPlant" sid="763428341895360">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="90" loop="0" name="Movement" pingpong="0" repeatcount="1" repeatto="0" sid="841208987952363" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00000.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00059.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00060.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00061.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00062.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00063.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00064.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00065.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00066.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00067.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00068.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00069.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00070.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00071.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00072.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00073.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00074.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00075.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00076.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00077.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00078.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00079.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00080.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00081.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00082.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00083.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00084.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00085.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00086.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00087.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00088.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 3\Plant3_00089.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MiniPlant_2" sid="875436016592242">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="0" name="miniMovement_2" pingpong="0" repeatcount="1" repeatto="0" sid="149755104539596" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00000.png">
+                                <collision-poly>
+                                    <point x="0.367188" y="0.160156" />
+                                    <point x="0.578125" y="0.15625" />
+                                    <point x="0.694336" y="0.282227" />
+                                    <point x="0.552734" y="0.431641" />
+                                    <point x="0.503906" y="0.863281" />
+                                    <point x="0.40625" y="0.871094" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00001.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00002.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00003.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00004.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00005.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00006.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00007.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00008.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00009.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00010.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00011.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00012.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00013.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00014.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00015.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00016.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00017.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00018.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00019.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00020.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00021.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00022.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00023.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00024.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00025.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00026.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00027.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00028.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00029.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00030.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00031.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00032.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00033.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00034.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00035.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00036.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00037.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00038.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00039.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00040.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00041.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00042.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00043.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00044.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00045.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00046.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00047.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00048.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00049.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00050.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00051.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00052.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00053.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00054.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00055.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00056.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00057.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00058.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 7\Plant7_00059.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MiniPlat_1" sid="322441408204443">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="60" loop="0" name="MiniMovement_1" pingpong="0" repeatcount="1" repeatto="0" sid="770705847020810" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00000.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00001.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00002.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00003.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00004.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00005.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00006.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00007.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00008.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00009.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00010.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00011.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00012.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00013.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00014.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00015.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00016.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00017.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00018.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00019.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00020.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00021.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00022.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00023.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00024.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00025.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00026.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00027.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00028.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00029.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00030.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00031.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00032.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00033.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00034.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00035.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00036.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00037.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00038.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00039.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00040.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00041.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00042.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00043.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00044.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00045.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00046.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00047.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00048.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00049.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00050.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00051.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00052.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00053.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00054.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00055.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00056.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00057.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00058.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 5\Plant5_00059.png">
+                                <collision-poly>
+                                    <point x="0.296875" y="0.15625" />
+                                    <point x="0.449219" y="0.0195313" />
+                                    <point x="0.767578" y="0.09375" />
+                                    <point x="0.585938" y="0.914063" />
+                                    <point x="0.386719" y="0.917969" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRock" sid="918833664636111">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="457525620941512">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="363352157127280">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551969824035451" speed="5">
+                            <frame duration="1" hotspotX="2.41814" hotspotY="7.43609" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Floor.png">
+                                <collision-poly>
+                                    <point x="0.0503778" y="0.458647" />
+                                    <point x="0.153652" y="0.398496" />
+                                    <point x="0.188917" y="0.338346" />
+                                    <point x="0.566751" y="0.345866" />
+                                    <point x="0.938287" y="0.424813" />
+                                    <point x="0.911839" y="0.714287" />
+                                    <point x="0.81738" y="0.785715" />
+                                    <point x="0.0629723" y="0.804512" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup" sid="730011125430128">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="414652944875223">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="489332016738675">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582730110634251" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup2" sid="358321381045099">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="238395234528784">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="445666152714385">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="885684485891516" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup3" sid="922936423018312">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="819738513581162">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="968607877454600">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="483058848904112" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup4" sid="476570016111315">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="274954663258853">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="561127243638978">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="960797420717695" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup5" sid="913740826761335">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="101494503059179">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="522774043285906">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="216462398841451" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup6" sid="490372465121982">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="959136507514981">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="116202166069978">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="911893349413232" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup7" sid="184483277016521">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="597018034129231">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="373718686581367">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="398149406282025" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockGroup8" sid="185422289937629">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="514143684609282">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="610442874885472">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="141523962612289" speed="5">
+                            <frame duration="1" hotspotX="4.72589" hotspotY="2.77473" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.19797" y="0.0989011" />
+                                    <point x="0.47208" y="0.032967" />
+                                    <point x="0.832487" y="0.186813" />
+                                    <point x="0.984771" y="0.549449" />
+                                    <point x="0.685278" y="0.884615" />
+                                    <point x="0.340099" y="0.956044" />
+                                    <point x="0.071066" y="0.681317" />
+                                    <point x="0.0253807" y="0.406592" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="MobileRockRiddle" sid="868566382168332">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="656410435596725">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="855647988459104">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600240791499265" speed="5">
+                            <frame duration="1" hotspotX="0.661236" hotspotY="1.37195" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Floor.png">
+                                <collision-poly>
+                                    <point x="0" y="0.219512" />
+                                    <point x="0.156144" y="0.146341" />
+                                    <point x="0.316022" y="0.121951" />
+                                    <point x="0.660558" y="0.243902" />
+                                    <point x="0.916496" y="0.292683" />
+                                    <point x="0.997284" y="0.414634" />
+                                    <point x="1" y="0.817073" />
+                                    <point x="0.417516" y="1" />
+                                    <point x="0" y="0.804878" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PeakRock" sid="504466652946290">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="113317007565841">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300323446603264" speed="5">
+                            <frame duration="1" hotspotX="-0.428928" hotspotY="-1.54707" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.421446" y="0.447837" />
+                                    <point x="0.770573" y="0.0407125" />
+                                    <point x="0.825436" y="0.402036" />
+                                    <point x="0.76808" y="0.586514" />
+                                    <point x="0.839152" y="0.793257" />
+                                    <point x="0.947631" y="0.951654" />
+                                    <point x="0.0473815" y="0.959288" />
+                                    <point x="0.279302" y="0.554707" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PlatformRock" sid="771493945761041">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Jumpthru" sid="323767625065837">
+                            <behavior id="jumpthru" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="847001138937051" speed="5">
+                            <frame duration="1" hotspotX="0.276139" hotspotY="4.63556" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Floor.png">
+                                <collision-poly>
+                                    <point x="0.0857909" y="0.0755555" />
+                                    <point x="0.962467" y="0.0755556" />
+                                    <point x="0.970509" y="0.911112" />
+                                    <point x="0.0831099" y="0.911112" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PlatformRock_2" sid="685528551008332">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Jumpthru" sid="607395127623328">
+                            <behavior id="jumpthru" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336905846979901" speed="5">
+                            <frame duration="1" hotspotX="0.864028" hotspotY="0.796915" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0.0378658" y="0.092545" />
+                                    <point x="0.975904" y="0.092545" />
+                                    <point x="0.979346" y="0.96401" />
+                                    <point x="0.049914" y="0.969152" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PlatformRock_3" sid="649066937999736">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Jumpthru" sid="611744185411499">
+                            <behavior id="jumpthru" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="256144806294413" speed="5">
+                            <frame duration="1" hotspotX="0.864028" hotspotY="0.796915" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0.0378658" y="0.092545" />
+                                    <point x="1" y="0.092545" />
+                                    <point x="0.986231" y="0.948586" />
+                                    <point x="0.0464716" y="0.969152" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PlatformRock_4" sid="402846160629323">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Jumpthru" sid="645736651754487">
+                            <behavior id="jumpthru" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510632415946504" speed="5">
+                            <frame duration="1" hotspotX="0.864028" hotspotY="0.796915" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0.0413081" y="0.092545" />
+                                    <point x="0.993115" y="0.092545" />
+                                    <point x="0.986231" y="0.96401" />
+                                    <point x="0.0395869" y="0.96401" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="PosionPlant" sid="621734664273769">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Sine" sid="967953558540277">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                        <behavior-type name="Solid" sid="594952547722062">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="30" loop="0" name="poison" pingpong="0" repeatcount="1" repeatto="0" sid="758908959479426" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00000.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00001.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00002.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00003.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00004.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00005.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00006.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00007.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00008.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00009.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00010.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00011.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00012.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00013.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00014.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00015.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00016.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00017.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00018.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00019.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00020.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00021.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00022.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00023.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00024.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00025.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00026.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00027.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00028.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\Assets Escenarios\Plantas\Plant 8 Poison\PlantPosion_00029.png">
+                                <collision-poly>
+                                    <point x="0.113281" y="0.570313" />
+                                    <point x="0.0957031" y="0.410156" />
+                                    <point x="0.460938" y="0.0742188" />
+                                    <point x="0.897461" y="0.386719" />
+                                    <point x="0.896484" y="0.566406" />
+                                    <point x="0.699219" y="0.742188" />
+                                    <point x="0.226563" y="0.742188" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="RightWall" sid="512425129463305">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="592247003024758">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="228774324681813" speed="5">
+                            <frame duration="1" hotspotX="-2.08889" hotspotY="-6.76613" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.955555" y="0.00806452" />
+                                    <point x="0.983333" y="0.951613" />
+                                    <point x="0.522223" y="0.75" />
+                                    <point x="0.0111111" y="0.427419" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="SemillaNivel1" sid="344711310009746">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Platform" sid="555141002804269">
+                            <behavior id="Platform" />
+                        </behavior-type>
+                        <behavior-type name="ScrollTo" sid="216493043743700">
+                            <behavior id="scrollto" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="2" loop="0" name="Static" pingpong="0" repeatcount="1" repeatto="0" sid="862984606310440" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.32" original-source="E:\Descargas\Semilla1\Semilla1.png">
+                                <collision-poly>
+                                    <point x="0.0982353" y="0.278425" />
+                                    <point x="0.563324" y="0.00840336" />
+                                    <point x="0.888529" y="0.254683" />
+                                    <point x="1" y="0.4992" />
+                                    <point x="0.73714" y="1" />
+                                    <point x="0.548177" y="1" />
+                                    <point x="0.316547" y="1" />
+                                    <point x="0.0110294" y="0.585682" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.32" original-source="E:\Descargas\Semilla1\Semilla1_CaraRelajada.png">
+                                <collision-poly>
+                                    <point x="0.0447059" y="0.336997" />
+                                    <point x="0.550824" y="0" />
+                                    <point x="0.947941" y="0.339605" />
+                                    <point x="0.981618" y="0.621329" />
+                                    <point x="0.738538" y="1" />
+                                    <point x="0.552294" y="1" />
+                                    <point x="0.283165" y="1" />
+                                    <point x="0.0183824" y="0.643551" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="1" loop="0" name="TakeHit" pingpong="0" repeatcount="1" repeatto="0" sid="104394475238760" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.32" original-source="E:\Descargas\Semilla1\Semilla1_CaraGolpe.png">
+                                <collision-poly>
+                                    <point x="0.0935294" y="0.29459" />
+                                    <point x="0.537148" y="0.0225" />
+                                    <point x="0.960588" y="0.356827" />
+                                    <point x="0.985294" y="0.601236" />
+                                    <point x="0.681994" y="1" />
+                                    <point x="0.519206" y="1" />
+                                    <point x="0.366474" y="1" />
+                                    <point x="0.0294118" y="0.637996" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="2" loop="0" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="561651821072532" speed="5">
+                            <frame duration="1" hotspotX="0.558824" hotspotY="0.31" original-source="E:\Descargas\Semilla1\Semilla1_Derecha.png">
+                                <collision-poly>
+                                    <point x="0.0513537" y="0.41312" />
+                                    <point x="0.278931" y="0.173187" />
+                                    <point x="0.696764" y="0.0125" />
+                                    <point x="0.936587" y="0.31552" />
+                                    <point x="0.996324" y="0.574855" />
+                                    <point x="0.629184" y="1" />
+                                    <point x="0.269536" y="1" />
+                                    <point x="0.0367647" y="0.665469" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.441176" hotspotY="0.32" original-source="E:\Descargas\Semilla1\Semilla1_Izquierda.png">
+                                <collision-poly>
+                                    <point x="0.0342857" y="0.36356" />
+                                    <point x="0.394936" y="0" />
+                                    <point x="0.904853" y="0.308821" />
+                                    <point x="1" y="0.588445" />
+                                    <point x="0.814858" y="1" />
+                                    <point x="0.534516" y="1" />
+                                    <point x="0.453159" y="0.930392" />
+                                    <point x="0.0498319" y="0.679261" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="SmallRock" sid="720978544423794">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="388803434892611">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="336473737346544" speed="5">
+                            <frame duration="1" hotspotX="-3.34" hotspotY="-1.6" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - SmallRocks.png">
+                                <collision-poly>
+                                    <point x="0.29" y="0.434783" />
+                                    <point x="0.54" y="0" />
+                                    <point x="0.7" y="0.373913" />
+                                    <point x="0.84" y="0.686957" />
+                                    <point x="0.92" y="1" />
+                                    <point x="0.06" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Tree" sid="798457074539500">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="921392960491062" speed="5">
+                            <frame duration="1" hotspotX="0.526709" hotspotY="0.346278" original-source="E:\Descargas\Juego\Assets Escenarios\The Dawn\Layers\8.png">
+                                <collision-poly>
+                                    <point x="0.17735" y="0.0161812" />
+                                    <point x="0.846154" y="0" />
+                                    <point x="1" y="0.372168" />
+                                    <point x="0.837073" y="1" />
+                                    <point x="0.0838675" y="1" />
+                                    <point x="0.0208333" y="0.346278" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="WallRock" sid="317070988299542">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="883101787383939">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="755171920483628">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="645453635212139" speed="5">
+                            <frame duration="1" hotspotX="-2.80755" hotspotY="0.345904" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - BigRocks1.png">
+                                <collision-poly>
+                                    <point x="0.35849" y="0.0637191" />
+                                    <point x="0.464151" y="0.0169051" />
+                                    <point x="0.596227" y="0.0182055" />
+                                    <point x="0.74717" y="0.345904" />
+                                    <point x="0.920755" y="0.992198" />
+                                    <point x="0.0981132" y="1" />
+                                    <point x="0.0339623" y="0.93498" />
+                                    <point x="0.267924" y="0.348505" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
             <object-folder name="Level 1" />
         </object-folder>
         <object-folder name="Enemies">
@@ -2035,6 +4107,7 @@
         <layout>Main_Menu.xml</layout>
         <layout>Layout Level 1.xml</layout>
         <layout>Tutorial.xml</layout>
+		<layout>Level_1.xml</layout>
         <layout>Level2.xml</layout>
     </layout-folder>
     <event-folder>
@@ -2042,9 +4115,11 @@
         <event-sheet>Globals.xml</event-sheet>
         <event-sheet>Event sheet Level 1.xml</event-sheet>
         <event-sheet>Tutorial.xml</event-sheet>
+		<event-sheet>Level1_Events.xml</event-sheet>
         <event-sheet>Level2.xml</event-sheet>
     </event-folder>
     <global-instances>
+		<global-instance type="Keyboard" uid="29" />
         <global-instance type="Keyboard" uid="0" />
         <global-instance type="Audio" uid="1">
             <properties>
