@@ -56,6 +56,7 @@
         <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
         <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
@@ -413,11 +414,11 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
                             <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
                                 <collision-poly>
-                                    <point x="0.0590278" y="0.205357" />
-                                    <point x="0.959325" y="0.205357" />
-                                    <point x="0.950893" y="0.660714" />
-                                    <point x="0.498512" y="0.694196" />
-                                    <point x="0.0605159" y="0.640625" />
+                                    <point x="0.0957342" y="0.227678" />
+                                    <point x="0.898809" y="0.227678" />
+                                    <point x="0.907242" y="0.638393" />
+                                    <point x="0.495536" y="0.631696" />
+                                    <point x="0.0863096" y="0.600447" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -499,12 +500,12 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167429589958746" speed="5">
                             <frame duration="1" hotspotX="2.06838" hotspotY="1.00436" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - Hanging Plants.png">
                                 <collision-poly>
-                                    <point x="0.136752" y="0.0464779" />
-                                    <point x="0.5" y="0.000726216" />
-                                    <point x="0.865385" y="0.0457516" />
-                                    <point x="0.679487" y="0.488017" />
-                                    <point x="0.5" y="0.989833" />
-                                    <point x="0.294872" y="0.472041" />
+                                    <point x="0.397436" y="0.087146" />
+                                    <point x="0.465812" y="0.060276" />
+                                    <point x="0.6047" y="0.0951343" />
+                                    <point x="0.538461" y="0.467683" />
+                                    <point x="0.482906" y="0.841685" />
+                                    <point x="0.405983" y="0.467684" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -531,6 +532,163 @@
                 <object-type name="TiledBackground" sid="514439056247778">
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - TileSet.png" />
+                </object-type>
+                <object-type name="Mossy_TileSet" sid="793034753615497">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="935847554914093">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826860061294019" speed="5">
+                            <frame duration="1" hotspotX="1.19494" hotspotY="3.60714" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - TileSet.png">
+                                <collision-poly>
+                                    <point x="0.128522" y="0.270745" />
+                                    <point x="0.881789" y="0.215572" />
+                                    <point x="0.900992" y="0.691428" />
+                                    <point x="0.884993" y="0.853669" />
+                                    <point x="0.842318" y="0.934643" />
+                                    <point x="0.181548" y="0.930991" />
+                                    <point x="0.121053" y="0.788134" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Mossy_TileSetInver" sid="707252848494785">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="444664776855290">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480859502552961" speed="5">
+                            <frame duration="1" hotspotX="-0.19494" hotspotY="-2.60714" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - TileSet.png">
+                                <collision-poly>
+                                    <point x="0.899939" y="0.695147" />
+                                    <point x="0.0631482" y="0.713892" />
+                                    <point x="0.0525794" y="0.243116" />
+                                    <point x="0.0664683" y="0.149366" />
+                                    <point x="0.0823413" y="0.0466878" />
+                                    <point x="0.817461" y="0.0600807" />
+                                    <point x="0.892836" y="0.0511521" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Mossy_BackgroundDecoration" sid="243417156358762">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="513496630008509">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="432958952838503" speed="5">
+                            <frame duration="1" hotspotX="4.78133" hotspotY="0.497147" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
+                                <collision-poly>
+                                    <point x="0.201325" y="0.865046" />
+                                    <point x="0.26087" y="0.0734309" />
+                                    <point x="0.7842" y="0.0615232" />
+                                    <point x="0.876272" y="0.121062" />
+                                    <point x="0.687013" y="0.270037" />
+                                    <point x="0.738164" y="0.515941" />
+                                    <point x="0.566809" y="0.643855" />
+                                    <point x="0.779085" y="0.872984" />
+                                    <point x="0.743279" y="0.920615" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sprite" sid="650968794702378">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="439993799050091">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="246443262365953" speed="5">
+                            <frame duration="1" hotspotX="-0.767824" hotspotY="-1.29977" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - MossyHills.png">
+                                <collision-poly>
+                                    <point x="0.26691" y="0.262295" />
+                                    <point x="0.281536" y="0.208431" />
+                                    <point x="0.583181" y="0.168618" />
+                                    <point x="0.851919" y="0.449649" />
+                                    <point x="0.670933" y="0.632318" />
+                                    <point x="0.330896" y="0.63466" />
+                                    <point x="0.259598" y="0.470726" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Roca" sid="333194278200263">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="108508684881288">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="598326091873279" speed="5">
+                            <frame duration="1" hotspotX="1.32145" hotspotY="2.3699" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - Decorations&amp;Hazards.png">
+                                <collision-poly>
+                                    <point x="0.223273" y="0.267857" />
+                                    <point x="0.552" y="0.248724" />
+                                    <point x="0.788364" y="0.753827" />
+                                    <point x="0.743273" y="0.845663" />
+                                    <point x="0.64" y="0.845663" />
+                                    <point x="0.202909" y="0.853316" />
+                                    <point x="0.174545" y="0.78699" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Montain" sid="493842502540396">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="910533909473305">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895167415133122" speed="5">
+                            <frame duration="1" hotspotX="-0.206444" hotspotY="-0.179977" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
+                                <collision-poly>
+                                    <point x="0.477327" y="0.138889" />
+                                    <point x="0.584725" y="0.0648148" />
+                                    <point x="0.748807" y="0.0300926" />
+                                    <point x="0.871122" y="0.0810185" />
+                                    <point x="0.911695" y="0.978588" />
+                                    <point x="0.0477327" y="0.953125" />
+                                    <point x="0.393795" y="0.493635" />
+                                    <point x="0.374702" y="0.319444" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sprite4" sid="791666826286695">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635605323130629" speed="5">
+                            <frame duration="1" hotspotX="0.498512" hotspotY="-1.06653" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
+                                <collision-poly>
+                                    <point x="0.0590278" y="0.002079" />
+                                    <point x="0.967262" y="0.002079" />
+                                    <point x="0.950893" y="0.829522" />
+                                    <point x="0.498512" y="0.893971" />
+                                    <point x="0.0426587" y="0.844075" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="Decoration">
@@ -1697,6 +1855,469 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Sprite2" sid="697774226896425">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="882362040700976">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="35" loop="1" name="Movimiento" pingpong="1" repeatcount="1" repeatto="0" sid="708648913845915" speed="34">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.497561" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00000.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00001 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00001.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00002 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00002.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00003 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00003.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00004 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00004.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00005 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00005.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00006.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00007.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00008.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00009.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00010.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00011.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00012.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00013.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00014.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00015.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00016.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00017.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00018.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00019.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00020.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00021.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00022.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00023.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00024.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00025.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00026.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00027.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00028.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeGreen\SlimeBasic_00029.png">
+                                <collision-poly>
+                                    <point x="0.369281" y="0.341463" />
+                                    <point x="0.509804" y="0.282927" />
+                                    <point x="0.588235" y="0.317073" />
+                                    <point x="0.64379" y="0.478049" />
+                                    <point x="0.640522" y="0.604878" />
+                                    <point x="0.51634" y="0.643903" />
+                                    <point x="0.382353" y="0.639025" />
+                                    <point x="0.320261" y="0.521951" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Diamante" sid="609822630760867">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="1" name="Diamante" pingpong="0" repeatcount="1" repeatto="0" sid="293928298515651" speed="2">
+                            <frame duration="1" hotspotX="0.488" hotspotY="0.496" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\10 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.139869" y="0.137885" />
+                                    <point x="0.488889" y="0.0307898" />
+                                    <point x="0.797386" y="0.179384" />
+                                    <point x="0.942484" y="0.495315" />
+                                    <point x="0.836601" y="0.851406" />
+                                    <point x="0.488889" y="0.953146" />
+                                    <point x="0.207843" y="0.783133" />
+                                    <point x="0.0392157" y="0.495315" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.488" hotspotY="0.496" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\10.png">
+                                <collision-poly>
+                                    <point x="0.139869" y="0.137885" />
+                                    <point x="0.488889" y="0.0307898" />
+                                    <point x="0.797386" y="0.179384" />
+                                    <point x="0.942484" y="0.495315" />
+                                    <point x="0.836601" y="0.851406" />
+                                    <point x="0.488889" y="0.953146" />
+                                    <point x="0.207843" y="0.783133" />
+                                    <point x="0.0392157" y="0.495315" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
         </object-folder>
         <object-folder name="Levels">
@@ -1839,6 +2460,1153 @@
                 </object-type>
             </object-folder>
             <object-folder name="Level 1" />
+            <object-folder name="Level 3">
+                <object-type name="Caja1" sid="708361796262056">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="27" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="120421605845636" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_A.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_B.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_C.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_D.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_E.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_F.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_G.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_H.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_I.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_J.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_K.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_L.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_M.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_N.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_O.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_P.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_Q.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_R.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_S.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_T.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_U.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_V.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_W.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_X.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_Y.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Metal\letter_Z.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Gato" sid="272637550052523">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="9" loop="1" name="Cat" pingpong="1" repeatcount="1" repeatto="0" sid="281492019511475" speed="10">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (2).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (3).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (4).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (5).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (6).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (7).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (8).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (9).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Fotos Pecera\Fotos GatoSprit\png\cat\Idle (10).png">
+                                <collision-poly>
+                                    <point x="0.989619" y="0.485057" />
+                                    <point x="0.719723" y="0.604598" />
+                                    <point x="0.422145" y="0.983908" />
+                                    <point x="0.145329" y="0.590805" />
+                                    <point x="0.0138409" y="0.485057" />
+                                    <point x="0.0934256" y="0.344828" />
+                                    <point x="0.422145" y="0.149425" />
+                                    <point x="0.892734" y="0.250575" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Caja2" sid="875347630618392">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="27" loop="1" name="Caja2" pingpong="1" repeatcount="1" repeatto="0" sid="493740095171752" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter.png">
+                                <collision-poly>
+                                    <point x="0.0116279" y="0.0116279" />
+                                    <point x="0.988372" y="0.0116279" />
+                                    <point x="0.988372" y="0.988372" />
+                                    <point x="0.0116279" y="0.988372" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_A.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_B.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_C.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_D.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_E.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_F.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_G.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_H.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_I.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_J.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_K.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_L.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_M.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_N.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_O.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_P.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Q.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_R.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_S.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_T.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_U.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_V.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_W.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_X.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Y.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Z.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Caja4" sid="728292622776082">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="983043789658032" speed="2">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Asset\Other\Other\PNG\Retina\Crates\crate_20.png">
+                                <collision-poly>
+                                    <point x="0.03125" y="0.03125" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.96875" y="0.03125" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.96875" y="0.96875" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.03125" y="0.96875" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Asset\Other\Other\PNG\Retina\Crates\crate_25.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="TiledBackground2" sid="396286758277530">
+                    <plugin id="TiledBg" />
+                    <texture />
+                </object-type>
+                <object-type name="Piedra" sid="489577089237833">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="630100318097089" speed="5">
+                            <frame duration="1" hotspotX="1.41291" hotspotY="2.62059" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - Decorations&amp;Hazards.png">
+                                <collision-poly>
+                                    <point x="0.100311" y="0.239774" />
+                                    <point x="1" y="0.263752" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="0.00544323" y="1" />
+                                    <point x="0.233281" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="BloqueFondo2" sid="270908596458056">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="992427095334334" speed="5">
+                            <frame duration="1" hotspotX="1.19822" hotspotY="0.299342" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
+                                <collision-poly>
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="0.250445" y="1" />
+                                    <point x="0.0172107" y="0.299342" />
+                                    <point x="0.0172107" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="0.299342" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Dragon" sid="891051548765073">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="34" loop="1" name="DragonDLE" pingpong="1" repeatcount="1" repeatto="0" sid="944026167630069" speed="34">
+                            <frame duration="1" hotspotX="0.479371" hotspotY="0.439909" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_00.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_01.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_02.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_03.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_04.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_05.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_06.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_07.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_08.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_09.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_10.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_11.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_12.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_13.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_14.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_15.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_16.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_17.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_18.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_19.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_20.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_21.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_22.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_23.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_24.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_25.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_26.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_27.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_28.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_29.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_30.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_31.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_32.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\Assets\Black Dragon\Sell\monster_08-V2-Idle_33.png">
+                                <collision-poly>
+                                    <point x="0.834971" y="0.437642" />
+                                    <point x="0.709234" y="0.646259" />
+                                    <point x="0.479371" y="0.956916" />
+                                    <point x="0.223969" y="0.675737" />
+                                    <point x="0.043222" y="0.437642" />
+                                    <point x="0.229862" y="0.208617" />
+                                    <point x="0.479371" y="0.0430839" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Alient" sid="501322792197734">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="3" loop="1" name="Alient" pingpong="1" repeatcount="1" repeatto="0" sid="351974855436191" speed="3">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0000_idle_1.png">
+                                <collision-poly>
+                                    <point x="0.182609" y="0.105528" />
+                                    <point x="0.5" y="0.0125628" />
+                                    <point x="0.86087" y="0.080402" />
+                                    <point x="0.986957" y="0.5" />
+                                    <point x="0.747826" y="0.854271" />
+                                    <point x="0.5" y="0.987437" />
+                                    <point x="0.247826" y="0.856784" />
+                                    <point x="0.0130435" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0001_idle_2.png">
+                                <collision-poly>
+                                    <point x="0.182609" y="0.105528" />
+                                    <point x="0.5" y="0.0125628" />
+                                    <point x="0.86087" y="0.080402" />
+                                    <point x="0.986957" y="0.5" />
+                                    <point x="0.747826" y="0.854271" />
+                                    <point x="0.5" y="0.987437" />
+                                    <point x="0.247826" y="0.856784" />
+                                    <point x="0.0130435" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0002_idle_3.png">
+                                <collision-poly>
+                                    <point x="0.182609" y="0.105528" />
+                                    <point x="0.5" y="0.0125628" />
+                                    <point x="0.86087" y="0.080402" />
+                                    <point x="0.986957" y="0.5" />
+                                    <point x="0.747826" y="0.854271" />
+                                    <point x="0.5" y="0.987437" />
+                                    <point x="0.247826" y="0.856784" />
+                                    <point x="0.0130435" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Caja3" sid="690782871952074">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="27" loop="1" name="Wood" pingpong="1" repeatcount="1" repeatto="0" sid="221682166316071" speed="8">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_A.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_B.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_C.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_D.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_E.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_F.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_G.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_H.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_I.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_J.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_K.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_L.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_M.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_N.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_O.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_P.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_Q.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_R.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_S.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_T.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_U.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_V.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_W.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_X.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_Y.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Marble\letter_Z.png">
+                                <collision-poly>
+                                    <point x="0.0078125" y="0.0078125" />
+                                    <point x="0.992188" y="0.0078125" />
+                                    <point x="0.992188" y="0.992188" />
+                                    <point x="0.0078125" y="0.992188" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Bloque" sid="178333664709234">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="887905156178719" speed="5">
+                            <frame duration="1" hotspotX="3.39552" hotspotY="3.03738" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
+                                <collision-poly>
+                                    <point x="0.0895522" y="0.277259" />
+                                    <point x="1" y="0.0934579" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="DiamantePower1" sid="586500860787106">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="6" loop="1" name="DiamantePower" pingpong="1" repeatcount="1" repeatto="0" sid="365215573354723" speed="6">
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\08 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\08.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\09 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\09.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\10 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\10.png">
+                                <collision-poly>
+                                    <point x="0.141436" y="0.14144" />
+                                    <point x="0.487889" y="0.0361105" />
+                                    <point x="0.794118" y="0.182255" />
+                                    <point x="0.938149" y="0.492978" />
+                                    <point x="0.833045" y="0.843199" />
+                                    <point x="0.487889" y="0.943262" />
+                                    <point x="0.20891" y="0.776052" />
+                                    <point x="0.0415225" y="0.492978" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="DiamantePower" sid="814137124404436">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="7" loop="1" name="DiamantePower2" pingpong="1" repeatcount="1" repeatto="0" sid="107854405706822" speed="7">
+                            <frame duration="1" hotspotX="0.485" hotspotY="0.49" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\00.png">
+                                <collision-poly>
+                                    <point x="0.141192" y="0.138889" />
+                                    <point x="0.487047" y="0.0330688" />
+                                    <point x="0.792746" y="0.179894" />
+                                    <point x="0.935233" y="0.492063" />
+                                    <point x="0.831606" y="0.843915" />
+                                    <point x="0.487047" y="0.944444" />
+                                    <point x="0.209845" y="0.775132" />
+                                    <point x="0.0414508" y="0.492063" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\01 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.141192" y="0.138889" />
+                                    <point x="0.487047" y="0.0330688" />
+                                    <point x="0.792746" y="0.179894" />
+                                    <point x="0.935233" y="0.492063" />
+                                    <point x="0.831606" y="0.843915" />
+                                    <point x="0.487047" y="0.944444" />
+                                    <point x="0.209845" y="0.775132" />
+                                    <point x="0.0414508" y="0.492063" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\01.png">
+                                <collision-poly>
+                                    <point x="0.113665" y="0.108582" />
+                                    <point x="0.475343" y="0" />
+                                    <point x="0.795029" y="0.152497" />
+                                    <point x="0.944035" y="0.486815" />
+                                    <point x="0.835667" y="0.863631" />
+                                    <point x="0.475343" y="0.971293" />
+                                    <point x="0.185458" y="0.789968" />
+                                    <point x="0.00936029" y="0.486815" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\02 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.113665" y="0.108582" />
+                                    <point x="0.475343" y="0" />
+                                    <point x="0.795029" y="0.152497" />
+                                    <point x="0.944035" y="0.486815" />
+                                    <point x="0.835667" y="0.863631" />
+                                    <point x="0.475343" y="0.971293" />
+                                    <point x="0.185458" y="0.789968" />
+                                    <point x="0.00936029" y="0.486815" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\02.png">
+                                <collision-poly>
+                                    <point x="0.113665" y="0.108582" />
+                                    <point x="0.475343" y="0" />
+                                    <point x="0.795029" y="0.152497" />
+                                    <point x="0.944035" y="0.486815" />
+                                    <point x="0.835667" y="0.863631" />
+                                    <point x="0.475343" y="0.971293" />
+                                    <point x="0.185458" y="0.789968" />
+                                    <point x="0.00936029" y="0.486815" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\03 - Copy.png">
+                                <collision-poly>
+                                    <point x="0.113665" y="0.108582" />
+                                    <point x="0.475343" y="0" />
+                                    <point x="0.795029" y="0.152497" />
+                                    <point x="0.944035" y="0.486815" />
+                                    <point x="0.835667" y="0.863631" />
+                                    <point x="0.475343" y="0.971293" />
+                                    <point x="0.185458" y="0.789968" />
+                                    <point x="0.00936029" y="0.486815" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49" hotspotY="0.495" original-source="C:\Users\Christian\Desktop\Assets\StonesFreeWenrexa\03.png">
+                                <collision-poly>
+                                    <point x="0.113665" y="0.108582" />
+                                    <point x="0.475343" y="0" />
+                                    <point x="0.795029" y="0.152497" />
+                                    <point x="0.944035" y="0.486815" />
+                                    <point x="0.835667" y="0.863631" />
+                                    <point x="0.475343" y="0.971293" />
+                                    <point x="0.185458" y="0.789968" />
+                                    <point x="0.00936029" y="0.486815" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sprite3" sid="415542935971564">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937129166977467" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Naturaleza\Msg.png">
+                                <collision-poly>
+                                    <point x="0.044" y="0.0964912" />
+                                    <point x="0.5" y="0.0467836" />
+                                    <point x="0.964" y="0.0789474" />
+                                    <point x="0.972" y="0.938596" />
+                                    <point x="0.5" y="0.98538" />
+                                    <point x="0.0213333" y="0.953216" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Rama" sid="470889686923871">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="102002228271278" speed="5">
+                            <frame duration="1" hotspotX="1.30244" hotspotY="1.72583" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - Decorations&amp;Hazards.png">
+                                <collision-poly>
+                                    <point x="0.160352" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="0.0778079" y="1" />
+                                    <point x="0.276049" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Sprite5" sid="720189322526216">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198101805454424" speed="5">
+                            <frame duration="1" hotspotX="0.147513" hotspotY="0.824663" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
+                                <collision-poly>
+                                    <point x="0.934391" y="0" />
+                                    <point x="0.919811" y="0.824663" />
+                                    <point x="0.832333" y="1" />
+                                    <point x="0.147513" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0.824663" />
+                                    <point x="0" y="0" />
+                                    <point x="0.147513" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="Enemies">
             <object-type name="BigGhost" sid="523616762442205">
@@ -1874,12 +3642,352 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="SlimeOrange" sid="778990290043673">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="30" loop="1" name="slimeOrange" pingpong="1" repeatcount="1" repeatto="0" sid="468440838728828" speed="30">
+                        <frame duration="1" hotspotX="0.48366" hotspotY="0.55477" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00000.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00001.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00002.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00003.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00004.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00005.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00006.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00007.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00008.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00009.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00010.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00011.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00012.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00013.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00014.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00015.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00016.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00017.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00018.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00019.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00020.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00021.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00022.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00023.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00024.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00025.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00026.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00027.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00028.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\SlimeOrange\SlimeOrange_00029.png">
+                            <collision-poly>
+                                <point x="0.320261" y="0.416961" />
+                                <point x="0.568627" y="0.374558" />
+                                <point x="0.72549" y="0.558304" />
+                                <point x="0.712418" y="0.826855" />
+                                <point x="0.48366" y="0.915194" />
+                                <point x="0.246187" y="0.805654" />
+                                <point x="0.263617" y="0.561837" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="344718023822448">
                     <behavior id="Platform" />
+                </behavior-type>
+                <behavior-type name="ScrollTo" sid="502455973395106">
+                    <behavior id="scrollto" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -2036,6 +4144,7 @@
         <layout>Layout Level 1.xml</layout>
         <layout>Tutorial.xml</layout>
         <layout>Level2.xml</layout>
+        <layout>Lavel 3.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
@@ -2043,6 +4152,7 @@
         <event-sheet>Event sheet Level 1.xml</event-sheet>
         <event-sheet>Tutorial.xml</event-sheet>
         <event-sheet>Level2.xml</event-sheet>
+        <event-sheet>Level 3.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="0" />
