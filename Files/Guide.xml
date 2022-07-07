@@ -14,5 +14,16 @@
     </tutorial>
     <levelTwo>
         <hint id="1">Que oscuro está!</hint>
+        <hint id="2">Parece que puedes subir por aquí</hint>
+        <hint id="3">Nada por aquí, solo una gran roca</hint>
+        <hint id="4">Adelante encontrarás una criatura que iluminará tu camino</hint>
+        <hint id="5">Lu ha decidido acompañarte en tu recorrido por la cueva </hint>
+        <hint id="6">Solo un camino lleva a la salida, debes tener cuidado </hint>
+        <hint id="7">Debes seleccionar el camino correcto para avanzar </hint>
+        <hint id="8">Tu respuesta es incorrecta </hint>
+        <hint id="9">Tu respuesta es correcta </hint>
+        <hint id="10">Te has perdido, avanza para descubrir el camino</hint>
+        <hint id="11">Bien hecho, has avanzado, continúa con cuidado</hint>
+        <hint id="12">Bien hecho, continua con el siguiente reto</hint>
     </levelTwo>
 </dialogs>
