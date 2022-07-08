@@ -28,5 +28,7 @@
         <hint id="13">Felicidades has logrado llegar a la salida.</hint>
         <hint id="14">Lu se despide y vuelve a la entrada</hint>
         <hint id="15">Acompañara a futuros viajeros en su viaje por la cueva</hint>
+        <hint id="16">Buen trabajo, no falta mucho para salir</hint>
+        <hint id="17">Finalmente has llegado a la ultima sala</hint>
     </levelTwo>
 </dialogs>

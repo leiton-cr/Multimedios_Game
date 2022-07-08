@@ -705,6 +705,33 @@
                         </animation>
                     </animation-folder>
                 </object-type>
+                <object-type name="Sprite7" sid="642586466202407">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="938040462615570">
+                            <behavior id="solid" />
+                        </behavior-type>
+                        <behavior-type name="Sine" sid="727518996936868">
+                            <behavior id="Sin" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="612055722075833" speed="5">
+                            <frame duration="1" hotspotX="0.554217" hotspotY="0.439074" original-source="C:\Users\luisl\Downloads\Ambientacion\CaveAssetsMaaot\Assets 1024 Cave\Cave - Floor.png">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="1" y="1" />
+                                    <point x="1" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
             </object-folder>
             <object-folder name="Decoration">
                 <object-type name="Deco01" sid="990091439233429">
