@@ -25,5 +25,8 @@
         <hint id="10">Te has perdido, avanza para descubrir el camino</hint>
         <hint id="11">Bien hecho, has avanzado, continúa con cuidado</hint>
         <hint id="12">Bien hecho, continua con el siguiente reto</hint>
+        <hint id="13">Felicidades has logrado llegar a la salida.</hint>
+        <hint id="14">Lu se despide y vuelve a la entrada</hint>
+        <hint id="15">Acompañara a futuros viajeros en su viaje por la cueva</hint>
     </levelTwo>
 </dialogs>
