@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level1_Events</name>
+    <events>
+        <event-block sid="318464052125319">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="290327438726413" type="SemillaNivel1" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="834513064446597" type="SemillaNivel1">
+                    <param id="0" name="Animation">&quot;Static&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="620973067995815">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="722713983215894" type="SemillaNivel1" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="822544181561456" type="SemillaNivel1">
+                    <param id="0" name="Animation">&quot;Walk&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="678088947307380">
+            <conditions>
+                <condition id="10" name="On image URL loaded" sid="440009308565104" type="MedusaPlant" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="469645454258412" type="MedusaPlant">
+                    <param id="0" name="Animation">&quot;Movement&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="243320525276472">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="918051284535784" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="707826906381726" type="SemillaNivel1">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="515515755828832">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="545667763957893" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="286205896506756" type="SemillaNivel1">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="110803948444793">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
+                    <param id="0" name="Animation">&quot;poison&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="920179006201027">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="369998676795541" type="MiniPlat_1" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="161127320695425" type="MiniPlat_1">
+                    <param id="0" name="Animation">&quot;miniMovement_1&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="751202776548182">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="543143975247239" type="MiniPlant_2" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="710457282510432" type="MiniPlant_2">
+                    <param id="0" name="Animation">&quot;miniMovement_2&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="127100706910070">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="650954939780776" type="JumpPlant" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="284816676349300" type="JumpPlant">
+                    <param id="0" name="Animation">&quot;jumpMovement&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="757421530857582">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="973435643702355" type="CatacombsPlant" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="842792681048861" type="CatacombsPlant">
+                    <param id="0" name="Animation">&quot;catacombPlant&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
