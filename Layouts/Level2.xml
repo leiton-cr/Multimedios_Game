@@ -47,6 +47,366 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="Sprite6" uid="534">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5791</x>
+                        <y>862</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6" uid="461">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>15211</x>
+                        <y>1124</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ChallengeTrigger" uid="478">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <challengeId>1</challengeId>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>15202</x>
+                        <y>1102</y>
+                        <z>0</z>
+                        <width>228</width>
+                        <height>250</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6" uid="462">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>15021</x>
+                        <y>898</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0.705894887</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Tutorial_Up_Arrow" uid="466">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>15089</x>
+                        <y>687</y>
+                        <z>0</z>
+                        <width>67.577018738</width>
+                        <height>59.250911713</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504297972</hotspotX>
+                        <hotspotY>0.503268003</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Tutorial_Up_Arrow" uid="421">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10128</x>
+                        <y>3295</y>
+                        <z>0</z>
+                        <width>67.577018738</width>
+                        <height>59.250911713</height>
+                        <depth>0</depth>
+                        <hotspotX>0.504297972</hotspotX>
+                        <hotspotY>0.503268003</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6" uid="445">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>10009</x>
+                        <y>3706</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Cave" uid="396">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.1</hue>
+                                <luminosity>0.7</luminosity>
+                                <saturation>0.3</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8412</x>
+                        <y>4091</y>
+                        <z>0</z>
+                        <width>-514</width>
+                        <height>591</height>
+                        <depth>0</depth>
+                        <hotspotX>0.445297509</hotspotX>
+                        <hotspotY>0.751666665</hotspotY>
+                        <angle>0.254795253</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Plank" uid="398">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <corectness>true</corectness>
+                    </instance-variables>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.9</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9528</x>
+                        <y>3896</y>
+                        <z>0</z>
+                        <width>144.996551514</width>
+                        <height>144.996551514</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Plank" uid="399">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <corectness>false</corectness>
+                    </instance-variables>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.9</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9536</x>
+                        <y>3378</y>
+                        <z>0</z>
+                        <width>144.457611084</width>
+                        <height>144.457611084</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>1.570796371</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6" uid="400">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9487</x>
+                        <y>3337</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PlankResponse" uid="416">
+                    <properties>
+                        <text>Pez</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-27,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <correctness>false</correctness>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9500</x>
+                        <y>3364</y>
+                        <z>0</z>
+                        <width>92.950195313</width>
+                        <height>37.375976563</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PlankResponse" uid="417">
+                    <properties>
+                        <text>2</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-27,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <correctness>false</correctness>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9518</x>
+                        <y>3877</y>
+                        <z>0</z>
+                        <width>41.252929688</width>
+                        <height>37.375976563</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Sprite6" uid="401">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9483</x>
+                        <y>3862</y>
+                        <z>0</z>
+                        <width>24.111024857</width>
+                        <height>67.401275635</height>
+                        <depth>0</depth>
+                        <hotspotX>0.522727251</hotspotX>
+                        <hotspotY>0.552845538</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Tutorial_LeftRight_Arrow" uid="804">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -604,7 +964,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>16652</x>
+                        <x>16633</x>
                         <y>1579</y>
                         <z>0</z>
                         <width>512.917297363</width>
@@ -635,7 +995,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>16587</x>
+                        <x>16576</x>
                         <y>962</y>
                         <z>0</z>
                         <width>512.917297363</width>
@@ -1372,8 +1732,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8756</x>
-                        <y>3477</y>
+                        <x>8722.0859375</x>
+                        <y>3473.801269531</y>
                         <z>0</z>
                         <width>-514</width>
                         <height>591</height>
@@ -1980,10 +2340,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>13936</x>
-                        <y>7032</y>
+                        <y>6865.5</y>
                         <z>0</z>
                         <width>474</width>
-                        <height>326</height>
+                        <height>659</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -2117,8 +2477,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>13921</x>
-                        <y>6568</y>
+                        <x>13972</x>
+                        <y>6135</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -2925,178 +3285,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Cave" uid="396">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.1</hue>
-                                <luminosity>0.7</luminosity>
-                                <saturation>0.3</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8391</x>
-                        <y>4091</y>
-                        <z>0</z>
-                        <width>-514</width>
-                        <height>591</height>
-                        <depth>0</depth>
-                        <hotspotX>0.445297509</hotspotX>
-                        <hotspotY>0.751666665</hotspotY>
-                        <angle>0.254795253</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Plank" uid="398">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <corectness>true</corectness>
-                    </instance-variables>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>0</hue>
-                                <luminosity>0.9</luminosity>
-                                <saturation>1</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9528</x>
-                        <y>3896</y>
-                        <z>0</z>
-                        <width>144.996551514</width>
-                        <height>144.996551514</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>-1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Plank" uid="399">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <corectness>false</corectness>
-                    </instance-variables>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>0</hue>
-                                <luminosity>0.9</luminosity>
-                                <saturation>1</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9536</x>
-                        <y>3378</y>
-                        <z>0</z>
-                        <width>144.457611084</width>
-                        <height>144.457611084</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>1.570796371</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite6" uid="400">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9487</x>
-                        <y>3337</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite6" uid="401">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9483</x>
-                        <y>3862</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BigPlatform" uid="405">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8792</x>
-                        <y>4386</y>
-                        <z>0</z>
-                        <width>475</width>
-                        <height>204</height>
-                        <depth>0</depth>
-                        <hotspotX>0.859929085</hotspotX>
-                        <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BigPlatform" uid="411">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3188,66 +3376,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlankResponse" uid="416">
-                    <properties>
-                        <text>Pez</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <correctness>false</correctness>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9500</x>
-                        <y>3364</y>
-                        <z>0</z>
-                        <width>92.950195313</width>
-                        <height>37.375976563</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PlankResponse" uid="417">
-                    <properties>
-                        <text>2</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-27,400,0</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <correctness>false</correctness>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9518</x>
-                        <y>3877</y>
-                        <z>0</z>
-                        <width>41.252929688</width>
-                        <height>37.375976563</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BigPlatform" uid="419">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3306,28 +3434,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Up_Arrow" uid="421">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10128</x>
-                        <y>3295</y>
-                        <z>0</z>
-                        <width>67.577018738</width>
-                        <height>59.250911713</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504297972</hotspotX>
-                        <hotspotY>0.503268003</hotspotY>
-                        <angle>3.141592741</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="NeutralTrigger" uid="422">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -3375,28 +3481,6 @@
                         <hotspotX>1</hotspotX>
                         <hotspotY>1</hotspotY>
                         <angle>-0.000071514</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite6" uid="445">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>10009</x>
-                        <y>3706</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
-                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -3567,82 +3651,6 @@
                         <hotspotX>0.075000003</hotspotX>
                         <hotspotY>1.156507373</hotspotY>
                         <angle>-0.305181801</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="HalfCave" uid="408">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.1</hue>
-                                <luminosity>0.7</luminosity>
-                                <saturation>0.3</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8699</x>
-                        <y>3707</y>
-                        <z>0</z>
-                        <width>-359</width>
-                        <height>563</height>
-                        <depth>0</depth>
-                        <hotspotX>0.075000003</hotspotX>
-                        <hotspotY>1.156507373</hotspotY>
-                        <angle>0.349205077</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="HalfCave" uid="402">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.1</hue>
-                                <luminosity>0.7</luminosity>
-                                <saturation>0.3</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8406</x>
-                        <y>4325</y>
-                        <z>0</z>
-                        <width>-359</width>
-                        <height>563</height>
-                        <depth>0</depth>
-                        <hotspotX>0.075000003</hotspotX>
-                        <hotspotY>1.156507373</hotspotY>
-                        <angle>0.177816555</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -4276,44 +4284,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="403">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.3</hue>
-                                <luminosity>1</luminosity>
-                                <saturation>0.5</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8676</x>
-                        <y>3390</y>
-                        <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
-                        <depth>0</depth>
-                        <hotspotX>0.49851191</hotspotX>
-                        <hotspotY>-1.205357194</hotspotY>
-                        <angle>-0.028898869</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Big_Mossy_Platform" uid="404">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -4734,169 +4704,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="418">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8352</x>
-                        <y>4385</y>
-                        <z>0</z>
-                        <width>475</width>
-                        <height>204</height>
-                        <depth>0</depth>
-                        <hotspotX>0.859929085</hotspotX>
-                        <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Big_Mossy_Platform" uid="407">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.3</hue>
-                                <luminosity>1</luminosity>
-                                <saturation>0.5</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8655</x>
-                        <y>3430</y>
-                        <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
-                        <depth>0</depth>
-                        <hotspotX>0.49851191</hotspotX>
-                        <hotspotY>-1.205357194</hotspotY>
-                        <angle>3.140016794</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Big_Mossy_Platform" uid="424">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>-0.3</hue>
-                                <luminosity>1</luminosity>
-                                <saturation>0.5</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8206</x>
-                        <y>3435</y>
-                        <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
-                        <depth>0</depth>
-                        <hotspotX>0.49851191</hotspotX>
-                        <hotspotY>-1.205357194</hotspotY>
-                        <angle>-0.028898869</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BigPlatform" uid="425">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8244</x>
-                        <y>3824</y>
-                        <z>0</z>
-                        <width>475</width>
-                        <height>204</height>
-                        <depth>0</depth>
-                        <hotspotX>0.859929085</hotspotX>
-                        <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BigPlatform" uid="406">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>8714</x>
-                        <y>3779</y>
-                        <z>0</z>
-                        <width>475</width>
-                        <height>204</height>
-                        <depth>0</depth>
-                        <hotspotX>0.859929085</hotspotX>
-                        <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="BigPlatform" uid="82">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -4916,35 +4723,6 @@
                     <world>
                         <x>15948</x>
                         <y>7567</y>
-                        <z>0</z>
-                        <width>475</width>
-                        <height>204</height>
-                        <depth>0</depth>
-                        <hotspotX>0.859929085</hotspotX>
-                        <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BigPlatform" uid="409">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9158</x>
-                        <y>3779</y>
                         <z>0</z>
                         <width>475</width>
                         <height>204</height>
@@ -4984,50 +4762,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="461">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>15211</x>
-                        <y>1124</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite6" uid="462">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>15021</x>
-                        <y>898</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
-                        <angle>0.705894887</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Sprite6" uid="465">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5047,28 +4781,6 @@
                         <hotspotX>0.522727251</hotspotX>
                         <hotspotY>0.552845538</hotspotY>
                         <angle>-0.763742208</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Tutorial_Up_Arrow" uid="466">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>15089</x>
-                        <y>687</y>
-                        <z>0</z>
-                        <width>67.577018738</width>
-                        <height>59.250911713</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504297972</hotspotX>
-                        <hotspotY>0.503268003</hotspotY>
-                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -5304,31 +5016,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ChallengeTrigger" uid="478">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <challengeId>1</challengeId>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>15202</x>
-                        <y>1102</y>
-                        <z>0</z>
-                        <width>228</width>
-                        <height>250</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="HalfCave" uid="479">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -5355,7 +5042,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>16613</x>
+                        <x>16602</x>
                         <y>1195</y>
                         <z>0</z>
                         <width>353.291931152</width>
@@ -5393,7 +5080,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>16678</x>
+                        <x>16659</x>
                         <y>1811</y>
                         <z>0</z>
                         <width>353.291931152</width>
@@ -6238,11 +5925,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7894</x>
-                        <y>7176</y>
+                        <x>7893.846191406</x>
+                        <y>7238.104492188</y>
                         <z>0</z>
-                        <width>22.315912247</width>
-                        <height>133.895477295</height>
+                        <width>22</width>
+                        <height>196</height>
                         <depth>0</depth>
                         <hotspotX>1</hotspotX>
                         <hotspotY>1</hotspotY>
@@ -6449,28 +6136,6 @@
                         <depth>0</depth>
                         <hotspotX>0.859929085</hotspotX>
                         <hotspotY>1.353561997</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Sprite6" uid="534">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5791</x>
-                        <y>862</y>
-                        <z>0</z>
-                        <width>24.111024857</width>
-                        <height>67.401275635</height>
-                        <depth>0</depth>
-                        <hotspotX>0.522727251</hotspotX>
-                        <hotspotY>0.552845538</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -12080,6 +11745,366 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="HalfCave" uid="408">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.1</hue>
+                                <luminosity>0.7</luminosity>
+                                <saturation>0.3</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8699</x>
+                        <y>3707</y>
+                        <z>0</z>
+                        <width>-359</width>
+                        <height>563</height>
+                        <depth>0</depth>
+                        <hotspotX>0.075000003</hotspotX>
+                        <hotspotY>1.156507373</hotspotY>
+                        <angle>0.349205077</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Big_Mossy_Platform" uid="403">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.3</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.5</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8676</x>
+                        <y>3390</y>
+                        <z>0</z>
+                        <width>758.35345459</width>
+                        <height>168.522994995</height>
+                        <depth>0</depth>
+                        <hotspotX>0.49851191</hotspotX>
+                        <hotspotY>-1.205357194</hotspotY>
+                        <angle>-0.028898869</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Big_Mossy_Platform" uid="407">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.3</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.5</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8655</x>
+                        <y>3430</y>
+                        <z>0</z>
+                        <width>758.35345459</width>
+                        <height>168.522994995</height>
+                        <depth>0</depth>
+                        <hotspotX>0.49851191</hotspotX>
+                        <hotspotY>-1.205357194</hotspotY>
+                        <angle>3.140016794</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BigPlatform" uid="409">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9158</x>
+                        <y>3779</y>
+                        <z>0</z>
+                        <width>475</width>
+                        <height>204</height>
+                        <depth>0</depth>
+                        <hotspotX>0.859929085</hotspotX>
+                        <hotspotY>1.353561997</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HalfCave" uid="402">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.1</hue>
+                                <luminosity>0.7</luminosity>
+                                <saturation>0.3</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8427</x>
+                        <y>4325</y>
+                        <z>0</z>
+                        <width>-359</width>
+                        <height>563</height>
+                        <depth>0</depth>
+                        <hotspotX>0.075000003</hotspotX>
+                        <hotspotY>1.156507373</hotspotY>
+                        <angle>0.177816555</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Big_Mossy_Platform" uid="424">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>-0.3</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.5</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8206</x>
+                        <y>3435</y>
+                        <z>0</z>
+                        <width>758.35345459</width>
+                        <height>168.522994995</height>
+                        <depth>0</depth>
+                        <hotspotX>0.49851191</hotspotX>
+                        <hotspotY>-1.205357194</hotspotY>
+                        <angle>-0.028898869</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BigPlatform" uid="425">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8244</x>
+                        <y>3824</y>
+                        <z>0</z>
+                        <width>475</width>
+                        <height>204</height>
+                        <depth>0</depth>
+                        <hotspotX>0.859929085</hotspotX>
+                        <hotspotY>1.353561997</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BigPlatform" uid="406">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8714</x>
+                        <y>3779</y>
+                        <z>0</z>
+                        <width>475</width>
+                        <height>204</height>
+                        <depth>0</depth>
+                        <hotspotX>0.859929085</hotspotX>
+                        <hotspotY>1.353561997</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BigPlatform" uid="405">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8792</x>
+                        <y>4386</y>
+                        <z>0</z>
+                        <width>475</width>
+                        <height>204</height>
+                        <depth>0</depth>
+                        <hotspotX>0.859929085</hotspotX>
+                        <hotspotY>1.353561997</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BigPlatform" uid="418">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8352</x>
+                        <y>4385</y>
+                        <z>0</z>
+                        <width>475</width>
+                        <height>204</height>
+                        <depth>0</depth>
+                        <hotspotX>0.859929085</hotspotX>
+                        <hotspotY>1.353561997</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Tutorial_Message_Trigger" uid="812">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <tutorial_dialog>0</tutorial_dialog>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>7379</x>
+                        <y>7210</y>
+                        <z>0</z>
+                        <width>22</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>1</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>-0.000071514</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -15834,6 +15859,28 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="ColorBarBG" uid="811">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1115.099609375</x>
+                        <y>59.149196625</y>
+                        <z>0</z>
+                        <width>183.427856445</width>
+                        <height>36.209068298</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Message_Box" uid="90">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -15859,8 +15906,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>687</x>
-                        <y>52</y>
+                        <x>661</x>
+                        <y>684</y>
                         <z>0</z>
                         <width>893</width>
                         <height>44</height>
@@ -15890,14 +15937,231 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>304</x>
-                        <y>26</y>
+                        <x>243</x>
+                        <y>658</y>
                         <z>0</z>
                         <width>831</width>
                         <height>65</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="ColorBar" uid="809">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.7</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1171.873291016</x>
+                        <y>100</y>
+                        <z>0</z>
+                        <width>199.102554321</width>
+                        <height>39.286174774</height>
+                        <depth>0</depth>
+                        <hotspotX>0.769911528</hotspotX>
+                        <hotspotY>1.521126747</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HealthBar" uid="810">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.7</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1183</x>
+                        <y>104</y>
+                        <z>0</z>
+                        <width>276.250305176</width>
+                        <height>86.839508057</height>
+                        <depth>0</depth>
+                        <hotspotX>0.653758526</hotspotX>
+                        <hotspotY>1.01449275</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Pausar" uid="813">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>647</x>
+                        <y>401</y>
+                        <z>0</z>
+                        <width>457</width>
+                        <height>480</height>
+                        <depth>0</depth>
+                        <hotspotX>0.501094103</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Continuar" uid="814">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>651</x>
+                        <y>293</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Reiniciar" uid="815">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>650</x>
+                        <y>380</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Salir" uid="816">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>654</x>
+                        <y>461</y>
+                        <z>0</z>
+                        <width>150</width>
+                        <height>75</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PausaBtn" uid="821">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1186</x>
+                        <y>674</y>
+                        <z>0</z>
+                        <width>246.027236938</width>
+                        <height>119.498954773</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
