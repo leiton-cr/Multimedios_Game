@@ -2477,8 +2477,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>13972</x>
-                        <y>6135</y>
+                        <x>16080</x>
+                        <y>7214</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -15918,7 +15918,7 @@
                         <opacity>0.949999988</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Text" uid="872">
+                <instance type="Message_Text" uid="872">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -15968,14 +15968,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1171.873291016</x>
-                        <y>100</y>
+                        <x>1220</x>
+                        <y>58</y>
                         <z>0</z>
-                        <width>199.102554321</width>
+                        <width>200</width>
                         <height>39.286174774</height>
                         <depth>0</depth>
-                        <hotspotX>0.769911528</hotspotX>
-                        <hotspotY>1.521126747</hotspotY>
+                        <hotspotX>1</hotspotX>
+                        <hotspotY>0.436619729</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -15999,8 +15999,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1183</x>
-                        <y>104</y>
+                        <x>1176.958374023</x>
+                        <y>104.026824951</y>
                         <z>0</z>
                         <width>276.250305176</width>
                         <height>86.839508057</height>
@@ -16011,7 +16011,84 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Pausar" uid="875">
+                <instance type="PausaBtn" uid="875">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1186</x>
+                        <y>674</y>
+                        <z>0</z>
+                        <width>246.027236938</width>
+                        <height>119.498954773</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HPText" uid="1065">
+                    <properties>
+                        <text>3/3</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-24,400,0</font>
+                        <color>210,210,210</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1097.510131836</x>
+                        <y>47.143917084</y>
+                        <z>0</z>
+                        <width>48.907470703</width>
+                        <height>32.698108673</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+            </instances>
+            <effects />
+        </layer>
+        <layer name="PauseMenu" sid="951990776698660">
+            <initially-visible>1</initially-visible>
+            <background-color>255,255,255</background-color>
+            <transparent>1</transparent>
+            <parallax>
+                <x>0</x>
+                <y>0</y>
+            </parallax>
+            <zoom-rate>1</zoom-rate>
+            <opacity>1</opacity>
+            <force-own-texture>0</force-own-texture>
+            <global>0</global>
+            <use-render-cells>0</use-render-cells>
+            <blend-mode>0</blend-mode>
+            <effect-fallback>0</effect-fallback>
+            <instances>
+                <instance type="Pausar" uid="876">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16042,7 +16119,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Continuar" uid="876">
+                <instance type="Continuar" uid="877">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16073,7 +16150,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Reiniciar" uid="877">
+                <instance type="Reiniciar" uid="878">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16104,7 +16181,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Salir" uid="878">
+                <instance type="Salir" uid="879">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16128,37 +16205,6 @@
                         <z>0</z>
                         <width>150</width>
                         <height>75</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PausaBtn" uid="879">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>0</hue>
-                                <luminosity>0.8</luminosity>
-                                <saturation>1</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1186</x>
-                        <y>674</y>
-                        <z>0</z>
-                        <width>246.027236938</width>
-                        <height>119.498954773</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

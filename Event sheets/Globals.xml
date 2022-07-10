@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Globals</name>
     <events>
+        <variable constant="0" name="Life" sid="687313860960077" static="0" type="number">3</variable>
         <comment>El juego se encuentra o no en pausa</comment>
         <variable constant="0" name="Paused" sid="466193315718009" static="0" type="number">0</variable>
         <comment>Identificador de nivel para dialogos, actualizar en cada inicio de layout para hacer la peticion correcta.</comment>
@@ -27,6 +28,18 @@
                 <action id="5" name="Set web font" sid="413898207148192" type="LuckiestGuy">
                     <param id="0" name="Family name">&quot;luckiest_guyregular&quot;</param>
                     <param id="1" name="CSS URL">&quot;LuckiestGuy.css&quot;</param>
+                </action>
+                <action id="-9" name="Set value" sid="504005942434011" type="System">
+                    <param id="0" name="Variable">Paused</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="410492263137642" type="System">
+                    <param id="0" name="Variable">Lighty</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="671445108598961" type="System">
+                    <param id="0" name="Variable">Life</param>
+                    <param id="1" name="Value">3</param>
                 </action>
             </actions>
         </event-block>
@@ -173,8 +186,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="544573298412762" type="Tutorial_Message_Text">
-                            <param id="0" name="Text">left(Tutorial_Message_Text.Message_dialog, len(Tutorial_Message_Text.Text)+1)</param>
+                        <action id="0" name="Set text" sid="544573298412762" type="Message_Text">
+                            <param id="0" name="Text">left(Message_Text.Message_dialog, len(Message_Text.Text)+1)</param>
                         </action>
                     </actions>
                 </event-block>
@@ -185,10 +198,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="825281335954008" type="Tutorial_Message_Text">
+                        <action id="0" name="Set text" sid="825281335954008" type="Message_Text">
                             <param id="0" name="Text">&quot;&quot;</param>
                         </action>
-                        <action id="-10" name="Set value" sid="439170500202926" type="Tutorial_Message_Text">
+                        <action id="-10" name="Set value" sid="439170500202926" type="Message_Text">
                             <param id="0" name="Instance variable">Message_dialog</param>
                             <param id="1" name="Value">xml.StringValue(&quot;/dialogs/&quot;&amp;Actual_level&amp;&quot;/hint[@id=&apos;&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
                         </action>
@@ -201,10 +214,10 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="0" name="Set text" sid="986771012151713" type="Tutorial_Message_Text">
+                        <action id="0" name="Set text" sid="986771012151713" type="Message_Text">
                             <param id="0" name="Text">&quot;&quot;</param>
                         </action>
-                        <action id="-10" name="Set value" sid="773515324603386" type="Tutorial_Message_Text">
+                        <action id="-10" name="Set value" sid="773515324603386" type="Message_Text">
                             <param id="0" name="Instance variable">Message_dialog</param>
                             <param id="1" name="Value">Function.Param(0)</param>
                         </action>
@@ -271,6 +284,151 @@
                     <actions>
                         <action id="-16" name="Set opacity" sid="388257220380503" type="Message_Box">
                             <param id="0" name="Opacity">lerp(Self.Opacity,0,0.05)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="975913840882896" title="Pause System">
+            <sub-events>
+                <event-block sid="753987855386647">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="498521630260143" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">PausaBtn</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="517069144032013" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="400914964147095">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="797549770014756" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="324867429309015" type="System">
+                            <param id="0" name="Layer">&quot;PauseMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="880619744705415" type="PausaBtn">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="721540727271890" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="862146345877037">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="440637184054487" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="484507079277834" type="System">
+                            <param id="0" name="Layer">&quot;PauseMenu&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="506147304659696" type="PausaBtn">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="279365769955229" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="158265646251918">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="150294469404654" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Continuar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="299158127045215" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="576540629501511">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="877358269664093" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Reiniciar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="380009487744830" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="306772326545966" title="LifeBar">
+            <sub-events>
+                <event-block sid="446248463438120">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="244551932067942" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-5" name="Set width" sid="575808610343969" type="ColorBar">
+                            <param id="0" name="Width">lerp(Self.Width, Life*66,0.05)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="621159050296166">
+                    <conditions>
+                        <condition id="0" name="On function" sid="946110600691820" type="Function">
+                            <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="640143775469654" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="752994641814062" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Play" sid="765670879114846" type="Audio">
+                            <param id="0" name="Audio file">oh oh</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="122051261808541" type="HPText">
+                            <param id="0" name="Text">Life&amp;&quot;/3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="821182973717873">
+                    <conditions>
+                        <condition id="0" name="On function" sid="381367695603339" type="Function">
+                            <param id="0" name="Name">&quot;LifeUp&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="579093964111642" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Set text" sid="668498601929790" type="HPText">
+                            <param id="0" name="Text">Life&amp;&quot;/3&quot;</param>
                         </action>
                     </actions>
                 </event-block>
