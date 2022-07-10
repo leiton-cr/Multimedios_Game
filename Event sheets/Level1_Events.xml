@@ -60,16 +60,5 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="757421530857582">
-            <conditions>
-                <condition id="-9" name="Is visible" sid="973435643702355" type="CatacombsPlant" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="842792681048861" type="CatacombsPlant">
-                    <param id="0" name="Animation">&quot;catacombPlant&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
     </events>
 </c2eventsheet>

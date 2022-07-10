@@ -2870,43 +2870,6 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="CatacombsPlant" sid="326590425700544">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="30" loop="0" name="catacombPlant" pingpong="0" repeatcount="1" repeatto="0" sid="113327589513500" speed="5">
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00000.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00001.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00002.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00003.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00004.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00005.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00006.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00007.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00008.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00009.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00010.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00011.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00012.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00013.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00014.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00015.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00016.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00017.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00018.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00019.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00020.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00021.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00022.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00023.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00024.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00025.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00026.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00027.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00028.png" />
-                            <frame duration="1" hotspotX="-1.#IND" hotspotY="-1.#IND" original-source="E:\Descargas\Juego\Assets Escenarios\Vegetación\Grass3\Comp 1_00029.png" />
-                        </animation>
-                    </animation-folder>
-                </object-type>
                 <object-type name="GiantRock" sid="355769716675932">
                     <plugin id="Sprite" />
                     <behaviors>
