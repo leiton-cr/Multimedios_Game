@@ -1777,7 +1777,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="340">
+                <instance type="BigPlatform" uid="368">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1806,7 +1806,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Roca" uid="339">
+                <instance type="Roca" uid="369">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1844,7 +1844,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Cave" uid="332">
+                <instance type="Cave" uid="370">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1875,7 +1875,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Cave" uid="330">
+                <instance type="Cave" uid="371">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1906,7 +1906,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Plank" uid="83">
+                <instance type="Plank" uid="372">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1940,7 +1940,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Plank" uid="84">
+                <instance type="Plank" uid="373">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1974,7 +1974,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="367">
+                <instance type="Sprite6" uid="374">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1996,7 +1996,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="370">
+                <instance type="Sprite6" uid="375">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2018,7 +2018,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="363">
+                <instance type="Sprite6" uid="376">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2040,7 +2040,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="364">
+                <instance type="Sprite6" uid="377">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2062,7 +2062,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="359">
+                <instance type="Sprite6" uid="378">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2084,7 +2084,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Up_Arrow" uid="371">
+                <instance type="Tutorial_Up_Arrow" uid="379">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2106,7 +2106,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="80">
+                <instance type="BigPlatform" uid="380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2135,7 +2135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="81">
+                <instance type="BigPlatform" uid="381">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2164,7 +2164,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="325">
+                <instance type="BigPlatform" uid="382">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2193,7 +2193,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="334">
+                <instance type="BigPlatform" uid="383">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2222,7 +2222,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="335">
+                <instance type="BigPlatform" uid="384">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2251,7 +2251,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="341">
+                <instance type="Tutorial_Message_Trigger" uid="385">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2276,7 +2276,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="342">
+                <instance type="Tutorial_Message_Trigger" uid="386">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2301,7 +2301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="344">
+                <instance type="Tutorial_Message_Trigger" uid="387">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2326,7 +2326,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="346">
+                <instance type="NeutralTrigger" uid="388">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2351,7 +2351,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="347">
+                <instance type="BigPlatform" uid="389">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2380,7 +2380,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="348">
+                <instance type="NeutralTrigger" uid="390">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2405,7 +2405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Ligthy" uid="86">
+                <instance type="Ligthy" uid="391">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2442,7 +2442,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player" uid="76">
+                <instance type="Player" uid="392">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2489,7 +2489,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="349">
+                <instance type="Tutorial_Message_Trigger" uid="393">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2514,7 +2514,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="351">
+                <instance type="Wrapper" uid="394">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2547,7 +2547,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="352">
+                <instance type="Wrapper" uid="395">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2580,7 +2580,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="357">
+                <instance type="NeutralTrigger" uid="402">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2605,7 +2605,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="358">
+                <instance type="Tutorial_Message_Trigger" uid="403">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2630,7 +2630,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_LeftRight_Arrow" uid="353">
+                <instance type="Tutorial_LeftRight_Arrow" uid="404">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2652,7 +2652,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlankResponse" uid="365">
+                <instance type="PlankResponse" uid="405">
                     <properties>
                         <text>Pez</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -2682,7 +2682,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlankResponse" uid="366">
+                <instance type="PlankResponse" uid="406">
                     <properties>
                         <text>2</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -2712,7 +2712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="372">
+                <instance type="Sprite6" uid="407">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2734,7 +2734,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="374">
+                <instance type="Sprite6" uid="408">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2756,7 +2756,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ChallengeTrigger" uid="377">
+                <instance type="ChallengeTrigger" uid="409">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2781,7 +2781,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="380">
+                <instance type="NeutralTrigger" uid="410">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2806,7 +2806,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="381">
+                <instance type="Tutorial_Message_Trigger" uid="411">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2831,7 +2831,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform1" uid="384">
+                <instance type="MovingPlatform1" uid="412">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2873,7 +2873,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform1" uid="382">
+                <instance type="MovingPlatform1" uid="413">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2915,7 +2915,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="385">
+                <instance type="FallingPlatform" uid="414">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2944,7 +2944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="383">
+                <instance type="FallingPlatform" uid="418">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -2973,7 +2973,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="386">
+                <instance type="FallingPlatform" uid="419">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3002,7 +3002,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform1" uid="387">
+                <instance type="MovingPlatform1" uid="420">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3044,7 +3044,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform1" uid="389">
+                <instance type="MovingPlatform1" uid="422">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3086,7 +3086,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="390">
+                <instance type="FallingPlatform" uid="423">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3115,7 +3115,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="391">
+                <instance type="FallingPlatform" uid="424">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3144,7 +3144,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="392">
+                <instance type="FallingPlatform" uid="425">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3173,7 +3173,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="393">
+                <instance type="FallingPlatform" uid="428">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3202,7 +3202,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FallingPlatform" uid="394">
+                <instance type="FallingPlatform" uid="429">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3231,7 +3231,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="388">
+                <instance type="BigPlatform" uid="430">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3260,7 +3260,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ChallengeTrigger" uid="395">
+                <instance type="ChallengeTrigger" uid="431">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3285,7 +3285,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="411">
+                <instance type="BigPlatform" uid="432">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3314,7 +3314,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="412">
+                <instance type="BigPlatform" uid="433">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3343,7 +3343,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="414">
+                <instance type="Wrapper" uid="434">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3376,7 +3376,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="419">
+                <instance type="BigPlatform" uid="435">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3405,7 +3405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="420">
+                <instance type="BigPlatform" uid="436">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3434,7 +3434,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="422">
+                <instance type="NeutralTrigger" uid="437">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3459,7 +3459,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="423">
+                <instance type="Tutorial_Message_Trigger" uid="438">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3578,7 +3578,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="331">
+                <instance type="HalfCave" uid="439">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3616,7 +3616,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="333">
+                <instance type="HalfCave" uid="440">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3676,7 +3676,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="343">
+                <instance type="Big_Mossy_Platform" uid="441">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3714,7 +3714,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="327">
+                <instance type="Big_Mossy_Platform" uid="442">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3752,7 +3752,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="78">
+                <instance type="Big_Mossy_Platform" uid="443">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3790,7 +3790,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="85">
+                <instance type="Big_Mossy_Platform" uid="444">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3828,7 +3828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="338">
+                <instance type="Big_Mossy_Platform" uid="447">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3866,7 +3866,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="337">
+                <instance type="Medium_Mossy_Platform_Through" uid="449">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3904,7 +3904,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="77">
+                <instance type="Medium_Mossy_Platform_Through" uid="450">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3942,7 +3942,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="345">
+                <instance type="Big_Mossy_Platform" uid="451">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -3980,7 +3980,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="336">
+                <instance type="Medium_Mossy_Platform_Through" uid="452">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4018,7 +4018,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="139">
+                <instance type="Big_Mossy_Platform" uid="455">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4056,7 +4056,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="355">
+                <instance type="Big_Mossy_Platform" uid="465">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4094,7 +4094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="356">
+                <instance type="Big_Mossy_Platform" uid="468">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4132,7 +4132,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="376">
+                <instance type="Big_Mossy_Platform" uid="469">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4170,7 +4170,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="350">
+                <instance type="Big_Mossy_Platform" uid="470">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4208,7 +4208,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="378">
+                <instance type="Big_Mossy_Platform" uid="471">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4246,7 +4246,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="379">
+                <instance type="Big_Mossy_Platform" uid="472">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4284,7 +4284,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="404">
+                <instance type="Big_Mossy_Platform" uid="473">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4322,7 +4322,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="413">
+                <instance type="Big_Mossy_Platform" uid="474">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4360,7 +4360,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="428">
+                <instance type="Big_Mossy_Platform" uid="475">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4398,7 +4398,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="429">
+                <instance type="BigPlatform" uid="479">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4427,7 +4427,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="450">
+                <instance type="Big_Mossy_Platform" uid="480">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4465,7 +4465,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="451">
+                <instance type="Big_Mossy_Platform" uid="481">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4503,7 +4503,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="452">
+                <instance type="Big_Mossy_Platform" uid="482">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4541,7 +4541,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="329">
+                <instance type="Big_Mossy_Platform" uid="483">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4579,7 +4579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="328">
+                <instance type="Big_Mossy_Platform" uid="484">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4617,7 +4617,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="326">
+                <instance type="BigPlatform" uid="485">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4646,7 +4646,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="323">
+                <instance type="BigPlatform" uid="486">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4675,7 +4675,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="324">
+                <instance type="BigPlatform" uid="487">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4704,7 +4704,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="82">
+                <instance type="BigPlatform" uid="488">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4733,7 +4733,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="410">
+                <instance type="BigPlatform" uid="489">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4762,7 +4762,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="465">
+                <instance type="Sprite6" uid="490">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4784,7 +4784,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="468">
+                <instance type="BigPlatform" uid="491">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4813,7 +4813,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="469">
+                <instance type="BigPlatform" uid="492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4842,7 +4842,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="470">
+                <instance type="BigPlatform" uid="493">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4871,7 +4871,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="471">
+                <instance type="BigPlatform" uid="494">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4900,7 +4900,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="472">
+                <instance type="NeutralTrigger" uid="495">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4925,7 +4925,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="473">
+                <instance type="Tutorial_Message_Trigger" uid="496">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4950,7 +4950,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="474">
+                <instance type="Wrapper" uid="497">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -4983,7 +4983,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="475">
+                <instance type="Wrapper" uid="498">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5016,7 +5016,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="479">
+                <instance type="HalfCave" uid="499">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5054,7 +5054,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="480">
+                <instance type="HalfCave" uid="500">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5092,7 +5092,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="481">
+                <instance type="Big_Mossy_Platform" uid="501">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5130,7 +5130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="482">
+                <instance type="Big_Mossy_Platform" uid="502">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5168,7 +5168,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="483">
+                <instance type="Big_Mossy_Platform" uid="503">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5206,7 +5206,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="484">
+                <instance type="Big_Mossy_Platform" uid="504">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5244,7 +5244,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="485">
+                <instance type="Big_Mossy_Platform" uid="505">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5282,7 +5282,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="486">
+                <instance type="BigPlatform" uid="506">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5311,7 +5311,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="487">
+                <instance type="BigPlatform" uid="507">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5340,7 +5340,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="488">
+                <instance type="BigPlatform" uid="508">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5369,7 +5369,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="489">
+                <instance type="BigPlatform" uid="509">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5398,7 +5398,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level2Bounding" uid="496">
+                <instance type="Level2Bounding" uid="510">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5420,7 +5420,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="498">
+                <instance type="BigPlatform" uid="512">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5449,7 +5449,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="499">
+                <instance type="BigPlatform" uid="513">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5478,7 +5478,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="500">
+                <instance type="BigPlatform" uid="514">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5507,7 +5507,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="501">
+                <instance type="Big_Mossy_Platform" uid="515">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5545,7 +5545,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="503">
+                <instance type="Big_Mossy_Platform" uid="516">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5583,7 +5583,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="504">
+                <instance type="Medium_Mossy_Platform_Through" uid="517">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5621,7 +5621,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="505">
+                <instance type="Medium_Mossy_Platform_Through" uid="519">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5659,7 +5659,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="506">
+                <instance type="Big_Mossy_Platform" uid="520">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5697,7 +5697,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="507">
+                <instance type="Medium_Mossy_Platform_Through" uid="526">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5735,7 +5735,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="508">
+                <instance type="Big_Mossy_Platform" uid="527">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5773,7 +5773,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="509">
+                <instance type="Big_Mossy_Platform" uid="528">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5811,7 +5811,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="510">
+                <instance type="Big_Mossy_Platform" uid="535">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5849,7 +5849,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="502">
+                <instance type="Big_Mossy_Platform" uid="536">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5887,7 +5887,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="512">
+                <instance type="Tutorial_Message_Trigger" uid="537">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5912,7 +5912,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="513">
+                <instance type="Tutorial_Message_Trigger" uid="538">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5937,7 +5937,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="514">
+                <instance type="BigPlatform" uid="539">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5966,7 +5966,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="517">
+                <instance type="BigPlatform" uid="540">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -5995,7 +5995,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="519">
+                <instance type="Wrapper" uid="541">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6028,7 +6028,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ChallengeTrigger" uid="520">
+                <instance type="ChallengeTrigger" uid="542">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6053,7 +6053,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="526">
+                <instance type="BigPlatform" uid="543">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6082,7 +6082,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="527">
+                <instance type="BigPlatform" uid="544">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6111,7 +6111,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="528">
+                <instance type="BigPlatform" uid="545">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6140,7 +6140,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="536">
+                <instance type="HalfCave" uid="546">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6178,7 +6178,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="537">
+                <instance type="Big_Mossy_Platform" uid="547">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6216,7 +6216,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="539">
+                <instance type="Big_Mossy_Platform" uid="548">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6254,7 +6254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="540">
+                <instance type="Big_Mossy_Platform" uid="549">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6292,7 +6292,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="541">
+                <instance type="BigPlatform" uid="550">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6321,7 +6321,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="542">
+                <instance type="Big_Mossy_Platform" uid="551">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6359,7 +6359,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="543">
+                <instance type="Big_Mossy_Platform" uid="552">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6397,7 +6397,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="544">
+                <instance type="BigPlatform" uid="554">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6426,7 +6426,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="545">
+                <instance type="BigPlatform" uid="555">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6455,7 +6455,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="552">
+                <instance type="Big_Mossy_Platform" uid="556">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6493,7 +6493,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="554">
+                <instance type="BigPlatform" uid="557">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6522,7 +6522,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="555">
+                <instance type="NeutralTrigger" uid="559">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6547,7 +6547,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="556">
+                <instance type="Tutorial_Message_Trigger" uid="560">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6572,7 +6572,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="NeutralTrigger" uid="557">
+                <instance type="NeutralTrigger" uid="561">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6597,7 +6597,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="516">
+                <instance type="BigPlatform" uid="562">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6626,7 +6626,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MovingPlatform1" uid="559">
+                <instance type="MovingPlatform1" uid="563">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6668,7 +6668,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="563">
+                <instance type="Sprite6" uid="564">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6690,7 +6690,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite6" uid="564">
+                <instance type="Sprite6" uid="565">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7947,7 +7947,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="535">
+                <instance type="HalfCave" uid="566">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7985,7 +7985,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="551">
+                <instance type="Big_Mossy_Platform" uid="613">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8023,7 +8023,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="538">
+                <instance type="Big_Mossy_Platform" uid="614">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8061,7 +8061,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="546">
+                <instance type="BigPlatform" uid="615">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8090,7 +8090,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="547">
+                <instance type="BigPlatform" uid="616">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8141,7 +8141,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level2Bounding" uid="515">
+                <instance type="Level2Bounding" uid="617">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -10280,7 +10280,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level2Bounding" uid="455">
+                <instance type="Level2Bounding" uid="621">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -10340,7 +10340,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level2Bounding" uid="495">
+                <instance type="Level2Bounding" uid="633">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -10809,7 +10809,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Level2Bounding" uid="497">
+                <instance type="Level2Bounding" uid="634">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11745,7 +11745,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="408">
+                <instance type="HalfCave" uid="635">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11783,7 +11783,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="403">
+                <instance type="Big_Mossy_Platform" uid="636">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11821,7 +11821,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="407">
+                <instance type="Big_Mossy_Platform" uid="637">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11859,7 +11859,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="409">
+                <instance type="BigPlatform" uid="638">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11888,7 +11888,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="402">
+                <instance type="HalfCave" uid="639">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11926,7 +11926,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="424">
+                <instance type="Big_Mossy_Platform" uid="693">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11964,7 +11964,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="425">
+                <instance type="BigPlatform" uid="694">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11993,7 +11993,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="406">
+                <instance type="BigPlatform" uid="695">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12022,7 +12022,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="405">
+                <instance type="BigPlatform" uid="696">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12051,7 +12051,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BigPlatform" uid="418">
+                <instance type="BigPlatform" uid="697">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12124,7 +12124,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Light" uid="79">
+                <instance type="Light" uid="698">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12146,7 +12146,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="360">
+                <instance type="TorchLight" uid="699">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12177,7 +12177,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="361">
+                <instance type="TorchLight" uid="700">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12208,7 +12208,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="362">
+                <instance type="TorchLight" uid="701">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12239,7 +12239,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="368">
+                <instance type="TorchLight" uid="702">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12270,7 +12270,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="369">
+                <instance type="TorchLight" uid="703">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12301,7 +12301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="373">
+                <instance type="TorchLight" uid="704">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12332,7 +12332,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="375">
+                <instance type="TorchLight" uid="705">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12363,7 +12363,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="430">
+                <instance type="TorchLight" uid="706">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12394,7 +12394,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="431">
+                <instance type="TorchLight" uid="707">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12425,7 +12425,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="432">
+                <instance type="TorchLight" uid="708">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12456,7 +12456,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="433">
+                <instance type="TorchLight" uid="709">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12487,7 +12487,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="434">
+                <instance type="TorchLight" uid="710">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12518,7 +12518,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="435">
+                <instance type="TorchLight" uid="711">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12549,7 +12549,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="436">
+                <instance type="TorchLight" uid="712">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12580,7 +12580,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="437">
+                <instance type="TorchLight" uid="713">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12611,7 +12611,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="438">
+                <instance type="TorchLight" uid="714">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12642,7 +12642,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="439">
+                <instance type="TorchLight" uid="715">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12673,7 +12673,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="440">
+                <instance type="TorchLight" uid="716">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12704,7 +12704,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="441">
+                <instance type="TorchLight" uid="717">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12735,7 +12735,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="442">
+                <instance type="TorchLight" uid="718">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12766,7 +12766,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="443">
+                <instance type="TorchLight" uid="719">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12797,7 +12797,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="444">
+                <instance type="TorchLight" uid="720">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12828,7 +12828,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="447">
+                <instance type="TorchLight" uid="721">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12859,7 +12859,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="449">
+                <instance type="TorchLight" uid="722">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12890,7 +12890,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="490">
+                <instance type="TorchLight" uid="723">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12921,7 +12921,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="491">
+                <instance type="TorchLight" uid="724">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12952,7 +12952,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="492">
+                <instance type="TorchLight" uid="725">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12983,7 +12983,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="493">
+                <instance type="TorchLight" uid="726">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13014,7 +13014,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="494">
+                <instance type="TorchLight" uid="727">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13045,7 +13045,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="548">
+                <instance type="TorchLight" uid="728">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13076,7 +13076,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="549">
+                <instance type="TorchLight" uid="730">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13107,7 +13107,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="550">
+                <instance type="TorchLight" uid="731">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13138,7 +13138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="560">
+                <instance type="TorchLight" uid="734">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13169,7 +13169,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="561">
+                <instance type="TorchLight" uid="772">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13200,7 +13200,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="562">
+                <instance type="TorchLight" uid="773">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13231,7 +13231,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="565">
+                <instance type="TorchLight" uid="774">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13262,7 +13262,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="566">
+                <instance type="TorchLight" uid="775">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13293,7 +13293,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="613">
+                <instance type="TorchLight" uid="776">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13324,7 +13324,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="614">
+                <instance type="TorchLight" uid="777">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13355,7 +13355,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="615">
+                <instance type="TorchLight" uid="778">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13386,7 +13386,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="616">
+                <instance type="TorchLight" uid="779">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13417,7 +13417,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="617">
+                <instance type="TorchLight" uid="780">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13448,7 +13448,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="621">
+                <instance type="TorchLight" uid="781">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13479,7 +13479,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="633">
+                <instance type="TorchLight" uid="782">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13510,7 +13510,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="634">
+                <instance type="TorchLight" uid="783">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13541,7 +13541,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="635">
+                <instance type="TorchLight" uid="784">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13572,7 +13572,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="636">
+                <instance type="TorchLight" uid="785">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13603,7 +13603,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="637">
+                <instance type="TorchLight" uid="786">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13634,7 +13634,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="638">
+                <instance type="TorchLight" uid="787">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13665,7 +13665,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="639">
+                <instance type="TorchLight" uid="788">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13696,7 +13696,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="693">
+                <instance type="TorchLight" uid="789">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13727,7 +13727,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="694">
+                <instance type="TorchLight" uid="790">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13758,7 +13758,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="695">
+                <instance type="TorchLight" uid="791">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13789,7 +13789,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="696">
+                <instance type="TorchLight" uid="792">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13820,7 +13820,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="697">
+                <instance type="TorchLight" uid="793">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13851,7 +13851,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="698">
+                <instance type="TorchLight" uid="794">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13882,7 +13882,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="699">
+                <instance type="TorchLight" uid="795">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13913,7 +13913,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="700">
+                <instance type="TorchLight" uid="796">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13944,7 +13944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="701">
+                <instance type="TorchLight" uid="797">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13975,7 +13975,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="702">
+                <instance type="TorchLight" uid="798">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14006,7 +14006,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="703">
+                <instance type="TorchLight" uid="799">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14037,7 +14037,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="704">
+                <instance type="TorchLight" uid="800">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14068,7 +14068,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="705">
+                <instance type="TorchLight" uid="801">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14099,7 +14099,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="706">
+                <instance type="TorchLight" uid="809">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14130,7 +14130,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="707">
+                <instance type="TorchLight" uid="810">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14161,7 +14161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="708">
+                <instance type="TorchLight" uid="811">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14192,7 +14192,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="709">
+                <instance type="TorchLight" uid="813">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14223,7 +14223,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="710">
+                <instance type="TorchLight" uid="814">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14254,7 +14254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="711">
+                <instance type="TorchLight" uid="815">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14285,7 +14285,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="712">
+                <instance type="TorchLight" uid="816">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14316,7 +14316,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="713">
+                <instance type="TorchLight" uid="821">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14347,7 +14347,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="714">
+                <instance type="TorchLight" uid="822">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14378,7 +14378,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="715">
+                <instance type="TorchLight" uid="823">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14409,7 +14409,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="716">
+                <instance type="TorchLight" uid="824">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14440,7 +14440,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="717">
+                <instance type="TorchLight" uid="825">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14471,7 +14471,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="718">
+                <instance type="TorchLight" uid="826">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14502,7 +14502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="719">
+                <instance type="TorchLight" uid="827">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14533,7 +14533,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="720">
+                <instance type="TorchLight" uid="828">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14564,7 +14564,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="721">
+                <instance type="TorchLight" uid="829">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14595,7 +14595,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="722">
+                <instance type="TorchLight" uid="830">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14626,7 +14626,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="723">
+                <instance type="TorchLight" uid="831">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14657,7 +14657,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="724">
+                <instance type="TorchLight" uid="832">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14688,7 +14688,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="725">
+                <instance type="TorchLight" uid="833">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14719,7 +14719,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="726">
+                <instance type="TorchLight" uid="834">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14750,7 +14750,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="727">
+                <instance type="TorchLight" uid="835">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14781,7 +14781,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="728">
+                <instance type="TorchLight" uid="836">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14812,7 +14812,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="730">
+                <instance type="TorchLight" uid="837">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14843,7 +14843,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="731">
+                <instance type="TorchLight" uid="838">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14874,7 +14874,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="734">
+                <instance type="TorchLight" uid="839">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14905,7 +14905,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="772">
+                <instance type="TorchLight" uid="840">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14936,7 +14936,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="773">
+                <instance type="TorchLight" uid="841">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14967,7 +14967,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="774">
+                <instance type="TorchLight" uid="842">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -14998,7 +14998,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="775">
+                <instance type="TorchLight" uid="843">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15029,7 +15029,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="776">
+                <instance type="TorchLight" uid="844">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15060,7 +15060,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="777">
+                <instance type="TorchLight" uid="845">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15091,7 +15091,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="778">
+                <instance type="TorchLight" uid="846">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15122,7 +15122,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="779">
+                <instance type="TorchLight" uid="847">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15153,7 +15153,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="780">
+                <instance type="TorchLight" uid="848">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15184,7 +15184,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="781">
+                <instance type="TorchLight" uid="849">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15215,7 +15215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="782">
+                <instance type="TorchLight" uid="850">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15246,7 +15246,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="783">
+                <instance type="TorchLight" uid="851">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15277,7 +15277,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="784">
+                <instance type="TorchLight" uid="852">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15308,7 +15308,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="785">
+                <instance type="TorchLight" uid="853">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15339,7 +15339,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="786">
+                <instance type="TorchLight" uid="854">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15370,7 +15370,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="787">
+                <instance type="TorchLight" uid="855">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15401,7 +15401,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="788">
+                <instance type="TorchLight" uid="856">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15432,7 +15432,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="789">
+                <instance type="TorchLight" uid="857">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15463,7 +15463,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="790">
+                <instance type="TorchLight" uid="858">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15494,7 +15494,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="791">
+                <instance type="TorchLight" uid="859">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15525,7 +15525,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="792">
+                <instance type="TorchLight" uid="860">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15556,7 +15556,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="793">
+                <instance type="TorchLight" uid="861">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15587,7 +15587,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="794">
+                <instance type="TorchLight" uid="862">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15618,7 +15618,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="795">
+                <instance type="TorchLight" uid="863">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15649,7 +15649,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="796">
+                <instance type="TorchLight" uid="864">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15680,7 +15680,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="797">
+                <instance type="TorchLight" uid="865">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15711,7 +15711,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="798">
+                <instance type="TorchLight" uid="866">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15742,7 +15742,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="799">
+                <instance type="TorchLight" uid="867">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15773,7 +15773,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="800">
+                <instance type="TorchLight" uid="868">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15804,7 +15804,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TorchLight" uid="801">
+                <instance type="TorchLight" uid="869">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15859,7 +15859,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ColorBarBG" uid="811">
+                <instance type="ColorBarBG" uid="870">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15881,7 +15881,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Message_Box" uid="90">
+                <instance type="Message_Box" uid="871">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15918,7 +15918,7 @@
                         <opacity>0.949999988</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Text" uid="140">
+                <instance type="Tutorial_Message_Text" uid="872">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -15949,7 +15949,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ColorBar" uid="809">
+                <instance type="ColorBar" uid="873">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -15980,7 +15980,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealthBar" uid="810">
+                <instance type="HealthBar" uid="874">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16011,7 +16011,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Pausar" uid="813">
+                <instance type="Pausar" uid="875">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16042,7 +16042,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Continuar" uid="814">
+                <instance type="Continuar" uid="876">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16073,7 +16073,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Reiniciar" uid="815">
+                <instance type="Reiniciar" uid="877">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16104,7 +16104,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Salir" uid="816">
+                <instance type="Salir" uid="878">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16135,7 +16135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PausaBtn" uid="821">
+                <instance type="PausaBtn" uid="879">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -16185,7 +16185,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground" uid="354">
+                <instance type="TiledBackground" uid="880">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
