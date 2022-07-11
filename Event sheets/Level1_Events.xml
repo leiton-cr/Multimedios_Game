@@ -3,60 +3,91 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level1_Events</name>
     <events>
-        <event-block sid="318464052125319">
+        <include>Globals</include>
+        <event-group description="" sid="822314725429825" title="Character">
+            <sub-events>
+                <event-block sid="318464052125319">
+                    <conditions>
+                        <condition behavior="Platform" id="7" name="On stopped" sid="290327438726413" type="SemillaNivel1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="834513064446597" type="SemillaNivel1">
+                            <param id="0" name="Animation">&quot;Static&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="620973067995815">
+                    <conditions>
+                        <condition behavior="Platform" id="8" name="On moved" sid="722713983215894" type="SemillaNivel1" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="822544181561456" type="SemillaNivel1">
+                            <param id="0" name="Animation">&quot;Walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="243320525276472">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="918051284535784" type="Keyboard">
+                            <param id="0" name="Key">37</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="707826906381726" type="SemillaNivel1">
+                            <param id="0" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="515515755828832">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="545667763957893" type="Keyboard">
+                            <param id="0" name="Key">39</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set mirrored" sid="286205896506756" type="SemillaNivel1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="836679201313928">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="822740164148500" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="13" name="Set double-jump" sid="630673452014663" type="SemillaNivel1">
+                            <param id="0" name="State">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="178288538711101" title="Enemies">
+            <sub-events>
+                <event-block sid="110803948444793">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
+                            <param id="0" name="Animation">&quot;poison&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="712619645923140" title="Questions" />
+        <event-block sid="692332742849182">
             <conditions>
-                <condition behavior="Platform" id="7" name="On stopped" sid="290327438726413" type="SemillaNivel1" />
+                <condition id="-2" name="On start of layout" sid="281288615692982" type="System" />
             </conditions>
             <actions>
-                <action id="4" name="Set animation" sid="834513064446597" type="SemillaNivel1">
-                    <param id="0" name="Animation">&quot;Static&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="620973067995815">
-            <conditions>
-                <condition behavior="Platform" id="8" name="On moved" sid="722713983215894" type="SemillaNivel1" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="822544181561456" type="SemillaNivel1">
-                    <param id="0" name="Animation">&quot;Walk&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="243320525276472">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="918051284535784" type="Keyboard">
-                    <param id="0" name="Key">37</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="7" name="Set mirrored" sid="707826906381726" type="SemillaNivel1">
-                    <param id="0" name="State">0</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="515515755828832">
-            <conditions>
-                <condition id="0" name="On key pressed" sid="545667763957893" type="Keyboard">
-                    <param id="0" name="Key">39</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="7" name="Set mirrored" sid="286205896506756" type="SemillaNivel1">
-                    <param id="0" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="110803948444793">
-            <conditions>
-                <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
-            </conditions>
-            <actions>
-                <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
-                    <param id="0" name="Animation">&quot;poison&quot;</param>
-                    <param id="1" name="From">1</param>
+                <action id="-9" name="Set value" sid="524893495311775" type="System">
+                    <param id="0" name="Variable">Actual_level</param>
+                    <param id="1" name="Value">&quot;levelOne&quot;</param>
                 </action>
             </actions>
         </event-block>

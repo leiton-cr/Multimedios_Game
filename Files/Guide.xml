@@ -12,6 +12,16 @@
         <hint id="10">Has fallado, escapas a un lugar seguro</hint>
         <hint id="11">Has acertado, puedes continuar</hint>
     </tutorial>
+	<levelOne>
+		<hint id="1">!Que oscuro está!</hint>
+		<hint id="2">Parece que puedes subir por aquí</hint>
+		<hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
+		<hint id="4">Tu respuesta es incorrecta</hint>
+        <hint id="5">Tu respuesta es correcta</hint>
+		<hint id="10">Te has perdido, vuelve para encontrar el camino</hint>
+        <hint id="11">Bien hecho. Continúa con cuidado</hint>
+        <hint id="13">Felicidades has logrado llegar a la salida.</hint>
+	</levelOne>
     <levelTwo>
         <hint id="1">Que oscuro está!</hint>
         <hint id="2">Parece que puedes subir por aquí</hint>
@@ -32,4 +42,5 @@
         <hint id="17">Finalmente has llegado a la ultima sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
     </levelTwo>
+	
 </dialogs>
