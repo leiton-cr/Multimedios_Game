@@ -3087,12 +3087,12 @@
                             <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600240791499265" speed="5">
                                 <frame duration="1" hotspotX="0.661236" hotspotY="1.37195" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Floor.png">
                                     <collision-poly>
-                                        <point x="0" y="0.219512" />
+                                        <point x="0.00135777" y="0.152439" />
                                         <point x="0.156144" y="0.146341" />
-                                        <point x="0.316022" y="0.121951" />
-                                        <point x="0.660558" y="0.243902" />
-                                        <point x="0.916496" y="0.292683" />
-                                        <point x="0.997284" y="0.414634" />
+                                        <point x="0.316022" y="0.146341" />
+                                        <point x="0.660558" y="0.158536" />
+                                        <point x="0.914459" y="0.256098" />
+                                        <point x="0.996605" y="0.323171" />
                                         <point x="1" y="0.817073" />
                                         <point x="0.417516" y="1" />
                                         <point x="0" y="0.804878" />
@@ -3813,15 +3813,53 @@
                             </animation>
                         </animation-folder>
                     </object-type>
+                    <object-type name="TorchLight2" sid="977457624495568">
+                        <plugin id="Sprite" />
+                        <effects>
+                            <effect-type name="AdjustHSL">
+                                <effect id="hsladjust" />
+                            </effect-type>
+                        </effects>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="992638089309525" speed="5">
+                                <frame duration="1" hotspotX="0.501779" hotspotY="0.52847" original-source="C:\Users\luisl\OneDrive\Desktop\Assets\Lalu.png">
+                                    <collision-poly>
+                                        <point x="0.501779" y="0.259786" />
+                                        <point x="0.738434" y="0.52847" />
+                                        <point x="0.501779" y="0.740214" />
+                                        <point x="0.261566" y="0.52847" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="GhostLayer" sid="230829600407665">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="11" loop="1" name="GhostMovement" pingpong="0" repeatcount="1" repeatto="0" sid="355556264794020" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_00.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_01.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_02.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_03.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_04.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_05.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_06.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_07.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_08.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_09.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\free game asset ghost sprites\skeleton-animation_10.png" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
                 </object-folder>
                 <object-type name="SemillaNivel1" sid="344711310009746">
                     <plugin id="Sprite" />
                     <behaviors>
-                        <behavior-type name="Platform" sid="555141002804269">
-                            <behavior id="Platform" />
-                        </behavior-type>
                         <behavior-type name="ScrollTo" sid="216493043743700">
                             <behavior id="scrollto" />
+                        </behavior-type>
+                        <behavior-type name="Platform" sid="555141002804269">
+                            <behavior id="Platform" />
                         </behavior-type>
                         <behavior-type name="Solid" sid="616493413936762">
                             <behavior id="solid" />
