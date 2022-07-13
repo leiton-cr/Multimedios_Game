@@ -45,5 +45,11 @@
         <hint id="17">Finalmente has llegado a la ultima sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
     </levelTwo>
+	<levelFour>
+		<hint id="1">¡Felicidades ganaste!</hint>
+		<hint id="2">Parece que puedes subir por aquí</hint>
+		<hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
+		<hint id="4">Tu respuesta es incorrecta</hint>
+	</levelFour>
 	
 </dialogs>

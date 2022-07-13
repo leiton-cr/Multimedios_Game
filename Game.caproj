@@ -5233,6 +5233,10 @@
                         <plugin id="TiledBg" />
                         <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\01_Mist.png" />
                     </object-type>
+                    <object-type name="DarknessLevel4" sid="841906325058112">
+                        <plugin id="TiledBg" />
+                        <texture />
+                    </object-type>
                 </object-folder>
             </object-folder>
         </object-folder>

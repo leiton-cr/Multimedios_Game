@@ -40,8 +40,20 @@
                         <condition id="-2" name="On start of layout" sid="773228809538706" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="615032063453224" type="System">
+                            <param id="0" name="Variable">Actual_level</param>
+                            <param id="1" name="Value">&quot;levelFour&quot;</param>
+                        </action>
                         <action behavior="Platform" id="13" name="Set double-jump" sid="305199699635019" type="Player">
                             <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="646890208935580" type="System">
+                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="840261447859806" type="System">
+                            <param id="0" name="Group name">&quot;Darkout3&quot;</param>
+                            <param id="1" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -67,6 +79,8 @@
         </event-group>
         <event-group description="" sid="600346684617201" title="LifePlayerForLevel4">
             <sub-events>
+                <variable constant="0" name="CheckpointX" sid="808532283637284" static="0" type="number">0</variable>
+                <variable constant="0" name="CheckpointY" sid="957527791792033" static="0" type="number">0</variable>
                 <event-block sid="781350111312254">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="456978585765176" type="System">
@@ -76,23 +90,20 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-16" name="Set opacity" sid="520416097298463" type="PausaBtn">
+                        <action id="-16" name="Set opacity" sid="879367290172100" type="PausaBtn">
                             <param id="0" name="Opacity">0</param>
                         </action>
-                        <action id="-12" name="Set group active" sid="789290464297864" type="System">
-                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                        <action id="-12" name="Set group active" sid="509593700490569" type="System">
+                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
-                        <action id="-3" name="Set position" sid="337719586837722" type="Player">
-                            <param id="0" name="X">72</param>
-                            <param id="1" name="Y">-62</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="965019599104562" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="-18" name="Set layer opacity" sid="829082915693854" type="System">
+                        <action id="-18" name="Set layer opacity" sid="829320943034039" type="System">
                             <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                             <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="827377462176180" type="Player">
+                            <param id="0" name="X">160</param>
+                            <param id="1" name="Y">14</param>
                         </action>
                     </actions>
                 </event-block>
@@ -105,25 +116,15 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-12" name="Set group active" sid="865261686753990" type="System">
-                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
-                            <param id="1" name="State">1</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="722259363738764" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="-12" name="Set group active" sid="347870222514998" type="System">
+                        <action id="-12" name="Set group active" sid="216220623004214" type="System">
                             <param id="0" name="Group name">&quot;Darkin3&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action id="-12" name="Set group active" sid="829960653214278" type="System">
+                        <action id="-12" name="Set group active" sid="931601723108284" type="System">
                             <param id="0" name="Group name">&quot;Darkout3&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
-                        <action id="-16" name="Wait" sid="987211494561886" type="System">
-                            <param id="0" name="Seconds">2</param>
-                        </action>
-                        <action id="-12" name="Set group active" sid="939753023649898" type="System">
+                        <action id="-12" name="Set group active" sid="570422098132525" type="System">
                             <param id="0" name="Group name">&quot;Darkout3&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>

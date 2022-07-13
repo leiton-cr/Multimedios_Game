@@ -8684,7 +8684,7 @@
                 <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
-            <opacity>0</opacity>
+            <opacity>1</opacity>
             <force-own-texture>0</force-own-texture>
             <global>0</global>
             <use-render-cells>0</use-render-cells>
@@ -8775,8 +8775,8 @@
                         <x>828</x>
                         <y>430</y>
                         <z>0</z>
-                        <width>150</width>
-                        <height>75</height>
+                        <width>211.494995117</width>
+                        <height>105.747001648</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
