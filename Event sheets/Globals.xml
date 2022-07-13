@@ -355,6 +355,11 @@
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">Continuar</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="717155969291780" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="299158127045215" type="System">
@@ -369,6 +374,11 @@
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">Reiniciar</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="898681944028217" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
