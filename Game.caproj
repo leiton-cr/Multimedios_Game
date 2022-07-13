@@ -3851,6 +3851,26 @@
                             </animation>
                         </animation-folder>
                     </object-type>
+                    <object-type name="WallCavern" sid="528983578509216">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Solid" sid="561971119377157">
+                                <behavior id="solid" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380632505237714" speed="5">
+                                <frame duration="1" hotspotX="4.61818" hotspotY="0.85913" original-source="E:\Descargas\Juego\Assets Escenarios\Rocas\Cave - Platforms.png">
+                                    <collision-poly>
+                                        <point x="0.886367" y="0" />
+                                        <point x="0.886364" y="1" />
+                                        <point x="0" y="1" />
+                                        <point x="0" y="0" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
                 </object-folder>
                 <object-type name="SemillaNivel1" sid="344711310009746">
                     <plugin id="Sprite" />
@@ -5084,8 +5104,76 @@
             </object-folder>
             <object-folder name="Level4">
                 <object-folder name="Boss" />
-                <object-folder name="Platforms" />
-                <object-folder name="Scenery" />
+                <object-folder name="Platforms">
+                    <object-type name="InvisibleLand" sid="571889517347315">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Solid" sid="714827940234784">
+                                <behavior id="solid" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="218852664492925" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="InvisibleWall" sid="785345840294507">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Solid" sid="689392322216180">
+                                <behavior id="solid" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382629685195793" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
+                <object-folder name="Scenery">
+                    <object-type name="BackgroundLight" sid="101454227186659">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\10_Sky.png" />
+                    </object-type>
+                    <object-type name="shrubbery" sid="531618072431365">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\09_Forest.png" />
+                    </object-type>
+                    <object-type name="BackgroundForest" sid="831750286905697">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\08_Forest.png" />
+                    </object-type>
+                    <object-type name="MiddleForest" sid="614473533372479">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\07_Forest.png" />
+                    </object-type>
+                    <object-type name="SecondFrontForest" sid="725517618243327">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\06_Forest.png" />
+                    </object-type>
+                    <object-type name="Sparks" sid="178999505114438">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\05_Particles.png" />
+                    </object-type>
+                    <object-type name="FrontForest" sid="227625118569214">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\04_Forest.png" />
+                    </object-type>
+                    <object-type name="Particles" sid="422768390643000">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\03_Particles.png" />
+                    </object-type>
+                    <object-type name="Bushes" sid="347646645874152">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\02_Bushes.png" />
+                    </object-type>
+                    <object-type name="Mist" sid="627309968023678">
+                        <plugin id="TiledBg" />
+                        <texture original-source="E:\Descargas\Juego\Assets Escenarios\Fondo\Parallax Forest Background - Blue\01_Mist.png" />
+                    </object-type>
+                </object-folder>
             </object-folder>
         </object-folder>
         <object-folder name="Enemies">
