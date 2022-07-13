@@ -3184,9 +3184,6 @@
                     <object-type name="GiantRock" sid="355769716675932">
                         <plugin id="Sprite" />
                         <behaviors>
-                            <behavior-type name="Solid" sid="149751691778898">
-                                <behavior id="solid" />
-                            </behavior-type>
                             <behavior-type name="Sine" sid="890888145790732">
                                 <behavior id="Sin" />
                             </behavior-type>
@@ -3871,6 +3868,34 @@
                             </animation>
                         </animation-folder>
                     </object-type>
+                    <object-type name="DarknessLevel1" sid="937998968526361">
+                        <plugin id="TiledBg" />
+                        <texture />
+                    </object-type>
+                    <object-type name="Door" sid="743385388864872">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Solid" sid="272779605969789">
+                                <behavior id="solid" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="808860372387282" speed="5">
+                                <frame duration="1" hotspotX="1.77027" hotspotY="1.95455" original-source="E:\Descargas\door.png">
+                                    <collision-poly>
+                                        <point x="0.0675676" y="0.287879" />
+                                        <point x="0.986486" y="0.0151515" />
+                                        <point x="0.986486" y="0.287879" />
+                                        <point x="0.986486" y="0.984848" />
+                                        <point x="0.986486" y="0.984848" />
+                                        <point x="0.986486" y="0.984848" />
+                                        <point x="0.0405405" y="0.984848" />
+                                        <point x="0.364865" y="0.984848" />
+                                    </collision-poly>
+                                </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
                 </object-folder>
                 <object-type name="SemillaNivel1" sid="344711310009746">
                     <plugin id="Sprite" />
@@ -3953,6 +3978,41 @@
                             </frame>
                         </animation>
                     </animation-folder>
+                </object-type>
+                <object-type name="Key" sid="315954675961646">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="777415254265104">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582882898895195" speed="5">
+                            <frame duration="1" hotspotX="0.518018" hotspotY="0.5" original-source="E:\Descargas\Juego\Demo Package v1.2\Gray\key6.png">
+                                <collision-poly>
+                                    <point x="0.121622" y="0.107143" />
+                                    <point x="0.540541" y="0.473214" />
+                                    <point x="0.558559" y="0.495536" />
+                                    <point x="0.95045" y="0.928571" />
+                                    <point x="0.513514" y="0.566964" />
+                                    <point x="0.481982" y="0.53125" />
+                                    <point x="0.126126" y="0.495536" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="AnswerTwo" sid="885581297503047">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="Flag" sid="976199387285694" type="boolean" />
+                    </instance-variables>
+                </object-type>
+                <object-type name="AnswerOne" sid="121519371939303">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="Flag" sid="681216490749670" type="boolean" />
+                    </instance-variables>
                 </object-type>
             </object-folder>
             <object-folder name="Level 3">

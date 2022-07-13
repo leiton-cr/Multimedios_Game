@@ -18,6 +18,8 @@
 		<hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
 		<hint id="4">Tu respuesta es incorrecta</hint>
         <hint id="5">Tu respuesta es correcta</hint>
+		<hint id="6">Debes darle click con el mouse a la respuesta correcta para avanzar</hint>
+		<hint id="7">Solo si tienes las 4 llaves podrás salir</hint>
 		<hint id="10">Te has perdido, vuelve para encontrar el camino</hint>
         <hint id="11">Bien hecho. Continúa con cuidado</hint>
 		<hint id="12">Tienes que recolectar las 4 llaves para salir de la cueva</hint>
