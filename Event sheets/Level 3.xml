@@ -4,5 +4,16 @@
     <name>Level 3</name>
     <events>
         <include>Globals</include>
+        <event-block sid="658376826861925">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="450238668013389" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="528530513170115" type="System">
+                    <param id="0" name="Variable">Actual_level</param>
+                    <param id="1" name="Value">&quot;levelThree&quot;</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
