@@ -4229,6 +4229,227 @@
                 </animation-folder>
             </object-type>
         </object-folder>
+<<<<<<< HEAD
+=======
+        <object-folder name="Gui">
+            <object-type name="ColorBar" sid="357693895019853">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="836917492793140" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="0.43662" original-source="C:\Users\luisl\OneDrive\Desktop\ColorBar.png">
+                            <collision-poly>
+                                <point x="0.0117994" y="0.0140845" />
+                                <point x="0.769912" y="0.0140845" />
+                                <point x="0.99705" y="0.492958" />
+                                <point x="0.769912" y="0.985915" />
+                                <point x="0.439528" y="0.985915" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HealthBar" sid="610833266837523">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="429571974516098" speed="5">
+                        <frame duration="1" hotspotX="0.653759" hotspotY="1.01449" original-source="C:\Users\luisl\OneDrive\Desktop\HealthBar.png">
+                            <collision-poly>
+                                <point x="0.0250569" y="0.101449" />
+                                <point x="0.653759" y="0.231884" />
+                                <point x="0.943052" y="0.847826" />
+                                <point x="0.653759" y="0.753623" />
+                                <point x="0.394077" y="0.753623" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PWP_DoubleJump" sid="363183954331967">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Sine" sid="207823976209378">
+                        <behavior id="Sin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291084829974364" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\descargar.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Message_Box" sid="976536673466222">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="RadialBlur">
+                        <effect id="radialblur" />
+                    </effect-type>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937529611628099" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="ColorBarBG" sid="942674477925184">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="335943967038297" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Reiniciar" sid="814116443453951">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="465111188068054" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Reiniciar.png">
+                            <collision-poly>
+                                <point x="0.0742857" y="0.152941" />
+                                <point x="0.5" y="0.1" />
+                                <point x="0.942857" y="0.117647" />
+                                <point x="0.965714" y="0.5" />
+                                <point x="0.94" y="0.876471" />
+                                <point x="0.5" y="0.847059" />
+                                <point x="0.0571429" y="0.882353" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Salir" sid="887239441302929">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251605958866182" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Salir.png">
+                            <collision-poly>
+                                <point x="0.0657143" y="0.135294" />
+                                <point x="0.5" y="0.0882353" />
+                                <point x="0.94" y="0.123529" />
+                                <point x="0.954286" y="0.5" />
+                                <point x="0.928571" y="0.852941" />
+                                <point x="0.5" y="0.835294" />
+                                <point x="0.0542857" y="0.888235" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Pausar" sid="849678662338932">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="643229232112767" speed="5">
+                        <frame duration="1" hotspotX="0.501094" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Pausar.png">
+                            <collision-poly>
+                                <point x="0.135667" y="0.129167" />
+                                <point x="0.498906" y="0.0625" />
+                                <point x="0.859956" y="0.133333" />
+                                <point x="0.829322" y="0.5" />
+                                <point x="0.739606" y="0.752083" />
+                                <point x="0.260394" y="0.752083" />
+                                <point x="0.153173" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Continuar" sid="721983998783943">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="602303142852124" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Continuar.png">
+                            <collision-poly>
+                                <point x="0.0771429" y="0.158824" />
+                                <point x="0.5" y="0.123529" />
+                                <point x="0.934286" y="0.135294" />
+                                <point x="0.962857" y="0.5" />
+                                <point x="0.94" y="0.876471" />
+                                <point x="0.5" y="0.870588" />
+                                <point x="0.0485714" y="0.9" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PausaBtn" sid="280578614413524">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="456505348168787" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\PausaBtn.png">
+                            <collision-poly>
+                                <point x="0.288571" y="0.594118" />
+                                <point x="0.5" y="0.0176471" />
+                                <point x="0.717143" y="0.582353" />
+                                <point x="0.751429" y="0.5" />
+                                <point x="0.751429" y="0.488235" />
+                                <point x="0.5" y="0.729412" />
+                                <point x="0.345714" y="0.288235" />
+                                <point x="0.262857" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HPText" sid="363496061941386">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Message_Text" sid="177436873013811">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="Message_dialog" sid="186480822985647" type="string" />
+                    <instance-variable name="Dialog_id" sid="670848620279006" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="Tutorial_Message_Trigger" sid="359679255608181">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="tutorial_dialog" sid="295588995025599" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="227045034201932" speed="5">
+                        <frame duration="1" hotspotX="1" hotspotY="1" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+>>>>>>> parent of 0d37c7c (Agrego sistema para mostrar tag con nombre de nivel)
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
             <behaviors>
@@ -4378,7 +4599,14 @@
     <families>
         <family name="LuckiestGuy" plugin-id="Text" sid="342138454347130">
             <members>
+<<<<<<< HEAD
                 <member>Tutorial_Message_Text</member>
+=======
+                <member>GhostResponse</member>
+                <member>HPText</member>
+                <member>Message_Text</member>
+                <member>PlankResponse</member>
+>>>>>>> parent of 0d37c7c (Agrego sistema para mostrar tag con nombre de nivel)
             </members>
         </family>
         <family name="Enemies" plugin-id="Sprite" sid="784966723938445">
