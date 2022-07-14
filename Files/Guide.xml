@@ -45,7 +45,6 @@
         <hint id="17">Finalmente has llegado a la ultima sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
     </levelTwo>
-<<<<<<< HEAD
       <levelThree>
         <hint id="1">Bienvenido nivel 3! Es hora de Comenzar</hint>
         <hint id="2">En este nivel veremos calculo de perimetros</hint>
@@ -53,13 +52,10 @@
         <hint id="4">!Atentos, el perimetro de una figura geometrica, es la suma de sus lados</hint>
         <hint id="5">Ufff, es hora de nuestro primer desafio</hint>
     </levelThree>
-=======
 	<levelFour>
 		<hint id="1">¡Felicidades ganaste!</hint>
 		<hint id="2">Parece que puedes subir por aquí</hint>
 		<hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
 		<hint id="4">Tu respuesta es incorrecta</hint>
 	</levelFour>
-	
->>>>>>> 0d37c7cc7c3bf401afbe681921948f4548e84e0c
 </dialogs>
