@@ -41,7 +41,47 @@
                     <param id="0" name="Variable">Life</param>
                     <param id="1" name="Value">3</param>
                 </action>
+                <action id="-12" name="Set group active" sid="936552655073064" type="System">
+                    <param id="0" name="Group name">&quot;LevelNameEnter&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="622249058271056" type="System">
+                    <param id="0" name="Group name">&quot;LevelNameExit&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
             </actions>
+            <sub-events>
+                <event-block sid="127558496479538">
+                    <conditions />
+                    <actions>
+                        <action id="-16" name="Wait" sid="689369561227590" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="269565975046333" type="System">
+                            <param id="0" name="Group name">&quot;LevelNameEnter&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="361732226861151" type="System">
+                            <param id="0" name="Seconds">6</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="835911159355187" type="System">
+                            <param id="0" name="Group name">&quot;LevelNameEnter&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="829813477106040" type="System">
+                            <param id="0" name="Group name">&quot;LevelNameExit&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="473256427436292" type="System">
+                            <param id="0" name="Seconds">4</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="829732305530711" type="System">
+                            <param id="0" name="Group name">&quot;LevelNameExit&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-group description="" sid="182191189186909" title="Player Motion">
             <sub-events>
@@ -444,6 +484,40 @@
                         </action>
                         <action id="0" name="Set text" sid="668498601929790" type="HPText">
                             <param id="0" name="Text">Life&amp;&quot;/3&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="749339643507627" title="LevelNameEnter">
+            <sub-events>
+                <event-block sid="890313181776491">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="432404328619936" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="629405181687497" type="LevelName">
+                            <param id="0" name="X">lerp(Self.X,130,0.05 )</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="285926250664884" type="LevelTextName">
+                            <param id="0" name="X">lerp(Self.X,-10,0.05 )</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="890690784510765" title="LevelNameExit">
+            <sub-events>
+                <event-block sid="683315622589709">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="746147789783661" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-1" name="Set X" sid="361080880657276" type="LevelName">
+                            <param id="0" name="X">lerp(Self.X,-241,0.05 )</param>
+                        </action>
+                        <action id="-1" name="Set X" sid="668371116793632" type="LevelTextName">
+                            <param id="0" name="X">lerp(Self.X,-400,0.05 )</param>
                         </action>
                     </actions>
                 </event-block>

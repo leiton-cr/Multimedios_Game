@@ -5738,6 +5738,29 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="LevelName" sid="709104843249475">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998404700903474" speed="5">
+                        <frame duration="1" hotspotX="0.48805" hotspotY="0.453846" original-source="C:\Users\luisl\OneDrive\Desktop\LevelName.png">
+                            <collision-poly>
+                                <point x="0.48805" y="0.138462" />
+                                <point x="0.993711" y="0.453846" />
+                                <point x="0.48805" y="0.953846" />
+                                <point x="0.00251572" y="0.453846" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LevelTextName" sid="589850739168234">
+                <plugin id="Text" />
+            </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
@@ -6199,6 +6222,7 @@
             <members>
                 <member>GhostResponse</member>
                 <member>HPText</member>
+                <member>LevelTextName</member>
                 <member>Message_Text</member>
                 <member>PlankResponse</member>
             </members>
