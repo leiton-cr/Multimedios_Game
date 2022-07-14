@@ -18,7 +18,6 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
-        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
@@ -415,8 +414,8 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
                             <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
                                 <collision-poly>
-                                    <point x="0.133929" y="0.337053" />
-                                    <point x="0.864583" y="0.341517" />
+                                    <point x="0.0957342" y="0.227678" />
+                                    <point x="0.898809" y="0.227678" />
                                     <point x="0.907242" y="0.638393" />
                                     <point x="0.495536" y="0.631696" />
                                     <point x="0.0863096" y="0.600447" />
@@ -455,15 +454,15 @@
                     </behaviors>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299001881576676" speed="5">
-                            <frame duration="1" hotspotX="0.72625" hotspotY="2.23143" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - MossyHills.png">
+                            <frame duration="1" hotspotX="0.725904" hotspotY="2.23128" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - MossyHills.png">
                                 <collision-poly>
-                                    <point x="0.267861" y="0.629591" />
-                                    <point x="0.476672" y="0.311995" />
-                                    <point x="0.578583" y="0.484745" />
-                                    <point x="0.743328" y="0.708647" />
-                                    <point x="0.887048" y="0.923386" />
-                                    <point x="0.4975" y="0.932083" />
-                                    <point x="0.102259" y="0.913443" />
+                                    <point x="0.215361" y="0.563877" />
+                                    <point x="0.417922" y="0.257709" />
+                                    <point x="0.646084" y="0.359031" />
+                                    <point x="0.832078" y="0.634361" />
+                                    <point x="0.949548" y="0.940529" />
+                                    <point x="0.5" y="0.997797" />
+                                    <point x="0.064759" y="0.9163" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -543,7 +542,7 @@
                     </behaviors>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="826860061294019" speed="5">
-                            <frame duration="1" hotspotX="1.195" hotspotY="3.60857" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - TileSet.png">
+                            <frame duration="1" hotspotX="1.19494" hotspotY="3.60714" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - TileSet.png">
                                 <collision-poly>
                                     <point x="0.128522" y="0.270745" />
                                     <point x="0.881789" y="0.215572" />
@@ -605,7 +604,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="RocaPequeFlotante" sid="650968794702378">
+                <object-type name="Sprite" sid="650968794702378">
                     <plugin id="Sprite" />
                     <behaviors>
                         <behavior-type name="Solid" sid="439993799050091">
@@ -618,8 +617,8 @@
                                 <collision-poly>
                                     <point x="0.26691" y="0.262295" />
                                     <point x="0.281536" y="0.208431" />
-                                    <point x="0.702011" y="0.222482" />
-                                    <point x="0.720292" y="0.440281" />
+                                    <point x="0.583181" y="0.168618" />
+                                    <point x="0.851919" y="0.449649" />
                                     <point x="0.670933" y="0.632318" />
                                     <point x="0.330896" y="0.63466" />
                                     <point x="0.259598" y="0.470726" />
@@ -660,66 +659,32 @@
                     </behaviors>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895167415133122" speed="5">
-                            <frame duration="1" hotspotX="-0.206667" hotspotY="-0.18" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
+                            <frame duration="1" hotspotX="-0.206444" hotspotY="-0.179977" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
                                 <collision-poly>
-                                    <point x="0.48747" y="0.15162" />
-                                    <point x="0.590692" y="0.0827546" />
-                                    <point x="0.718974" y="0.0376157" />
-                                    <point x="0.855012" y="0.108796" />
-                                    <point x="0.883055" y="0.971644" />
-                                    <point x="0.0859189" y="0.95544" />
+                                    <point x="0.477327" y="0.138889" />
+                                    <point x="0.584725" y="0.0648148" />
+                                    <point x="0.748807" y="0.0300926" />
+                                    <point x="0.871122" y="0.0810185" />
+                                    <point x="0.911695" y="0.978588" />
+                                    <point x="0.0477327" y="0.953125" />
                                     <point x="0.393795" y="0.493635" />
-                                    <point x="0.398568" y="0.324652" />
+                                    <point x="0.374702" y="0.319444" />
                                 </collision-poly>
                             </frame>
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="BloqueFlotante" sid="791666826286695">
+                <object-type name="Sprite4" sid="791666826286695">
                     <plugin id="Sprite" />
-                    <behaviors>
-                        <behavior-type name="Sine" sid="739420428423197">
-                            <behavior id="Sin" />
-                        </behavior-type>
-                        <behavior-type name="Solid" sid="401999037136479">
-                            <behavior id="solid" />
-                        </behavior-type>
-                    </behaviors>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635605323130629" speed="5">
-                            <frame duration="1" hotspotX="0.498718" hotspotY="-1.06667" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
+                            <frame duration="1" hotspotX="0.498512" hotspotY="-1.06653" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
                                 <collision-poly>
-                                    <point x="0.11031" y="0.352079" />
-                                    <point x="0.899313" y="0.338746" />
-                                    <point x="0.91115" y="0.689522" />
-                                    <point x="0.504922" y="0.680638" />
-                                    <point x="0.0977869" y="0.700742" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="Big_Mossy_Platform2" sid="573273283351965">
-                    <plugin id="Sprite" />
-                    <behaviors>
-                        <behavior-type name="Solid" sid="460968616110716">
-                            <behavior id="solid" />
-                        </behavior-type>
-                    </behaviors>
-                    <effects>
-                        <effect-type name="AdjustHSL">
-                            <effect id="hsladjust" />
-                        </effect-type>
-                    </effects>
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="564933761287651" speed="5">
-                            <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
-                                <collision-poly>
-                                    <point x="0.0957342" y="0.227678" />
-                                    <point x="0.898809" y="0.227678" />
-                                    <point x="0.907242" y="0.638393" />
-                                    <point x="0.495536" y="0.631696" />
-                                    <point x="0.0863096" y="0.600447" />
+                                    <point x="0.0590278" y="0.002079" />
+                                    <point x="0.967262" y="0.002079" />
+                                    <point x="0.950893" y="0.829522" />
+                                    <point x="0.498512" y="0.893971" />
+                                    <point x="0.0426587" y="0.844075" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -2654,229 +2619,62 @@
                 </object-type>
                 <object-type name="Caja2" sid="875347630618392">
                     <plugin id="Sprite" />
-                    <behaviors>
-                        <behavior-type name="Solid" sid="393762891614757">
-                            <behavior id="solid" />
-                        </behavior-type>
-                    </behaviors>
                     <animation-folder>
                         <animation framecount="27" loop="1" name="Caja2" pingpong="1" repeatcount="1" repeatto="0" sid="493740095171752" speed="8">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter.png">
                                 <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.658915" y="0.143411" />
-                                    <point x="0.670542" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
+                                    <point x="0.0116279" y="0.0116279" />
+                                    <point x="0.988372" y="0.0116279" />
+                                    <point x="0.988372" y="0.988372" />
+                                    <point x="0.0116279" y="0.988372" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_A.png">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_A.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_B.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_C.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_D.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_E.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_F.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_G.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_H.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_I.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_J.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_K.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_L.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_M.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_N.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_O.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_P.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Q.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_R.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_S.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_T.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_U.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_V.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_W.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_X.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Y.png" />
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Z.png" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="Caja4" sid="728292622776082">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="2" loop="1" name="Default" pingpong="1" repeatcount="1" repeatto="0" sid="983043789658032" speed="2">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Asset\Other\Other\PNG\Retina\Crates\crate_20.png">
                                 <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
+                                    <point x="0.03125" y="0.03125" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.96875" y="0.03125" />
+                                    <point x="1" y="0.5" />
+                                    <point x="0.96875" y="0.96875" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.03125" y="0.96875" />
+                                    <point x="0" y="0.5" />
                                 </collision-poly>
                             </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_B.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_C.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_D.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_E.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_F.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_G.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_H.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_I.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_J.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_K.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_L.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_M.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_N.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_O.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_P.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Q.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_R.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_S.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_T.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_U.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_V.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_W.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_X.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Y.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\PNG\Blue\letter_Z.png">
-                                <collision-poly>
-                                    <point x="0.275194" y="0.151163" />
-                                    <point x="0.713178" y="0.143411" />
-                                    <point x="0.713178" y="0.841085" />
-                                    <point x="0.286822" y="0.841085" />
-                                </collision-poly>
-                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Asset\Other\Other\PNG\Retina\Crates\crate_25.png" />
                         </animation>
                     </animation-folder>
                 </object-type>
@@ -3304,14 +3102,6 @@
                 </object-type>
                 <object-type name="Alient" sid="501322792197734">
                     <plugin id="Sprite" />
-                    <behaviors>
-                        <behavior-type name="Solid" sid="972835444990917">
-                            <behavior id="solid" />
-                        </behavior-type>
-                        <behavior-type name="Sine" sid="880893585311669">
-                            <behavior id="Sin" />
-                        </behavior-type>
-                    </behaviors>
                     <animation-folder>
                         <animation framecount="3" loop="1" name="Alient" pingpong="1" repeatcount="1" repeatto="0" sid="351974855436191" speed="3">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0000_idle_1.png">
@@ -3762,7 +3552,7 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="BaseMensaje" sid="415542935971564">
+                <object-type name="Sprite3" sid="415542935971564">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="937129166977467" speed="5">
@@ -3797,63 +3587,24 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="textQuestion" sid="850014149700015">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="resp1" sid="967969507976674">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="resp2" sid="605643305049782">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="resp3" sid="404727031219055">
-                    <plugin id="Text" />
-                </object-type>
-                <object-type name="barra" sid="921411464501325">
+                <object-type name="Sprite5" sid="720189322526216">
                     <plugin id="Sprite" />
                     <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="952105158853771" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="BasePreguntas" sid="475259229310441">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="304491510475220" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Naturaleza\Msg.png">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="198101805454424" speed="5">
+                            <frame duration="1" hotspotX="0.147513" hotspotY="0.824663" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - BackgroundDecoration.png">
                                 <collision-poly>
-                                    <point x="0.044" y="0.0964912" />
-                                    <point x="0.5" y="0.0467836" />
-                                    <point x="0.964" y="0.0789474" />
-                                    <point x="0.972" y="0.938596" />
-                                    <point x="0.5" y="0.98538" />
-                                    <point x="0.0213333" y="0.953216" />
+                                    <point x="0.934391" y="0" />
+                                    <point x="0.919811" y="0.824663" />
+                                    <point x="0.832333" y="1" />
+                                    <point x="0.147513" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0.824663" />
+                                    <point x="0" y="0" />
+                                    <point x="0.147513" y="0" />
                                 </collision-poly>
                             </frame>
                         </animation>
                     </animation-folder>
-                </object-type>
-                <object-type name="efectoExplisivo" sid="690245190013877">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="3" loop="1" name="destruction" pingpong="0" repeatcount="1" repeatto="0" sid="514864183887922" speed="5">
-                            <frame duration="1" hotspotX="0.506667" hotspotY="0.506667" original-source="C:\Users\Christian\Desktop\Asset\FX Bundle\Orb attack\fire ball orb death fx 1.png" />
-                            <frame duration="1" hotspotX="0.506667" hotspotY="0.506667" original-source="C:\Users\Christian\Desktop\Asset\FX Bundle\Orb attack\fire ball orb death fx 2.png" />
-                            <frame duration="1" hotspotX="0.506667" hotspotY="0.506667" original-source="C:\Users\Christian\Desktop\Asset\FX Bundle\Orb attack\fire ball orb death fx 3.png" />
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="barra2" sid="381149880438330">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="282766102289195" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="Touch" sid="695328065731850">
-                    <plugin id="Touch" />
                 </object-type>
             </object-folder>
         </object-folder>
@@ -4650,11 +4401,6 @@
         <global-instance type="Mouse" uid="11" />
         <global-instance type="AJAX" uid="24" />
         <global-instance type="Function" uid="127" />
-        <global-instance type="Touch" uid="428">
-            <properties>
-                <use-mouse-input>Yes</use-mouse-input>
-            </properties>
-        </global-instance>
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">
