@@ -1767,6 +1767,35 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Alient" uid="428">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>848.488708496</x>
+                        <y>988.732788086</y>
+                        <z>0</z>
+                        <width>36.580810547</width>
+                        <height>64.398193359</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="BasePreguntas" uid="304">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -1842,8 +1871,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1115</x>
-                        <y>1289</y>
+                        <x>82</x>
+                        <y>567</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -5412,25 +5441,12 @@
                                 <initial-state>Enabled</initial-state>
                             </properties>
                         </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
                     </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>530</x>
-                        <y>1289</y>
+                        <x>811.290405273</x>
+                        <y>1282.795654297</y>
                         <z>0</z>
                         <width>55.344238281</width>
                         <height>93.408691406</height>

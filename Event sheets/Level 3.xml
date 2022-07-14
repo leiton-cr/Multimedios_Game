@@ -39,29 +39,5 @@
             </sub-events>
         </event-group>
         <event-group description="" sid="861823276816616" title="SetearMensajes" />
-        <event-block sid="915351995213274">
-            <conditions>
-                <condition id="3" name="On touched object" sid="180337559715421" type="Touch">
-                    <param id="0" name="Object">resp1</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="156619511921133">
-            <conditions>
-                <condition id="3" name="On touched object" sid="447466864133404" type="Touch">
-                    <param id="0" name="Object">resp2</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
-        <event-block sid="238886926852736">
-            <conditions>
-                <condition id="3" name="On touched object" sid="935638587676212" type="Touch">
-                    <param id="0" name="Object">resp3</param>
-                </condition>
-            </conditions>
-            <actions />
-        </event-block>
     </events>
 </c2eventsheet>
