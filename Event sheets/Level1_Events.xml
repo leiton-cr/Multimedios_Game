@@ -1,0 +1,781 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level1_Events</name>
+    <events>
+        <include>Globals</include>
+        <event-group description="" sid="178288538711101" title="Enemies">
+            <sub-events>
+                <event-block sid="110803948444793">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
+                            <param id="0" name="Animation">&quot;poison&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="533986158978252">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="766299609964786" type="GhostLayer" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="137121615029991" type="GhostLayer">
+                            <param id="0" name="Animation">&quot;GhostMovement&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="102914448592386" title="Darkin2">
+            <sub-events>
+                <event-block sid="640587382681193">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="313426595203545" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="344571013616242" type="DarknessLevel1">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="628293344667438" title="Darkout2">
+            <sub-events>
+                <event-block sid="828138941435098">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="832211031338519" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="977191239247499" type="DarknessLevel1">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="712619645923140" title="LevelSettings">
+            <sub-events>
+                <variable constant="0" name="CheckpointX2" sid="885404112889952" static="1" type="number">0</variable>
+                <variable constant="0" name="CheckpointY2" sid="652203428071398" static="1" type="number">0</variable>
+                <event-block sid="594126864031053">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="334924716504943" type="Wrapper">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="597118862702556" type="System">
+                            <param id="0" name="Layout">Level2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="692332742849182">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="281288615692982" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="524893495311775" type="System">
+                            <param id="0" name="Variable">Actual_level</param>
+                            <param id="1" name="Value">&quot;levelOne&quot;</param>
+                        </action>
+                        <action behavior="Platform" id="13" name="Set double-jump" sid="171527706637235" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="585537199939214" type="System">
+                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="148718362792883" type="System">
+                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="159295319747613">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="783594684937627" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Reiniciar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="223824834036552" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="566408400763009" type="PausaBtn">
+                            <param id="0" name="Opacity">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="814254513275413">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="921586492492271" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                        <condition behavior="Platform" id="2" name="Is on floor" sid="416493800108194" type="Player" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="732905628986620" type="System">
+                            <param id="0" name="Variable">CheckpointX2</param>
+                            <param id="1" name="Value">Player.X</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="195316006254095" type="System">
+                            <param id="0" name="Variable">CheckpointY2</param>
+                            <param id="1" name="Value">Player.Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="789793599616688" title="LifePlayer">
+                    <sub-events>
+                        <event-block sid="659699981028377">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="422403328615685" type="LeftWall">
+                                    <param id="0" name="Object">Player</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="365868259197355" type="Function">
+                                    <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="749253426192133">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="569410345512737" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Set opacity" sid="256492121241477" type="PausaBtn">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="197015558707643" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-18" name="Set layer opacity" sid="687439841585132" type="System">
+                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                                            <param id="1" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="221162901648366" type="Player">
+                                            <param id="0" name="X">160</param>
+                                            <param id="1" name="Y">14</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="715373179176986">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="160054934212829" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Set group active" sid="365097710819202" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="951783824170980" type="Player">
+                                            <param id="0" name="X">CheckpointX2</param>
+                                            <param id="1" name="Y">CheckpointY2</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="785165594094324" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="221905886604645" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="803472387081407" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="750907667223975">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="355762747522661" type="RightWall">
+                                    <param id="0" name="Object">Player</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Call function" sid="418044382173943" type="Function">
+                                    <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="904749147610112">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="479702376279202" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Set opacity" sid="199617728267350" type="PausaBtn">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="940349350750228" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-18" name="Set layer opacity" sid="226279285884389" type="System">
+                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                                            <param id="1" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="832108740095565" type="Player">
+                                            <param id="0" name="X">160</param>
+                                            <param id="1" name="Y">14</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="321487853678799">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="594861094437531" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Set group active" sid="849170110040009" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="223237160527427" type="Player">
+                                            <param id="0" name="X">CheckpointX2</param>
+                                            <param id="1" name="Y">CheckpointY2</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="849987340815087" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="552968837821087" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="793888887318825" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="720146778546859">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="419310904019751" type="GiantRock">
+                                    <param id="0" name="Object">Player</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-14" name="Set object time scale" sid="666778452048191" type="System">
+                                    <param id="0" name="Object">Player</param>
+                                    <param id="1" name="Time scale">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="708941178988365" type="Function">
+                                    <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                            <sub-events>
+                                <event-block sid="212726022617677">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="397677183040105" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-16" name="Set opacity" sid="104667974597515" type="PausaBtn">
+                                            <param id="0" name="Opacity">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="618329484343015" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-18" name="Set layer opacity" sid="926848221107709" type="System">
+                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                                            <param id="1" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="881144393923948" type="Player">
+                                            <param id="0" name="X">160</param>
+                                            <param id="1" name="Y">14</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="149672338209361">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="333060084293893" type="System">
+                                            <param id="0" name="Variable">Life</param>
+                                            <param id="1" name="Comparison">4</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-12" name="Set group active" sid="892911578353500" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-3" name="Set position" sid="160707904693035" type="Player">
+                                            <param id="0" name="X">CheckpointX2</param>
+                                            <param id="1" name="Y">CheckpointY2</param>
+                                        </action>
+                                        <action id="-14" name="Set object time scale" sid="410894186861553" type="System">
+                                            <param id="0" name="Object">Player</param>
+                                            <param id="1" name="Time scale">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="262775665156525" type="System">
+                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="845299127908796" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
+                                            <param id="1" name="State">1</param>
+                                        </action>
+                                        <action id="-12" name="Set group active" sid="621447469405755" type="System">
+                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
+                                            <param id="1" name="State">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="962724480056111" title="Messages">
+            <sub-events>
+                <event-block sid="685206176914737">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="321573541310870" type="Tutorial_Message_Trigger">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="216688775639399" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="906086052555208" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="445275801731003" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="590630535491062" type="Tutorial_Message_Trigger" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="575487998970741" title="Keys">
+            <sub-events>
+                <variable constant="0" name="Key" sid="442391384359016" static="1" type="number">0</variable>
+                <variable constant="0" name="ParamOne" sid="855634239139263" static="1" type="number">0</variable>
+                <variable constant="0" name="ParamTwo" sid="515649766752910" static="1" type="number">0</variable>
+                <variable constant="0" name="ResponseOne" sid="252339678901917" static="1" type="number">0</variable>
+                <variable constant="0" name="ResponseTwo" sid="973202285196898" static="1" type="number">0</variable>
+                <variable constant="0" name="RandomPosition" sid="780155948492206" static="1" type="number">0</variable>
+                <event-block sid="655047390437096">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="152363834541287" type="Key">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="539805749054195" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="455091077983808" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">round(random(1,20))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="767381451517992" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">round(random(1,20))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="991217632240223" type="System">
+                            <param id="0" name="Variable">ResponseOne</param>
+                            <param id="1" name="Value">ParamOne / ParamTwo</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="691570512327217" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="283416430651066" type="System">
+                            <param id="0" name="Variable">RandomPosition</param>
+                            <param id="1" name="Value">choose(0,1)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="533040004924026" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="0" name="Call function" sid="718637718705326" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="434857577358053" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Call function" sid="809551341951625" type="Function">
+                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="450325799450266" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="469156595804432" type="Key">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="189150171476493" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="183460294218772">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="900874014021984" type="System">
+                                    <param id="0" name="Variable">RandomPosition</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="741239376725421" type="AnswerOne">
+                                    <param id="0" name="Text">ResponseTwo</param>
+                                </action>
+                                <action id="0" name="Set text" sid="688512528743374" type="AnswerTwo">
+                                    <param id="0" name="Text">ResponseOne</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="919413996865754" type="AnswerTwo">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="906102530972371" type="AnswerOne">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="376820374073804">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="478604863374916" type="System">
+                                    <param id="0" name="Variable">RandomPosition</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="817606637399266" type="AnswerOne">
+                                    <param id="0" name="Text">ResponseOne</param>
+                                </action>
+                                <action id="0" name="Set text" sid="397653034469087" type="AnswerTwo">
+                                    <param id="0" name="Text">ResponseTwo</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="468703870029866" type="AnswerOne">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="398815523895825" type="AnswerTwo">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="377834974005828">
+                            <conditions />
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="969904045091166">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="388772324241861" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">AnswerTwo</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="109809830449458">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="158618108408090" type="AnswerTwo">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="246422132168788" type="System">
+                                    <param id="0" name="Variable">Key</param>
+                                    <param id="1" name="Value">Key+1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="822916668033368" type="Key" />
+                                <action id="-18" name="Set layer opacity" sid="302245641537306" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="356264431345065" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">5</param>
+                                </action>
+                                <action id="0" name="Call function" sid="410915965225285" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="675612459150840" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="613228537940800" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="387243450411772" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="611794995201901" type="Key">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="300450746230856" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="269880830851212">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="818274334568389" type="AnswerTwo">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="705462238790072" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="393817070675217" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="0" name="Call function" sid="701774513186688" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="570846488865627" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="775651664671497" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="697777082955224" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="167512519744164" type="Key">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="643159688116590" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="564090387909679">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="286091909116182" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">AnswerOne</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="286788133925391">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="386045983903665" type="AnswerOne">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="203064233376713" type="System">
+                                    <param id="0" name="Variable">Key</param>
+                                    <param id="1" name="Value">Key+1</param>
+                                </action>
+                                <action id="-9" name="Destroy" sid="519355464155589" type="Key" />
+                                <action id="-18" name="Set layer opacity" sid="669507050242317" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="235857165730996" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">5</param>
+                                </action>
+                                <action id="0" name="Call function" sid="719291933201914" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="797944851727066" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="778106138140720" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="745676837506962" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="212059795330455" type="Key">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="620007954309274" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="141675143492701">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="200821571130027" type="AnswerOne">
+                                    <param id="0" name="Instance variable">Flag</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-18" name="Set layer opacity" sid="533382431295087" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="677140135128458" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="0" name="Call function" sid="815322410593551" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="883175437388516" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="249913785064066" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="262359026468551" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="925613630201046" type="Key">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="967259301940122" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="485893858230399">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="810057554752851" type="Door">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="900340202097559" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="395037704201493">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="343553155500312" type="System">
+                                    <param id="0" name="Variable">Key</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="114662532981500" type="Door" />
+                                <action id="-9" name="Set value" sid="125252307548740" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">13</param>
+                                </action>
+                                <action id="0" name="Call function" sid="298195129154955" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="352846876222647" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="759556444762685" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="644573484580857" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="941012648807872" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="665856033312420">
+                            <conditions>
+                                <condition id="-14" inverted="1" name="Compare variable" sid="464644583296391" type="System">
+                                    <param id="0" name="Variable">Key</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">4</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="695482603478655" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">7</param>
+                                </action>
+                                <action id="0" name="Call function" sid="968285884440593" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="134812325245182" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="192306852347602" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="167643078164184" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="189754209644288" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
