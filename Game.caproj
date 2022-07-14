@@ -164,96 +164,23 @@
                     <instance-variables>
                         <instance-variable name="state" sid="776634643857136" type="string" />
                     </instance-variables>
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="386655615974465" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Jugar.png">
+                            <frame duration="1" hotspotX="0.49481" hotspotY="0.45614" original-source="C:\Users\luisl\OneDrive\Desktop\Assets\PlayBTN.png">
                                 <collision-poly>
-                                    <point x="0.0851064" y="0.1" />
-                                    <point x="0.5" y="0.1125" />
-                                    <point x="0.765957" y="0.275" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.776596" y="0.7375" />
-                                    <point x="0.5" y="0.9" />
-                                    <point x="0.0744681" y="0.9125" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="682859616321531" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\JugarHover.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Active" pingpong="0" repeatcount="1" repeatto="0" sid="981646579735747" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\JugarActive.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
-                <object-type name="Menu_Exit" sid="630466349179491">
-                    <plugin id="Sprite" />
-                    <instance-variables>
-                        <instance-variable name="state" sid="473885176026531" type="number" />
-                    </instance-variables>
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="105099456536296" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Salir.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="558579095161703" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\SalirHover.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Active" pingpong="0" repeatcount="1" repeatto="0" sid="768664044929595" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\SalirActive.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.982955" y="0.046875" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.982955" y="0.953125" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
+                                    <point x="0.0747456" y="0.00662252" />
+                                    <point x="0.495652" y="0.0206954" />
+                                    <point x="0.765464" y="0.203642" />
+                                    <point x="1" y="0.456954" />
+                                    <point x="0.776257" y="0.724338" />
+                                    <point x="0.495652" y="0.907285" />
+                                    <point x="0.0639531" y="0.921358" />
+                                    <point x="0" y="0.456954" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -261,46 +188,23 @@
                 </object-type>
                 <object-type name="Menu_Credits" sid="536824139827864">
                     <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="699471400734328" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Creditos.png">
+                            <frame duration="1" hotspotX="0.49481" hotspotY="0.45614" original-source="C:\Users\luisl\OneDrive\Desktop\Assets\CreditsBTN.png">
                                 <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="841787912463174" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\CreditosHover.png">
-                                <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                        <animation framecount="1" loop="0" name="Active" pingpong="0" repeatcount="1" repeatto="0" sid="523016932286360" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\CreditosActive.png">
-                                <collision-poly>
-                                    <point x="0.0284091" y="0.078125" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.982955" y="0.046875" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.982955" y="0.953125" />
-                                    <point x="0.5" y="0.984375" />
-                                    <point x="0.0340909" y="0.90625" />
-                                    <point x="0.0113636" y="0.5" />
+                                    <point x="0.0114625" y="0" />
+                                    <point x="0.495652" y="0" />
+                                    <point x="0.979842" y="0" />
+                                    <point x="1" y="0.456954" />
+                                    <point x="0.979842" y="0.949503" />
+                                    <point x="0.495652" y="1" />
+                                    <point x="0.0114625" y="0.949503" />
+                                    <point x="0" y="0.456954" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -308,18 +212,23 @@
                 </object-type>
                 <object-type name="Menu_MainMenu" sid="400127939818610">
                     <plugin id="Sprite" />
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
                     <animation-folder>
                         <animation framecount="1" loop="0" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="840760349467709" speed="5">
-                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Back.png">
+                            <frame duration="1" hotspotX="0.49481" hotspotY="0.45614" original-source="C:\Users\luisl\OneDrive\Desktop\Assets\BackBTN.png">
                                 <collision-poly>
-                                    <point x="0.0227273" y="0.0625" />
-                                    <point x="0.5" y="0" />
-                                    <point x="0.977273" y="0.0625" />
-                                    <point x="1" y="0.5" />
-                                    <point x="0.977273" y="0.9375" />
-                                    <point x="0.5" y="1" />
-                                    <point x="0.0227273" y="0.9375" />
-                                    <point x="0" y="0.5" />
+                                    <point x="0.0114625" y="0" />
+                                    <point x="0.495652" y="0" />
+                                    <point x="0.979842" y="0" />
+                                    <point x="1" y="0.456954" />
+                                    <point x="0.979842" y="0.949503" />
+                                    <point x="0.495652" y="1" />
+                                    <point x="0.0114625" y="0.949503" />
+                                    <point x="0" y="0.456954" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -6236,6 +6145,42 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998249960148687" speed="5">
                     <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
+                        <collision-poly>
+                            <point x="0.00514139" y="0.349372" />
+                            <point x="0.505141" y="0.00209205" />
+                            <point x="0.98072" y="0.389121" />
+                            <point x="0.98072" y="0.76569" />
+                            <point x="0.505141" y="0.995816" />
+                            <point x="0.00385604" y="0.807531" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cred" sid="265826018720470">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293388218858784" speed="5">
+                    <frame duration="1" hotspotX="0.218593" hotspotY="3.77108" original-source="C:\Users\luisl\OneDrive\Desktop\Cred.png">
+                        <collision-poly>
+                            <point x="0.218593" y="0.289157" />
+                            <point x="0.693467" y="0.987952" />
+                            <point x="0.218593" y="0.939759" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Credits" sid="982586670574587">
+            <plugin id="Sprite" />
+            <effects>
+                <effect-type name="AdjustHSL">
+                    <effect id="hsladjust" />
+                </effect-type>
+            </effects>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189161795009533" speed="5">
+                    <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Credits.png">
                         <collision-poly>
                             <point x="0.00514139" y="0.349372" />
                             <point x="0.505141" y="0.00209205" />

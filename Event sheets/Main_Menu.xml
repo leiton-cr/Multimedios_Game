@@ -87,9 +87,6 @@
                         <condition id="7" name="Cursor is over object" sid="230919921283344" type="Mouse">
                             <param id="0" name="Object">Menu_Play</param>
                         </condition>
-                        <condition id="7" name="Cursor is over object" sid="438319248020538" type="Mouse">
-                            <param id="0" name="Object">Menu_Exit</param>
-                        </condition>
                         <condition id="7" name="Cursor is over object" sid="613652866883173" type="Mouse">
                             <param id="0" name="Object">Menu_Credits</param>
                         </condition>
@@ -101,30 +98,11 @@
                         <action id="9" name="Set scale" sid="894338265419328" type="Menu_Play">
                             <param id="0" name="Scale">1.05</param>
                         </action>
-                        <action id="9" name="Set scale" sid="831174307761847" type="Menu_Exit">
-                            <param id="0" name="Scale">1.05</param>
-                        </action>
                         <action id="9" name="Set scale" sid="600590525435083" type="Menu_Credits">
                             <param id="0" name="Scale">0.65</param>
                         </action>
                         <action id="9" name="Set scale" sid="194879734282981" type="Menu_MainMenu">
                             <param id="0" name="Scale">0.65</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="561619090765315" type="Menu_Play">
-                            <param id="0" name="Animation">&quot;Hover&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="494730143634270" type="Menu_Exit">
-                            <param id="0" name="Animation">&quot;Hover&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="480123907228076" type="Menu_Credits">
-                            <param id="0" name="Animation">&quot;Hover&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="268004804327134" type="Menu_MainMenu">
-                            <param id="0" name="Animation">&quot;Hover&quot;</param>
-                            <param id="1" name="From">1</param>
                         </action>
                         <action id="0" name="Set cursor style" sid="709821198652883" type="Mouse">
                             <param id="0" name="Cursor style">1</param>
@@ -135,9 +113,6 @@
                     <conditions>
                         <condition id="7" inverted="1" name="Cursor is over object" sid="482284679965603" type="Mouse">
                             <param id="0" name="Object">Menu_Play</param>
-                        </condition>
-                        <condition id="7" inverted="1" name="Cursor is over object" sid="137643806627327" type="Mouse">
-                            <param id="0" name="Object">Menu_Exit</param>
                         </condition>
                         <condition id="7" inverted="1" name="Cursor is over object" sid="413039551491945" type="Mouse">
                             <param id="0" name="Object">Menu_Credits</param>
@@ -150,30 +125,11 @@
                         <action id="9" name="Set scale" sid="756535691595719" type="Menu_Play">
                             <param id="0" name="Scale">1</param>
                         </action>
-                        <action id="9" name="Set scale" sid="570229669479663" type="Menu_Exit">
-                            <param id="0" name="Scale">1</param>
-                        </action>
                         <action id="9" name="Set scale" sid="938136464716869" type="Menu_Credits">
                             <param id="0" name="Scale">0.6</param>
                         </action>
                         <action id="9" name="Set scale" sid="257579703054205" type="Menu_MainMenu">
                             <param id="0" name="Scale">0.6</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="466664833168474" type="Menu_Play">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="803243374347146" type="Menu_Exit">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="692695076708215" type="Menu_Credits">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                        <action id="4" name="Set animation" sid="974792329311871" type="Menu_MainMenu">
-                            <param id="0" name="Animation">&quot;Idle&quot;</param>
-                            <param id="1" name="From">1</param>
                         </action>
                         <action id="0" name="Set cursor style" sid="125094350494626" type="Mouse">
                             <param id="0" name="Cursor style">0</param>
@@ -193,9 +149,6 @@
                                 <condition id="7" name="Cursor is over object" sid="482411358224601" type="Mouse">
                                     <param id="0" name="Object">Menu_Play</param>
                                 </condition>
-                                <condition id="7" name="Cursor is over object" sid="676507237803773" type="Mouse">
-                                    <param id="0" name="Object">Menu_Exit</param>
-                                </condition>
                                 <condition id="7" name="Cursor is over object" sid="516486230944174" type="Mouse">
                                     <param id="0" name="Object">Menu_Credits</param>
                                 </condition>
@@ -204,26 +157,7 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="4" name="Set animation" sid="772444990983150" type="Menu_Exit">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="663761093548331" type="Menu_Credits">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="102547999371530" type="Menu_Play">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="136051022851238" type="Menu_MainMenu">
-                                    <param id="0" name="Animation">&quot;Active&quot;</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
                                 <action id="9" name="Set scale" sid="530103937412652" type="Menu_Play">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="233353756853932" type="Menu_Exit">
                                     <param id="0" name="Scale">1</param>
                                 </action>
                                 <action id="9" name="Set scale" sid="960279722257274" type="Menu_Credits">
@@ -255,11 +189,6 @@
                 </event-block>
                 <event-block any="1" sid="283132918078937">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="759693601158902" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">Menu_Exit</param>
-                        </condition>
                         <condition id="6" name="On object clicked" sid="944481614515231" type="Mouse">
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
@@ -331,13 +260,7 @@
                                 <action id="-16" name="Set opacity" sid="553422142544536" type="Menu_Play">
                                     <param id="0" name="Opacity">lerp(Self.Opacity,100,0.05)</param>
                                 </action>
-                                <action id="-16" name="Set opacity" sid="216851744921403" type="Menu_Exit">
-                                    <param id="0" name="Opacity">lerp(Self.Opacity,100,0.05)</param>
-                                </action>
                                 <action id="-1" name="Set X" sid="671646068649739" type="Menu_Play">
-                                    <param id="0" name="X">lerp(Self.X,624,0.05)</param>
-                                </action>
-                                <action id="-1" name="Set X" sid="549708466721429" type="Menu_Exit">
                                     <param id="0" name="X">lerp(Self.X,624,0.05)</param>
                                 </action>
                             </actions>
