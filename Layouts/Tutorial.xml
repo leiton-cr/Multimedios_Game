@@ -300,6 +300,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <idWrapper>0</idWrapper>
+                    </instance-variables>
                     <effect-instances>
                         <effect-instance type="RadialBlur">
                             <parameters>
@@ -330,6 +333,9 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <challengeId>0</challengeId>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -410,6 +416,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -439,6 +454,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -468,6 +492,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -682,6 +715,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1100,6 +1142,10 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <correctness>0</correctness>
+                        <answering>false</answering>
+                    </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="Platform">
                             <properties>
@@ -1188,6 +1234,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1217,6 +1272,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1246,6 +1310,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1366,8 +1439,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2028</x>
-                        <y>617</y>
+                        <x>2044</x>
+                        <y>597</y>
                         <z>0</z>
                         <width>583</width>
                         <height>19</height>
@@ -1404,7 +1477,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1741.886352539</x>
+                        <x>1756.350708008</x>
                         <y>412.18170166</y>
                         <z>0</z>
                         <width>758.35345459</width>
@@ -1525,6 +1598,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1557,8 +1639,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2473</x>
-                        <y>374</y>
+                        <x>2437</x>
+                        <y>400</y>
                         <z>0</z>
                         <width>491.49810791</width>
                         <height>141.729949951</height>
@@ -1583,6 +1665,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -1612,6 +1703,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -2158,6 +2258,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -2187,6 +2296,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -2583,6 +2701,15 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -3020,8 +3147,6 @@
             </instances>
             <effects />
         </layer>
-<<<<<<< HEAD
-=======
         <layer name="GUI" sid="179213922835651">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -3180,6 +3305,64 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="LevelName" uid="1185">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-241</x>
+                        <y>54</y>
+                        <z>0</z>
+                        <width>459.006774902</width>
+                        <height>75.05771637</height>
+                        <depth>0</depth>
+                        <hotspotX>0.488050312</hotspotX>
+                        <hotspotY>0.453846157</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LevelTextName" uid="1186">
+                    <properties>
+                        <text>El claro del origen</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-29,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-405</x>
+                        <y>37</y>
+                        <z>0</z>
+                        <width>350</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -3295,7 +3478,6 @@
             </instances>
             <effects />
         </layer>
->>>>>>> parent of 0d37c7c (Agrego sistema para mostrar tag con nombre de nivel)
         <layer name="Black and white" sid="936830481313364">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
@@ -3326,6 +3508,15 @@
                             </properties>
                         </behavior-instance>
                     </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
@@ -3405,11 +3596,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>641</x>
-                        <y>627</y>
+                        <x>640.150146484</x>
+                        <y>670.06842041</y>
                         <z>0</z>
                         <width>772</width>
-                        <height>103</height>
+                        <height>81.518798828</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -3417,7 +3608,7 @@
                         <opacity>0.949999988</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Text" uid="19">
+                <instance type="Message_Text" uid="19">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -3436,55 +3627,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>297</x>
-                        <y>596</y>
+                        <x>293.598266602</x>
+                        <y>641.087402344</y>
                         <z>0</z>
                         <width>693</width>
                         <height>65</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="GUI" sid="179213922835651">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>0</x>
-                <y>0</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <global>0</global>
-            <use-render-cells>0</use-render-cells>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="GUI_DoubleJump" uid="75">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1250.821533203</x>
-                        <y>27.826572418</y>
-                        <z>0</z>
-                        <width>0</width>
-                        <height>0</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

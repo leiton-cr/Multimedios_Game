@@ -271,6 +271,37 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Credits" uid="1184">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0.5</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1899</x>
+                        <y>376</y>
+                        <z>0</z>
+                        <width>672.31439209</width>
+                        <height>413.067199707</height>
+                        <depth>0</depth>
+                        <hotspotX>0.505141377</hotspotX>
+                        <hotspotY>0.57740587</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -300,42 +331,26 @@
                     <instance-variables>
                         <state>&quot;Idle&quot;</state>
                     </instance-variables>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0.5</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.8</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>584</x>
                         <y>462</y>
                         <z>0</z>
-                        <width>176</width>
-                        <height>64</height>
+                        <width>289</width>
+                        <height>114</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>0</opacity>
-                    </world>
-                </instance>
-                <instance type="Menu_Exit" uid="9">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <state>0</state>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>663</x>
-                        <y>562</y>
-                        <z>0</z>
-                        <width>176</width>
-                        <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.494809687</hotspotX>
+                        <hotspotY>0.456140339</hotspotY>
                         <angle>0</angle>
                         <opacity>0</opacity>
                     </world>
@@ -347,17 +362,26 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0.5</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.8</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1119</x>
-                        <y>660</y>
+                        <x>1122.498291016</x>
+                        <y>666.954101563</y>
                         <z>0</z>
-                        <width>107.470924377</width>
-                        <height>39.080337524</height>
+                        <width>94.405685425</width>
+                        <height>37.239616394</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.494809687</hotspotX>
+                        <hotspotY>0.456140339</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -391,17 +415,48 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0.5</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>0.8</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2361</x>
-                        <y>664</y>
+                        <x>2337</x>
+                        <y>660</y>
                         <z>0</z>
-                        <width>121.589477539</width>
-                        <height>44.214355469</height>
+                        <width>94.405830383</width>
+                        <height>37.239498138</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.494809687</hotspotX>
+                        <hotspotY>0.456140339</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Cred" uid="9">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>1837</x>
+                        <y>337</y>
+                        <z>0</z>
+                        <width>230.292633057</width>
+                        <height>48.025852203</height>
+                        <depth>0</depth>
+                        <hotspotX>0.218592972</hotspotX>
+                        <hotspotY>3.771084309</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

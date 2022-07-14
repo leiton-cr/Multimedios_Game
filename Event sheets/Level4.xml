@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Level4</name>
+    <events>
+        <include>Globals</include>
+        <event-group description="" sid="237726507032528" title="Boss" />
+        <event-group description="" sid="872062793544141" title="Darkin3">
+            <sub-events>
+                <event-block sid="268540172410026">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="226350524204686" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="973834571869846" type="TiledBackground">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="973228529351520" title="Darkout3">
+            <sub-events>
+                <event-block sid="348436728175196">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="919018672239407" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="927072983279772" type="TiledBackground">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="244632388514847" title="Level4Settings">
+            <sub-events>
+                <event-block sid="925653207428400">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="773228809538706" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="615032063453224" type="System">
+                            <param id="0" name="Variable">Actual_level</param>
+                            <param id="1" name="Value">&quot;levelFour&quot;</param>
+                        </action>
+                        <action behavior="Platform" id="13" name="Set double-jump" sid="305199699635019" type="Player">
+                            <param id="0" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="646890208935580" type="System">
+                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="840261447859806" type="System">
+                            <param id="0" name="Group name">&quot;Darkout3&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="778915232491041">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="648155413708317" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Reiniciar</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="355077371891104" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="220481016112891" type="PausaBtn">
+                            <param id="0" name="Opacity">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="600346684617201" title="LifePlayerForLevel4">
+            <sub-events>
+                <variable constant="0" name="CheckpointX" sid="808532283637284" static="0" type="number">0</variable>
+                <variable constant="0" name="CheckpointY" sid="957527791792033" static="0" type="number">0</variable>
+                <event-block sid="781350111312254">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="456978585765176" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="879367290172100" type="PausaBtn">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="509593700490569" type="System">
+                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="829320943034039" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="827377462176180" type="Player">
+                            <param id="0" name="X">160</param>
+                            <param id="1" name="Y">14</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="297619376565300">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="509968164222234" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="216220623004214" type="System">
+                            <param id="0" name="Group name">&quot;Darkin3&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="931601723108284" type="System">
+                            <param id="0" name="Group name">&quot;Darkout3&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="570422098132525" type="System">
+                            <param id="0" name="Group name">&quot;Darkout3&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
