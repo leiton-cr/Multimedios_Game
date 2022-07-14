@@ -18,6 +18,7 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
@@ -3307,6 +3308,9 @@
                         <behavior-type name="Solid" sid="972835444990917">
                             <behavior id="solid" />
                         </behavior-type>
+                        <behavior-type name="Sine" sid="880893585311669">
+                            <behavior id="Sin" />
+                        </behavior-type>
                     </behaviors>
                     <animation-folder>
                         <animation framecount="3" loop="1" name="Alient" pingpong="1" repeatcount="1" repeatto="0" sid="351974855436191" speed="3">
@@ -3847,6 +3851,9 @@
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
+                </object-type>
+                <object-type name="Touch" sid="695328065731850">
+                    <plugin id="Touch" />
                 </object-type>
             </object-folder>
         </object-folder>
@@ -4415,6 +4422,11 @@
         <global-instance type="Mouse" uid="11" />
         <global-instance type="AJAX" uid="24" />
         <global-instance type="Function" uid="127" />
+        <global-instance type="Touch" uid="428">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">
