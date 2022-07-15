@@ -247,7 +247,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="403423962450274" type="GhostResponse">
-                                            <param id="0" name="Text">abs(round(ParamOne/ParamTwo+choose(-2,-1,1,2) * 100)/100)</param>
+                                            <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -271,7 +271,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="280656655666191" type="GhostResponse">
-                                            <param id="0" name="Text">abs(round(ParamOne/ParamTwo+choose(-2,-1,1,2) * 100)/100)</param>
+                                            <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -318,7 +318,7 @@
                             <param id="1" name="Value">ParamOne-ParamTwo</param>
                         </action>
                         <action id="-9" name="Set value" sid="370311194035033" type="System">
-                            <param id="0" name="Variable">Actual_level</param>
+                            <param id="0" name="Variable">ParamOne</param>
                             <param id="1" name="Value">ParamOne-ParamTwo</param>
                         </action>
                     </actions>

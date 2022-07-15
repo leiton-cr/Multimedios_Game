@@ -1281,15 +1281,19 @@
                         </action>
                         <action id="-9" name="Set value" sid="817730904648139" type="System">
                             <param id="0" name="Variable">ParamOne</param>
-                            <param id="1" name="Value">round(random(50,100))</param>
+                            <param id="1" name="Value">round(random(1,20))</param>
                         </action>
                         <action id="-9" name="Set value" sid="564166732992120" type="System">
                             <param id="0" name="Variable">ParamTwo</param>
-                            <param id="1" name="Value">round(random(50,100))</param>
+                            <param id="1" name="Value">round(random(1,10))</param>
                         </action>
                         <action id="-9" name="Set value" sid="911200643368800" type="System">
                             <param id="0" name="Variable">ResponsePlank</param>
                             <param id="1" name="Value">round(random(1))+1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="614062936338411" type="Function">
+                            <param id="0" name="Name">&quot;SwapLevel2&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                         <action id="-9" name="Set value" sid="452190994044679" type="System">
                             <param id="0" name="Variable">Dialog_id</param>
@@ -1304,7 +1308,7 @@
                         </action>
                         <action id="0" name="Call function" sid="214418202935938" type="Function">
                             <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;+&quot; &amp; ParamTwo</param>
+                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;/&quot; &amp; ParamTwo</param>
                         </action>
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="308360677999870" type="Player">
                             <param id="0" name="Input">0</param>
@@ -1346,7 +1350,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="736465660210355" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="176331334215789" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1367,7 +1371,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="915089433404810" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="101836426141244" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1398,7 +1402,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="290794473013405" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="948456948319299" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1419,7 +1423,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="661766522135482" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="850199929191721" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1463,7 +1467,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="565045585665718" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="772553524902375" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1484,7 +1488,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="184862100035906" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="141010059691274" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1515,7 +1519,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="336916900779224" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="263845266578876" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1536,7 +1540,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="568218286732496" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="824485102045878" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1580,7 +1584,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="579578477383855" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="210933555965803" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1601,7 +1605,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="321238925214951" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="698058887182463" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1632,7 +1636,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="466762900478200" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="465162810367691" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1653,7 +1657,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="269661916132399" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="163140574921332" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1697,7 +1701,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="141777980271824" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="720894155972502" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1718,7 +1722,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="395961569418495" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="134893580903926" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1749,7 +1753,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="779623987978084" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="390335241024106" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1770,7 +1774,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="843698013772363" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="866395705717585" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1814,7 +1818,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="296991420325579" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="490881535208629" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1835,7 +1839,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="182637529239550" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="903685785637170" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1866,7 +1870,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="290410844474747" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                                    <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="658934980433750" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1887,7 +1891,7 @@
                                             </conditions>
                                             <actions>
                                                 <action id="0" name="Set text" sid="196195675720834" type="PlankResponse">
-                                                    <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                                    <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                                 </action>
                                                 <action id="-13" name="Set boolean" sid="741471269817397" type="Plank">
                                                     <param id="0" name="Instance variable">corectness</param>
@@ -1900,6 +1904,32 @@
                             </sub-events>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="845590989587254">
+                    <conditions>
+                        <condition id="0" name="On function" sid="259545949008481" type="Function">
+                            <param id="0" name="Name">&quot;SwapLevel2&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="869982566112857" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">ParamTwo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="646462253698122" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">ParamTwo</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="969735715723190" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">ParamOne-ParamTwo</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="441450853667112" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">ParamOne-ParamTwo</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
