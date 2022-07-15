@@ -310,6 +310,42 @@
                     <instance-variable name="Block" sid="348787344953071" type="number" />
                 </instance-variables>
             </object-type>
+            <object-type name="CreditsTag" sid="265826018720470">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293388218858784" speed="5">
+                        <frame duration="1" hotspotX="0.218593" hotspotY="3.77108" original-source="C:\Users\luisl\OneDrive\Desktop\Cred.png">
+                            <collision-poly>
+                                <point x="0.218593" y="0.289157" />
+                                <point x="0.693467" y="0.987952" />
+                                <point x="0.218593" y="0.939759" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Credits" sid="982586670574587">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189161795009533" speed="5">
+                        <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Credits.png">
+                            <collision-poly>
+                                <point x="0.00514139" y="0.349372" />
+                                <point x="0.505141" y="0.00209205" />
+                                <point x="0.98072" y="0.389121" />
+                                <point x="0.98072" y="0.76569" />
+                                <point x="0.505141" y="0.995816" />
+                                <point x="0.00385604" y="0.807531" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-folder name="Globals">
             <object-folder name="Platforms">
@@ -5767,6 +5803,45 @@
             <object-type name="LevelTextName" sid="589850739168234">
                 <plugin id="Text" />
             </object-type>
+            <object-type name="Endgame2" sid="690830884931685">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998249960148687" speed="5">
+                        <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
+                            <collision-poly>
+                                <point x="0.00514139" y="0.349372" />
+                                <point x="0.505141" y="0.00209205" />
+                                <point x="0.98072" y="0.389121" />
+                                <point x="0.98072" y="0.76569" />
+                                <point x="0.505141" y="0.995816" />
+                                <point x="0.00385604" y="0.807531" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Endgame" sid="164951224327029">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="704878076402860" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
+                            <collision-poly>
+                                <point x="0.194531" y="0.345833" />
+                                <point x="0.5" y="0.118056" />
+                                <point x="0.789063" y="0.375" />
+                                <point x="0.789063" y="0.625" />
+                                <point x="0.5" y="0.779167" />
+                                <point x="0.195313" y="0.652778" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
@@ -6144,81 +6219,6 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="347837993919422" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Endgame" sid="164951224327029">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="704878076402860" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
-                        <collision-poly>
-                            <point x="0.194531" y="0.345833" />
-                            <point x="0.5" y="0.118056" />
-                            <point x="0.789063" y="0.375" />
-                            <point x="0.789063" y="0.625" />
-                            <point x="0.5" y="0.779167" />
-                            <point x="0.195313" y="0.652778" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Endgame2" sid="690830884931685">
-            <plugin id="Sprite" />
-            <effects>
-                <effect-type name="AdjustHSL">
-                    <effect id="hsladjust" />
-                </effect-type>
-            </effects>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998249960148687" speed="5">
-                    <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
-                        <collision-poly>
-                            <point x="0.00514139" y="0.349372" />
-                            <point x="0.505141" y="0.00209205" />
-                            <point x="0.98072" y="0.389121" />
-                            <point x="0.98072" y="0.76569" />
-                            <point x="0.505141" y="0.995816" />
-                            <point x="0.00385604" y="0.807531" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="CreditsTag" sid="265826018720470">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293388218858784" speed="5">
-                    <frame duration="1" hotspotX="0.218593" hotspotY="3.77108" original-source="C:\Users\luisl\OneDrive\Desktop\Cred.png">
-                        <collision-poly>
-                            <point x="0.218593" y="0.289157" />
-                            <point x="0.693467" y="0.987952" />
-                            <point x="0.218593" y="0.939759" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Credits" sid="982586670574587">
-            <plugin id="Sprite" />
-            <effects>
-                <effect-type name="AdjustHSL">
-                    <effect id="hsladjust" />
-                </effect-type>
-            </effects>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="189161795009533" speed="5">
-                    <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Credits.png">
-                        <collision-poly>
-                            <point x="0.00514139" y="0.349372" />
-                            <point x="0.505141" y="0.00209205" />
-                            <point x="0.98072" y="0.389121" />
-                            <point x="0.98072" y="0.76569" />
-                            <point x="0.505141" y="0.995816" />
-                            <point x="0.00385604" y="0.807531" />
-                        </collision-poly>
-                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
