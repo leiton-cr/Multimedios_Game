@@ -57,7 +57,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -303,6 +303,12 @@
                         </frame>
                     </animation>
                 </animation-folder>
+            </object-type>
+            <object-type name="CreditText" sid="528847982576660">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="Block" sid="348787344953071" type="number" />
+                </instance-variables>
             </object-type>
         </object-folder>
         <object-folder name="Globals">
@@ -6180,7 +6186,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Cred" sid="265826018720470">
+        <object-type name="CreditsTag" sid="265826018720470">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="293388218858784" speed="5">
@@ -6220,6 +6226,7 @@
     <families>
         <family name="LuckiestGuy" plugin-id="Text" sid="342138454347130">
             <members>
+                <member>CreditText</member>
                 <member>GhostResponse</member>
                 <member>HPText</member>
                 <member>LevelTextName</member>
