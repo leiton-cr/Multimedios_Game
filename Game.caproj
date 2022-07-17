@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
@@ -2464,6 +2465,7 @@
                     <container>
                         <type>GhostResponse</type>
                         <type>LittleGhost</type>
+                        <type>GhostResponse2</type>
                     </container>
                 </object-type>
                 <object-type name="QuestIcon" sid="527629802429384">
@@ -5163,7 +5165,16 @@
                 </object-type>
             </object-folder>
             <object-folder name="Level4">
-                <object-folder name="Boss" />
+                <object-folder name="Boss">
+                    <object-type name="Skeleton" sid="246589444500429">
+                        <plugin id="Sprite" />
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463788427552306" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Skeleton.jpg" />
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                </object-folder>
                 <object-folder name="Platforms">
                     <object-type name="InvisibleLand" sid="571889517347315">
                         <plugin id="Sprite" />
@@ -5238,6 +5249,29 @@
                         <texture />
                     </object-type>
                 </object-folder>
+                <object-type name="GhostResponse2" sid="896956633259764">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="correctness" sid="494517376673817" type="boolean" />
+                    </instance-variables>
+                    <container>
+                        <type>GhostResponse</type>
+                        <type>LittleGhost</type>
+                        <type>GhostResponse2</type>
+                    </container>
+                </object-type>
+                <object-type name="AnswerOne2" sid="743592421643713">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="Flag" sid="206073764821615" type="boolean" />
+                    </instance-variables>
+                </object-type>
+                <object-type name="AnswerTwo2" sid="759596745749622">
+                    <plugin id="Text" />
+                    <instance-variables>
+                        <instance-variable name="Flag" sid="141686576301768" type="boolean" />
+                    </instance-variables>
+                </object-type>
             </object-folder>
         </object-folder>
         <object-folder name="Enemies">
@@ -5267,6 +5301,7 @@
                 <container>
                     <type>GhostResponse</type>
                     <type>LittleGhost</type>
+                    <type>GhostResponse2</type>
                 </container>
                 <animation-folder>
                     <animation framecount="1" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="819367032356195" speed="5">
@@ -6248,11 +6283,15 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Browser" sid="366871919456699">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families>
         <family name="LuckiestGuy" plugin-id="Text" sid="342138454347130">
             <members>
                 <member>GhostResponse</member>
+                <member>GhostResponse2</member>
                 <member>HPText</member>
                 <member>Message_Text</member>
                 <member>PlankResponse</member>
@@ -6304,6 +6343,7 @@
         <global-instance type="Mouse" uid="1061" />
         <global-instance type="AJAX" uid="1062" />
         <global-instance type="Function" uid="1063" />
+        <global-instance type="Browser" uid="1184" />
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">
