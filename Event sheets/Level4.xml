@@ -100,6 +100,21 @@
             <sub-events>
                 <variable constant="0" name="CheckpointX" sid="808532283637284" static="0" type="number">0</variable>
                 <variable constant="0" name="CheckpointY" sid="957527791792033" static="0" type="number">0</variable>
+                <event-block sid="774058100054614">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="132333692759595" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="502967239104355" type="System">
+                            <param id="0" name="Variable">CheckpointX</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="574383839101040" type="System">
+                            <param id="0" name="Variable">CheckpointY</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="781350111312254">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="456978585765176" type="System">
@@ -160,6 +175,41 @@
                 <variable constant="0" name="Temp2" sid="719788697338226" static="1" type="number">0</variable>
                 <variable constant="0" name="State" sid="111465706661128" static="1" type="number">0</variable>
                 <variable constant="0" name="RandomChoose" sid="832480058416665" static="1" type="number">0</variable>
+                <event-block sid="933341244730623">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="476020159804405" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="337698265925178" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="611782216243642" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="488641020727776" type="System">
+                            <param id="0" name="Variable">ResponseOne</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="199913132161607" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="592769876733792" type="System">
+                            <param id="0" name="Variable">Temp2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="343730049418768" type="System">
+                            <param id="0" name="Variable">State</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="628311085817947" type="System">
+                            <param id="0" name="Variable">RandomChoose</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="345808507412794">
                     <conditions>
                         <condition id="-6" name="Every X seconds" sid="616300197029402" type="System">
@@ -512,6 +562,29 @@
                 <variable constant="0" name="ClickOnObject" sid="920316171107103" static="1" type="number">0</variable>
                 <variable constant="0" name="State" sid="259040584865767" static="1" type="number">0</variable>
                 <variable constant="0" name="RandomChoose" sid="511793052964764" static="1" type="number">0</variable>
+                <event-block sid="121754042115681">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="360243576940370" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="924556021600691" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="885870210767489" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="233148357695382" type="System">
+                            <param id="0" name="Variable">State</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="792343726133094" type="System">
+                            <param id="0" name="Variable">RandomChoose</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="991530296387398">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="112910506639609" type="System">
@@ -829,6 +902,29 @@
                 <variable constant="0" name="ClickOnObject" sid="573592051883143" static="1" type="number">0</variable>
                 <variable constant="0" name="State" sid="889950383366474" static="1" type="number">0</variable>
                 <variable constant="0" name="RandomChoose" sid="231520593003819" static="1" type="number">0</variable>
+                <event-block sid="635765085719078">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="417379273765094" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="388451125864891" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="372345971260178" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="486484806393172" type="System">
+                            <param id="0" name="Variable">State</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="360841210394121" type="System">
+                            <param id="0" name="Variable">RandomChoose</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="539890009283569">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="484316365794565" type="System">
