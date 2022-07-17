@@ -289,7 +289,7 @@
                         <event-block sid="608584619849444">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="223925102275742" type="LittleGhost">
-                                    <param id="0" name="Unique ID">1185</param>
+                                    <param id="0" name="Unique ID">1058</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -331,7 +331,7 @@
                         <event-block sid="124024594915405">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="801946407032607" type="LittleGhost">
-                                    <param id="0" name="Unique ID">1186</param>
+                                    <param id="0" name="Unique ID">1059</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -473,7 +473,7 @@
                 <event-block sid="453342649116312">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="683625162650012" type="LittleGhost">
-                            <param id="0" name="Unique ID">1185</param>
+                            <param id="0" name="Unique ID">1059</param>
                         </condition>
                     </conditions>
                     <actions>
@@ -490,7 +490,7 @@
                 <event-block sid="654586213622691">
                     <conditions>
                         <condition id="-14" name="Pick by unique ID" sid="816430276869527" type="LittleGhost">
-                            <param id="0" name="Unique ID">1186</param>
+                            <param id="0" name="Unique ID">1058</param>
                         </condition>
                     </conditions>
                     <actions>

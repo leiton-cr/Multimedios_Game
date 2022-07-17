@@ -58,7 +58,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">(default)</prop>
+        <prop name="Preview browser">Firefox</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -5119,7 +5119,18 @@
                         <plugin id="Sprite" />
                         <animation-folder>
                             <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463788427552306" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Skeleton.jpg" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\Descargas\Dragon2.png">
+                                    <collision-poly>
+                                        <point x="0.380729" y="0.676852" />
+                                        <point x="0.5" y="0.15" />
+                                        <point x="0.721875" y="0.494444" />
+                                        <point x="0.721875" y="0.5" />
+                                        <point x="0.722396" y="0.506481" />
+                                        <point x="0.5" y="0.981481" />
+                                        <point x="0.4625" y="0.177778" />
+                                        <point x="0.350521" y="0.5" />
+                                    </collision-poly>
+                                </frame>
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -6199,45 +6210,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Endgame" sid="164951224327029">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="704878076402860" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
-                        <collision-poly>
-                            <point x="0.194531" y="0.345833" />
-                            <point x="0.5" y="0.118056" />
-                            <point x="0.789063" y="0.375" />
-                            <point x="0.789063" y="0.625" />
-                            <point x="0.5" y="0.779167" />
-                            <point x="0.195313" y="0.652778" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="Endgame2" sid="690830884931685">
-            <plugin id="Sprite" />
-            <effects>
-                <effect-type name="AdjustHSL">
-                    <effect id="hsladjust" />
-                </effect-type>
-            </effects>
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="998249960148687" speed="5">
-                    <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Endgame.png">
-                        <collision-poly>
-                            <point x="0.00514139" y="0.349372" />
-                            <point x="0.505141" y="0.00209205" />
-                            <point x="0.98072" y="0.389121" />
-                            <point x="0.98072" y="0.76569" />
-                            <point x="0.505141" y="0.995816" />
-                            <point x="0.00385604" y="0.807531" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Browser" sid="366871919456699">
             <plugin id="Browser" />
         </object-type>
@@ -6281,9 +6253,9 @@
         <event-sheet>Level4.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="1058" />
-        <global-instance type="Keyboard" uid="1059" />
-        <global-instance type="Audio" uid="1060">
+        <global-instance type="Keyboard" uid="1200" />
+        <global-instance type="Keyboard" uid="1201" />
+        <global-instance type="Audio" uid="1202">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -6297,10 +6269,10 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Mouse" uid="1061" />
-        <global-instance type="AJAX" uid="1062" />
-        <global-instance type="Function" uid="1063" />
-        <global-instance type="Browser" uid="1184" />
+        <global-instance type="Mouse" uid="1203" />
+        <global-instance type="AJAX" uid="1204" />
+        <global-instance type="Function" uid="1205" />
+        <global-instance type="Browser" uid="1206" />
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">
