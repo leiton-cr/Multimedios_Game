@@ -47,9 +47,9 @@
     </levelTwo>
 	<levelFour>
 		<hint id="1">¡Felicidades ganaste!</hint>
-		<hint id="2">Parece que puedes subir por aquí</hint>
-		<hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
-		<hint id="4">Tu respuesta es incorrecta</hint>
+		<hint id="2">Tu respuesta es correcta</hint>
+		<hint id="3">Tu respuesta es incorrecta</hint>
+		<hint id="4">Debes darle click con el mouse a la respuesta correcta para avanzar</hint>
 	</levelFour>
 	
 </dialogs>
