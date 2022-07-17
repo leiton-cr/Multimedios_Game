@@ -38,6 +38,9 @@
                     <param id="0" name="Group name">&quot;ShutDownEnemiesTutorial&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
+                <action id="0" name="Set text" sid="235685193393668" type="GhostResponse2">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="570268642780557" title="Trigger Tutorial Boss">
@@ -457,7 +460,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="704327170061246" type="GhostResponse">
                     <param id="0" name="X">LittleGhost.X</param>
-                    <param id="1" name="Y">LittleGhost.Y</param>
+                    <param id="1" name="Y">LittleGhost.Y+5</param>
                 </action>
             </actions>
         </event-block>
