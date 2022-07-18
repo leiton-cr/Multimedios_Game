@@ -162,7 +162,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="612256467357253" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Cuanto es el perimetro de un Cuadrado cuyo lado mide  &quot;&amp;Variable1</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un cuadrado cuyo lado mide? &quot;&amp;Variable1</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="600397325563389" type="textQuestion">
                                     <param id="0" name="Visibility">1</param>
@@ -208,7 +208,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="879206447706964" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Cuanto es el perimetro de un Triangulo cuyo lado mide  &quot;&amp;Variable1</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un triángulo cuyo lado mide?  &quot;&amp;Variable1</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="268060200027809" type="textQuestion">
                                     <param id="0" name="Visibility">1</param>

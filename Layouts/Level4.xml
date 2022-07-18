@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BackgroundLight" uid="1127">
+                <instance type="BackgroundLight" uid="1131">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -68,7 +68,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="shrubbery" uid="1129">
+                <instance type="shrubbery" uid="1132">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -88,7 +88,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackgroundForest" uid="1130">
+                <instance type="BackgroundForest" uid="1133">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -108,7 +108,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MiddleForest" uid="1131">
+                <instance type="MiddleForest" uid="1134">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -147,7 +147,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="SecondFrontForest" uid="1132">
+                <instance type="SecondFrontForest" uid="1135">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -167,7 +167,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sparks" uid="1133">
+                <instance type="Sparks" uid="1136">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -226,7 +226,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="FrontForest" uid="1134">
+                <instance type="FrontForest" uid="1138">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -246,7 +246,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Particles" uid="1135">
+                <instance type="Particles" uid="1139">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -266,7 +266,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bushes" uid="1136">
+                <instance type="Bushes" uid="1140">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -286,7 +286,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="InvisibleLand" uid="1138">
+                <instance type="InvisibleLand" uid="1141">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -386,7 +386,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnswerTwo2" uid="1194">
+                <instance type="AnswerTwo2" uid="1144">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -435,7 +435,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Player" uid="1128">
+                <instance type="Player" uid="1145">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -482,7 +482,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="InvisibleWall" uid="1139">
+                <instance type="InvisibleWall" uid="1146">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -511,7 +511,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="InvisibleWall" uid="1140">
+                <instance type="InvisibleWall" uid="1147">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -559,7 +559,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="LittleGhost" uid="1058">
+                <instance type="LittleGhost" uid="1148">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -597,7 +597,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LittleGhost" uid="1059">
+                <instance type="LittleGhost" uid="1149">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -635,7 +635,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GhostResponse2" uid="1060">
+                <instance type="GhostResponse2" uid="1150">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -665,7 +665,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GhostResponse2" uid="1061">
+                <instance type="GhostResponse2" uid="1151">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -714,7 +714,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BigGhost" uid="1062">
+                <instance type="BigGhost" uid="1153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -764,7 +764,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnswerOne2" uid="1063">
+                <instance type="AnswerOne2" uid="1158">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -794,7 +794,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AnswerTwo2" uid="1141">
+                <instance type="AnswerTwo2" uid="1159">
                     <properties>
                         <text>Text</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -843,7 +843,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Pausar" uid="1144">
+                <instance type="Pausar" uid="1160">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -874,7 +874,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Continuar" uid="1145">
+                <instance type="Continuar" uid="1180">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -905,7 +905,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Reiniciar" uid="1146">
+                <instance type="Reiniciar" uid="1181">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -936,7 +936,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Salir" uid="1147">
+                <instance type="Salir" uid="1182">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -986,7 +986,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="PausaBtn" uid="1148">
+                <instance type="PausaBtn" uid="1183">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1017,7 +1017,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Message_Box" uid="1149">
+                <instance type="Message_Box" uid="1453">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1054,7 +1054,7 @@
                         <opacity>0.949999988</opacity>
                     </world>
                 </instance>
-                <instance type="Message_Text" uid="1150">
+                <instance type="Message_Text" uid="1456">
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1074,10 +1074,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>243</x>
-                        <y>658</y>
+                        <y>653</y>
                         <z>0</z>
-                        <width>693</width>
-                        <height>65</height>
+                        <width>856</width>
+                        <height>74</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1085,7 +1085,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ColorBarBG" uid="1151">
+                <instance type="ColorBarBG" uid="1457">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1107,7 +1107,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ColorBar" uid="1180">
+                <instance type="ColorBar" uid="1458">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1138,7 +1138,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HPText" uid="1181">
+                <instance type="HPText" uid="1459">
                     <properties>
                         <text>3/3</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1165,7 +1165,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HealthBar" uid="1182">
+                <instance type="HealthBar" uid="1460">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1196,7 +1196,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelName" uid="1209">
+                <instance type="LevelName" uid="1461">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1227,7 +1227,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelTextName" uid="1210">
+                <instance type="LevelTextName" uid="1462">
                     <properties>
                         <text>Bosque del dragón</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1291,7 +1291,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="DarknessLevel4" uid="1183">
+                <instance type="DarknessLevel4" uid="1463">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -1311,7 +1311,7 @@
                         <opacity>0</opacity>
                     </world>
                 </instance>
-                <instance type="Endgame2" uid="1197">
+                <instance type="Endgame2" uid="1464">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1342,7 +1342,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Reiniciar" uid="1198">
+                <instance type="Reiniciar" uid="1465">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1373,7 +1373,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Salir" uid="1199">
+                <instance type="Salir" uid="1466">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

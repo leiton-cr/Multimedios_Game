@@ -579,7 +579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco16" uid="1189">
+                <instance type="Deco16" uid="881">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -601,7 +601,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TiledBackground2" uid="881">
+                <instance type="TiledBackground2" uid="895">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -651,7 +651,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Bloque" uid="895">
+                <instance type="Bloque" uid="896">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -673,7 +673,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bloque" uid="896">
+                <instance type="Bloque" uid="897">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -695,7 +695,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Bloque" uid="897">
+                <instance type="Bloque" uid="898">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -736,7 +736,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Deco11" uid="898">
+                <instance type="Deco11" uid="899">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -767,7 +767,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco04" uid="899">
+                <instance type="Deco04" uid="900">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -789,7 +789,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Diamante" uid="900">
+                <instance type="Diamante" uid="901">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -811,7 +811,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco05" uid="901">
+                <instance type="Deco05" uid="902">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -6566,7 +6566,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco10" uid="902">
+                <instance type="Deco10" uid="907">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7342,7 +7342,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1191">
+                <instance type="Big_Mossy_Platform" uid="923">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7380,7 +7380,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1192">
+                <instance type="Big_Mossy_Platform" uid="939">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7418,7 +7418,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1193">
+                <instance type="Big_Mossy_Platform" uid="945">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7494,7 +7494,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1195">
+                <instance type="Big_Mossy_Platform" uid="949">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7532,7 +7532,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1196">
+                <instance type="Big_Mossy_Platform" uid="950">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7860,7 +7860,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1207">
+                <instance type="Big_Mossy_Platform" uid="951">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7898,7 +7898,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1208">
+                <instance type="Big_Mossy_Platform" uid="952">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8012,7 +8012,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1211">
+                <instance type="Big_Mossy_Platform" uid="958">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -8944,7 +8944,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco07" uid="907">
+                <instance type="Deco07" uid="960">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -10626,7 +10626,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Deco11" uid="960">
+                <instance type="Deco11" uid="961">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11392,7 +11392,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueFlotante" uid="958">
+                <instance type="BloqueFlotante" uid="963">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11434,7 +11434,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueFlotante" uid="961">
+                <instance type="BloqueFlotante" uid="964">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11642,7 +11642,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueFlotante" uid="964">
+                <instance type="BloqueFlotante" uid="965">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11722,7 +11722,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="939">
+                <instance type="Big_Mossy_Platform" uid="967">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11760,7 +11760,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="963">
+                <instance type="Big_Mossy_Platform" uid="971">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11827,7 +11827,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueFlotante" uid="965">
+                <instance type="BloqueFlotante" uid="1018">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11891,7 +11891,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="967">
+                <instance type="Big_Mossy_Platform" uid="1021">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11929,7 +11929,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="952">
+                <instance type="Big_Mossy_Platform" uid="1024">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -11967,7 +11967,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Montain" uid="1024">
+                <instance type="Montain" uid="1039">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12027,7 +12027,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HalfCave" uid="945">
+                <instance type="HalfCave" uid="1050">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12094,7 +12094,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="971">
+                <instance type="Big_Mossy_Platform" uid="1058">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12132,7 +12132,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="950">
+                <instance type="Big_Mossy_Platform" uid="1059">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12170,7 +12170,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Mossy_BackgroundDecoration" uid="1039">
+                <instance type="Mossy_BackgroundDecoration" uid="1060">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12199,7 +12199,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="949">
+                <instance type="Big_Mossy_Platform" uid="1061">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12237,7 +12237,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueFlotante" uid="951">
+                <instance type="BloqueFlotante" uid="1062">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12361,7 +12361,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PreguntaAlient" uid="1190">
+                <instance type="PreguntaAlient" uid="1063">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12405,7 +12405,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="923">
+                <instance type="Tutorial_Message_Trigger" uid="1127">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12802,9 +12802,9 @@
                 </instance>
                 <instance type="textQuestion" uid="1415">
                     <properties>
-                        <text>Dele click a la respuesta que considere correcta</text>
+                        <text>Dale click a la respuesta que considere correcta</text>
                         <initial-visibility>Invisible</initial-visibility>
-                        <font>Arial,-18.4,400,0</font>
+                        <font>Arial,-19,400,0</font>
                         <color>255,255,255</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
@@ -12887,7 +12887,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ColorBar" uid="1021">
+                <instance type="ColorBar" uid="1128">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12918,7 +12918,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GUI_DoubleJump" uid="1050">
+                <instance type="GUI_DoubleJump" uid="1129">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -12998,7 +12998,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PausaBtn" uid="1018">
+                <instance type="PausaBtn" uid="1130">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
