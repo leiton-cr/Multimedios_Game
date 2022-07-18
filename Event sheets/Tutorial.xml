@@ -38,6 +38,9 @@
                     <param id="0" name="Group name">&quot;ShutDownEnemiesTutorial&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
+                <action id="0" name="Set text" sid="235685193393668" type="GhostResponse2">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="570268642780557" title="Trigger Tutorial Boss">
@@ -181,19 +184,23 @@
                         </action>
                         <action id="-9" name="Set value" sid="668275448766401" type="System">
                             <param id="0" name="Variable">ParamOne</param>
-                            <param id="1" name="Value">round(random(50,100))</param>
+                            <param id="1" name="Value">round(random(1,20))</param>
                         </action>
                         <action id="-9" name="Set value" sid="776531010337246" type="System">
                             <param id="0" name="Variable">ParamTwo</param>
-                            <param id="1" name="Value">round(random(50,100))</param>
+                            <param id="1" name="Value">round(random(1,10))</param>
                         </action>
                         <action id="-9" name="Set value" sid="363473803212137" type="System">
                             <param id="0" name="Variable">ResponseGhost</param>
                             <param id="1" name="Value">round(random(1))+1</param>
                         </action>
+                        <action id="0" name="Call function" sid="406152286801296" type="Function">
+                            <param id="0" name="Name">&quot;SwapTutorial&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
                         <action id="0" name="Call function" sid="958982481432848" type="Function">
                             <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;+&quot; &amp; ParamTwo</param>
+                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;/&quot; &amp; ParamTwo</param>
                         </action>
                         <action id="-16" name="Wait" sid="443441856582524" type="System">
                             <param id="0" name="Seconds">3</param>
@@ -225,7 +232,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="141554520412988" type="GhostResponse">
-                                            <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                            <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                         </action>
                                         <action id="-13" name="Set boolean" sid="296136664648682" type="GhostResponse">
                                             <param id="0" name="Instance variable">correctness</param>
@@ -243,7 +250,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="403423962450274" type="GhostResponse">
-                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                            <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -267,7 +274,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="280656655666191" type="GhostResponse">
-                                            <param id="0" name="Text">ParamOne+ParamTwo-round(random(5))-1</param>
+                                            <param id="0" name="Text">abs((round(ParamOne/ParamTwo * 100)/100)+choose(-2,-1,1,2))</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -281,7 +288,7 @@
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Set text" sid="197326871465287" type="GhostResponse">
-                                            <param id="0" name="Text">ParamOne+ParamTwo</param>
+                                            <param id="0" name="Text">round(ParamOne/ParamTwo * 100)/100</param>
                                         </action>
                                         <action id="-13" name="Set boolean" sid="193840247012446" type="GhostResponse">
                                             <param id="0" name="Instance variable">correctness</param>
@@ -292,6 +299,32 @@
                             </sub-events>
                         </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="538765154327143">
+                    <conditions>
+                        <condition id="0" name="On function" sid="254261071963987" type="Function">
+                            <param id="0" name="Name">&quot;SwapTutorial&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="681358193427055" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">ParamTwo</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="583944282640717" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">ParamTwo</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="577896090872492" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">ParamOne-ParamTwo</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="370311194035033" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">ParamOne-ParamTwo</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
@@ -427,7 +460,7 @@
             <actions>
                 <action id="-3" name="Set position" sid="704327170061246" type="GhostResponse">
                     <param id="0" name="X">LittleGhost.X</param>
-                    <param id="1" name="Y">LittleGhost.Y</param>
+                    <param id="1" name="Y">LittleGhost.Y+5</param>
                 </action>
             </actions>
         </event-block>

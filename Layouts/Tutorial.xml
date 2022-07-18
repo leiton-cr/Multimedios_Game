@@ -47,6 +47,44 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
+                <instance type="Medium_Mossy_Platform_Through" uid="57">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Jumpthru">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>2685</x>
+                        <y>933</y>
+                        <z>0</z>
+                        <width>436.309509277</width>
+                        <height>107.148704529</height>
+                        <depth>0</depth>
+                        <hotspotX>0.375959069</hotspotX>
+                        <hotspotY>1.152993321</hotspotY>
+                        <angle>-0.027114045</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Deco16" uid="112">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -111,8 +149,8 @@
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-21,400,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -126,7 +164,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>4251</x>
-                        <y>1017</y>
+                        <y>1020</y>
                         <z>0</z>
                         <width>71.559570313</width>
                         <height>50.932006836</height>
@@ -179,8 +217,8 @@
                     <properties>
                         <text></text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Arial,-16</font>
-                        <color>0,0,0</color>
+                        <font>Arial,-21,400,0</font>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Center</hotspot>
@@ -194,7 +232,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>5767</x>
-                        <y>815</y>
+                        <y>820</y>
                         <z>0</z>
                         <width>71.559570313</width>
                         <height>50.932006836</height>
@@ -513,44 +551,6 @@
                         <hotspotX>0.375959069</hotspotX>
                         <hotspotY>1.152993321</hotspotY>
                         <angle>-0.027114045</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Big_Mossy_Platform" uid="89">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>0</hue>
-                                <luminosity>1</luminosity>
-                                <saturation>1</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4726</x>
-                        <y>1353</y>
-                        <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
-                        <depth>0</depth>
-                        <hotspotX>0.49851191</hotspotX>
-                        <hotspotY>-1.205357194</hotspotY>
-                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -1170,8 +1170,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>226</x>
-                        <y>399</y>
+                        <x>276</x>
+                        <y>356</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -1351,8 +1351,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>200.270019531</x>
-                        <y>252.854980469</y>
+                        <x>265</x>
+                        <y>250</y>
                         <z>0</z>
                         <width>867</width>
                         <height>288</height>
@@ -1477,10 +1477,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1756.350708008</x>
-                        <y>412.18170166</y>
+                        <x>1731.610107422</x>
+                        <y>416.684448242</y>
                         <z>0</z>
-                        <width>758.35345459</width>
+                        <width>824.60736084</width>
                         <height>168.522994995</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
@@ -1610,8 +1610,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3124</x>
-                        <y>1174</y>
+                        <x>3158</x>
+                        <y>1172</y>
                         <z>0</z>
                         <width>436.309509277</width>
                         <height>107.148704529</height>
@@ -1677,11 +1677,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>292</x>
-                        <y>888</y>
+                        <x>346.814178467</x>
+                        <y>883.795532227</y>
                         <z>0</z>
-                        <width>829</width>
-                        <height>256</height>
+                        <width>975</width>
+                        <height>236</height>
                         <depth>0</depth>
                         <hotspotX>0.375959069</hotspotX>
                         <hotspotY>1.152993321</hotspotY>
@@ -1753,10 +1753,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2257</x>
-                        <y>1377.73815918</y>
+                        <x>2282.37890625</x>
+                        <y>1377.738037109</y>
                         <z>0</z>
-                        <width>758.35345459</width>
+                        <width>809.263122559</width>
                         <height>168.522994995</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
@@ -1874,11 +1874,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1549.865600586</x>
-                        <y>1382.830688477</y>
+                        <x>1587.444580078</x>
+                        <y>1382.255615234</y>
                         <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
+                        <width>890.268188477</width>
+                        <height>169</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
                         <hotspotY>-1.205357194</hotspotY>
@@ -1903,10 +1903,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>941.937316895</x>
-                        <y>1809.432128906</y>
+                        <x>977.485900879</x>
+                        <y>1810.674682617</y>
                         <z>0</z>
-                        <width>809</width>
+                        <width>866</width>
                         <height>223</height>
                         <depth>0</depth>
                         <hotspotX>0.375959069</hotspotX>
@@ -1986,10 +1986,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>470.229675293</x>
-                        <y>1785.299560547</y>
+                        <x>499.935668945</x>
+                        <y>1799.046142578</y>
                         <z>0</z>
-                        <width>809</width>
+                        <width>857</width>
                         <height>223</height>
                         <depth>0</depth>
                         <hotspotX>0.375959069</hotspotX>
@@ -2270,46 +2270,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3027</x>
-                        <y>661</y>
-                        <z>0</z>
-                        <width>436.309509277</width>
-                        <height>107.148704529</height>
-                        <depth>0</depth>
-                        <hotspotX>0.375959069</hotspotX>
-                        <hotspotY>1.152993321</hotspotY>
-                        <angle>-0.027114045</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Medium_Mossy_Platform_Through" uid="57">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Jumpthru">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <effect-instances>
-                        <effect-instance type="AdjustHSL">
-                            <parameters>
-                                <hue>0</hue>
-                                <luminosity>1</luminosity>
-                                <saturation>1</saturation>
-                            </parameters>
-                        </effect-instance>
-                    </effect-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>2685</x>
-                        <y>933</y>
+                        <x>3080</x>
+                        <y>666</y>
                         <z>0</z>
                         <width>436.309509277</width>
                         <height>107.148704529</height>
@@ -2426,11 +2388,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3695</x>
-                        <y>1341</y>
+                        <x>3675.117675781</x>
+                        <y>1340.186523438</y>
                         <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
+                        <width>798</width>
+                        <height>169</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
                         <hotspotY>-1.205357194</hotspotY>
@@ -2464,11 +2426,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4057</x>
-                        <y>1342</y>
+                        <x>4039.123046875</x>
+                        <y>1341.186523438</y>
                         <z>0</z>
-                        <width>758.35345459</width>
-                        <height>168.522994995</height>
+                        <width>794</width>
+                        <height>169</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
                         <hotspotY>-1.205357194</hotspotY>
@@ -2538,7 +2500,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3830</x>
-                        <y>835</y>
+                        <y>866</y>
                         <z>0</z>
                         <width>219</width>
                         <height>552</height>
@@ -2595,11 +2557,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4103</x>
-                        <y>713</y>
+                        <x>4056.102539063</x>
+                        <y>716.168395996</y>
                         <z>0</z>
                         <width>809</width>
-                        <height>223</height>
+                        <height>308</height>
                         <depth>0</depth>
                         <hotspotX>0.375959069</hotspotX>
                         <hotspotY>-0.152993351</hotspotY>
@@ -2624,11 +2586,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4136</x>
-                        <y>1395</y>
+                        <x>4089.865234375</x>
+                        <y>1398.116821289</y>
                         <z>0</z>
                         <width>809</width>
-                        <height>223</height>
+                        <height>303</height>
                         <depth>0</depth>
                         <hotspotX>0.375959069</hotspotX>
                         <hotspotY>-0.152993351</hotspotY>
@@ -2683,7 +2645,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>3888</x>
-                        <y>502</y>
+                        <y>533</y>
                         <z>0</z>
                         <width>219</width>
                         <height>552</height>
@@ -3045,55 +3007,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Mossy_Mountain" uid="122">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5171</x>
-                        <y>1922</y>
-                        <z>0</z>
-                        <width>597.625244141</width>
-                        <height>204.308639526</height>
-                        <depth>0</depth>
-                        <hotspotX>0.72590363</hotspotX>
-                        <hotspotY>2.231277466</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="TiledBackground" uid="135">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Top-left</hotspot>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>-145</x>
-                        <y>1652</y>
-                        <z>0</z>
-                        <width>5974</width>
-                        <height>168</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="QuestIcon" uid="138">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -3140,6 +3053,93 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.500625789</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Big_Mossy_Platform" uid="89">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>1</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>4726</x>
+                        <y>1353</y>
+                        <z>0</z>
+                        <width>758.35345459</width>
+                        <height>168.522994995</height>
+                        <depth>0</depth>
+                        <hotspotX>0.49851191</hotspotX>
+                        <hotspotY>-1.205357194</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="TiledBackground" uid="135">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <hotspot>Top-left</hotspot>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-102</x>
+                        <y>1649</y>
+                        <z>0</z>
+                        <width>5974</width>
+                        <height>168</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Mossy_Mountain" uid="122">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5171</x>
+                        <y>1922</y>
+                        <z>0</z>
+                        <width>597.625244141</width>
+                        <height>204.308639526</height>
+                        <depth>0</depth>
+                        <hotspotX>0.72590363</hotspotX>
+                        <hotspotY>2.231277466</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

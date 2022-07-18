@@ -313,5 +313,84 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="559707326576677">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="508210481424035" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="521350520669422" type="LuckiestGuy">
+                    <param id="0" name="Family name">&quot;luckiest_guyregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;LuckiestGuy.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="646983421712025" title="Credits">
+            <sub-events>
+                <variable constant="0" name="ActualCredit" sid="866395518330081" static="1" type="number">0</variable>
+                <variable constant="0" name="OldCredit" sid="897604553244861" static="1" type="number">0</variable>
+                <event-block sid="638388362043079">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="168315015998956" type="System">
+                            <param id="0" name="Interval (seconds)">6</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="748472942737311" type="System">
+                            <param id="0" name="Variable">OldCredit</param>
+                            <param id="1" name="Value">(ActualCredit+1)%2</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="982923040837320" type="System">
+                            <param id="0" name="Variable">ActualCredit</param>
+                            <param id="1" name="Value">-1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="408451324898650" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="773101536447140" type="System">
+                            <param id="0" name="Variable">ActualCredit</param>
+                            <param id="1" name="Value">OldCredit</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-group description="" sid="209698298508643" title="CreditEnter">
+                    <sub-events>
+                        <event-block sid="563873003931227">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="630993415671540" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="468608580199079" type="CreditText">
+                                    <param id="0" name="Instance variable">Block</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">ActualCredit</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" sid="609497396088611" type="CreditText">
+                                    <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.05)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+                <event-group description="" sid="106184653575053" title="CreditExit">
+                    <sub-events>
+                        <event-block sid="817410314998649">
+                            <conditions>
+                                <condition id="-1" name="Every tick" sid="880480608138877" type="System" />
+                                <condition id="-7" name="Compare instance variable" sid="615280806237068" type="CreditText">
+                                    <param id="0" name="Instance variable">Block</param>
+                                    <param id="1" name="Comparison">1</param>
+                                    <param id="2" name="Value">ActualCredit</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" sid="871232072026216" type="CreditText">
+                                    <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.05)</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-group>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

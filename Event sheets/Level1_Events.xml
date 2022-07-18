@@ -79,6 +79,14 @@
                         <condition id="-2" name="On start of layout" sid="281288615692982" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="768621642260232" type="System">
+                            <param id="0" name="Variable">CheckpointX2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="777012474112845" type="System">
+                            <param id="0" name="Variable">CheckpointY2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="524893495311775" type="System">
                             <param id="0" name="Variable">Actual_level</param>
                             <param id="1" name="Value">&quot;levelOne&quot;</param>
@@ -93,6 +101,30 @@
                         <action id="-12" name="Set group active" sid="148718362792883" type="System">
                             <param id="0" name="Group name">&quot;Darkout&quot;</param>
                             <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="762285855227977" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="564188177633137" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="488653446698720" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="823356162446864" type="System">
+                            <param id="0" name="Layer">&quot;Light&quot;</param>
+                            <param id="1" name="Opacity">60</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="242251601040228" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="961293657878793" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -394,7 +426,53 @@
                 <variable constant="0" name="ParamTwo" sid="515649766752910" static="1" type="number">0</variable>
                 <variable constant="0" name="ResponseOne" sid="252339678901917" static="1" type="number">0</variable>
                 <variable constant="0" name="ResponseTwo" sid="973202285196898" static="1" type="number">0</variable>
+                <variable constant="0" name="ClickOnObject" sid="584712779576555" static="1" type="number">0</variable>
+                <variable constant="0" name="Temp" sid="820842552464851" static="1" type="number">0</variable>
                 <variable constant="0" name="RandomPosition" sid="780155948492206" static="1" type="number">0</variable>
+                <variable constant="0" name="TempId" sid="641816400110029" static="1" type="number">0</variable>
+                <event-block sid="975939698333853">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="973147906959397" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="309543122560149" type="System">
+                            <param id="0" name="Variable">Key</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="489652597439001" type="System">
+                            <param id="0" name="Variable">ParamOne</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="329874096853747" type="System">
+                            <param id="0" name="Variable">ParamTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="559139348684727" type="System">
+                            <param id="0" name="Variable">ResponseOne</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="593840251134850" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="638502142574565" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="785022123777254" type="System">
+                            <param id="0" name="Variable">Temp</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="103690614894037" type="System">
+                            <param id="0" name="Variable">RandomPosition</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="338369542902401" type="System">
+                            <param id="0" name="Variable">TempId</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="655047390437096">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="152363834541287" type="Key">
@@ -405,6 +483,10 @@
                         <action behavior="Platform" id="0" name="Set ignoring input" sid="539805749054195" type="Player">
                             <param id="0" name="Input">1</param>
                         </action>
+                        <action id="-9" name="Set value" sid="545778839505770" type="System">
+                            <param id="0" name="Variable">TempId</param>
+                            <param id="1" name="Value">Key.UID</param>
+                        </action>
                         <action id="-9" name="Set value" sid="455091077983808" type="System">
                             <param id="0" name="Variable">ParamOne</param>
                             <param id="1" name="Value">round(random(1,20))</param>
@@ -413,45 +495,119 @@
                             <param id="0" name="Variable">ParamTwo</param>
                             <param id="1" name="Value">round(random(1,20))</param>
                         </action>
-                        <action id="-9" name="Set value" sid="991217632240223" type="System">
-                            <param id="0" name="Variable">ResponseOne</param>
-                            <param id="1" name="Value">ParamOne / ParamTwo</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="691570512327217" type="System">
-                            <param id="0" name="Variable">ResponseTwo</param>
-                            <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="283416430651066" type="System">
-                            <param id="0" name="Variable">RandomPosition</param>
-                            <param id="1" name="Value">choose(0,1)</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="533040004924026" type="System">
-                            <param id="0" name="Variable">Dialog_id</param>
-                            <param id="1" name="Value">6</param>
-                        </action>
-                        <action id="0" name="Call function" sid="718637718705326" type="Function">
-                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="434857577358053" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Call function" sid="809551341951625" type="Function">
-                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;Cuanto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
-                        </action>
-                        <action id="-16" name="Wait" sid="450325799450266" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="11" name="Set collisions enabled" sid="469156595804432" type="Key">
-                            <param id="0" name="Collisions">0</param>
-                        </action>
-                        <action id="-18" name="Set layer opacity" sid="189150171476493" type="System">
-                            <param id="0" name="Layer">&quot;Answers&quot;</param>
-                            <param id="1" name="Opacity">100</param>
+                        <action id="17" name="Execute Javascript" sid="802913983390313" type="Browser">
+                            <param id="0" name="Javascript">&quot;console.log(&quot; &amp;TempId&amp;&quot;);&quot;</param>
                         </action>
                     </actions>
                     <sub-events>
+                        <event-block sid="743802014773561">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="705147351661249" type="System">
+                                    <param id="0" name="Variable">ParamOne</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">ParamTwo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="258037728319669" type="System">
+                                    <param id="0" name="Variable">Temp</param>
+                                    <param id="1" name="Value">ParamOne</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="349816308495134" type="System">
+                                    <param id="0" name="Variable">ParamOne</param>
+                                    <param id="1" name="Value">ParamTwo</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="881341020910662" type="System">
+                                    <param id="0" name="Variable">ParamTwo</param>
+                                    <param id="1" name="Value">Temp</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="991217632240223" type="System">
+                                    <param id="0" name="Variable">ResponseOne</param>
+                                    <param id="1" name="Value">round((ParamOne / ParamTwo) * 100) / 100</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="691570512327217" type="System">
+                                    <param id="0" name="Variable">ResponseTwo</param>
+                                    <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="283416430651066" type="System">
+                                    <param id="0" name="Variable">RandomPosition</param>
+                                    <param id="1" name="Value">choose(0,1)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="533040004924026" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                                <action id="0" name="Call function" sid="718637718705326" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="434857577358053" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="0" name="Call function" sid="809551341951625" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;Cuánto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="450325799450266" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="469156595804432" type="Key">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="189150171476493" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="543036291724717">
+                            <conditions>
+                                <condition id="-14" inverted="1" name="Compare variable" sid="470317521864220" type="System">
+                                    <param id="0" name="Variable">ParamOne</param>
+                                    <param id="1" name="Comparison">2</param>
+                                    <param id="2" name="Value">ParamTwo</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="140490510036044" type="System">
+                                    <param id="0" name="Variable">ResponseOne</param>
+                                    <param id="1" name="Value">round((ParamOne / ParamTwo) * 100) / 100</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="513548795725173" type="System">
+                                    <param id="0" name="Variable">ResponseTwo</param>
+                                    <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="555020220500018" type="System">
+                                    <param id="0" name="Variable">RandomPosition</param>
+                                    <param id="1" name="Value">choose(0,1)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="128325223861769" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                                <action id="0" name="Call function" sid="634796314674192" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="864538306722716" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="0" name="Call function" sid="975056134661708" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;Cuánto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="130486073469066" type="System">
+                                    <param id="0" name="Seconds">2</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="112366636878626" type="Key">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="369548758242293" type="System">
+                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="183460294218772">
                             <conditions>
                                 <condition id="-14" name="Compare variable" sid="900874014021984" type="System">
@@ -474,6 +630,10 @@
                                 <action id="-13" name="Set boolean" sid="906102530972371" type="AnswerOne">
                                     <param id="0" name="Instance variable">Flag</param>
                                     <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="659034750786962" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -500,13 +660,17 @@
                                     <param id="0" name="Instance variable">Flag</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="977366319408679" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                             </actions>
                         </event-block>
-                        <event-block sid="377834974005828">
-                            <conditions />
-                            <actions />
-                        </event-block>
                     </sub-events>
+                </event-block>
+                <event-block sid="420641143777106">
+                    <conditions />
+                    <actions />
                 </event-block>
                 <event-block sid="969904045091166">
                     <conditions>
@@ -514,6 +678,11 @@
                             <param id="0" name="Mouse button">0</param>
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">AnswerTwo</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="722395774849160" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions />
@@ -525,11 +694,10 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="246422132168788" type="System">
+                                <action id="-10" name="Add to" sid="246422132168788" type="System">
                                     <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">Key+1</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="-9" name="Destroy" sid="822916668033368" type="Key" />
                                 <action id="-18" name="Set layer opacity" sid="302245641537306" type="System">
                                     <param id="0" name="Layer">&quot;Answers&quot;</param>
                                     <param id="1" name="Opacity">0</param>
@@ -559,7 +727,23 @@
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="300450746230856" type="Player">
                                     <param id="0" name="Input">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="583632904041386" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="123440224491389">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="411525680940730" type="Key">
+                                            <param id="0" name="Unique ID">TempId</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="192382594441985" type="Key" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="269880830851212">
                             <conditions>
@@ -597,6 +781,10 @@
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="643159688116590" type="Player">
                                     <param id="0" name="Input">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="814352537114752" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -608,6 +796,11 @@
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">AnswerOne</param>
                         </condition>
+                        <condition id="-14" name="Compare variable" sid="730383787632329" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
                     </conditions>
                     <actions />
                     <sub-events>
@@ -618,11 +811,10 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="203064233376713" type="System">
+                                <action id="-10" name="Add to" sid="203064233376713" type="System">
                                     <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">Key+1</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="-9" name="Destroy" sid="519355464155589" type="Key" />
                                 <action id="-18" name="Set layer opacity" sid="669507050242317" type="System">
                                     <param id="0" name="Layer">&quot;Answers&quot;</param>
                                     <param id="1" name="Opacity">0</param>
@@ -652,7 +844,23 @@
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="620007954309274" type="Player">
                                     <param id="0" name="Input">0</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="478340563070202" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="894914823175679">
+                                    <conditions>
+                                        <condition id="-14" name="Pick by unique ID" sid="598247578167712" type="Key">
+                                            <param id="0" name="Unique ID">TempId</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-9" name="Destroy" sid="898129256234824" type="Key" />
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                         <event-block sid="141675143492701">
                             <conditions>
@@ -689,6 +897,10 @@
                                 </action>
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="967259301940122" type="Player">
                                     <param id="0" name="Input">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="545596809052645" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
+                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>

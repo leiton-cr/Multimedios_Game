@@ -248,43 +248,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-85</x>
-                        <y>1035</y>
+                        <x>-32</x>
+                        <y>1032</y>
                         <z>0</z>
                         <width>15292</width>
                         <height>3932</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Key" uid="1171">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>4260</x>
-                        <y>63</y>
-                        <z>0</z>
-                        <width>56</width>
-                        <height>53</height>
-                        <depth>0</depth>
-                        <hotspotX>0.518018007</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -507,6 +478,43 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="PosionPlant" uid="218">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>6</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>50</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>13165</x>
+                        <y>633</y>
+                        <z>0</z>
+                        <width>825</width>
+                        <height>991</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -526,49 +534,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="MobileRockGroup8" uid="1114">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>6</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>700</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>9180</x>
-                        <y>4852</y>
-                        <z>0</z>
-                        <width>468</width>
-                        <height>428</height>
-                        <depth>0</depth>
-                        <hotspotX>4.725888252</hotspotX>
-                        <hotspotY>2.774725199</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="WallCavern" uid="1160">
+                <instance type="Door" uid="1169">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -585,72 +551,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>7976</x>
-                        <y>4667</y>
+                        <x>15529</x>
+                        <y>6368</y>
                         <z>0</z>
-                        <width>385</width>
-                        <height>575</height>
+                        <width>489</width>
+                        <height>455</height>
                         <depth>0</depth>
-                        <hotspotX>4.618181705</hotspotX>
-                        <hotspotY>0.859130442</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="WallCavern" uid="1159">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7976</x>
-                        <y>5231</y>
-                        <z>0</z>
-                        <width>385</width>
-                        <height>575</height>
-                        <depth>0</depth>
-                        <hotspotX>4.618181705</hotspotX>
-                        <hotspotY>0.859130442</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="WallCavern" uid="1158">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7982</x>
-                        <y>5795</y>
-                        <z>0</z>
-                        <width>385</width>
-                        <height>575</height>
-                        <depth>0</depth>
-                        <hotspotX>4.618181705</hotspotX>
-                        <hotspotY>0.859130442</hotspotY>
+                        <hotspotX>1.770270228</hotspotX>
+                        <hotspotY>1.954545498</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -673,6 +581,216 @@
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MobileRockGroup8" uid="1113">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>2</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>270</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>6560</x>
+                        <y>4603</y>
+                        <z>0</z>
+                        <width>468</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>4.725888252</hotspotX>
+                        <hotspotY>2.774725199</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MobileRockGroup8" uid="234">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>100</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>8078</x>
+                        <y>4595</y>
+                        <z>0</z>
+                        <width>468</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>4.725888252</hotspotX>
+                        <hotspotY>2.774725199</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MobileRockGroup8" uid="233">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Horizontal</movement>
+                                <wave>Sine</wave>
+                                <period>3</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>270</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>7347</x>
+                        <y>4602</y>
+                        <z>0</z>
+                        <width>468</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>4.725888252</hotspotX>
+                        <hotspotY>2.774725199</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MobileRockGroup8" uid="232">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>6</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>400</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5763</x>
+                        <y>4612</y>
+                        <z>0</z>
+                        <width>468</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>4.725888252</hotspotX>
+                        <hotspotY>2.774725199</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="MobileRockGroup8" uid="1114">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Sine">
+                            <properties>
+                                <active-on-start>Yes</active-on-start>
+                                <movement>Vertical</movement>
+                                <wave>Sine</wave>
+                                <period>4</period>
+                                <period-random>0</period-random>
+                                <period-offset>0</period-offset>
+                                <period-offset-random>0</period-offset-random>
+                                <magnitude>150</magnitude>
+                                <magnitude-random>0</magnitude-random>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>9431</x>
+                        <y>4618</y>
+                        <z>0</z>
+                        <width>468</width>
+                        <height>428</height>
+                        <depth>0</depth>
+                        <hotspotX>4.725888252</hotspotX>
+                        <hotspotY>2.774725199</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -753,8 +871,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>9478</x>
-                        <y>3108</y>
+                        <x>9686</x>
+                        <y>3145</y>
                         <z>0</z>
                         <width>248</width>
                         <height>289</height>
@@ -862,8 +980,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>2304</x>
-                        <y>1068</y>
+                        <x>2300</x>
+                        <y>1071</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -891,8 +1009,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1890</x>
-                        <y>1065</y>
+                        <x>1884</x>
+                        <y>1069</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -920,8 +1038,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1474</x>
-                        <y>1061</y>
+                        <x>1466</x>
+                        <y>1069</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -949,8 +1067,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1058</x>
-                        <y>1061</y>
+                        <x>1051</x>
+                        <y>1069</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -978,8 +1096,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>642</x>
-                        <y>1058</y>
+                        <x>636</x>
+                        <y>1069</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -1036,8 +1154,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>226</x>
-                        <y>1057</y>
+                        <x>220</x>
+                        <y>1069</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -2185,7 +2303,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>1000</magnitude>
+                                <magnitude>600</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -2193,8 +2311,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>14094</x>
-                        <y>4360</y>
+                        <x>13897</x>
+                        <y>4024</y>
                         <z>0</z>
                         <width>468</width>
                         <height>428</height>
@@ -2227,7 +2345,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>1000</magnitude>
+                                <magnitude>800</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -2235,8 +2353,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>9908</x>
-                        <y>3858</y>
+                        <x>10260</x>
+                        <y>3823</y>
                         <z>0</z>
                         <width>2953</width>
                         <height>434</height>
@@ -2269,7 +2387,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>400</magnitude>
+                                <magnitude>170</magnitude>
                                 <magnitude-random>0</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -2277,134 +2395,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8557</x>
-                        <y>4455</y>
-                        <z>0</z>
-                        <width>468</width>
-                        <height>428</height>
-                        <depth>0</depth>
-                        <hotspotX>4.725888252</hotspotX>
-                        <hotspotY>2.774725199</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MobileRockGroup8" uid="234">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>450</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7759</x>
-                        <y>4476</y>
-                        <z>0</z>
-                        <width>468</width>
-                        <height>428</height>
-                        <depth>0</depth>
-                        <hotspotX>4.725888252</hotspotX>
-                        <hotspotY>2.774725199</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MobileRockGroup8" uid="233">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>300</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>7046</x>
-                        <y>4557</y>
-                        <z>0</z>
-                        <width>468</width>
-                        <height>428</height>
-                        <depth>0</depth>
-                        <hotspotX>4.725888252</hotspotX>
-                        <hotspotY>2.774725199</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MobileRockGroup8" uid="232">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Vertical</movement>
-                                <wave>Sine</wave>
-                                <period>6</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>700</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>5786</x>
-                        <y>4620</y>
+                        <x>8731</x>
+                        <y>4605</y>
                         <z>0</z>
                         <width>468</width>
                         <height>428</height>
@@ -2434,10 +2426,10 @@
                                 <movement>Horizontal</movement>
                                 <wave>Sine</wave>
                                 <period>4</period>
-                                <period-random>10</period-random>
+                                <period-random>2</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>400</magnitude>
+                                <magnitude>300</magnitude>
                                 <magnitude-random>50</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -3055,7 +3047,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8920</x>
+                        <x>8919.09765625</x>
                         <y>125</y>
                         <z>0</z>
                         <width>427</width>
@@ -3084,7 +3076,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8502</x>
+                        <x>8502.90234375</x>
                         <y>122</y>
                         <z>0</z>
                         <width>427</width>
@@ -3113,8 +3105,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8087</x>
-                        <y>121</y>
+                        <x>8087.924804688</x>
+                        <y>118.231262207</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -3317,7 +3309,7 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>5183</x>
-                        <y>106</y>
+                        <y>105.080871582</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -3374,8 +3366,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4355</x>
-                        <y>100</y>
+                        <x>4353</x>
+                        <y>102</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -3403,8 +3395,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3942</x>
-                        <y>98</y>
+                        <x>3936</x>
+                        <y>102</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -3664,8 +3656,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>3527</x>
-                        <y>95</y>
+                        <x>3521</x>
+                        <y>101</y>
                         <z>0</z>
                         <width>427</width>
                         <height>196</height>
@@ -3756,48 +3748,6 @@
                         <depth>0</depth>
                         <hotspotX>2.41813612</hotspotX>
                         <hotspotY>7.436089993</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PosionPlant" uid="218">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>6</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>50</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>13176</x>
-                        <y>684</y>
-                        <z>0</z>
-                        <width>676</width>
-                        <height>769</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -3948,8 +3898,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>8055</x>
-                        <y>4014</y>
+                        <x>8040</x>
+                        <y>3714</y>
                         <z>0</z>
                         <width>1086</width>
                         <height>1400</height>
@@ -6803,8 +6753,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>12927.163085938</x>
-                        <y>2329</y>
+                        <x>13130</x>
+                        <y>2316</y>
                         <z>0</z>
                         <width>141</width>
                         <height>140</height>
@@ -6845,8 +6795,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>13334</x>
-                        <y>2178</y>
+                        <x>13413</x>
+                        <y>2197</y>
                         <z>0</z>
                         <width>144</width>
                         <height>140</height>
@@ -6887,8 +6837,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>13934</x>
-                        <y>2057</y>
+                        <x>13905</x>
+                        <y>2065</y>
                         <z>0</z>
                         <width>197</width>
                         <height>182</height>
@@ -7131,7 +7081,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>400</magnitude>
+                                <magnitude>200</magnitude>
                                 <magnitude-random>40</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -7139,8 +7089,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>12398</x>
-                        <y>2977</y>
+                        <x>12994</x>
+                        <y>3109</y>
                         <z>0</z>
                         <width>397</width>
                         <height>133</height>
@@ -7173,7 +7123,7 @@
                                 <period-random>0</period-random>
                                 <period-offset>0</period-offset>
                                 <period-offset-random>0</period-offset-random>
-                                <magnitude>200</magnitude>
+                                <magnitude>180</magnitude>
                                 <magnitude-random>50</magnitude-random>
                             </properties>
                         </behavior-instance>
@@ -7181,8 +7131,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>1788</x>
-                        <y>3780</y>
+                        <x>1791</x>
+                        <y>3722</y>
                         <z>0</z>
                         <width>514</width>
                         <height>117</height>
@@ -7346,48 +7296,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MobileRockGroup8" uid="1113">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <behavior-instances>
-                        <behavior-instance type="Solid">
-                            <properties>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Sine">
-                            <properties>
-                                <active-on-start>Yes</active-on-start>
-                                <movement>Horizontal</movement>
-                                <wave>Sine</wave>
-                                <period>4</period>
-                                <period-random>0</period-random>
-                                <period-offset>0</period-offset>
-                                <period-offset-random>0</period-offset-random>
-                                <magnitude>300</magnitude>
-                                <magnitude-random>0</magnitude-random>
-                            </properties>
-                        </behavior-instance>
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>6424</x>
-                        <y>4598</y>
-                        <z>0</z>
-                        <width>468</width>
-                        <height>428</height>
-                        <depth>0</depth>
-                        <hotspotX>4.725888252</hotspotX>
-                        <hotspotY>2.774725199</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="MobileRockGroup4" uid="1115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -7455,31 +7363,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Tutorial_Message_Trigger" uid="1153">
-                    <properties>
-                        <initial-visibility>Invisible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <tutorial_dialog>10</tutorial_dialog>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>13131</x>
-                        <y>833</y>
-                        <z>0</z>
-                        <width>583</width>
-                        <height>19</height>
-                        <depth>0</depth>
-                        <hotspotX>1</hotspotX>
-                        <hotspotY>1</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="Tutorial_Message_Trigger" uid="1156">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
@@ -7518,8 +7401,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>837</x>
-                        <y>2958</y>
+                        <x>1381</x>
+                        <y>3413</y>
                         <z>0</z>
                         <width>583</width>
                         <height>19</height>
@@ -7593,8 +7476,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>13013</x>
-                        <y>1771</y>
+                        <x>13079</x>
+                        <y>1797</y>
                         <z>0</z>
                         <width>583</width>
                         <height>19</height>
@@ -7743,8 +7626,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>6848</x>
-                        <y>3268</y>
+                        <x>6956</x>
+                        <y>3397</y>
                         <z>0</z>
                         <width>583</width>
                         <height>19</height>
@@ -7768,8 +7651,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>12374</x>
-                        <y>3106</y>
+                        <x>12212</x>
+                        <y>2832</y>
                         <z>0</z>
                         <width>583</width>
                         <height>19</height>
@@ -7855,8 +7738,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
-                        <y>2735</y>
+                        <x>942</x>
+                        <y>3333</y>
                         <z>0</z>
                         <width>56</width>
                         <height>53</height>
@@ -7867,7 +7750,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Door" uid="1169">
+                <instance type="Key" uid="1171">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -7884,15 +7767,44 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>15529</x>
-                        <y>6368</y>
+                        <x>7058</x>
+                        <y>101</y>
                         <z>0</z>
-                        <width>489</width>
-                        <height>455</height>
+                        <width>56</width>
+                        <height>53</height>
                         <depth>0</depth>
-                        <hotspotX>1.770270228</hotspotX>
-                        <hotspotY>1.954545498</hotspotY>
+                        <hotspotX>0.518018007</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Invisible" uid="1211">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-105</x>
+                        <y>405</y>
+                        <z>0</z>
+                        <width>250</width>
+                        <height>1106</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-0.001454097</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -8633,6 +8545,64 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="LevelName" uid="1207">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <effect-instances>
+                        <effect-instance type="AdjustHSL">
+                            <parameters>
+                                <hue>0</hue>
+                                <luminosity>0.8</luminosity>
+                                <saturation>1</saturation>
+                            </parameters>
+                        </effect-instance>
+                    </effect-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-246</x>
+                        <y>52</y>
+                        <z>0</z>
+                        <width>459.006774902</width>
+                        <height>75.05771637</height>
+                        <depth>0</depth>
+                        <hotspotX>0.488050312</hotspotX>
+                        <hotspotY>0.453846157</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LevelTextName" uid="1208">
+                    <properties>
+                        <text>Las cavernas</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-29,400,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>-417</x>
+                        <y>31</y>
+                        <z>0</z>
+                        <width>350</width>
+                        <height>57</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -8684,7 +8654,7 @@
                 <y>0</y>
             </parallax>
             <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
+            <opacity>0</opacity>
             <force-own-texture>0</force-own-texture>
             <global>0</global>
             <use-render-cells>0</use-render-cells>
@@ -8824,8 +8794,8 @@
                         <x>910</x>
                         <y>509</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>173</height>
+                        <width>350</width>
+                        <height>300</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -8851,11 +8821,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>329</x>
+                        <x>500</x>
                         <y>509</y>
                         <z>0</z>
-                        <width>200</width>
-                        <height>173</height>
+                        <width>300</width>
+                        <height>350</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
