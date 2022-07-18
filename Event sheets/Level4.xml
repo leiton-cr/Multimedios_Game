@@ -59,7 +59,7 @@
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="-12" name="Set group active" sid="373249807808892" type="System">
-                            <param id="0" name="Group name">&quot;Bossghost&quot;</param>
+                            <param id="0" name="Group name">&quot;BossGhost&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="-12" name="Set group active" sid="849227184047108" type="System">
@@ -74,23 +74,21 @@
                             <param id="0" name="Group name">&quot;SetPositionGhost&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
-                    </actions>
-                </event-block>
-                <event-block sid="778915232491041">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="648155413708317" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">Reiniciar</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-18" name="Set layer opacity" sid="355077371891104" type="System">
-                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                        <action id="-18" name="Set layer opacity" sid="136479445494698" type="System">
+                            <param id="0" name="Layer">&quot;FinalBoss&quot;</param>
                             <param id="1" name="Opacity">0</param>
                         </action>
-                        <action id="-16" name="Set opacity" sid="220481016112891" type="PausaBtn">
-                            <param id="0" name="Opacity">1</param>
+                        <action id="-18" name="Set layer opacity" sid="277263715653764" type="System">
+                            <param id="0" name="Layer">&quot;MiniGhosts&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="360024386906783" type="System">
+                            <param id="0" name="Layer">&quot;BossGhost&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="478286239518010" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -464,13 +462,13 @@
                                     <param id="0" name="Layer">&quot;MiniGhosts&quot;</param>
                                     <param id="1" name="Opacity">0</param>
                                 </action>
-                                <action id="-12" name="Set group active" sid="339983451805652" type="System">
-                                    <param id="0" name="Group name">&quot;BossGhost&quot;</param>
-                                    <param id="1" name="State">1</param>
-                                </action>
                                 <action id="-12" name="Set group active" sid="810337137312054" type="System">
                                     <param id="0" name="Group name">&quot;MiniGhosts&quot;</param>
                                     <param id="1" name="State">0</param>
+                                </action>
+                                <action id="-12" name="Set group active" sid="339983451805652" type="System">
+                                    <param id="0" name="Group name">&quot;BossGhost&quot;</param>
+                                    <param id="1" name="State">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -518,6 +516,19 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="553642856615678">
+            <conditions>
+                <condition id="-15" inverted="1" name="Is group active" sid="302519372778197" type="System">
+                    <param id="0" name="Group name">&quot;MiniGhosts&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="838049541381489" type="System">
+                    <param id="0" name="Group name">&quot;BossGhost&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="627205440556244" title="SetPositionGhost">
             <sub-events>
                 <event-block sid="453342649116312">

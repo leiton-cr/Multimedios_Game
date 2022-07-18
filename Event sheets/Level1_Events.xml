@@ -62,21 +62,6 @@
             <sub-events>
                 <variable constant="0" name="CheckpointX2" sid="885404112889952" static="1" type="number">0</variable>
                 <variable constant="0" name="CheckpointY2" sid="652203428071398" static="1" type="number">0</variable>
-                <event-block sid="748200101365090">
-                    <conditions>
-                        <condition id="-2" name="On start of layout" sid="678486881275428" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="768621642260232" type="System">
-                            <param id="0" name="Variable">CheckpointX2</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="777012474112845" type="System">
-                            <param id="0" name="Variable">CheckpointY2</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                    </actions>
-                </event-block>
                 <event-block sid="594126864031053">
                     <conditions>
                         <condition id="0" name="On collision with another object" sid="334924716504943" type="Wrapper">
@@ -94,6 +79,14 @@
                         <condition id="-2" name="On start of layout" sid="281288615692982" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="768621642260232" type="System">
+                            <param id="0" name="Variable">CheckpointX2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="777012474112845" type="System">
+                            <param id="0" name="Variable">CheckpointY2</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
                         <action id="-9" name="Set value" sid="524893495311775" type="System">
                             <param id="0" name="Variable">Actual_level</param>
                             <param id="1" name="Value">&quot;levelOne&quot;</param>
@@ -120,6 +113,18 @@
                         <action id="0" name="Call function" sid="488653446698720" type="Function">
                             <param id="0" name="Name">&quot;ShowMessage&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="823356162446864" type="System">
+                            <param id="0" name="Layer">&quot;Light&quot;</param>
+                            <param id="1" name="Opacity">60</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="242251601040228" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="961293657878793" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -689,9 +694,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="246422132168788" type="System">
+                                <action id="-10" name="Add to" sid="246422132168788" type="System">
                                     <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">Key+1</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-18" name="Set layer opacity" sid="302245641537306" type="System">
                                     <param id="0" name="Layer">&quot;Answers&quot;</param>
@@ -806,9 +811,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="203064233376713" type="System">
+                                <action id="-10" name="Add to" sid="203064233376713" type="System">
                                     <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">Key+1</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-18" name="Set layer opacity" sid="669507050242317" type="System">
                                     <param id="0" name="Layer">&quot;Answers&quot;</param>

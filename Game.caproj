@@ -3164,9 +3164,6 @@
                             <behavior-type name="Sine" sid="967953558540277">
                                 <behavior id="Sin" />
                             </behavior-type>
-                            <behavior-type name="Solid" sid="594952547722062">
-                                <behavior id="solid" />
-                            </behavior-type>
                         </behaviors>
                         <animation-folder>
                             <animation framecount="30" loop="0" name="poison" pingpong="0" repeatcount="1" repeatto="0" sid="758908959479426" speed="5">
@@ -3835,15 +3832,27 @@
                                 <frame duration="1" hotspotX="1.77027" hotspotY="1.95455" original-source="E:\Descargas\door.png">
                                     <collision-poly>
                                         <point x="0.0675676" y="0.287879" />
-                                        <point x="0.986486" y="0.0151515" />
-                                        <point x="0.986486" y="0.287879" />
-                                        <point x="0.986486" y="0.984848" />
-                                        <point x="0.986486" y="0.984848" />
-                                        <point x="0.986486" y="0.984848" />
+                                        <point x="0.270269" y="0.0454545" />
+                                        <point x="0.635134" y="0.0227275" />
+                                        <point x="0.905405" y="0.337121" />
+                                        <point x="0.918918" y="1" />
                                         <point x="0.0405405" y="0.984848" />
-                                        <point x="0.364865" y="0.984848" />
+                                        <point x="0.0540543" y="0.787879" />
                                     </collision-poly>
                                 </frame>
+                            </animation>
+                        </animation-folder>
+                    </object-type>
+                    <object-type name="Invisible" sid="675847160699961">
+                        <plugin id="Sprite" />
+                        <behaviors>
+                            <behavior-type name="Solid" sid="291545180517676">
+                                <behavior id="solid" />
+                            </behavior-type>
+                        </behaviors>
+                        <animation-folder>
+                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="426194801913021" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                             </animation>
                         </animation-folder>
                     </object-type>
@@ -5118,19 +5127,18 @@
                     <object-type name="Skeleton" sid="246589444500429">
                         <plugin id="Sprite" />
                         <animation-folder>
-                            <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463788427552306" speed="5">
-                                <frame duration="1" hotspotX="0.5" hotspotY="0.500926" original-source="E:\Descargas\Dragon2.png">
-                                    <collision-poly>
-                                        <point x="0.380729" y="0.676852" />
-                                        <point x="0.5" y="0.15" />
-                                        <point x="0.721875" y="0.494444" />
-                                        <point x="0.721875" y="0.5" />
-                                        <point x="0.722396" y="0.506481" />
-                                        <point x="0.5" y="0.981481" />
-                                        <point x="0.4625" y="0.177778" />
-                                        <point x="0.350521" y="0.5" />
-                                    </collision-poly>
-                                </frame>
+                            <animation framecount="11" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463788427552306" speed="5">
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_00.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_01.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_02.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_03.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_04.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_05.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_06.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_07.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_08.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_09.png" />
+                                <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\Juego\free game asset ghost sprites\skeleton-animation_10.png" />
                             </animation>
                         </animation-folder>
                     </object-type>
