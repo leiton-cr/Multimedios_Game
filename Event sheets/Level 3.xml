@@ -4,5 +4,858 @@
     <name>Level 3</name>
     <events>
         <include>Globals</include>
+        <event-block sid="774259678571112">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="117196410984279" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="954520007253795" type="System">
+                    <param id="0" name="Variable">Actual_level</param>
+                    <param id="1" name="Value">&quot;levelThree&quot;</param>
+                </action>
+                <action id="-12" name="Set group active" sid="795055277541626" type="System">
+                    <param id="0" name="Group name">&quot;DarkinLevel3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="817825467223265" type="System">
+                    <param id="0" name="Group name">&quot;DarkoutLevel3&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action disabled="1" id="-18" name="Set layer opacity" sid="967770980777274" type="System">
+                    <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action disabled="1" id="-18" name="Set layer opacity" sid="413254928646371" type="System">
+                    <param id="0" name="Layer">&quot;PauseMenu&quot;</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <variable constant="0" name="Response" sid="598354661469474" static="0" type="number">0</variable>
+        <variable constant="0" name="Response2" sid="361625461444742" static="0" type="number">0</variable>
+        <variable constant="0" name="Variable1" sid="141552600047082" static="0" type="number">0</variable>
+        <event-group description="" sid="743340769462657" title="Variables">
+            <sub-events>
+                <variable constant="0" name="RandomLevel3" sid="307771073785584" static="1" type="number">0</variable>
+                <variable constant="0" name="RandonResponse" sid="698072743167301" static="1" type="number">0</variable>
+                <variable constant="0" name="Respondiendo" sid="401025277400872" static="1" type="number">0</variable>
+                <variable constant="0" name="VidaEnemigoAlient" sid="310472601163238" static="1" type="number">1</variable>
+                <variable constant="0" name="VidaEnemigoVerde" sid="873466178215173" static="1" type="number">2</variable>
+                <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="1" type="number">3</variable>
+                <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="1" type="number">4</variable>
+                <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="1" type="number">7</variable>
+                <event-block sid="119924509142779">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="672872645355509" type="System">
+                            <param id="0" name="Variable">VidaEnemigoAlient</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="916819922872927" type="Alient" />
+                    </actions>
+                </event-block>
+                <event-block sid="978574818990760">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="189589484338459" type="System">
+                            <param id="0" name="Variable">VidaEnemigoVerde</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="912750709264723" type="Sprite2" />
+                    </actions>
+                </event-block>
+                <event-block sid="583571716997857">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="344384748860241" type="System">
+                            <param id="0" name="Variable">VidaEnemigoAmarrillo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="458718981765975" type="SlimeOrange" />
+                    </actions>
+                </event-block>
+                <event-block sid="657642916685583">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="847645417265405" type="System">
+                            <param id="0" name="Variable">VidaAlientVerde</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="545598819098174" type="AlienteVerde" />
+                    </actions>
+                </event-block>
+                <event-block sid="812813160867782">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="801136084277002" type="System">
+                            <param id="0" name="Variable">VidaEnemigoFinal</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Destroy" sid="610272759470217" type="Dragon" />
+                        <action id="-15" name="Set visible" sid="912320046244963" type="Tutorial_LeftRight_Arrow">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="853559067882443" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">10</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="979036196547026">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="544956700533032" type="Player">
+                            <param id="0" name="Object">PreguntaAlient</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="366120812759483" type="System">
+                            <param id="0" name="Variable">RandomLevel3</param>
+                            <param id="1" name="Value">choose(0,1)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="778635796329023" type="System">
+                            <param id="0" name="Variable">RandonResponse</param>
+                            <param id="1" name="Value">choose(0,1)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="541349220868998" type="System">
+                            <param id="0" name="Variable">Respondiendo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="661540567083056" type="Player">
+                            <param id="0" name="Input">1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="501048488263291">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="313089052085358" type="System">
+                                    <param id="0" name="Variable">RandomLevel3</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="231019808937949" type="System">
+                                    <param id="0" name="Variable">Variable1</param>
+                                    <param id="1" name="Value">round(random(1,40))</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="126978220352204" type="System">
+                                    <param id="0" name="Variable">Response</param>
+                                    <param id="1" name="Value">Variable1+Variable1+Variable1+Variable1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="236330314389848" type="System">
+                                    <param id="0" name="Variable">Response2</param>
+                                    <param id="1" name="Value">Response + choose(-1,-2,-1,-2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="784545161779012" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                                <action id="0" name="Call function" sid="612256467357253" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;Cuanto es el perimetro de un Cuadrado cuyo lado mide  &quot;&amp;Variable1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="600397325563389" type="textQuestion">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="209072964460549" type="resp1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="636456808759586" type="resp2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="268116745433837" type="BasePreguntas">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="435363471300344" type="PreguntaAlient">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="206094284184790">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="449958389782822" type="System">
+                                    <param id="0" name="Variable">RandomLevel3</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="963308749048947" type="System">
+                                    <param id="0" name="Variable">Variable1</param>
+                                    <param id="1" name="Value">round(random(1,40))</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="527809174088154" type="System">
+                                    <param id="0" name="Variable">Response</param>
+                                    <param id="1" name="Value">Variable1+Variable1+Variable1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="817842159621949" type="System">
+                                    <param id="0" name="Variable">Response2</param>
+                                    <param id="1" name="Value">Response + choose(-1,-2,-1,-2)</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="569727461522204" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">6</param>
+                                </action>
+                                <action id="0" name="Call function" sid="879206447706964" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;Cuanto es el perimetro de un Triangulo cuyo lado mide  &quot;&amp;Variable1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="268060200027809" type="textQuestion">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="834624978295554" type="resp1">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="342469856021853" type="resp2">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="979211053736890" type="BasePreguntas">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="985780935798707" type="PreguntaAlient">
+                                    <param id="0" name="Collisions">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="638850501357712">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="970369133303930" type="System">
+                                    <param id="0" name="Variable">RandonResponse</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="668799692086084" type="resp1">
+                                    <param id="0" name="Text">&quot;A) &quot;&amp;Response</param>
+                                </action>
+                                <action id="0" name="Set text" sid="716381201371800" type="resp2">
+                                    <param id="0" name="Text">&quot;B) &quot;&amp;Response2</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="687687577874939" type="resp1">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="829759110259934" type="resp2">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="367596408013387">
+                            <conditions>
+                                <condition id="-14" name="Compare variable" sid="847572197830360" type="System">
+                                    <param id="0" name="Variable">RandonResponse</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="0" name="Set text" sid="334780598034896" type="resp1">
+                                    <param id="0" name="Text">&quot;A) &quot;&amp;Response2</param>
+                                </action>
+                                <action id="0" name="Set text" sid="136719925566072" type="resp2">
+                                    <param id="0" name="Text">&quot;B) &quot;&amp; Response</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="239860538404365" type="resp2">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-13" name="Set boolean" sid="650191058609549" type="resp1">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="811733152986775">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="414333636907050" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action disabled="1" id="-18" name="Set layer opacity" sid="954044666091669" type="System">
+                            <param id="0" name="Layer">&quot;msg&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="649596550907748" type="System">
+                            <param id="0" name="Group name">&quot;DarkinLevel3&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="718136599326806" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="494959630619017">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="191381995594902" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">resp1</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="633410126409948" type="System">
+                            <param id="0" name="Variable">Respondiendo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="299676981087361">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="979095998750786" type="resp1">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="921134125247095" type="BloqueoAlient" />
+                                <action id="-9" name="Set value" sid="717460261727174" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">7</param>
+                                </action>
+                                <action id="0" name="Call function" sid="706947622693258" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-9" name="Set value" sid="425793595461925" type="System">
+                                    <param id="0" name="Variable">Respondiendo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="269849111316512" type="textQuestion">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="587823029775940" type="resp1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="783288172159914" type="resp2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="981294749725704" type="BasePreguntas">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="562275548608504" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="384795379119728" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoAlient</param>
+                                    <param id="1" name="Value">VidaEnemigoAlient-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="650228847005514" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoVerde</param>
+                                    <param id="1" name="Value">VidaEnemigoVerde-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="104371911181480" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoAmarrillo</param>
+                                    <param id="1" name="Value">VidaEnemigoAmarrillo-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="260430216833404" type="System">
+                                    <param id="0" name="Variable">VidaAlientVerde</param>
+                                    <param id="1" name="Value">VidaAlientVerde-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="489691923721063" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoFinal</param>
+                                    <param id="1" name="Value">VidaEnemigoFinal-1</param>
+                                </action>
+                                <action id="0" name="Play" sid="464610952498399" type="Audio">
+                                    <param id="0" name="Audio file">Efecto-acierto</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="390372188605799">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="434127632410200" type="resp1">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="199979448073576" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">8</param>
+                                </action>
+                                <action id="0" name="Call function" sid="320849261668571" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="443755126872914" type="System">
+                                    <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="741902880247911" type="PreguntaAlient">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="400808072964283" type="Function">
+                                    <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="494263179475528">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="734355385954928" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">resp2</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="618130215008408" type="System">
+                            <param id="0" name="Variable">Respondiendo</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="674159075361047">
+                            <conditions>
+                                <condition id="-8" name="Is boolean instance variable set" sid="133869026600915" type="resp2">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Destroy" sid="695849548008340" type="BloqueoAlient" />
+                                <action id="-9" name="Set value" sid="408804005365464" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">7</param>
+                                </action>
+                                <action id="0" name="Call function" sid="938130839599876" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-9" name="Set value" sid="575765640213139" type="System">
+                                    <param id="0" name="Variable">Respondiendo</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="753586490414732" type="textQuestion">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="236797353018724" type="resp1">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="173346883918590" type="resp2">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="235698893271648" type="BasePreguntas">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action behavior="Platform" id="0" name="Set ignoring input" sid="376802245846246" type="Player">
+                                    <param id="0" name="Input">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="845949697029722" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoAlient</param>
+                                    <param id="1" name="Value">VidaEnemigoAlient-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="706376852442144" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoVerde</param>
+                                    <param id="1" name="Value">VidaEnemigoVerde-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="962261989874529" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoAmarrillo</param>
+                                    <param id="1" name="Value">VidaEnemigoAmarrillo-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="835499453533598" type="System">
+                                    <param id="0" name="Variable">VidaAlientVerde</param>
+                                    <param id="1" name="Value">VidaAlientVerde-1</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="967470667860034" type="System">
+                                    <param id="0" name="Variable">VidaEnemigoFinal</param>
+                                    <param id="1" name="Value">VidaEnemigoFinal-1</param>
+                                </action>
+                                <action id="0" name="Play" sid="807325622026242" type="Audio">
+                                    <param id="0" name="Audio file">Efecto-acierto</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="327774749765241">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="500713872911173" type="resp2">
+                                    <param id="0" name="Instance variable">Correcta</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="934054953549486" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">8</param>
+                                </action>
+                                <action id="0" name="Call function" sid="920021355901642" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="621273536707619" type="System">
+                                    <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="11" name="Set collisions enabled" sid="624121136534375" type="PreguntaAlient">
+                                    <param id="0" name="Collisions">1</param>
+                                </action>
+                                <action id="0" name="Call function" sid="157139014755487" type="Function">
+                                    <param id="0" name="Name">&quot;LifeDown&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="640741015365005">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="440448764274027" type="System">
+                                    <param id="0" name="First value">distance(ActivarDragon.X,ActivarDragon.Y,Player.X,Player.Y)</param>
+                                    <param id="1" name="Comparison">3</param>
+                                    <param id="2" name="Second value">500</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-23" name="Move at angle" sid="289933971317117" type="Dragon">
+                                    <param id="0" name="Angle">0</param>
+                                    <param id="1" name="Distance">200</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="726098308115937" title="MoreLife">
+            <sub-events>
+                <event-block sid="125104282866092">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="466589886949768" type="DiamantePower">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="348711808499422" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="332397749827833" type="Function">
+                            <param id="0" name="Name">&quot;LifeUp&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="106943606844050" type="DiamantePower" />
+                        <action id="0" name="Play" sid="660494585002171" type="Audio">
+                            <param id="0" name="Audio file">menu-option</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="177707424580404" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="625879999764566">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="485421344633850" type="DiamantePower1">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="106389740463689" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">2</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="418276369779869" type="Function">
+                            <param id="0" name="Name">&quot;LifeUp&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="149706376404778" type="DiamantePower1" />
+                        <action id="0" name="Play" sid="902487293667948" type="Audio">
+                            <param id="0" name="Audio file">menu-option</param>
+                            <param id="2" name="Loop">0</param>
+                            <param id="3" name="Volume">0</param>
+                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="774839180710285" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="343607328232227">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="838645252277180" type="DiamantePower1">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="508007418362820" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="285217918480632" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                        <action id="0" name="Call function" sid="299718381489027" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="852083727854034" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="350168646537996">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="937318952342871" type="DiamantePower">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="509758970538642" type="System">
+                            <param id="0" name="Variable">Life</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="548223527582309" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">9</param>
+                        </action>
+                        <action id="0" name="Call function" sid="582711510638751" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="517972896483093" type="System">
+                            <param id="0" name="Seconds">1.0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="772590070479152">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="914900789615414" type="Caja2">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="169789159480853" type="System">
+                    <param id="0" name="Variable">Dialog_id</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="0" name="Call function" sid="658370053531991" type="Function">
+                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-9" name="Destroy" sid="254543907940151" type="Caja2" />
+                <action id="0" name="Play" sid="401931687888847" type="Audio">
+                    <param id="0" name="Audio file">menu-option</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="381411903606093" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="653681953313356">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="768454108348833" type="Caja1">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="871490977070264" type="System">
+                    <param id="0" name="Variable">Dialog_id</param>
+                    <param id="1" name="Value">11</param>
+                </action>
+                <action id="0" name="Call function" sid="285895243214733" type="Function">
+                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-9" name="Destroy" sid="302199958441849" type="Caja1" />
+                <action id="0" name="Play" sid="542654917668474" type="Audio">
+                    <param id="0" name="Audio file">menu-option</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="246306029795914" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="944019489375937">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="737166684716523" type="Caja3">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="331246347046248" type="System">
+                    <param id="0" name="Variable">Dialog_id</param>
+                    <param id="1" name="Value">12</param>
+                </action>
+                <action id="0" name="Call function" sid="650616318831744" type="Function">
+                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-9" name="Destroy" sid="116603515079228" type="Caja3" />
+                <action id="0" name="Play" sid="568324580049931" type="Audio">
+                    <param id="0" name="Audio file">menu-option</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="501804060987149" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="854443879818596">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="327977664876284" type="Wrapper">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="168005575260354" type="System">
+                    <param id="0" name="Layout">SelectLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="682082122521225">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="528126577532679" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Reiniciar</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="179949529476088" type="System">
+                    <param id="0" name="Layout">Lavel 3</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="250263148656268" type="System">
+                    <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+                <action id="-18" name="Set layer opacity" sid="818319499549959" type="System">
+                    <param id="0" name="Layer">&quot;msg&quot;</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="584897312104852">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="330171970617459" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Salir</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="175118292011284" type="System">
+                    <param id="0" name="Layout">SelectLevel</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="559790116864367">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="354337794965909" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">PausaBtn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-18" name="Set layer opacity" sid="341564525398850" type="System">
+                    <param id="0" name="Layer">&quot;PauseMenu&quot;</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="542264194694000" title="DarkinLevel3">
+            <sub-events>
+                <event-block sid="695701728283787">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="562236456026012" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="103939347405138" type="Opacidad">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="609691328757109" title="DarkoutLevel3">
+            <sub-events>
+                <event-block sid="215147239095180">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="768299719855495" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="468318734235538" type="Opacidad">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="485649410429156">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="770082086048879" type="Player">
+                    <param id="0" name="Object">Wrapper</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="702866341453457">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="123316415295551" type="Wrapper">
+                            <param id="0" name="Instance variable">idWrapper</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">16</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="996029113912580" type="System">
+                            <param id="0" name="Layout">SelectLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="904398356096121">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="365186015870470" type="Player">
+                    <param id="0" name="Object">ActivarCajaMensajes</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="747841829744156" type="BaseMensaje">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="983239285591133">
+                    <conditions />
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
     </events>
 </c2eventsheet>

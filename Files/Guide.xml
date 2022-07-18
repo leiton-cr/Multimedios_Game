@@ -45,6 +45,24 @@
         <hint id="17">Finalmente has llegado a la ultima sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
     </levelTwo>
+    <levelThree>
+        <hint id="1">Bienvenido nivel 3, Vamos!</hint>
+        <hint id="2">En este nivel veremos cálculo de perímetro</hint>
+        <hint id="3">Hola soy Grup, durante el recorrido encontrarás runas, tomalas,daran vida</hint>
+        <hint id="4">!Atentos, el perímetro de una figura geométrica, es la suma de sus lados</hint>
+        <hint id="5">Ufff, es hora de nuestro primer desafio</hint>
+        <hint id="6">Debes dar click alguna de las respuestas</hint>
+        <hint id="7">Has respondido Correctamente</hint>
+        <hint id="8">Respuesta Incorrecta</hint>
+        <hint id="9">Las Runas te daran vida, solo si tiene menos de 3 vidas</hint>
+        <hint id="10">Has completado el nivel 3, Felicidades, delante hay más aventuras</hint>
+        <hint id="11">Preparate, vienen más preguntas</hint>
+        <hint id="12">Vamos, ya casi llegamos al final</hint>
+        <hint id="13">Hay que continuar, vamos</hint>
+        <hint id="14">Uff, tendremos que subir, vamos</hint>
+        <hint id="15">Uff, preparados, nos enfrentaremos a Drag</hint>
+        <hint id="16">Nuestro último desafio, 3 preguntas que nos hará Drag</hint>
+    </levelThree>
 	<levelFour>
 		<hint id="1">¡Felicidades ganaste!</hint>
 		<hint id="2">Parece que puedes subir por aquí</hint>

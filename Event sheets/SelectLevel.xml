@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SelectLevel</name>
+    <events>
+        <include>Globals</include>
+        <event-block sid="215415656240364">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="481904776365245" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="506353742060582" type="System">
+                    <param id="0" name="Variable">Actual_level</param>
+                    <param id="1" name="Value">&quot;SelectLevel&quot;</param>
+                </action>
+                <action id="-12" name="Set group active" sid="950767226579154" type="System">
+                    <param id="0" name="Group name">&quot;DarkinSelectLevel&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="462209290912665" type="System">
+                    <param id="0" name="Group name">&quot;DarkoutSelectLevel&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+                <action id="0" name="Play" sid="924058991733864" type="Audio">
+                    <param id="0" name="Audio file">Ambient-selectLevel</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" sid="245970565801007" title="SeleccionNivel">
+            <sub-events>
+                <event-block sid="744006758839603">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="241404184555121" type="Player">
+                            <param id="0" name="Object">Wrapper</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="492670352801779" type="System">
+                            <param id="0" name="Group name">&quot;DarkinSelectLevel&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="263604375190704" type="System">
+                            <param id="0" name="Seconds">2.0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="790627329548460" type="System">
+                            <param id="0" name="Group name">&quot;DarkinSelectLevel&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="926976113996842" type="TiledBackground3">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="871883235548783">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="269164506290719" type="Wrapper">
+                                    <param id="0" name="Instance variable">idWrapper</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">12</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="428444806752041" type="System">
+                                    <param id="0" name="Layout">Level_1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="759509312559241">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="555000476557293" type="Wrapper">
+                                    <param id="0" name="Instance variable">idWrapper</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">13</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="737589813119257" type="System">
+                                    <param id="0" name="Layout">Level2</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="522888750019593">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="272785642833317" type="Wrapper">
+                                    <param id="0" name="Instance variable">idWrapper</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">14</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="989705794315246" type="System">
+                                    <param id="0" name="Layout">Lavel 3</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="163192865437600">
+                            <conditions>
+                                <condition id="-7" name="Compare instance variable" sid="307349586073383" type="Wrapper">
+                                    <param id="0" name="Instance variable">idWrapper</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">15</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="524420425467289" type="System">
+                                    <param id="0" name="Layout">Level4</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="288414898262081" title="DarkinSelectLevel">
+            <sub-events>
+                <event-block sid="784175505447700">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="931431364188003" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="989690676076080" type="TiledBackground3">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="325643452953620" title="DarkoutSelectLevel">
+            <sub-events>
+                <event-block sid="895261995251130">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="129817276928028" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="531361453015441" type="TiledBackground3">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
