@@ -1,0 +1,73 @@
+<dialogs>
+    <tutorial>
+        <hint id="1">¡Presiona las teclas direccionales para caminar!</hint>
+        <hint id="2">¡Presiona la tecla arriba para saltar!</hint>
+        <hint id="3">¡Ve hacia la izquierda para volverlo a intentar!</hint>
+        <hint id="4">¡Sube por acá a través de las plataformas!</hint>
+        <hint id="5">¡Bien hecho! Baja por aquí y encontrarás tu recompensa</hint>
+        <hint id="6">Se desbloqueó el doble salto, presiona arriba dos veces para llegar más lejos</hint>
+        <hint id="7">La salida está cerca, falta un último reto para salir</hint>
+        <hint id="8">Pero debes tener cuidado, hay fantasmas cerca</hint>
+        <hint id="9">Selecciona el fantasma correcto para escapar</hint>
+        <hint id="10">Fallaste, escapas a un lugar seguro</hint>
+        <hint id="11">Acertaste, puedes continuar</hint>
+    </tutorial>
+    <levelOne>
+        <hint id="1">¡Que oscuro está!</hint>
+        <hint id="2">¡Parece que puedes subir por aquí!</hint>
+        <hint id="3">Debes seleccionar el camino correcto para avanzar</hint>
+        <hint id="4">¡Tu respuesta es incorrecta!</hint>
+        <hint id="5">¡Tu respuesta es correcta!</hint>
+        <hint id="6">Debes darle click con el mouse a la respuesta correcta para avanzar</hint>
+        <hint id="7">Solo si tienes las 4 llaves podrás salir</hint>
+        <hint id="10">¡Te perdiste! Vuelve para encontrar el camino</hint>
+        <hint id="11">¡Bien hecho! Continúa con cuidado</hint>
+        <hint id="12">Tienes que recolectar las 4 llaves para salir de la cueva</hint>
+        <hint id="13">¡Felicidades lograste llegar a la salida!</hint>
+    </levelOne>
+    <levelTwo>
+        <hint id="1">¡Que oscuro está!</hint>
+        <hint id="2">Parece que puedes subir por aquí</hint>
+        <hint id="3">Nada por aquí, solo una gran roca</hint>
+        <hint id="4">Adelante encontrarás una criatura que iluminará tu camino</hint>
+        <hint id="5">Lu ha decidido acompañarte en tu recorrido por la cueva</hint>
+        <hint id="6">Solo un camino lleva a la salida, debes tener cuidado </hint>
+        <hint id="7">Debes seleccionar el camino correcto para avanzar</hint>
+        <hint id="8">¡Tu respuesta es incorrecta!</hint>
+        <hint id="9">¡Tu respuesta es correcta!</hint>
+        <hint id="10">Te perdiste, avanza para descubrir el camino</hint>
+        <hint id="11">Bien hecho, avanzaste. Continúa con cuidado</hint>
+        <hint id="12">Bien hecho, continúa con el siguiente reto</hint>
+        <hint id="13">¡Felicidades lograstes llegar a la salida!</hint>
+        <hint id="14">Lu se despide y vuelve a la entrada</hint>
+        <hint id="15">Acompañará a futuros viajeros en su viaje por la cueva</hint>
+        <hint id="16">Buen trabajo, no falta mucho para salir</hint>
+        <hint id="17">Finalmente llegaste a la última sala</hint>
+        <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
+    </levelTwo>
+    <levelThree>
+        <hint id="1">¡Bienvenido al nivel 3!</hint>
+        <hint id="2">En este nivel veremos cálculo de perímetro</hint>
+        <hint id="3">¡Hola soy Grup! Durante el recorrido encontrarás runas, tómalas te darán vida</hint>
+        <hint id="4">¡Atentos! El perímetro de una figura geométrica es la suma de sus lados</hint>
+        <hint id="5">Ufff, es hora de nuestro primer desafio</hint>
+        <hint id="6">Debes dar click alguna de las respuestas</hint>
+        <hint id="7">Respondistes correctamente</hint>
+        <hint id="8">Respuesta incorrecta</hint>
+        <hint id="9">Las runas te darán vida, solo si tiene menos de 3 vidas</hint>
+        <hint id="10">Has completado el nivel 3. Felicidades, adelante hay más aventuras</hint>
+        <hint id="11">Preparate, vienen más preguntas</hint>
+        <hint id="12">Vamos, ya casi llegamos al final</hint>
+        <hint id="13">Hay que continuar, vamos</hint>
+        <hint id="14">Uff, tendremos que subir, vamos</hint>
+        <hint id="15">Uff, preparados. Nos enfrentaremos a Drag</hint>
+        <hint id="16">Nuestro último desafio. Drag nos hará 3 preguntas</hint>
+    </levelThree>
+    <levelFour>
+        <hint id="1">¡Felicidades ganaste!</hint>
+        <hint id="2">¡Tu respuesta es correcta!</hint>
+        <hint id="3">¡Tu respuesta es incorrecta!</hint>
+        <hint id="4">Debes darle click con el mouse a la respuesta correcta para avanzar</hint>
+    </levelFour>
+   
+</dialogs>
