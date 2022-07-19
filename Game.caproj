@@ -366,11 +366,11 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
                             <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
                                 <collision-poly>
-                                    <point x="0.0877977" y="0.283482" />
-                                    <point x="0.899801" y="0.308035" />
-                                    <point x="0.907242" y="0.638393" />
+                                    <point x="0.0877977" y="0.234375" />
+                                    <point x="0.937995" y="0.238839" />
+                                    <point x="0.94246" y="0.578125" />
                                     <point x="0.495536" y="0.631696" />
-                                    <point x="0.0863096" y="0.600447" />
+                                    <point x="0.0749009" y="0.620536" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -461,7 +461,7 @@
                                     <point x="0.465812" y="0.060276" />
                                     <point x="0.6047" y="0.0951343" />
                                     <point x="0.538461" y="0.467683" />
-                                    <point x="0.482906" y="0.841685" />
+                                    <point x="0.491453" y="0.95207" />
                                     <point x="0.405983" y="0.467684" />
                                 </collision-poly>
                             </frame>

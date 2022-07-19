@@ -6893,8 +6893,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>65</x>
-                        <y>524</y>
+                        <x>88</x>
+                        <y>530</y>
                         <z>0</z>
                         <width>132.984954834</width>
                         <height>132</height>
@@ -11910,10 +11910,10 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4352</x>
-                        <y>907</y>
+                        <x>4381.931640625</x>
+                        <y>911</y>
                         <z>0</z>
-                        <width>790</width>
+                        <width>857</width>
                         <height>100</height>
                         <depth>0</depth>
                         <hotspotX>0.49851191</hotspotX>
@@ -12591,6 +12591,31 @@
                         <hotspotX>0.49851191</hotspotX>
                         <hotspotY>-1.205357194</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="Tutorial_Message_Trigger" uid="1543">
+                    <properties>
+                        <initial-visibility>Invisible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <tutorial_dialog>10</tutorial_dialog>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>5334</x>
+                        <y>2126</y>
+                        <z>0</z>
+                        <width>145</width>
+                        <height>371</height>
+                        <depth>0</depth>
+                        <hotspotX>1</hotspotX>
+                        <hotspotY>1</hotspotY>
+                        <angle>-0.009429026</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
