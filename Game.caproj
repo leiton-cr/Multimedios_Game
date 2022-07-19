@@ -366,8 +366,8 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="946843965019635" speed="5">
                             <frame duration="1" hotspotX="0.498512" hotspotY="-1.20536" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - FloatingPlatforms.png">
                                 <collision-poly>
-                                    <point x="0.0957342" y="0.227678" />
-                                    <point x="0.898809" y="0.227678" />
+                                    <point x="0.0877977" y="0.283482" />
+                                    <point x="0.899801" y="0.308035" />
                                     <point x="0.907242" y="0.638393" />
                                     <point x="0.495536" y="0.631696" />
                                     <point x="0.0863096" y="0.600447" />
@@ -408,13 +408,13 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="299001881576676" speed="5">
                             <frame duration="1" hotspotX="0.725904" hotspotY="2.23128" original-source="C:\Users\luisl\Downloads\Ambientacion\Mossy Assets\Mossy Tileset\Mossy - MossyHills.png">
                                 <collision-poly>
-                                    <point x="0.215361" y="0.563877" />
+                                    <point x="0.0730416" y="0.751101" />
                                     <point x="0.417922" y="0.257709" />
                                     <point x="0.646084" y="0.359031" />
                                     <point x="0.832078" y="0.634361" />
                                     <point x="0.949548" y="0.940529" />
                                     <point x="0.5" y="0.997797" />
-                                    <point x="0.064759" y="0.9163" />
+                                    <point x="0.0240964" y="0.894274" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -529,13 +529,13 @@
                         <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="480859502552961" speed="5">
                             <frame duration="1" hotspotX="-0.19494" hotspotY="-2.60714" original-source="C:\Users\Christian\Desktop\Assets\Mossy Tileset\Mossy - TileSet.png">
                                 <collision-poly>
-                                    <point x="0.899939" y="0.695147" />
+                                    <point x="0.971863" y="0.817915" />
                                     <point x="0.0631482" y="0.713892" />
                                     <point x="0.0525794" y="0.243116" />
                                     <point x="0.0664683" y="0.149366" />
                                     <point x="0.0823413" y="0.0466878" />
                                     <point x="0.817461" y="0.0600807" />
-                                    <point x="0.892836" y="0.0511521" />
+                                    <point x="0.937479" y="0.0779378" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -591,11 +591,6 @@
                 </object-type>
                 <object-type name="Roca" sid="333194278200263">
                     <plugin id="Sprite" />
-                    <behaviors>
-                        <behavior-type name="Solid" sid="108508684881288">
-                            <behavior id="solid" />
-                        </behavior-type>
-                    </behaviors>
                     <effects>
                         <effect-type name="AdjustHSL">
                             <effect id="hsladjust" />
@@ -5585,6 +5580,19 @@
                 <object-type name="TiledBackground2" sid="451044225053950">
                     <plugin id="TiledBg" />
                     <texture />
+                </object-type>
+                <object-type name="baseSuelo" sid="407570713055301">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="431246165295278">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181127237188057" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.533333" />
+                        </animation>
+                    </animation-folder>
                 </object-type>
             </object-folder>
             <object-folder name="Level4">
