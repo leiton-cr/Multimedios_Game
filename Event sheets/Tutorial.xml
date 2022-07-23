@@ -591,5 +591,38 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="592183552010187" title="FallHelp">
+            <sub-events>
+                <event-block sid="593688961059161">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="406558771174340" type="FallTrigger">
+                            <param id="0" name="Object">Player</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Wait" sid="276723131552783" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="240292866809406">
+                            <conditions>
+                                <condition id="-14" name="Pick by unique ID" sid="661578968827412" type="Medium_Mossy_Platform">
+                                    <param id="0" name="Unique ID">1548</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-16" name="Set opacity" sid="512251561811662" type="Medium_Mossy_Platform">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action behavior="Solid" id="0" name="Set enabled" sid="621623220034073" type="Medium_Mossy_Platform">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
     </events>
 </c2eventsheet>

@@ -555,5 +555,17 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="952880328936207">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="709120083723348" type="Keyboard">
+                    <param id="0" name="Key">32</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="723199664088531" type="Player">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
