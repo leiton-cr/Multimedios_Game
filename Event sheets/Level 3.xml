@@ -29,12 +29,29 @@
                     <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                     <param id="1" name="Visibility">0</param>
                 </action>
-                <action disabled="1" id="-9" name="Set value" sid="168290815367698" type="System">
-                    <param id="0" name="Variable">Paused</param>
-                    <param id="1" name="Value">0</param>
+                <action id="-9" name="Set value" sid="450866622500431" type="System">
+                    <param id="0" name="Variable">VidaEnemigoAlient</param>
+                    <param id="1" name="Value">1</param>
                 </action>
-                <action disabled="1" id="11" name="Set collisions enabled" sid="107036775211495" type="Reiniciar">
-                    <param id="0" name="Collisions">0</param>
+                <action id="-9" name="Set value" sid="604911208246903" type="System">
+                    <param id="0" name="Variable">VidaEnemigoVerde</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-9" name="Set value" sid="501871826880450" type="System">
+                    <param id="0" name="Variable">VidaAlientVerde</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-9" name="Set value" sid="542283738425920" type="System">
+                    <param id="0" name="Variable">VidaEnemigoAmarrillo</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="662397159824412" type="System">
+                    <param id="0" name="Variable">VidaEnemigoFinal</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+                <action id="-9" name="Set value" sid="896313410960487" type="System">
+                    <param id="0" name="Variable">acciones</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
@@ -42,6 +59,14 @@
         <variable constant="0" name="Response2" sid="361625461444742" static="0" type="number">0</variable>
         <variable constant="0" name="Variable1" sid="141552600047082" static="0" type="number">0</variable>
         <variable constant="0" name="acciones" sid="622664083287451" static="0" type="number">0</variable>
+        <variable constant="0" name="RandomLevel3" sid="307771073785584" static="0" type="number">0</variable>
+        <variable constant="0" name="RandonResponse" sid="698072743167301" static="0" type="number">0</variable>
+        <variable constant="0" name="Respondiendo" sid="401025277400872" static="0" type="number">0</variable>
+        <variable constant="0" name="VidaEnemigoAlient" sid="310472601163238" static="0" type="number">1</variable>
+        <variable constant="0" name="VidaEnemigoVerde" sid="873466178215173" static="0" type="number">3</variable>
+        <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="0" type="number">2</variable>
+        <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="0" type="number">4</variable>
+        <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="0" type="number">7</variable>
         <event-group description="" sid="743340769462657" title="Variables">
             <sub-events>
                 <event-block sid="793186399016783">
@@ -92,14 +117,6 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <variable constant="0" name="RandomLevel3" sid="307771073785584" static="1" type="number">0</variable>
-                <variable constant="0" name="RandonResponse" sid="698072743167301" static="1" type="number">0</variable>
-                <variable constant="0" name="Respondiendo" sid="401025277400872" static="1" type="number">0</variable>
-                <variable constant="0" name="VidaEnemigoAlient" sid="310472601163238" static="1" type="number">1</variable>
-                <variable constant="0" name="VidaEnemigoVerde" sid="873466178215173" static="1" type="number">3</variable>
-                <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="1" type="number">2</variable>
-                <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="1" type="number">4</variable>
-                <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="1" type="number">7</variable>
                 <event-block sid="119924509142779">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="672872645355509" type="System">
@@ -160,10 +177,6 @@
                         <action id="-9" name="Destroy" sid="610272759470217" type="Dragon" />
                         <action id="-15" name="Set visible" sid="912320046244963" type="Tutorial_LeftRight_Arrow">
                             <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="853559067882443" type="System">
-                            <param id="0" name="Variable">Dialog_id</param>
-                            <param id="1" name="Value">10</param>
                         </action>
                     </actions>
                 </event-block>
@@ -264,7 +277,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="879206447706964" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un triángulo cuyo lado mide?  &quot;&amp;Variable1&amp; &quot; ?&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un triángulo cuyo lado mide  &quot;&amp;Variable1&amp; &quot; ?&quot;</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="268060200027809" type="textQuestion">
                                     <param id="0" name="Visibility">1</param>
@@ -472,7 +485,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="361729394029394" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Opss, fallaste,  el resultado es: &quot; &amp;Response</param>
+                                    <param id="1" name="Parameter {n}">&quot;¡Upss! Fallaste,  el resultado es: &quot; &amp;Response</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="614141467417938" type="System">
                                     <param id="0" name="Seconds">5.0</param>
@@ -586,7 +599,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="805164847245809" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Opss, fallaste,  el resultado es: &quot; &amp;Response</param>
+                                    <param id="1" name="Parameter {n}">&quot;¡Upss! Fallaste,  el resultado es: &quot; &amp;Response</param>
                                 </action>
                                 <action id="-16" name="Wait" sid="851194392994105" type="System">
                                     <param id="0" name="Seconds">5.0</param>
