@@ -66,6 +66,7 @@
         <hint id="14">Uff, tendremos que subir, vamos</hint>
         <hint id="15">Uff, preparados. Nos enfrentaremos a Drag</hint>
         <hint id="16">Nuestro último desafio. Drag nos hará 3 preguntas</hint>
+        <hint id="19">Recuerda: El perímetro de una figura geométrica es la suma de sus lados. Un ejemplo: Si tenemos un cuadrado cuyo lado mide 11, entonces el perímetro de dicho cuadrado es sumar sus cuatro lados, es decir, 11+11+11+11 = 44 </hint>
     </levelThree>
     <levelFour>
         <hint id="1">¡Felicidades ganaste!</hint>

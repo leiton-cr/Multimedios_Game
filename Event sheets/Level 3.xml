@@ -67,6 +67,40 @@
         <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="0" type="number">2</variable>
         <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="0" type="number">4</variable>
         <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="0" type="number">7</variable>
+        <event-block sid="451056703381969">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="563275564540775" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Interrogation</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-18" name="Set layer opacity" sid="311337766838520" type="System">
+                    <param id="0" name="Layer">&quot;Ayuda&quot;</param>
+                    <param id="1" name="Opacity">100</param>
+                </action>
+                <action id="0" name="Call function" sid="489559703721858" type="Function">
+                    <param id="0" name="Name">&quot;ShowMessageHelp&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="879496280112001">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="709107595574770" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">ExitHelp</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-18" name="Set layer opacity" sid="379063677703291" type="System">
+                    <param id="0" name="Layer">&quot;Ayuda&quot;</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="743340769462657" title="Variables">
             <sub-events>
                 <event-block sid="793186399016783">
