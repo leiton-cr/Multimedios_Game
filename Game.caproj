@@ -9987,9 +9987,9 @@
         <event-sheet>SelectLevel.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Keyboard" uid="1533" />
-        <global-instance type="Keyboard" uid="1534" />
-        <global-instance type="Audio" uid="1535">
+        <global-instance type="Keyboard" uid="1535" />
+        <global-instance type="Keyboard" uid="1536" />
+        <global-instance type="Audio" uid="1537">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -10003,10 +10003,10 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Mouse" uid="1536" />
-        <global-instance type="AJAX" uid="1537" />
-        <global-instance type="Function" uid="1538" />
-        <global-instance type="Browser" uid="1539" />
+        <global-instance type="Mouse" uid="1538" />
+        <global-instance type="AJAX" uid="1539" />
+        <global-instance type="Function" uid="1559" />
+        <global-instance type="Browser" uid="1560" />
     </global-instances>
     <sounds-folder>
         <sound-folder name="Main_Menu">

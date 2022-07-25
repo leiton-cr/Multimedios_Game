@@ -339,7 +339,7 @@
                         <event-block sid="608584619849444">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="223925102275742" type="LittleGhost">
-                                    <param id="0" name="Unique ID">1149</param>
+                                    <param id="0" name="Unique ID">1151</param>
                                 </condition>
                             </conditions>
                             <actions />
@@ -381,7 +381,7 @@
                         <event-block sid="124024594915405">
                             <conditions>
                                 <condition id="-14" name="Pick by unique ID" sid="801946407032607" type="LittleGhost">
-                                    <param id="0" name="Unique ID">1148</param>
+                                    <param id="0" name="Unique ID">1150</param>
                                 </condition>
                             </conditions>
                             <actions />
