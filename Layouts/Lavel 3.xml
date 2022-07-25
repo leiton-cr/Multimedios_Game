@@ -12638,7 +12638,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Big_Mossy_Platform" uid="1549">
+                <instance type="Big_Mossy_Platform" uid="1128">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13087,7 +13087,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ColorBar" uid="1128">
+                <instance type="ColorBar" uid="1129">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13118,7 +13118,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="GUI_DoubleJump" uid="1129">
+                <instance type="GUI_DoubleJump" uid="1130">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13198,7 +13198,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PausaBtn" uid="1130">
+                <instance type="PausaBtn" uid="1131">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -13309,7 +13309,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Endgame2" uid="1550">
+                <instance type="Endgame2" uid="1132">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

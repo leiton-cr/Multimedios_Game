@@ -156,7 +156,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Nivel" uid="1467">
+                <instance type="Nivel" uid="1469">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -187,7 +187,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Nivel" uid="1468">
+                <instance type="Nivel" uid="1470">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -218,7 +218,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Nivel" uid="1469">
+                <instance type="Nivel" uid="1471">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -249,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Nivel" uid="1470">
+                <instance type="Nivel" uid="1472">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -570,7 +570,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1472">
+                <instance type="PlatformRock_2" uid="1473">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -599,7 +599,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1473">
+                <instance type="PlatformRock_2" uid="1484">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -628,7 +628,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1484">
+                <instance type="PlatformRock_2" uid="1485">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -657,7 +657,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1485">
+                <instance type="PlatformRock_2" uid="1486">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -686,7 +686,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1486">
+                <instance type="PlatformRock_2" uid="1487">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -715,7 +715,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1487">
+                <instance type="PlatformRock_2" uid="1489">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -744,7 +744,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1489">
+                <instance type="PlatformRock_2" uid="1490">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -773,7 +773,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1490">
+                <instance type="PlatformRock_2" uid="1491">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -802,7 +802,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1491">
+                <instance type="PlatformRock_2" uid="1492">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -831,7 +831,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1492">
+                <instance type="BarraBloqueo" uid="1493">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -860,7 +860,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1493">
+                <instance type="BarraBloqueo" uid="1494">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -889,7 +889,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1494">
+                <instance type="PlatformRock_2" uid="1496">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -918,7 +918,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PlatformRock_2" uid="1496">
+                <instance type="PlatformRock_2" uid="1497">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -947,7 +947,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueAccesoNivel" uid="1497">
+                <instance type="BloqueAccesoNivel" uid="1498">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -989,7 +989,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PortalNivel3" uid="1498">
+                <instance type="PortalNivel3" uid="1499">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1011,7 +1011,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelName" uid="1499">
+                <instance type="LevelName" uid="1500">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1042,7 +1042,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelTextName" uid="1500">
+                <instance type="LevelTextName" uid="1504">
                     <properties>
                         <text>Selección de Nivel</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1069,7 +1069,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PortalNivel1" uid="1504">
+                <instance type="PortalNivel1" uid="1505">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1091,7 +1091,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PortalNivel2" uid="1505">
+                <instance type="PortalNivel2" uid="1506">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1113,7 +1113,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PortalNivel4" uid="1506">
+                <instance type="PortalNivel4" uid="1507">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1135,7 +1135,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1507">
+                <instance type="BarraBloqueo" uid="1508">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1164,7 +1164,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="1508">
+                <instance type="Wrapper" uid="1509">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1197,7 +1197,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="1509">
+                <instance type="Wrapper" uid="1510">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1230,7 +1230,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="1510">
+                <instance type="Wrapper" uid="1511">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1263,7 +1263,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Wrapper" uid="1511">
+                <instance type="Wrapper" uid="1512">
                     <properties>
                         <initial-visibility>Invisible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1296,7 +1296,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1512">
+                <instance type="BarraBloqueo" uid="1513">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1325,7 +1325,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1513">
+                <instance type="BarraBloqueo" uid="1514">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1354,7 +1354,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1514">
+                <instance type="BarraBloqueo" uid="1515">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1383,7 +1383,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BarraBloqueo" uid="1515">
+                <instance type="BarraBloqueo" uid="1516">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1412,7 +1412,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueAccesoNivel" uid="1516">
+                <instance type="BloqueAccesoNivel" uid="1522">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1454,7 +1454,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueAccesoNivel" uid="1522">
+                <instance type="BloqueAccesoNivel" uid="1523">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1496,7 +1496,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BloqueAccesoNivel" uid="1523">
+                <instance type="BloqueAccesoNivel" uid="1524">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1538,7 +1538,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelNameSelect" uid="1524">
+                <instance type="LevelNameSelect" uid="1525">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1569,7 +1569,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="1525">
+                <instance type="Text" uid="1526">
                     <properties>
                         <text>Nivel 1</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1596,7 +1596,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelNameSelect" uid="1526">
+                <instance type="LevelNameSelect" uid="1527">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1627,7 +1627,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="1527">
+                <instance type="Text" uid="1528">
                     <properties>
                         <text>Nivel 2</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1654,7 +1654,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelNameSelect" uid="1528">
+                <instance type="LevelNameSelect" uid="1529">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1685,7 +1685,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="1529">
+                <instance type="Text" uid="1530">
                     <properties>
                         <text>Nivel 3</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1712,7 +1712,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LevelNameSelect" uid="1530">
+                <instance type="LevelNameSelect" uid="1531">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1743,7 +1743,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Text" uid="1531">
+                <instance type="Text" uid="1532">
                     <properties>
                         <text>Nivel 4</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -1770,7 +1770,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Player" uid="1471">
+                <instance type="Player" uid="1533">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1836,7 +1836,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="TiledBackground3" uid="1532">
+                <instance type="TiledBackground3" uid="1534">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>

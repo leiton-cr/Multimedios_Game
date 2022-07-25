@@ -560,9 +560,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-10" name="Set value" sid="685427696078195" type="Message_Help">
-                            <param id="0" name="Instance variable">DialogHelp</param>
-                            <param id="1" name="Value">xml.StringValue(&quot;/dialogs/&quot;&amp;Actual_level&amp;&quot;/hint[@id=&apos;&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
+                        <action id="0" name="Set text" sid="685427696078195" type="Message_Help">
+                            <param id="0" name="Text">xml.StringValue(&quot;/dialogs/&quot;&amp;Actual_level&amp;&quot;/hint[@id=&apos;&quot;&amp;19&amp;&quot;&apos;]/text()&quot;)</param>
                         </action>
                     </actions>
                 </event-block>

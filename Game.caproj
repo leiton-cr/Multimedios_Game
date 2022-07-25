@@ -9554,6 +9554,12 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="DebugText" sid="819929616942503">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="Debug" sid="974572111426319" type="number" />
+                </instance-variables>
+            </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
