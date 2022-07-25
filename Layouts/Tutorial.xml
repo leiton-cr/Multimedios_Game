@@ -3564,7 +3564,7 @@
                         <effect-instance type="AdjustHSL">
                             <parameters>
                                 <hue>0</hue>
-                                <luminosity>1</luminosity>
+                                <luminosity>0.8</luminosity>
                                 <saturation>1</saturation>
                             </parameters>
                         </effect-instance>

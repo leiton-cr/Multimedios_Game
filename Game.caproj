@@ -23,6 +23,7 @@
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="LOS" version="1">Line Of Sight</behavior>
         <behavior author="Scirra" id="Pathfinding" version="1">Pathfinding</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
@@ -59,7 +60,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Firefox</prop>
+        <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -4558,365 +4559,808 @@
                         <animation framecount="33" loop="1" name="DragonDLE" pingpong="1" repeatcount="1" repeatto="0" sid="944026167630069" speed="20">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_01.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_02.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_03.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_04.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_05.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_06.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_07.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_08.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_09.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_10.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_11.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_12.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_13.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_14.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_15.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_16.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_17.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_18.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_19.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_20.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_21.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_22.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_23.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_24.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_25.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_26.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_27.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_28.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_29.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_30.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_31.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_32.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.501006" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Idle_33.png">
                                 <collision-poly>
-                                    <point x="0.481935" y="0.0453515" />
-                                    <point x="0.571779" y="0.194292" />
-                                    <point x="0.845411" y="0.377569" />
-                                    <point x="0.697967" y="0.609617" />
-                                    <point x="0.501581" y="0.953713" />
-                                    <point x="0.254106" y="0.603607" />
-                                    <point x="0.118735" y="0.368499" />
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="34" loop="1" name="Attact" pingpong="1" repeatcount="1" repeatto="0" sid="413472023802286" speed="28">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_00.png">
+                                <collision-poly>
+                                    <point x="0.764085" y="0.499018" />
+                                    <point x="0.705986" y="0.671906" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.272887" y="0.695481" />
+                                    <point x="0.112676" y="0.499018" />
+                                    <point x="0.214789" y="0.239686" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.693662" y="0.341847" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_01.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_02.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_03.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_04.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_05.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_06.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_07.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_08.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_09.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_10.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_11.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_12.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_13.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_14.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_15.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_16.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_17.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_18.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_19.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_20.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_21.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_22.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_23.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_24.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_25.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_26.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_27.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_28.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_29.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_30.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_31.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_32.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.500982" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Black Dragon\Sell\monster_08-V2-Walk_33.png">
+                                <collision-poly>
+                                    <point x="0.306338" y="0.341847" />
+                                    <point x="0.5" y="0.151277" />
+                                    <point x="0.785211" y="0.239686" />
+                                    <point x="0.887324" y="0.499018" />
+                                    <point x="0.727113" y="0.695481" />
+                                    <point x="0.5" y="0.860511" />
+                                    <point x="0.294014" y="0.671906" />
+                                    <point x="0.235915" y="0.499018" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -4924,42 +5368,88 @@
                 </object-type>
                 <object-type name="Alient" sid="501322792197734">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Platform" sid="840275995118540">
+                            <behavior id="Platform" />
+                        </behavior-type>
+                        <behavior-type name="LineOfSight" sid="726258372436114">
+                            <behavior id="LOS" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="3" loop="1" name="Alient" pingpong="1" repeatcount="1" repeatto="0" sid="351974855436191" speed="3">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0000_idle_1.png">
                                 <collision-poly>
-                                    <point x="0.182609" y="0.105528" />
-                                    <point x="0.5" y="0.0125628" />
-                                    <point x="0.86087" y="0.080402" />
-                                    <point x="0.986957" y="0.5" />
-                                    <point x="0.747826" y="0.854271" />
-                                    <point x="0.5" y="0.987437" />
-                                    <point x="0.247826" y="0.856784" />
-                                    <point x="0.0130435" y="0.5" />
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0001_idle_2.png">
                                 <collision-poly>
-                                    <point x="0.182609" y="0.105528" />
-                                    <point x="0.5" y="0.0125628" />
-                                    <point x="0.86087" y="0.080402" />
-                                    <point x="0.986957" y="0.5" />
-                                    <point x="0.747826" y="0.854271" />
-                                    <point x="0.5" y="0.987437" />
-                                    <point x="0.247826" y="0.856784" />
-                                    <point x="0.0130435" y="0.5" />
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0002_idle_3.png">
                                 <collision-poly>
-                                    <point x="0.182609" y="0.105528" />
-                                    <point x="0.5" y="0.0125628" />
-                                    <point x="0.86087" y="0.080402" />
-                                    <point x="0.986957" y="0.5" />
-                                    <point x="0.747826" y="0.854271" />
-                                    <point x="0.5" y="0.987437" />
-                                    <point x="0.247826" y="0.856784" />
-                                    <point x="0.0130435" y="0.5" />
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="6" loop="0" name="Moverse" pingpong="0" repeatcount="1" repeatto="0" sid="697009984706896" speed="5">
+                            <frame duration="1" hotspotX="0.497778" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0012_run_1.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.497778" hotspotY="0.501235" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0013_run_2.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501285" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0014_run_3.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.49789" hotspotY="0.501266" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0015_run_4.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501279" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0016_run_5.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501285" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_predator_mask\predatormask__0017_run_6.png">
+                                <collision-poly>
+                                    <point x="0.644444" y="0.985" />
+                                    <point x="0.311111" y="0.985" />
+                                    <point x="0.12" y="0.08" />
+                                    <point x="0.875556" y="0.125" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -5523,39 +6013,88 @@
                 </object-type>
                 <object-type name="AlienteVerde" sid="458604806035408">
                     <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Platform" sid="361163013975100">
+                            <behavior id="Platform" />
+                        </behavior-type>
+                        <behavior-type name="LineOfSight" sid="918561240261227">
+                            <behavior id="LOS" />
+                        </behavior-type>
+                    </behaviors>
                     <animation-folder>
                         <animation framecount="3" loop="1" name="AnimacionAlienteVerde" pingpong="1" repeatcount="1" repeatto="0" sid="342975378146850" speed="3">
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0000_idle_1.png">
                                 <collision-poly>
-                                    <point x="0.267606" y="0.133178" />
-                                    <point x="0.502347" y="0.0724299" />
-                                    <point x="0.755868" y="0.130841" />
-                                    <point x="0.769953" y="0.5" />
-                                    <point x="0.746479" y="0.873832" />
-                                    <point x="0.497653" y="0.859813" />
-                                    <point x="0.201878" y="0.899533" />
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0001_idle_2.png">
                                 <collision-poly>
-                                    <point x="0.267606" y="0.133178" />
-                                    <point x="0.502347" y="0.0724299" />
-                                    <point x="0.755868" y="0.130841" />
-                                    <point x="0.769953" y="0.5" />
-                                    <point x="0.746479" y="0.873832" />
-                                    <point x="0.497653" y="0.859813" />
-                                    <point x="0.201878" y="0.899533" />
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
                                 </collision-poly>
                             </frame>
                             <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0002_idle_3.png">
                                 <collision-poly>
-                                    <point x="0.267606" y="0.133178" />
-                                    <point x="0.502347" y="0.0724299" />
-                                    <point x="0.755868" y="0.130841" />
-                                    <point x="0.769953" y="0.5" />
-                                    <point x="0.746479" y="0.873832" />
-                                    <point x="0.497653" y="0.859813" />
-                                    <point x="0.201878" y="0.899533" />
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                        <animation framecount="6" loop="1" name="Moverse" pingpong="1" repeatcount="1" repeatto="0" sid="791106295499264" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0012_run_1.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.501134" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0013_run_2.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.497696" hotspotY="0.501176" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0014_run_3.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.497175" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0015_run_4.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0016_run_5.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\UCR 2022\Multimedios\Assets\Alient\alien\PNG\alien_armor\armor__0017_run_6.png">
+                                <collision-poly>
+                                    <point x="0.860825" y="0.949309" />
+                                    <point x="0.335051" y="0.958525" />
+                                    <point x="0.0979379" y="0.0806452" />
+                                    <point x="0.865979" y="0.0898617" />
                                 </collision-poly>
                             </frame>
                         </animation>
@@ -5588,7 +6127,7 @@
                 </object-type>
                 <object-type name="TiledBackground2" sid="451044225053950">
                     <plugin id="TiledBg" />
-                    <texture />
+                    <texture original-source="C:\Users\Christian\Desktop\Asset\Fondo.jpg" />
                 </object-type>
                 <object-type name="baseSuelo" sid="407570713055301">
                     <plugin id="Sprite" />

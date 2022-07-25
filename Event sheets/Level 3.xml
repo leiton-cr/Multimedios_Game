@@ -21,29 +21,102 @@
                     <param id="0" name="Group name">&quot;DarkoutLevel3&quot;</param>
                     <param id="1" name="State">0</param>
                 </action>
-                <action disabled="1" id="-18" name="Set layer opacity" sid="967770980777274" type="System">
+                <action id="-18" name="Set layer opacity" sid="967770980777274" type="System">
                     <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                     <param id="1" name="Opacity">0</param>
                 </action>
-                <action disabled="1" id="-18" name="Set layer opacity" sid="413254928646371" type="System">
-                    <param id="0" name="Layer">&quot;PauseMenu&quot;</param>
-                    <param id="1" name="Opacity">0</param>
+                <action id="-4" name="Set layer visible" sid="413254928646371" type="System">
+                    <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="450866622500431" type="System">
+                    <param id="0" name="Variable">VidaEnemigoAlient</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="604911208246903" type="System">
+                    <param id="0" name="Variable">VidaEnemigoVerde</param>
+                    <param id="1" name="Value">3</param>
+                </action>
+                <action id="-9" name="Set value" sid="501871826880450" type="System">
+                    <param id="0" name="Variable">VidaAlientVerde</param>
+                    <param id="1" name="Value">2</param>
+                </action>
+                <action id="-9" name="Set value" sid="542283738425920" type="System">
+                    <param id="0" name="Variable">VidaEnemigoAmarrillo</param>
+                    <param id="1" name="Value">4</param>
+                </action>
+                <action id="-9" name="Set value" sid="662397159824412" type="System">
+                    <param id="0" name="Variable">VidaEnemigoFinal</param>
+                    <param id="1" name="Value">7</param>
+                </action>
+                <action id="-9" name="Set value" sid="896313410960487" type="System">
+                    <param id="0" name="Variable">acciones</param>
+                    <param id="1" name="Value">0</param>
                 </action>
             </actions>
         </event-block>
         <variable constant="0" name="Response" sid="598354661469474" static="0" type="number">0</variable>
         <variable constant="0" name="Response2" sid="361625461444742" static="0" type="number">0</variable>
         <variable constant="0" name="Variable1" sid="141552600047082" static="0" type="number">0</variable>
+        <variable constant="0" name="acciones" sid="622664083287451" static="0" type="number">0</variable>
+        <variable constant="0" name="RandomLevel3" sid="307771073785584" static="0" type="number">0</variable>
+        <variable constant="0" name="RandonResponse" sid="698072743167301" static="0" type="number">0</variable>
+        <variable constant="0" name="Respondiendo" sid="401025277400872" static="0" type="number">0</variable>
+        <variable constant="0" name="VidaEnemigoAlient" sid="310472601163238" static="0" type="number">1</variable>
+        <variable constant="0" name="VidaEnemigoVerde" sid="873466178215173" static="0" type="number">3</variable>
+        <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="0" type="number">2</variable>
+        <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="0" type="number">4</variable>
+        <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="0" type="number">7</variable>
         <event-group description="" sid="743340769462657" title="Variables">
             <sub-events>
-                <variable constant="0" name="RandomLevel3" sid="307771073785584" static="1" type="number">0</variable>
-                <variable constant="0" name="RandonResponse" sid="698072743167301" static="1" type="number">0</variable>
-                <variable constant="0" name="Respondiendo" sid="401025277400872" static="1" type="number">0</variable>
-                <variable constant="0" name="VidaEnemigoAlient" sid="310472601163238" static="1" type="number">1</variable>
-                <variable constant="0" name="VidaEnemigoVerde" sid="873466178215173" static="1" type="number">2</variable>
-                <variable constant="0" name="VidaAlientVerde" sid="503606896955879" static="1" type="number">3</variable>
-                <variable constant="0" name="VidaEnemigoAmarrillo" sid="408670148498794" static="1" type="number">4</variable>
-                <variable constant="0" name="VidaEnemigoFinal" sid="307119447692413" static="1" type="number">7</variable>
+                <event-block sid="793186399016783">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="165005165743956" type="System">
+                            <param id="0" name="Variable">acciones</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="365242985747692">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="241917240252659" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">Salir</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="667779076910904" type="System">
+                                    <param id="0" name="Layout">SelectLevel</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="394613856615630">
+                            <conditions>
+                                <condition id="6" name="On object clicked" sid="617095847328583" type="Mouse">
+                                    <param id="0" name="Mouse button">0</param>
+                                    <param id="1" name="Click type">0</param>
+                                    <param id="2" name="Object clicked">Reiniciar</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-2" name="Go to layout" sid="740617245577210" type="System">
+                                    <param id="0" name="Layout">Lavel 3</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="305393988955479" type="System">
+                                    <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                                    <param id="1" name="Opacity">0</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="670674247954178" type="System">
+                                    <param id="0" name="Layer">&quot;msg&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
                 <event-block sid="119924509142779">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="672872645355509" type="System">
@@ -105,10 +178,6 @@
                         <action id="-15" name="Set visible" sid="912320046244963" type="Tutorial_LeftRight_Arrow">
                             <param id="0" name="Visibility">1</param>
                         </action>
-                        <action id="-9" name="Set value" sid="853559067882443" type="System">
-                            <param id="0" name="Variable">Dialog_id</param>
-                            <param id="1" name="Value">10</param>
-                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="979036196547026">
@@ -162,7 +231,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="612256467357253" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un cuadrado cuyo lado mide? &quot;&amp;Variable1</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un cuadrado cuyo lado mide &quot;&amp;Variable1&amp;&quot; ?&quot;</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="600397325563389" type="textQuestion">
                                     <param id="0" name="Visibility">1</param>
@@ -208,7 +277,7 @@
                                 </action>
                                 <action id="0" name="Call function" sid="879206447706964" type="Function">
                                     <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un triángulo cuyo lado mide?  &quot;&amp;Variable1</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuánto es el perímetro de un triángulo cuyo lado mide  &quot;&amp;Variable1&amp; &quot; ?&quot;</param>
                                 </action>
                                 <action id="-15" name="Set visible" sid="268060200027809" type="textQuestion">
                                     <param id="0" name="Visibility">1</param>
@@ -299,6 +368,22 @@
                         <action id="-18" name="Set layer opacity" sid="718136599326806" type="System">
                             <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                             <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="270417928386162" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-4" name="Set layer visible" sid="393573763076371" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Visibility">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="564284517723382" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="101480375334451" type="System">
+                            <param id="0" name="Variable">acciones</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -397,6 +482,13 @@
                                 </action>
                                 <action id="-16" name="Wait" sid="443755126872914" type="System">
                                     <param id="0" name="Seconds">3.0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="361729394029394" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;¡Upss! Fallaste,  el resultado es: &quot; &amp;Response</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="614141467417938" type="System">
+                                    <param id="0" name="Seconds">5.0</param>
                                 </action>
                                 <action id="11" name="Set collisions enabled" sid="741902880247911" type="PreguntaAlient">
                                     <param id="0" name="Collisions">1</param>
@@ -505,27 +597,19 @@
                                 <action id="-16" name="Wait" sid="621273536707619" type="System">
                                     <param id="0" name="Seconds">3.0</param>
                                 </action>
+                                <action id="0" name="Call function" sid="805164847245809" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;¡Upss! Fallaste,  el resultado es: &quot; &amp;Response</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="851194392994105" type="System">
+                                    <param id="0" name="Seconds">5.0</param>
+                                </action>
                                 <action id="11" name="Set collisions enabled" sid="624121136534375" type="PreguntaAlient">
                                     <param id="0" name="Collisions">1</param>
                                 </action>
                                 <action id="0" name="Call function" sid="157139014755487" type="Function">
                                     <param id="0" name="Name">&quot;LifeDown&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="640741015365005">
-                            <conditions>
-                                <condition id="-8" name="Compare two values" sid="440448764274027" type="System">
-                                    <param id="0" name="First value">distance(ActivarDragon.X,ActivarDragon.Y,Player.X,Player.Y)</param>
-                                    <param id="1" name="Comparison">3</param>
-                                    <param id="2" name="Second value">500</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-23" name="Move at angle" sid="289933971317117" type="Dragon">
-                                    <param id="0" name="Angle">0</param>
-                                    <param id="1" name="Distance">200</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -736,7 +820,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="682082122521225">
+        <event-block disabled="1" sid="682082122521225">
             <conditions>
                 <condition id="6" name="On object clicked" sid="528126577532679" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
@@ -758,7 +842,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="584897312104852">
+        <event-block disabled="1" sid="584897312104852">
             <conditions>
                 <condition id="6" name="On object clicked" sid="330171970617459" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
@@ -856,6 +940,160 @@
                     <actions />
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="378515112753560">
+            <conditions>
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="678046218975719" type="Alient">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="508007070365400">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="468289709986335" type="System">
+                            <param id="0" name="First value">distance(Alient.X,Alient.Y,Player.X,Player.Y)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">50</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="855135815781657">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="354876121321798" type="Player">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">Alient.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="173162121314304" type="Alient">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="350070720598366" type="Alient">
+                                    <param id="0" name="Animation">&quot;Moverse&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="373197517022893" type="Alient">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="292042794622616">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="851520065634908" type="Player">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">Alient.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="547445446705103" type="Alient">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="688987147812615" type="Alient">
+                                    <param id="0" name="Animation">&quot;Moverse&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="869411980001293" type="Alient">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="368260795332996">
+            <conditions>
+                <condition behavior="LineOfSight" id="0" name="Has LOS to object" sid="665835730399417" type="AlienteVerde">
+                    <param id="0" name="Object">Player</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="527219379744429">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="325140598239145" type="System">
+                            <param id="0" name="First value">distance(AlienteVerde.X,AlienteVerde.Y,Player.X,Player.Y)</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Second value">50</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="484512800717814">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="478312644482730" type="Player">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">AlienteVerde.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="351755690356910" type="AlienteVerde">
+                                    <param id="0" name="Control">0</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="441941874980312" type="AlienteVerde">
+                                    <param id="0" name="Animation">&quot;Moverse&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="750583387029746" type="AlienteVerde">
+                                    <param id="0" name="State">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="823715976933390">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="321282252509671" type="Player">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">AlienteVerde.X</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Platform" id="7" name="Simulate control" sid="854554036668477" type="AlienteVerde">
+                                    <param id="0" name="Control">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="355038829312799" type="AlienteVerde">
+                                    <param id="0" name="Animation">&quot;Moverse&quot;</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                                <action id="7" name="Set mirrored" sid="627966315963053" type="AlienteVerde">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="118400864895442">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="921985069226804" type="System">
+                    <param id="0" name="First value">distance(Alient.X,Alient.Y,Player.X,Player.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">50</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="453331954849525" type="Alient">
+                    <param id="0" name="Animation">&quot;Alient&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="920885749192838">
+            <conditions>
+                <condition id="-8" name="Compare two values" sid="927246390048447" type="System">
+                    <param id="0" name="First value">distance(AlienteVerde.X,AlienteVerde.Y,Player.X,Player.Y)</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Second value">50</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="819113113202086" type="AlienteVerde">
+                    <param id="0" name="Animation">&quot;AnimacionAlienteVerde&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
