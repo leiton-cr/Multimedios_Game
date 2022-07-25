@@ -11,6 +11,7 @@
         <hint id="9">Selecciona el fantasma correcto para escapar</hint>
         <hint id="10">Fallaste, escapas a un lugar seguro</hint>
         <hint id="11">Acertaste, puedes continuar</hint>
+         <hint id="19">Recuerda: dividir es como repartir. Un ejemplo: si tenemos 4 manzanas y hay 2 personas repartimos en partes iguales, para que cada persona tenga la misma cantidad. Por lo que, a cada una le tocarían 2 manzanas </hint>
     </tutorial>
     <levelOne>
         <hint id="1">¡Que oscuro está!</hint>
@@ -46,6 +47,7 @@
         <hint id="16">Buen trabajo, no falta mucho para salir</hint>
         <hint id="17">Finalmente llegaste a la última sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
+         <hint id="19">Recuerda: dividir es como repartir. Un ejemplo: si tenemos 4 manzanas y hay 2 personas repartimos en partes iguales, para que cada persona tenga la misma cantidad. Por lo que, a cada una le tocarían 2 manzanas </hint>
     </levelTwo>
     <levelThree>
         <hint id="1">¡Bienvenido al nivel 3!</hint>
