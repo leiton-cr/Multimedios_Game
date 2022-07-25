@@ -18,6 +18,7 @@
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
         <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
         <plugin author="Scirra" id="XML" version="1">XML</plugin>
     </used-plugins>
@@ -8941,6 +8942,79 @@
                     </animation>
                 </animation-folder>
             </object-type>
+            <object-type name="Interrogation" sid="601147796844876">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="330933876167204" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.50039" original-source="E:\Descargas\Interrogation.png">
+                            <collision-poly>
+                                <point x="0.147426" y="0.147541" />
+                                <point x="0.5" y="0.00078064" />
+                                <point x="0.852574" y="0.147541" />
+                                <point x="0.99922" y="0.49961" />
+                                <point x="0.851794" y="0.851678" />
+                                <point x="0.5" y="0.999219" />
+                                <point x="0.148206" y="0.851678" />
+                                <point x="0.000780031" y="0.49961" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Help" sid="441727880668814">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119299317432808" speed="5">
+                        <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Credits.png">
+                            <collision-poly>
+                                <point x="0.00514139" y="0.349372" />
+                                <point x="0.505141" y="0.00209205" />
+                                <point x="0.98072" y="0.389121" />
+                                <point x="0.98072" y="0.76569" />
+                                <point x="0.505141" y="0.995816" />
+                                <point x="0.00385604" y="0.807531" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HelpTag" sid="708248088963597">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="ContentHelp" sid="562879446602075">
+                <plugin id="TextBox" />
+            </object-type>
+            <object-type name="Message_Help" sid="671122345951198">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="DialogHelp" sid="377303010633881" type="string" />
+                    <instance-variable name="Dialog_id" sid="839472495995280" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="ExitHelp" sid="908228415996033">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="829600005092921" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Descargas\x2.png">
+                            <collision-poly>
+                                <point x="0.0605469" y="0.0605469" />
+                                <point x="0.5" y="0.324219" />
+                                <point x="0.939453" y="0.0605469" />
+                                <point x="0.654297" y="0.5" />
+                                <point x="0.939453" y="0.939453" />
+                                <point x="0.5" y="0.675781" />
+                                <point x="0.0605469" y="0.939453" />
+                                <point x="0.345703" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
             <plugin id="Sprite" />
@@ -9341,6 +9415,7 @@
                 <member>GhostResponse2</member>
                 <member>HPText</member>
                 <member>LevelTextName</member>
+                <member>Message_Help</member>
                 <member>Message_Text</member>
                 <member>PlankResponse</member>
             </members>
@@ -9365,7 +9440,6 @@
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
         <event-sheet>Globals.xml</event-sheet>
-        <event-sheet>Event sheet Level 1.xml</event-sheet>
         <event-sheet>Tutorial.xml</event-sheet>
         <event-sheet>Level1_Events.xml</event-sheet>
         <event-sheet>Level2.xml</event-sheet>

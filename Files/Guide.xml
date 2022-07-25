@@ -20,6 +20,7 @@
         <hint id="5">¡Tu respuesta es correcta!</hint>
         <hint id="6">Debes darle click con el mouse a la respuesta correcta para avanzar</hint>
         <hint id="7">Solo si tienes las 4 llaves podrás salir</hint>
+		<hint id="8">Si tienes las 4 llaves sigue directo, sino vuelve y consíguelas todas</hint>
         <hint id="10">¡Te perdiste! Vuelve para encontrar el camino</hint>
         <hint id="11">¡Bien hecho! Continúa con cuidado</hint>
         <hint id="12">Tienes que recolectar las 4 llaves para salir de la cueva</hint>
@@ -44,6 +45,7 @@
         <hint id="16">Buen trabajo, no falta mucho para salir</hint>
         <hint id="17">Finalmente llegaste a la última sala</hint>
         <hint id="18">Encontraste un tesoro secreto, recuperas tu energía</hint>
+		<hint id="19">Recuerda: dividir es como repartir. Un ejemplo: si tenemos 4 manzanas y hay 2 personas repartimos en partes iguales, para que cada persona tenga la misma cantidad. Por lo que, a cada una le tocarían 2 manzanas </hint>
     </levelTwo>
     <levelThree>
         <hint id="1">¡Bienvenido al nivel 3!</hint>

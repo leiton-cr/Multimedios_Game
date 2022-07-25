@@ -3,6 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Level4</name>
     <events>
+        <variable constant="0" name="FinalBoss" sid="484328596915703" static="0" type="number">0</variable>
+        <variable constant="0" name="FlagGhost" sid="752855902060898" static="0" type="number">0</variable>
         <include>Globals</include>
         <event-group description="" sid="872062793544141" title="Darkin3">
             <sub-events>
@@ -418,6 +420,10 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
+                        <event-block sid="451206915859098">
+                            <conditions />
+                            <actions />
+                        </event-block>
                     </sub-events>
                 </event-block>
                 <event-block sid="888501781337133">
@@ -470,6 +476,10 @@
                                     <param id="0" name="Group name">&quot;BossGhost&quot;</param>
                                     <param id="1" name="State">1</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="849675855898926" type="System">
+                                    <param id="0" name="Variable">FlagGhost</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="316535010749324">
@@ -516,19 +526,6 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-block sid="553642856615678">
-            <conditions>
-                <condition id="-15" inverted="1" name="Is group active" sid="302519372778197" type="System">
-                    <param id="0" name="Group name">&quot;MiniGhosts&quot;</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-12" name="Set group active" sid="838049541381489" type="System">
-                    <param id="0" name="Group name">&quot;BossGhost&quot;</param>
-                    <param id="1" name="State">1</param>
-                </action>
-            </actions>
-        </event-block>
         <event-group description="" sid="627205440556244" title="SetPositionGhost">
             <sub-events>
                 <event-block sid="453342649116312">
@@ -596,101 +593,147 @@
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="991530296387398">
+                <event-block sid="553642856615678">
                     <conditions>
-                        <condition id="-14" name="Compare variable" sid="112910506639609" type="System">
-                            <param id="0" name="Variable">State</param>
+                        <condition id="-15" inverted="1" name="Is group active" sid="302519372778197" type="System">
+                            <param id="0" name="Group name">&quot;MiniGhosts&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="807039023734298" type="System">
+                            <param id="0" name="Variable">FlagGhost</param>
                             <param id="1" name="Comparison">0</param>
-                            <param id="2" name="Value">0</param>
+                            <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="301329040464912" type="System">
-                            <param id="0" name="Variable">RandomChoose</param>
-                            <param id="1" name="Value">choose(0,1)</param>
+                        <action id="-12" name="Set group active" sid="838049541381489" type="System">
+                            <param id="0" name="Group name">&quot;BossGhost&quot;</param>
+                            <param id="1" name="State">1</param>
                         </action>
-                        <action id="-9" name="Set value" sid="389607266726122" type="System">
+                        <action id="17" name="Execute Javascript" sid="265259063378004" type="Browser">
+                            <param id="0" name="Javascript">&quot;console.log(hola);&quot;</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="724123511360080" type="System">
+                            <param id="0" name="Variable">FlagGhost</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="771875230418393" type="System">
                             <param id="0" name="Variable">State</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="144453832544766" type="System">
-                            <param id="0" name="Variable">ResponseTwo</param>
-                            <param id="1" name="Value">8 + choose(-2,-1,1,2)</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="291343654473382" type="System">
-                            <param id="0" name="Variable">Dialog_id</param>
-                            <param id="1" name="Value">4</param>
-                        </action>
-                        <action id="0" name="Call function" sid="927551796770077" type="Function">
-                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="105134673289544" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="-18" name="Set layer opacity" sid="694700963846807" type="System">
-                            <param id="0" name="Layer">&quot;BossGhost&quot;</param>
-                            <param id="1" name="Opacity">100</param>
-                        </action>
-                        <action id="0" name="Call function" sid="119229792545670" type="Function">
-                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;¿Cuál es la respuesta para la siguiente fracción 1/2 x 3/4?&quot; </param>
-                        </action>
-                        <action id="-9" name="Set value" sid="413665606453104" type="System">
-                            <param id="0" name="Variable">ClickOnObject</param>
-                            <param id="1" name="Value">1</param>
+                            <param id="1" name="Value">0</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="959727950104621">
+                        <event-block sid="991530296387398">
                             <conditions>
-                                <condition id="-14" name="Compare variable" sid="977516101811461" type="System">
-                                    <param id="0" name="Variable">RandomChoose</param>
+                                <condition id="-14" name="Compare variable" sid="112910506639609" type="System">
+                                    <param id="0" name="Variable">State</param>
                                     <param id="1" name="Comparison">0</param>
                                     <param id="2" name="Value">0</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="0" name="Set text" sid="676980256582729" type="AnswerOne2">
-                                    <param id="0" name="Text">&quot;1/8&quot;</param>
+                                <action id="-16" name="Set opacity" sid="282058321518205" type="BigGhost">
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
-                                <action id="0" name="Set text" sid="940684835489394" type="AnswerTwo2">
-                                    <param id="0" name="Text">&quot;1/&quot; &amp; ResponseTwo</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="178568031630334" type="AnswerOne2">
-                                    <param id="0" name="Instance variable">Flag</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-13" name="Set boolean" sid="747381400376314" type="AnswerTwo2">
-                                    <param id="0" name="Instance variable">Flag</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="425307691989273">
-                            <conditions>
-                                <condition id="-14" name="Compare variable" sid="854287278368446" type="System">
+                                <action id="-9" name="Set value" sid="301329040464912" type="System">
                                     <param id="0" name="Variable">RandomChoose</param>
-                                    <param id="1" name="Comparison">0</param>
-                                    <param id="2" name="Value">1</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="0" name="Set text" sid="405967694210177" type="AnswerOne2">
-                                    <param id="0" name="Text">&quot;1/&quot; &amp; ResponseTwo</param>
+                                    <param id="1" name="Value">choose(0,1)</param>
                                 </action>
-                                <action id="0" name="Set text" sid="584438016599251" type="AnswerTwo2">
-                                    <param id="0" name="Text">&quot;1/8&quot;</param>
+                                <action id="-9" name="Set value" sid="389607266726122" type="System">
+                                    <param id="0" name="Variable">State</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="847840530294922" type="AnswerOne2">
-                                    <param id="0" name="Instance variable">Flag</param>
-                                    <param id="1" name="Value">0</param>
+                                <action id="-9" name="Set value" sid="144453832544766" type="System">
+                                    <param id="0" name="Variable">ResponseTwo</param>
+                                    <param id="1" name="Value">8 + choose(-2,-1,1,2)</param>
                                 </action>
-                                <action id="-13" name="Set boolean" sid="188747741058554" type="AnswerTwo2">
-                                    <param id="0" name="Instance variable">Flag</param>
+                                <action id="-9" name="Set value" sid="291343654473382" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">4</param>
+                                </action>
+                                <action id="0" name="Call function" sid="927551796770077" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="105134673289544" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-18" name="Set layer opacity" sid="694700963846807" type="System">
+                                    <param id="0" name="Layer">&quot;BossGhost&quot;</param>
+                                    <param id="1" name="Opacity">100</param>
+                                </action>
+                                <action id="0" name="Call function" sid="119229792545670" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;¿Cuál es la respuesta para la siguiente fracción 1/2 x 3/4?&quot; </param>
+                                </action>
+                                <action id="-9" name="Set value" sid="413665606453104" type="System">
+                                    <param id="0" name="Variable">ClickOnObject</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
+                            <sub-events>
+                                <event-block sid="959727950104621">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="977516101811461" type="System">
+                                            <param id="0" name="Variable">RandomChoose</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">0</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="676980256582729" type="AnswerOne2">
+                                            <param id="0" name="Text">&quot;1/8&quot;</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="940684835489394" type="AnswerTwo2">
+                                            <param id="0" name="Text">&quot;1/&quot; &amp; ResponseTwo</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="178568031630334" type="AnswerOne2">
+                                            <param id="0" name="Instance variable">Flag</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="747381400376314" type="AnswerTwo2">
+                                            <param id="0" name="Instance variable">Flag</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="725061175534894" type="AnswerOne2">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="176521486791042" type="AnswerTwo2">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="425307691989273">
+                                    <conditions>
+                                        <condition id="-14" name="Compare variable" sid="854287278368446" type="System">
+                                            <param id="0" name="Variable">RandomChoose</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Value">1</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Set text" sid="405967694210177" type="AnswerOne2">
+                                            <param id="0" name="Text">&quot;1/&quot; &amp; ResponseTwo</param>
+                                        </action>
+                                        <action id="0" name="Set text" sid="584438016599251" type="AnswerTwo2">
+                                            <param id="0" name="Text">&quot;1/8&quot;</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="847840530294922" type="AnswerOne2">
+                                            <param id="0" name="Instance variable">Flag</param>
+                                            <param id="1" name="Value">0</param>
+                                        </action>
+                                        <action id="-13" name="Set boolean" sid="188747741058554" type="AnswerTwo2">
+                                            <param id="0" name="Instance variable">Flag</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="288446269360228" type="AnswerOne2">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                        <action id="-16" name="Set opacity" sid="409246939614180" type="AnswerTwo2">
+                                            <param id="0" name="Opacity">100</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -716,7 +759,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="259110397410827" type="BigGhost" />
+                                <action id="-16" name="Set opacity" sid="259110397410827" type="BigGhost">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
                                 <action id="-18" name="Set layer opacity" sid="388830664342840" type="System">
                                     <param id="0" name="Layer">&quot;BossGhost&quot;</param>
                                     <param id="1" name="Opacity">0</param>
@@ -752,11 +797,19 @@
                                     <param id="0" name="Group name">&quot;BossGhost&quot;</param>
                                     <param id="1" name="State">0</param>
                                 </action>
-                                <action id="0" name="Set text" sid="556804053350460" type="AnswerOne2">
-                                    <param id="0" name="Text">&quot;&quot;</param>
+                                <action id="-16" name="Set opacity" sid="556804053350460" type="AnswerOne2">
+                                    <param id="0" name="Opacity">0</param>
                                 </action>
-                                <action id="0" name="Set text" sid="933956584551407" type="AnswerTwo2">
-                                    <param id="0" name="Text">&quot;&quot;</param>
+                                <action id="-16" name="Set opacity" sid="933956584551407" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="575691227250509" type="System">
+                                    <param id="0" name="Variable">State</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="196927405382079" type="System">
+                                    <param id="0" name="Variable">FinalBoss</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -819,7 +872,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="549796068437518" type="BigGhost" />
+                                <action id="-16" name="Set opacity" sid="549796068437518" type="BigGhost">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
                                 <action id="-18" name="Set layer opacity" sid="983636921814697" type="System">
                                     <param id="0" name="Layer">&quot;BossGhost&quot;</param>
                                     <param id="1" name="Opacity">0</param>
@@ -855,11 +910,19 @@
                                     <param id="0" name="Group name">&quot;BossGhost&quot;</param>
                                     <param id="1" name="State">0</param>
                                 </action>
-                                <action id="0" name="Set text" sid="854785760518832" type="AnswerOne2">
-                                    <param id="0" name="Text">&quot;&quot;</param>
+                                <action id="-16" name="Set opacity" sid="854785760518832" type="AnswerOne2">
+                                    <param id="0" name="Opacity">0</param>
                                 </action>
-                                <action id="0" name="Set text" sid="582763567949515" type="AnswerTwo2">
-                                    <param id="0" name="Text">&quot;&quot;</param>
+                                <action id="-16" name="Set opacity" sid="582763567949515" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="398050970764629" type="System">
+                                    <param id="0" name="Variable">State</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="863052939853898" type="System">
+                                    <param id="0" name="Variable">FinalBoss</param>
+                                    <param id="1" name="Value">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -936,6 +999,32 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="950230902258459">
+                    <conditions>
+                        <condition id="-15" inverted="1" name="Is group active" sid="736498008989692" type="System">
+                            <param id="0" name="Group name">&quot;BossGhost&quot;</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="742404408266070" type="System">
+                            <param id="0" name="Variable">FinalBoss</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="989527592365122" type="System">
+                            <param id="0" name="Variable">FinalBoss</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="375800053607812" type="System">
+                            <param id="0" name="Variable">State</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="200909734762555" type="System">
+                            <param id="0" name="Variable">FinalBoss</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="539890009283569">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="484316365794565" type="System">
@@ -945,6 +1034,9 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-16" name="Set opacity" sid="399208129862481" type="Skeleton">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
                         <action id="-9" name="Set value" sid="620689696555155" type="System">
                             <param id="0" name="Variable">RandomChoose</param>
                             <param id="1" name="Value">choose(0,1)</param>
@@ -986,6 +1078,12 @@
                                     <param id="0" name="Instance variable">Flag</param>
                                     <param id="1" name="Value">0</param>
                                 </action>
+                                <action id="-16" name="Set opacity" sid="397681053107452" type="AnswerOne2">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="580431100011559" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="377251099920477">
@@ -1010,6 +1108,12 @@
                                 <action id="-13" name="Set boolean" sid="393974673789879" type="AnswerTwo2">
                                     <param id="0" name="Instance variable">Flag</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="598757831479185" type="AnswerOne2">
+                                    <param id="0" name="Opacity">100</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="697260850105792" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1061,10 +1165,18 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="397539511385484" type="Skeleton" />
                                 <action id="-9" name="Set value" sid="690858665823431" type="System">
                                     <param id="0" name="Variable">State</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="397539511385484" type="Skeleton">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="191675147472953" type="AnswerOne2">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="755225541999781" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">0</param>
                                 </action>
                                 <action id="-18" name="Set layer opacity" sid="446541770502448" type="System">
                                     <param id="0" name="Layer">&quot;FinalBoss&quot;</param>
@@ -1092,6 +1204,20 @@
                                 <action id="0" name="Call function" sid="550986868332802" type="Function">
                                     <param id="0" name="Name">&quot;ShowMessage&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-16" name="Wait" sid="867970169234218" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="495563088574589" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="641422959141977" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="777115941333211" type="System">
+                                    <param id="0" name="Layout">SelectLevel</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="399389407021331" type="System">
                                     <param id="0" name="Variable">ClickOnObject</param>
@@ -1165,10 +1291,18 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Destroy" sid="122707866806788" type="Skeleton" />
                                 <action id="-9" name="Set value" sid="369286560672253" type="System">
                                     <param id="0" name="Variable">State</param>
                                     <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="122707866806788" type="Skeleton">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="785132433719617" type="AnswerOne2">
+                                    <param id="0" name="Opacity">0</param>
+                                </action>
+                                <action id="-16" name="Set opacity" sid="521887846842029" type="AnswerTwo2">
+                                    <param id="0" name="Opacity">0</param>
                                 </action>
                                 <action id="-18" name="Set layer opacity" sid="240134847764844" type="System">
                                     <param id="0" name="Layer">&quot;FinalBoss&quot;</param>
@@ -1182,6 +1316,10 @@
                                     <param id="0" name="Name">&quot;ShowMessage&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
+                                <action id="-12" name="Set group active" sid="670791633206062" type="System">
+                                    <param id="0" name="Group name">&quot;Darkin3&quot;</param>
+                                    <param id="1" name="State">1</param>
+                                </action>
                                 <action id="-16" name="Wait" sid="743623076201844" type="System">
                                     <param id="0" name="Seconds">3</param>
                                 </action>
@@ -1193,6 +1331,20 @@
                                     <param id="0" name="Name">&quot;ShowMessage&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
+                                <action id="-16" name="Wait" sid="336744493027887" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="180019217100899" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="136283384552807" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="-2" name="Go to layout" sid="424876052536327" type="System">
+                                    <param id="0" name="Layout">SelectLevel</param>
+                                </action>
                                 <action id="-9" name="Set value" sid="354701681242601" type="System">
                                     <param id="0" name="Variable">ClickOnObject</param>
                                     <param id="1" name="Value">0</param>
@@ -1200,13 +1352,6 @@
                                 <action id="-12" name="Set group active" sid="241120688421460" type="System">
                                     <param id="0" name="Group name">&quot;FinalBoss&quot;</param>
                                     <param id="1" name="State">0</param>
-                                </action>
-                                <action id="-12" name="Set group active" sid="670791633206062" type="System">
-                                    <param id="0" name="Group name">&quot;Darkin3&quot;</param>
-                                    <param id="1" name="State">1</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="424876052536327" type="System">
-                                    <param id="0" name="Layout">SelectLevel</param>
                                 </action>
                             </actions>
                         </event-block>

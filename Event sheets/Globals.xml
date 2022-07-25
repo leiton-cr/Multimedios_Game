@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Globals</name>
     <events>
+        <variable constant="0" name="Help" sid="541117260428871" static="0" type="number">0</variable>
         <variable constant="0" name="Life" sid="687313860960077" static="0" type="number">3</variable>
         <comment>El juego se encuentra o no en pausa</comment>
         <variable constant="0" name="Paused" sid="466193315718009" static="0" type="number">0</variable>
@@ -31,6 +32,10 @@
                 </action>
                 <action id="-9" name="Set value" sid="504005942434011" type="System">
                     <param id="0" name="Variable">Paused</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="572552973157719" type="System">
+                    <param id="0" name="Variable">Help</param>
                     <param id="1" name="Value">0</param>
                 </action>
                 <action id="-9" name="Set value" sid="410492263137642" type="System">
@@ -454,6 +459,110 @@
                         <action id="-9" name="Set value" sid="549068639350391" type="System">
                             <param id="0" name="Variable">Paused</param>
                             <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="329491786415482" title="Help System">
+            <sub-events>
+                <event-block sid="232873592652457">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="811735736141525" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Interrogation</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="852373462946401" type="System">
+                            <param id="0" name="Variable">Help</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="0" name="Call function" sid="204515887501408" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessageHelp&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="677132982268397">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="555033629357973" type="System">
+                            <param id="0" name="Variable">Help</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="145026483632205" type="System">
+                            <param id="0" name="Layer">&quot;Help&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="654586797380626" type="PausaBtn">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="625764131333543" type="Interrogation">
+                            <param id="0" name="Opacity">100</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="803523145002584" type="System">
+                            <param id="0" name="Time scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="560301957605075">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="509053905656474" type="System">
+                            <param id="0" name="Variable">Help</param>
+                            <param id="1" name="Comparison">1</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="340313801635474" type="System">
+                            <param id="0" name="Layer">&quot;Help&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="388097516818963" type="PausaBtn">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-16" name="Set opacity" sid="901046662691886" type="Interrogation">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-13" name="Set time scale" sid="162097998426919" type="System">
+                            <param id="0" name="Time scale">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="133803718286305">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="804363956641343" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">ExitHelp</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="503099674735197" type="System">
+                            <param id="0" name="Variable">Help</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="533957745703942" type="System">
+                            <param id="0" name="Variable">Help</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="385473107561224">
+                    <conditions>
+                        <condition id="0" name="On function" sid="360138376088570" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessageHelp&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Set value" sid="685427696078195" type="Message_Help">
+                            <param id="0" name="Instance variable">DialogHelp</param>
+                            <param id="1" name="Value">xml.StringValue(&quot;/dialogs/&quot;&amp;Actual_level&amp;&quot;/hint[@id=&apos;&quot;&amp;Dialog_id&amp;&quot;&apos;]/text()&quot;)</param>
                         </action>
                     </actions>
                 </event-block>

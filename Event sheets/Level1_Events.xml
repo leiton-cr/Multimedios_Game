@@ -4,60 +4,6 @@
     <name>Level1_Events</name>
     <events>
         <include>Globals</include>
-        <event-group description="" sid="178288538711101" title="Enemies">
-            <sub-events>
-                <event-block sid="110803948444793">
-                    <conditions>
-                        <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
-                            <param id="0" name="Animation">&quot;poison&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="533986158978252">
-                    <conditions>
-                        <condition id="-9" name="Is visible" sid="766299609964786" type="GhostLayer" />
-                    </conditions>
-                    <actions>
-                        <action id="4" name="Set animation" sid="137121615029991" type="GhostLayer">
-                            <param id="0" name="Animation">&quot;GhostMovement&quot;</param>
-                            <param id="1" name="From">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="102914448592386" title="Darkin2">
-            <sub-events>
-                <event-block sid="640587382681193">
-                    <conditions>
-                        <condition id="-1" name="Every tick" sid="313426595203545" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-16" name="Set opacity" sid="344571013616242" type="DarknessLevel1">
-                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="628293344667438" title="Darkout2">
-            <sub-events>
-                <event-block sid="828138941435098">
-                    <conditions>
-                        <condition id="-1" name="Every tick" sid="832211031338519" type="System" />
-                    </conditions>
-                    <actions>
-                        <action id="-16" name="Set opacity" sid="977191239247499" type="DarknessLevel1">
-                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
         <event-group description="" sid="712619645923140" title="LevelSettings">
             <sub-events>
                 <variable constant="0" name="CheckpointX2" sid="885404112889952" static="1" type="number">0</variable>
@@ -186,6 +132,21 @@
                         <action id="-18" name="Set layer opacity" sid="961293657878793" type="System">
                             <param id="0" name="Layer">&quot;Answers&quot;</param>
                             <param id="1" name="Opacity">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="417159933025024">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="231712476660062" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">Interrogation</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="522371341983059" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessageHelp&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
                         </action>
                     </actions>
                 </event-block>
@@ -370,6 +331,60 @@
                         </event-block>
                     </sub-events>
                 </event-group>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="178288538711101" title="Enemies">
+            <sub-events>
+                <event-block sid="110803948444793">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="810735089140554" type="PosionPlant" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="822796346110359" type="PosionPlant">
+                            <param id="0" name="Animation">&quot;poison&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="533986158978252">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="766299609964786" type="GhostLayer" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="137121615029991" type="GhostLayer">
+                            <param id="0" name="Animation">&quot;GhostMovement&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="102914448592386" title="Darkin2">
+            <sub-events>
+                <event-block sid="640587382681193">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="313426595203545" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="344571013616242" type="DarknessLevel1">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 100,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="628293344667438" title="Darkout2">
+            <sub-events>
+                <event-block sid="828138941435098">
+                    <conditions>
+                        <condition id="-1" name="Every tick" sid="832211031338519" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="977191239247499" type="DarknessLevel1">
+                            <param id="0" name="Opacity">lerp(Self.Opacity, 0,0.02)</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="962724480056111" title="Messages">
@@ -672,6 +687,17 @@
                         <action id="-9" name="Set value" sid="689078820252872" type="System">
                             <param id="0" name="Variable">Dialog_id</param>
                             <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="0" name="Call function" sid="222615210517807" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="739671953396755" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Call function" sid="802385692279732" type="Function">
+                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;La respuesta correcta es &quot; &amp; ResponseOne</param>
                         </action>
                         <action id="0" name="Call function" sid="297030036185178" type="Function">
                             <param id="0" name="Name">&quot;ResetMessages&quot;</param>
