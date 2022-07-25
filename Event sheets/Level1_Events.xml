@@ -70,7 +70,68 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="597118862702556" type="System">
-                            <param id="0" name="Layout">Level2</param>
+                            <param id="0" name="Layout">SelectLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="666189927418941">
+                    <conditions>
+                        <condition id="0" name="On function" sid="329655458936508" type="Function">
+                            <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-16" name="Set opacity" sid="153644869700009" type="PausaBtn">
+                            <param id="0" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="190598536141470" type="System">
+                            <param id="0" name="Variable">Paused</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="306471013031710" type="System">
+                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="128944191173198" type="System">
+                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="471722602990002" type="Player">
+                            <param id="0" name="X">160</param>
+                            <param id="1" name="Y">14</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="931002459909438">
+                    <conditions>
+                        <condition id="0" name="On function" sid="899259476862932" type="Function">
+                            <param id="0" name="Name">&quot;DarkoutFunction&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="817112409358760" type="System">
+                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-3" name="Set position" sid="950536935708929" type="Player">
+                            <param id="0" name="X">CheckpointX2</param>
+                            <param id="1" name="Y">CheckpointY2</param>
+                        </action>
+                        <action id="-14" name="Set object time scale" sid="924848448388439" type="System">
+                            <param id="0" name="Object">Player</param>
+                            <param id="1" name="Time scale">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="599827433084574" type="System">
+                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="553099742576578" type="System">
+                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="933233628728355" type="System">
+                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
+                            <param id="1" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -137,6 +198,8 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-21" name="Reset global variables" sid="648317142107512" type="System" />
+                        <action id="-45" name="Reset persisted objects" sid="569166572463129" type="System" />
                         <action id="-18" name="Set layer opacity" sid="223824834036552" type="System">
                             <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                             <param id="1" name="Opacity">0</param>
@@ -188,20 +251,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="256492121241477" type="PausaBtn">
-                                            <param id="0" name="Opacity">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="197015558707643" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-18" name="Set layer opacity" sid="687439841585132" type="System">
-                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
-                                            <param id="1" name="Opacity">100</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="221162901648366" type="Player">
-                                            <param id="0" name="X">160</param>
-                                            <param id="1" name="Y">14</param>
+                                        <action id="0" name="Call function" sid="513078828116557" type="Function">
+                                            <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -214,25 +266,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-12" name="Set group active" sid="365097710819202" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="951783824170980" type="Player">
-                                            <param id="0" name="X">CheckpointX2</param>
-                                            <param id="1" name="Y">CheckpointY2</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="785165594094324" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="221905886604645" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="803472387081407" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
-                                            <param id="1" name="State">0</param>
+                                        <action id="0" name="Call function" sid="567941924831261" type="Function">
+                                            <param id="0" name="Name">&quot;DarkoutFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -260,20 +296,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="199617728267350" type="PausaBtn">
-                                            <param id="0" name="Opacity">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="940349350750228" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-18" name="Set layer opacity" sid="226279285884389" type="System">
-                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
-                                            <param id="1" name="Opacity">100</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="832108740095565" type="Player">
-                                            <param id="0" name="X">160</param>
-                                            <param id="1" name="Y">14</param>
+                                        <action id="0" name="Call function" sid="730420408313632" type="Function">
+                                            <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -286,25 +311,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-12" name="Set group active" sid="849170110040009" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="223237160527427" type="Player">
-                                            <param id="0" name="X">CheckpointX2</param>
-                                            <param id="1" name="Y">CheckpointY2</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="849987340815087" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin2&quot;</param>
-                                            <param id="1" name="State">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="552968837821087" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="793888887318825" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout2&quot;</param>
-                                            <param id="1" name="State">0</param>
+                                        <action id="0" name="Call function" sid="510622133453107" type="Function">
+                                            <param id="0" name="Name">&quot;DarkoutFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -336,20 +345,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-16" name="Set opacity" sid="104667974597515" type="PausaBtn">
-                                            <param id="0" name="Opacity">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="618329484343015" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-18" name="Set layer opacity" sid="926848221107709" type="System">
-                                            <param id="0" name="Layer">&quot;LostMenu&quot;</param>
-                                            <param id="1" name="Opacity">100</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="881144393923948" type="Player">
-                                            <param id="0" name="X">160</param>
-                                            <param id="1" name="Y">14</param>
+                                        <action id="0" name="Call function" sid="392083683491125" type="Function">
+                                            <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -362,29 +360,9 @@
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-12" name="Set group active" sid="892911578353500" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-3" name="Set position" sid="160707904693035" type="Player">
-                                            <param id="0" name="X">CheckpointX2</param>
-                                            <param id="1" name="Y">CheckpointY2</param>
-                                        </action>
-                                        <action id="-14" name="Set object time scale" sid="410894186861553" type="System">
-                                            <param id="0" name="Object">Player</param>
-                                            <param id="1" name="Time scale">1</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="262775665156525" type="System">
-                                            <param id="0" name="Group name">&quot;Darkin&quot;</param>
-                                            <param id="1" name="State">0</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="845299127908796" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
-                                            <param id="1" name="State">1</param>
-                                        </action>
-                                        <action id="-12" name="Set group active" sid="621447469405755" type="System">
-                                            <param id="0" name="Group name">&quot;Darkout&quot;</param>
-                                            <param id="1" name="State">0</param>
+                                        <action id="0" name="Call function" sid="937351904569832" type="Function">
+                                            <param id="0" name="Name">&quot;DarkoutFunction&quot;</param>
+                                            <param id="1" name="Parameter {n}"></param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -430,6 +408,52 @@
                 <variable constant="0" name="Temp" sid="820842552464851" static="1" type="number">0</variable>
                 <variable constant="0" name="RandomPosition" sid="780155948492206" static="1" type="number">0</variable>
                 <variable constant="0" name="TempId" sid="641816400110029" static="1" type="number">0</variable>
+                <event-block sid="420641143777106">
+                    <conditions>
+                        <condition id="0" name="On function" sid="129214033285308" type="Function">
+                            <param id="0" name="Name">&quot;ConfigParams&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="965407339111043" type="System">
+                            <param id="0" name="Variable">ResponseOne</param>
+                            <param id="1" name="Value">round((ParamOne / ParamTwo) * 100) / 100</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="748843589481575" type="System">
+                            <param id="0" name="Variable">ResponseTwo</param>
+                            <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="912619098119588" type="System">
+                            <param id="0" name="Variable">RandomPosition</param>
+                            <param id="1" name="Value">choose(0,1)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="689569182735258" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">6</param>
+                        </action>
+                        <action id="0" name="Call function" sid="522453078081990" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="491332276911996" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="0" name="Call function" sid="200281109079262" type="Function">
+                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;Cuánto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="121600652160742" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="490392695365785" type="Key">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="264545715700399" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">100</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="975939698333853">
                     <conditions>
                         <condition id="-2" name="On start of layout" sid="973147906959397" type="System" />
@@ -495,9 +519,6 @@
                             <param id="0" name="Variable">ParamTwo</param>
                             <param id="1" name="Value">round(random(1,20))</param>
                         </action>
-                        <action id="17" name="Execute Javascript" sid="802913983390313" type="Browser">
-                            <param id="0" name="Javascript">&quot;console.log(&quot; &amp;TempId&amp;&quot;);&quot;</param>
-                        </action>
                     </actions>
                     <sub-events>
                         <event-block sid="743802014773561">
@@ -521,42 +542,9 @@
                                     <param id="0" name="Variable">ParamTwo</param>
                                     <param id="1" name="Value">Temp</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="991217632240223" type="System">
-                                    <param id="0" name="Variable">ResponseOne</param>
-                                    <param id="1" name="Value">round((ParamOne / ParamTwo) * 100) / 100</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="691570512327217" type="System">
-                                    <param id="0" name="Variable">ResponseTwo</param>
-                                    <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="283416430651066" type="System">
-                                    <param id="0" name="Variable">RandomPosition</param>
-                                    <param id="1" name="Value">choose(0,1)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="533040004924026" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">6</param>
-                                </action>
-                                <action id="0" name="Call function" sid="718637718705326" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="947154321587999" type="Function">
+                                    <param id="0" name="Name">&quot;ConfigParams&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="434857577358053" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="0" name="Call function" sid="809551341951625" type="Function">
-                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Cuánto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="450325799450266" type="System">
-                                    <param id="0" name="Seconds">2</param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="469156595804432" type="Key">
-                                    <param id="0" name="Collisions">0</param>
-                                </action>
-                                <action id="-18" name="Set layer opacity" sid="189150171476493" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -569,42 +557,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="140490510036044" type="System">
-                                    <param id="0" name="Variable">ResponseOne</param>
-                                    <param id="1" name="Value">round((ParamOne / ParamTwo) * 100) / 100</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="513548795725173" type="System">
-                                    <param id="0" name="Variable">ResponseTwo</param>
-                                    <param id="1" name="Value">ResponseOne + choose(-1,-2,1,2)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="555020220500018" type="System">
-                                    <param id="0" name="Variable">RandomPosition</param>
-                                    <param id="1" name="Value">choose(0,1)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="128325223861769" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">6</param>
-                                </action>
-                                <action id="0" name="Call function" sid="634796314674192" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="799979898537215" type="Function">
+                                    <param id="0" name="Name">&quot;ConfigParams&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="864538306722716" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="0" name="Call function" sid="975056134661708" type="Function">
-                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}">&quot;Cuánto es &quot; &amp; ParamOne &amp; &quot;÷&quot; &amp; ParamTwo</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="130486073469066" type="System">
-                                    <param id="0" name="Seconds">2</param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="112366636878626" type="Key">
-                                    <param id="0" name="Collisions">0</param>
-                                </action>
-                                <action id="-18" name="Set layer opacity" sid="369548758242293" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">100</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -668,9 +623,71 @@
                         </event-block>
                     </sub-events>
                 </event-block>
-                <event-block sid="420641143777106">
-                    <conditions />
-                    <actions />
+                <event-block sid="736574857332689">
+                    <conditions>
+                        <condition id="0" name="On function" sid="729298715698983" type="Function">
+                            <param id="0" name="Name">&quot;TrueFlag&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="849621383073686" type="System">
+                            <param id="0" name="Variable">Key</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-18" name="Set layer opacity" sid="303353396989497" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="809719579216886" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="0" name="Call function" sid="691902971104513" type="Function">
+                            <param id="0" name="Name">&quot;ResetMessages&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="718058616430943" type="Key">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="170125203180561" type="Player">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="851054916080711" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="291946526178361">
+                    <conditions>
+                        <condition id="0" name="On function" sid="512930179254723" type="Function">
+                            <param id="0" name="Name">&quot;FalseFlag&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-18" name="Set layer opacity" sid="745412459703220" type="System">
+                            <param id="0" name="Layer">&quot;Answers&quot;</param>
+                            <param id="1" name="Opacity">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="689078820252872" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="0" name="Call function" sid="297030036185178" type="Function">
+                            <param id="0" name="Name">&quot;ResetMessages&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="741962276218215" type="Key">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
+                        <action behavior="Platform" id="0" name="Set ignoring input" sid="286932773556806" type="Player">
+                            <param id="0" name="Input">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="576844071875811" type="System">
+                            <param id="0" name="Variable">ClickOnObject</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="969904045091166">
                     <conditions>
@@ -694,42 +711,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Add to" sid="246422132168788" type="System">
-                                    <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-18" name="Set layer opacity" sid="302245641537306" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="356264431345065" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">5</param>
-                                </action>
-                                <action id="0" name="Call function" sid="410915965225285" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="175649144563296" type="Function">
+                                    <param id="0" name="Name">&quot;TrueFlag&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="675612459150840" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="613228537940800" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="387243450411772" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="611794995201901" type="Key">
-                                    <param id="0" name="Collisions">1</param>
-                                </action>
-                                <action behavior="Platform" id="0" name="Set ignoring input" sid="300450746230856" type="Player">
-                                    <param id="0" name="Input">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="583632904041386" type="System">
-                                    <param id="0" name="Variable">ClickOnObject</param>
-                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -752,38 +736,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-18" name="Set layer opacity" sid="705462238790072" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="393817070675217" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">4</param>
-                                </action>
-                                <action id="0" name="Call function" sid="701774513186688" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="713188061170163" type="Function">
+                                    <param id="0" name="Name">&quot;FalseFlag&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="570846488865627" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="775651664671497" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="697777082955224" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="167512519744164" type="Key">
-                                    <param id="0" name="Collisions">1</param>
-                                </action>
-                                <action behavior="Platform" id="0" name="Set ignoring input" sid="643159688116590" type="Player">
-                                    <param id="0" name="Input">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="814352537114752" type="System">
-                                    <param id="0" name="Variable">ClickOnObject</param>
-                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -811,42 +766,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-10" name="Add to" sid="203064233376713" type="System">
-                                    <param id="0" name="Variable">Key</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="-18" name="Set layer opacity" sid="669507050242317" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="235857165730996" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">5</param>
-                                </action>
-                                <action id="0" name="Call function" sid="719291933201914" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="351664508641031" type="Function">
+                                    <param id="0" name="Name">&quot;TrueFlag&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="797944851727066" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="778106138140720" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="745676837506962" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="212059795330455" type="Key">
-                                    <param id="0" name="Collisions">1</param>
-                                </action>
-                                <action behavior="Platform" id="0" name="Set ignoring input" sid="620007954309274" type="Player">
-                                    <param id="0" name="Input">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="478340563070202" type="System">
-                                    <param id="0" name="Variable">ClickOnObject</param>
-                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                             <sub-events>
@@ -869,38 +791,9 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-18" name="Set layer opacity" sid="533382431295087" type="System">
-                                    <param id="0" name="Layer">&quot;Answers&quot;</param>
-                                    <param id="1" name="Opacity">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="677140135128458" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">4</param>
-                                </action>
-                                <action id="0" name="Call function" sid="815322410593551" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="890236808726089" type="Function">
+                                    <param id="0" name="Name">&quot;FalseFlag&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="883175437388516" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="249913785064066" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="262359026468551" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="11" name="Set collisions enabled" sid="925613630201046" type="Key">
-                                    <param id="0" name="Collisions">1</param>
-                                </action>
-                                <action behavior="Platform" id="0" name="Set ignoring input" sid="967259301940122" type="Player">
-                                    <param id="0" name="Input">0</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="545596809052645" type="System">
-                                    <param id="0" name="Variable">ClickOnObject</param>
-                                    <param id="1" name="Value">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -932,19 +825,8 @@
                                     <param id="0" name="Variable">Dialog_id</param>
                                     <param id="1" name="Value">13</param>
                                 </action>
-                                <action id="0" name="Call function" sid="298195129154955" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="352846876222647" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="759556444762685" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="644573484580857" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="524101660903127" type="Function">
+                                    <param id="0" name="Name">&quot;ResetMessages&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="941012648807872" type="Player">
@@ -965,19 +847,8 @@
                                     <param id="0" name="Variable">Dialog_id</param>
                                     <param id="1" name="Value">7</param>
                                 </action>
-                                <action id="0" name="Call function" sid="968285884440593" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                                    <param id="1" name="Parameter {n}"></param>
-                                </action>
-                                <action id="-16" name="Wait" sid="134812325245182" type="System">
-                                    <param id="0" name="Seconds">3</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="192306852347602" type="System">
-                                    <param id="0" name="Variable">Dialog_id</param>
-                                    <param id="1" name="Value">0</param>
-                                </action>
-                                <action id="0" name="Call function" sid="167643078164184" type="Function">
-                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                <action id="0" name="Call function" sid="654512943258866" type="Function">
+                                    <param id="0" name="Name">&quot;ResetMessages&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                                 <action behavior="Platform" id="0" name="Set ignoring input" sid="189754209644288" type="Player">
@@ -986,6 +857,34 @@
                             </actions>
                         </event-block>
                     </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="506211865748255" title="GeneralFunctions">
+            <sub-events>
+                <event-block sid="145400023659298">
+                    <conditions>
+                        <condition id="0" name="On function" sid="565051632766892" type="Function">
+                            <param id="0" name="Name">&quot;ResetMessages&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="327257417015691" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                        <action id="-16" name="Wait" sid="441381136905061" type="System">
+                            <param id="0" name="Seconds">3</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="299539650508280" type="System">
+                            <param id="0" name="Variable">Dialog_id</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="0" name="Call function" sid="460779489769079" type="Function">
+                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-group>
