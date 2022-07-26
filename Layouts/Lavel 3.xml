@@ -12626,8 +12626,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>5307</x>
-                        <y>2168</y>
+                        <x>5363</x>
+                        <y>2166</y>
                         <z>0</z>
                         <width>145</width>
                         <height>371</height>
@@ -13260,6 +13260,62 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Cronometro" uid="1576">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>913.411865234</x>
+                        <y>53.505317688</y>
+                        <z>0</z>
+                        <width>173.176269531</width>
+                        <height>60.451431274</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="tiempo" uid="1577">
+                    <properties>
+                        <text></text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-24,400,0</font>
+                        <color>210,210,210</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <instance-variables>
+                        <Milisegundos>0</Milisegundos>
+                        <Segundos>0</Segundos>
+                        <Minutos>0</Minutos>
+                        <Horas>0</Horas>
+                        <Pausar>0</Pausar>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>863.931884766</x>
+                        <y>40.638221741</y>
+                        <z>0</z>
+                        <width>107.301147461</width>
+                        <height>25.615516663</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -13483,33 +13539,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpTag" uid="1573">
-                    <properties>
-                        <text>Ayuda</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Arial Black,-64,900,1</font>
-                        <color>255,255,255</color>
-                        <horizontal-alignment>Center</horizontal-alignment>
-                        <vertical-alignment>Center</vertical-alignment>
-                        <hotspot>Center</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>685</x>
-                        <y>244</y>
-                        <z>0</z>
-                        <width>458</width>
-                        <height>91</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="ExitHelp" uid="1575">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -13556,6 +13585,33 @@
                         <z>0</z>
                         <width>618</width>
                         <height>336</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="HelpTag2" uid="1581">
+                    <properties>
+                        <text>Ayuda</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial Black,-64,900,0</font>
+                        <color>255,255,255</color>
+                        <horizontal-alignment>Center</horizontal-alignment>
+                        <vertical-alignment>Center</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>537</x>
+                        <y>212</y>
+                        <z>0</z>
+                        <width>301</width>
+                        <height>60</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>

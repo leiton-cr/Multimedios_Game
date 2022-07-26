@@ -8852,9 +8852,9 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpTag" uid="1556">
+                <instance type="ResumenTag" uid="1556">
                     <properties>
-                        <text>Ayuda</text>
+                        <text>Resumen</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Arial Black,-64,900,1</font>
                         <color>255,255,255</color>

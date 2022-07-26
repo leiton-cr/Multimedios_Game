@@ -13,6 +13,10 @@
                     <param id="0" name="Variable">Actual_level</param>
                     <param id="1" name="Value">&quot;levelThree&quot;</param>
                 </action>
+                <action id="-18" name="Set layer opacity" sid="968264750167471" type="System">
+                    <param id="0" name="Layer">&quot;Finish&quot;</param>
+                    <param id="1" name="Opacity">0</param>
+                </action>
                 <action id="-12" name="Set group active" sid="795055277541626" type="System">
                     <param id="0" name="Group name">&quot;DarkinLevel3&quot;</param>
                     <param id="1" name="State">0</param>
@@ -52,6 +56,30 @@
                 <action id="-9" name="Set value" sid="896313410960487" type="System">
                     <param id="0" name="Variable">acciones</param>
                     <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="347737079653410" type="System">
+                    <param id="0" name="Variable">Resumen</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="368849143430293" type="System">
+                    <param id="0" name="Variable">Milisegundos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="910563966100315" type="System">
+                    <param id="0" name="Variable">Segundos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="661107451728836" type="System">
+                    <param id="0" name="Variable">Minutos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="837645695993608" type="System">
+                    <param id="0" name="Variable">Horas</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="484622159599308" type="System">
+                    <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                    <param id="1" name="State">1</param>
                 </action>
             </actions>
         </event-block>
@@ -208,9 +236,28 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="883638893213756" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
                         <action id="-9" name="Destroy" sid="610272759470217" type="Dragon" />
                         <action id="-15" name="Set visible" sid="912320046244963" type="Tutorial_LeftRight_Arrow">
                             <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="304180754787559">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="987059919010924" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-12" name="Set group active" sid="711758671379820" type="System">
+                            <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                            <param id="1" name="State">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -850,7 +897,7 @@
             </conditions>
             <actions>
                 <action id="-2" name="Go to layout" sid="168005575260354" type="System">
-                    <param id="0" name="Layout">SelectLevel</param>
+                    <param id="0" name="Layout">Finish</param>
                 </action>
             </actions>
         </event-block>

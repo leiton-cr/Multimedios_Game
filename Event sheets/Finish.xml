@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Finish</name>
+    <events>
+        <include>Globals</include>
+        <event-block sid="524762033881372">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="384284694409927" type="Player">
+                    <param id="0" name="Object">Wrapper</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="116693837290866">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="852872135403095" type="Wrapper">
+                            <param id="0" name="Instance variable">idWrapper</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">99</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="390085107622655" type="System">
+                            <param id="0" name="Layout">SelectLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="616098084509386">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="211781370888794" type="System">
+                    <param id="0" name="Variable">Resumen</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="948722382578592" type="description">
+                    <param id="0" name="Text">&quot;Completastes el nivel en : &quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="899453904734429" type="Horas">
+                    <param id="0" name="Text">&quot;Horas : &quot;&amp;Horas</param>
+                </action>
+                <action id="0" name="Set text" sid="895362323801180" type="Minutos">
+                    <param id="0" name="Text">&quot;Minutos : &quot;&amp;Minutos</param>
+                </action>
+                <action id="0" name="Set text" sid="774508158602182" type="Segundos">
+                    <param id="0" name="Text">&quot;Segundos : &quot;&amp;Segundos</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -681,25 +681,6 @@
                         </animation>
                     </animation-folder>
                 </object-type>
-                <object-type name="Sprite5" sid="272830979627051">
-                    <plugin id="Sprite" />
-                    <animation-folder>
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="515001588597230" speed="5">
-                            <frame duration="1" hotspotX="0.500306" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Otros Asssets\c11\xsamplehd.png">
-                                <collision-poly>
-                                    <point x="0.256881" y="0.291262" />
-                                    <point x="0.499694" y="0.00901526" />
-                                    <point x="0.676453" y="0.366852" />
-                                    <point x="0.921713" y="0.5" />
-                                    <point x="0.854434" y="0.834951" />
-                                    <point x="0.499694" y="0.854369" />
-                                    <point x="0.00611621" y="0.993065" />
-                                    <point x="0.343119" y="0.5" />
-                                </collision-poly>
-                            </frame>
-                        </animation>
-                    </animation-folder>
-                </object-type>
             </object-folder>
             <object-folder name="Decoration">
                 <object-type name="Deco01" sid="990091439233429">
@@ -8828,6 +8809,1279 @@
                     <texture />
                 </object-type>
             </object-folder>
+            <object-folder name="Finish">
+                <object-type name="BloqueSuelo" sid="589339653472762">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="545900017054027">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="947797910910375" speed="5">
+                            <frame duration="1" hotspotX="0.624685" hotspotY="-3" original-source="C:\Users\Christian\Desktop\Bloques\Assets 1024 Cave\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0.0201511" y="0.232" />
+                                    <point x="0.63728" y="0.224" />
+                                    <point x="0.947103" y="0.208" />
+                                    <point x="0.984887" y="0.296" />
+                                    <point x="0.964736" y="0.256" />
+                                    <point x="0.63728" y="0.848" />
+                                    <point x="0.0277078" y="0.72" />
+                                    <point x="0.0251889" y="0.24" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="BloqueLados" sid="610262693668432">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="176639379693478">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="793232614313828" speed="5">
+                            <frame duration="1" hotspotX="-0.321229" hotspotY="-4.30769" original-source="C:\Users\Christian\Desktop\Bloques\Assets 1024 Cave\Cave - Platforms.png">
+                                <collision-poly>
+                                    <point x="0" y="0" />
+                                    <point x="0" y="0" />
+                                    <point x="0.949721" y="0" />
+                                    <point x="1" y="0" />
+                                    <point x="0.798883" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="1" />
+                                    <point x="0" y="0" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="TiledBackground4" sid="628182628961428">
+                    <plugin id="TiledBg" />
+                    <texture original-source="C:\Users\Christian\Desktop\Asset\Fondo.jpg" />
+                </object-type>
+                <object-type name="Sprite5" sid="334851919263428">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="105" loop="1" name="PortalFinish" pingpong="1" repeatcount="1" repeatto="0" sid="837417620323987" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_1.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_2.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_3.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_5.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_6.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_7.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_8.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_9.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_10.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_11.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_12.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_14.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_15.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_16.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_18.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_19.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_20.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_21.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_22.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_23.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_24.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_25.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_26.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_27.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_28.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_29.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_30.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_31.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_32.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_33.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_34.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_35.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_36.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_37.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_38.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_39.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_40.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_41.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_42.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_43.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_44.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_45.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_46.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_47.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_48.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_49.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_50.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_51.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_52.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_53.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_54.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_55.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_56.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_57.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_58.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_59.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_60.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_61.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_62.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_63.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_64.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_65.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_66.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_67.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_4.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_13.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_17.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_68.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_69.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_70.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_71.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_72.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_73.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_74.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_75.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_76.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_77.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_78.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_79.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_80.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_81.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_82.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_83.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_84.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_85.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_86.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_87.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_88.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_89.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_90.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_91.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_92.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_93.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_94.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_95.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_96.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_97.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_98.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_99.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_100.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_101.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_102.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_103.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_104.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Bloques\Portal11\images\convert_105.png">
+                                <collision-poly>
+                                    <point x="0.31" y="0.31" />
+                                    <point x="0.5" y="0.24" />
+                                    <point x="0.79" y="0.21" />
+                                    <point x="0.91" y="0.5" />
+                                    <point x="0.5" y="0.93" />
+                                    <point x="0.25" y="0.75" />
+                                    <point x="0.05" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="HalfCave2" sid="500604172906982">
+                    <plugin id="Sprite" />
+                    <behaviors>
+                        <behavior-type name="Solid" sid="435527988186810">
+                            <behavior id="solid" />
+                        </behavior-type>
+                    </behaviors>
+                    <effects>
+                        <effect-type name="AdjustHSL">
+                            <effect id="hsladjust" />
+                        </effect-type>
+                    </effects>
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="377886178025562" speed="5">
+                            <frame duration="1" hotspotX="0.075" hotspotY="1.15651" original-source="C:\Users\luisl\OneDrive\Desktop\HalfCave.png">
+                                <collision-poly>
+                                    <point x="0" y="0.498616" />
+                                    <point x="0" y="0.130708" />
+                                    <point x="0.997073" y="0.332784" />
+                                    <point x="1" y="1" />
+                                    <point x="0.892329" y="1" />
+                                    <point x="0.886111" y="0.596375" />
+                                    <point x="0.261111" y="0.518946" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="check" sid="863236090463276">
+                    <plugin id="Sprite" />
+                    <animation-folder>
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160530021763969" speed="5">
+                            <frame duration="1" hotspotX="0.500963" hotspotY="0.50104" original-source="C:\Users\Christian\Downloads\check-removebg-preview.png">
+                                <collision-poly>
+                                    <point x="0.456647" y="0.492723" />
+                                    <point x="0.499037" y="0.438669" />
+                                    <point x="0.990366" y="0.010395" />
+                                    <point x="0.599229" y="0.49896" />
+                                    <point x="0.499037" y="0.663202" />
+                                    <point x="0.171484" y="0.814969" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="description" sid="602957858428736">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Horas" sid="904226585588739">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Minutos" sid="311030864046331">
+                    <plugin id="Text" />
+                </object-type>
+                <object-type name="Segundos" sid="899839434756879">
+                    <plugin id="Text" />
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-folder name="Enemies">
             <object-type name="BigGhost" sid="523616762442205">
@@ -9527,7 +10781,7 @@
                     </animation>
                 </animation-folder>
             </object-type>
-            <object-type name="HelpTag" sid="708248088963597">
+            <object-type name="ResumenTag" sid="708248088963597">
                 <plugin id="Text" />
             </object-type>
             <object-type name="ContentHelp" sid="562879446602075">
@@ -9564,6 +10818,66 @@
                 <instance-variables>
                     <instance-variable name="Debug" sid="974572111426319" type="number" />
                 </instance-variables>
+            </object-type>
+            <object-type name="Cronometro" sid="573339648665639">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="851391382215154" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Christian\Desktop\Cronometro.png">
+                            <collision-poly>
+                                <point x="0.0771429" y="0.158824" />
+                                <point x="0.5" y="0.123529" />
+                                <point x="0.934286" y="0.135294" />
+                                <point x="0.962857" y="0.5" />
+                                <point x="0.94" y="0.876471" />
+                                <point x="0.5" y="0.870588" />
+                                <point x="0.0485714" y="0.9" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="tiempo" sid="712308143476947">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="Milisegundos" sid="799171536934374" type="number" />
+                    <instance-variable name="Segundos" sid="887842461873458" type="number" />
+                    <instance-variable name="Minutos" sid="376698718094084" type="number" />
+                    <instance-variable name="Horas" sid="402072298227058" type="number" />
+                    <instance-variable name="Pausar" sid="415608252490157" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="Resumen" sid="201842050171292">
+                <plugin id="Sprite" />
+                <effects>
+                    <effect-type name="AdjustHSL">
+                        <effect id="hsladjust" />
+                    </effect-type>
+                </effects>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="181372603505955" speed="5">
+                        <frame duration="1" hotspotX="0.505141" hotspotY="0.577406" original-source="C:\Users\luisl\OneDrive\Desktop\Credits.png">
+                            <collision-poly>
+                                <point x="0.00514139" y="0.349372" />
+                                <point x="0.505141" y="0.00209205" />
+                                <point x="0.98072" y="0.389121" />
+                                <point x="0.98072" y="0.76569" />
+                                <point x="0.505141" y="0.995816" />
+                                <point x="0.00385604" y="0.807531" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Resumen_Text" sid="584301557142397">
+                <plugin id="Text" />
+                <instance-variables>
+                    <instance-variable name="DialogHelp" sid="318157635556647" type="string" />
+                    <instance-variable name="Dialog_id" sid="368643518389107" type="number" />
+                </instance-variables>
+            </object-type>
+            <object-type name="HelpTag2" sid="740722885998793">
+                <plugin id="Text" />
             </object-type>
         </object-folder>
         <object-type name="Player" sid="497114416992104">
@@ -9968,6 +11282,7 @@
                 <member>Message_Help</member>
                 <member>Message_Text</member>
                 <member>PlankResponse</member>
+                <member>Resumen_Text</member>
             </members>
         </family>
         <family name="Enemies" plugin-id="Sprite" sid="784966723938445">
@@ -9986,6 +11301,7 @@
         <layout>Lavel 3.xml</layout>
         <layout>Level4.xml</layout>
         <layout>SelectLevel.xml</layout>
+        <layout>Finish.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>Main_Menu.xml</event-sheet>
@@ -9996,6 +11312,7 @@
         <event-sheet>Level 3.xml</event-sheet>
         <event-sheet>Level4.xml</event-sheet>
         <event-sheet>SelectLevel.xml</event-sheet>
+        <event-sheet>Finish.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="1535" />

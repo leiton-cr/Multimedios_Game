@@ -11,6 +11,11 @@
         <variable constant="0" name="Actual_level" sid="203851941419063" static="0" type="text"></variable>
         <comment>Variable de ID de dialogo actual a mostrar</comment>
         <variable constant="0" name="Dialog_id" sid="643901738391803" static="0" type="number">0</variable>
+        <variable constant="0" name="Resumen" sid="166051043352013" static="0" type="number">0</variable>
+        <variable constant="0" name="Milisegundos" sid="498378232924616" static="0" type="number">0</variable>
+        <variable constant="0" name="Segundos" sid="862144617502477" static="0" type="number">0</variable>
+        <variable constant="0" name="Minutos" sid="977280570630436" static="0" type="number">0</variable>
+        <variable constant="0" name="Horas" sid="249112768792892" static="0" type="number">0</variable>
         <event-block sid="815660701302652">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="607957653898415" type="System" />
@@ -672,6 +677,115 @@
             <actions>
                 <action behavior="Platform" id="7" name="Simulate control" sid="723199664088531" type="Player">
                     <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-group description="" inactive="1" sid="490596425761478" title="Tiempo2">
+            <sub-events>
+                <event-block sid="593310506014154">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="767512220341240" type="System">
+                            <param id="0" name="Interval (seconds)">0.001</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="166413647635813" type="System">
+                            <param id="0" name="Variable">Milisegundos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="495862710901424">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="435221050434242" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="554903749903883" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="461051654338544" type="System">
+                            <param id="0" name="Variable">Milisegundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="125693804995304">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="263964428749400" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">60</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="171357915406331" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-10" name="Add to" sid="760695690748069" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="284496379869294">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="973281568403954" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">60</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-10" name="Add to" sid="276693718981681" type="System">
+                            <param id="0" name="Variable">Horas</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="115228400909931" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="318744135412242">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="922233571260099" type="System">
+                            <param id="0" name="Variable">Horas</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">24</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="493222971942431" type="System">
+                            <param id="0" name="Variable">Milisegundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="526909582165737" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="996220580228832" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="854559828460364" type="System">
+                            <param id="0" name="Variable">Horas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="359992413591163">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="943123431296482" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="762361177092626" type="tiempo">
+                    <param id="0" name="Text">&quot; &quot;&amp;Horas &amp; &quot; : &quot;&amp; Minutos &amp;&quot; : &quot;&amp;Segundos</param>
                 </action>
             </actions>
         </event-block>
