@@ -8862,7 +8862,7 @@
                     <plugin id="TiledBg" />
                     <texture original-source="C:\Users\Christian\Desktop\Asset\Fondo.jpg" />
                 </object-type>
-                <object-type name="Sprite5" sid="334851919263428">
+                <object-type name="PortalSelectLevel" sid="334851919263428">
                     <plugin id="Sprite" />
                     <animation-folder>
                         <animation framecount="105" loop="1" name="PortalFinish" pingpong="1" repeatcount="1" repeatto="0" sid="837417620323987" speed="5">

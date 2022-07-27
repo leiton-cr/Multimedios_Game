@@ -161,7 +161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Sprite5" uid="1594">
+                <instance type="PortalSelectLevel" uid="1594">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
