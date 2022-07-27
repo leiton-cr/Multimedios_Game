@@ -92,10 +92,49 @@
                             <param id="0" name="Layer">&quot;LostMenu&quot;</param>
                             <param id="1" name="Opacity">0</param>
                         </action>
+                        <action id="-9" name="Set value" sid="168928903925318" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="148752207326718" type="System">
+                            <param id="0" name="Variable">Milisegundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="649497429731950" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="348688851844926" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="707787263398620" type="System">
+                            <param id="0" name="Variable">Horas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="315967951603305" type="System">
+                            <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="454005240767808">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="733637532581332" type="System">
+                    <param id="0" name="Variable">Resumen</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="896864329779317" type="System">
+                    <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="600346684617201" title="LifePlayerForLevel4">
             <sub-events>
                 <variable constant="0" name="CheckpointX" sid="808532283637284" static="0" type="number">0</variable>
@@ -138,6 +177,10 @@
                         <action id="-3" name="Set position" sid="827377462176180" type="Player">
                             <param id="0" name="X">160</param>
                             <param id="1" name="Y">14</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="577587308519959" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1169,6 +1212,10 @@
                                     <param id="0" name="Variable">State</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="538741885209604" type="System">
+                                    <param id="0" name="Variable">Resumen</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                                 <action id="-16" name="Set opacity" sid="397539511385484" type="Skeleton">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
@@ -1217,7 +1264,7 @@
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="777115941333211" type="System">
-                                    <param id="0" name="Layout">SelectLevel</param>
+                                    <param id="0" name="Layout">Finish</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="399389407021331" type="System">
                                     <param id="0" name="Variable">ClickOnObject</param>
@@ -1226,9 +1273,6 @@
                                 <action id="-12" name="Set group active" sid="192012633768229" type="System">
                                     <param id="0" name="Group name">&quot;FinalBoss&quot;</param>
                                     <param id="1" name="State">0</param>
-                                </action>
-                                <action id="-2" name="Go to layout" sid="233622084315601" type="System">
-                                    <param id="0" name="Layout">SelectLevel</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1295,6 +1339,10 @@
                                     <param id="0" name="Variable">State</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="965381005357777" type="System">
+                                    <param id="0" name="Variable">Resumen</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
                                 <action id="-16" name="Set opacity" sid="122707866806788" type="Skeleton">
                                     <param id="0" name="Opacity">0</param>
                                 </action>
@@ -1343,7 +1391,7 @@
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                                 <action id="-2" name="Go to layout" sid="424876052536327" type="System">
-                                    <param id="0" name="Layout">SelectLevel</param>
+                                    <param id="0" name="Layout">Finish</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="354701681242601" type="System">
                                     <param id="0" name="Variable">ClickOnObject</param>
