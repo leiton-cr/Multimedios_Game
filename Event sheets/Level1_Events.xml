@@ -16,7 +16,11 @@
                     </conditions>
                     <actions>
                         <action id="-2" name="Go to layout" sid="597118862702556" type="System">
-                            <param id="0" name="Layout">SelectLevel</param>
+                            <param id="0" name="Layout">Finish</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="567706841588030" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -86,6 +90,30 @@
                         <condition id="-2" name="On start of layout" sid="281288615692982" type="System" />
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="664946683739736" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="822098808394304" type="System">
+                            <param id="0" name="Variable">Milisegundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="679399782187376" type="System">
+                            <param id="0" name="Variable">Segundos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="559947894329735" type="System">
+                            <param id="0" name="Variable">Minutos</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="593436412356550" type="System">
+                            <param id="0" name="Variable">Horas</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="706314797040155" type="System">
+                            <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
                         <action id="-9" name="Set value" sid="768621642260232" type="System">
                             <param id="0" name="Variable">CheckpointX2</param>
                             <param id="1" name="Value">0</param>
@@ -216,6 +244,10 @@
                                             <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
+                                        <action id="-9" name="Set value" sid="625333266093387" type="System">
+                                            <param id="0" name="Variable">Resumen</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="715373179176986">
@@ -260,6 +292,10 @@
                                         <action id="0" name="Call function" sid="730420408313632" type="Function">
                                             <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
+                                        </action>
+                                        <action id="-9" name="Set value" sid="971488244035513" type="System">
+                                            <param id="0" name="Variable">Resumen</param>
+                                            <param id="1" name="Value">1</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -310,6 +346,10 @@
                                             <param id="0" name="Name">&quot;DarkinFunction&quot;</param>
                                             <param id="1" name="Parameter {n}"></param>
                                         </action>
+                                        <action id="-9" name="Set value" sid="334480389049068" type="System">
+                                            <param id="0" name="Variable">Resumen</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
                                     </actions>
                                 </event-block>
                                 <event-block sid="149672338209361">
@@ -333,6 +373,21 @@
                 </event-group>
             </sub-events>
         </event-group>
+        <event-block sid="685291067049400">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="228594372010803" type="System">
+                    <param id="0" name="Variable">Resumen</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-12" name="Set group active" sid="179946151006832" type="System">
+                    <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                    <param id="1" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="178288538711101" title="Enemies">
             <sub-events>
                 <event-block sid="110803948444793">
@@ -688,17 +743,6 @@
                             <param id="0" name="Variable">Dialog_id</param>
                             <param id="1" name="Value">4</param>
                         </action>
-                        <action id="0" name="Call function" sid="222615210517807" type="Function">
-                            <param id="0" name="Name">&quot;ShowMessage&quot;</param>
-                            <param id="1" name="Parameter {n}"></param>
-                        </action>
-                        <action id="-16" name="Wait" sid="739671953396755" type="System">
-                            <param id="0" name="Seconds">3</param>
-                        </action>
-                        <action id="0" name="Call function" sid="802385692279732" type="Function">
-                            <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;La respuesta correcta es &quot; &amp; ResponseOne</param>
-                        </action>
                         <action id="0" name="Call function" sid="297030036185178" type="Function">
                             <param id="0" name="Name">&quot;ResetMessages&quot;</param>
                             <param id="1" name="Parameter {n}"></param>
@@ -766,6 +810,21 @@
                                     <param id="0" name="Name">&quot;FalseFlag&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
+                                <action id="0" name="Call function" sid="423235888229429" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;La respuesta correcta es &quot; &amp; ResponseOne</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="185872698613731" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="665393638345739" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="320456223195271" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -819,6 +878,21 @@
                             <actions>
                                 <action id="0" name="Call function" sid="890236808726089" type="Function">
                                     <param id="0" name="Name">&quot;FalseFlag&quot;</param>
+                                    <param id="1" name="Parameter {n}"></param>
+                                </action>
+                                <action id="0" name="Call function" sid="815364617649098" type="Function">
+                                    <param id="0" name="Name">&quot;ShowCustomMessage&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;La respuesta correcta es &quot; &amp; ResponseOne</param>
+                                </action>
+                                <action id="-16" name="Wait" sid="422711598179458" type="System">
+                                    <param id="0" name="Seconds">3</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="192818990241270" type="System">
+                                    <param id="0" name="Variable">Dialog_id</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="600008917519879" type="Function">
+                                    <param id="0" name="Name">&quot;ShowMessage&quot;</param>
                                     <param id="1" name="Parameter {n}"></param>
                                 </action>
                             </actions>
