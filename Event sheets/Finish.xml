@@ -38,7 +38,7 @@
             </conditions>
             <actions>
                 <action id="0" name="Set text" sid="948722382578592" type="description">
-                    <param id="0" name="Text">&quot;Completastes el nivel en : &quot;</param>
+                    <param id="0" name="Text">&quot;Completaste el nivel en : &quot;</param>
                 </action>
                 <action id="0" name="Set text" sid="899453904734429" type="Horas">
                     <param id="0" name="Text">&quot;Horas : &quot;&amp;Horas</param>

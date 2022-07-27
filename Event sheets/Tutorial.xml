@@ -41,6 +41,30 @@
                 <action id="0" name="Set text" sid="235685193393668" type="GhostResponse2">
                     <param id="0" name="Text">&quot;&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="529201932325605" type="System">
+                    <param id="0" name="Variable">Resumen</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="745746506957279" type="System">
+                    <param id="0" name="Variable">Milisegundos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="202043640426237" type="System">
+                    <param id="0" name="Variable">Segundos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="781702562806725" type="System">
+                    <param id="0" name="Variable">Minutos</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="899472955682191" type="System">
+                    <param id="0" name="Variable">Horas</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-12" name="Set group active" sid="212280032688546" type="System">
+                    <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                    <param id="1" name="State">1</param>
+                </action>
             </actions>
         </event-block>
         <event-group description="" sid="570268642780557" title="Trigger Tutorial Boss">
@@ -337,8 +361,16 @@
                         </condition>
                     </conditions>
                     <actions>
+                        <action id="-9" name="Set value" sid="219881531126316" type="System">
+                            <param id="0" name="Variable">Resumen</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-12" name="Set group active" sid="652387644190469" type="System">
+                            <param id="0" name="Group name">&quot;Tiempo2&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
                         <action id="-2" name="Go to layout" sid="824190077390962" type="System">
-                            <param id="0" name="Layout">SelectLevel</param>
+                            <param id="0" name="Layout">Finish</param>
                         </action>
                     </actions>
                 </event-block>
